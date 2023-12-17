@@ -1,0 +1,17 @@
+{
+    "ConfigVersion": 22,
+    "ID": 8,
+    "ObjectiveType": 3,
+    "ObjectiveText": "Scout around and find the bandit camp location nearby",
+    "TimeLimit": -1,
+    "Position": [
+        4256.0,
+        11.5,
+        8052.0
+    ],
+    "MaxDistance": 20.0,
+    "MarkerName": "Enter the general area",
+    "ShowDistance": 1,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 0
+}

@@ -1,0 +1,57 @@
+{
+    "ConfigVersion": 22,
+    "ID": 50,
+    "ObjectiveType": 8,
+    "ObjectiveText": "Kill all 6 bandits at Belaya Polyana",
+    "TimeLimit": -1,
+    "AICamp": {
+        "Positions": [
+            [
+                14020.6,
+                140.162,
+                15086.6
+            ],
+            [
+                14016.8,
+                140.153,
+                15080
+            ],
+            [
+                14006.3,
+                140.064,
+                15056.7
+            ],
+            [
+                14057.5,
+                139.416,
+                15058
+            ],
+            [
+                14050.1,
+                139.416,
+                15059.1
+            ],
+            [
+                14053.4,
+                142.665,
+                15060.1
+            ]
+        ],
+        "NPCSpeed": "RUN",
+        "NPCMode": "HALT",
+        "NPCFaction": "West",
+        "NPCLoadoutFile": "BanditLoadout",
+        "NPCAccuracyMin": 0.4000000059604645,
+        "NPCAccuracyMax": 0.75,
+        "ClassNames": [
+            "eAIBase"
+        ],
+        "SpecialWeapon": 0,
+        "AllowedWeapons": []
+    },
+    "MinDistRadius": 5.0,
+    "MaxDistRadius": 275.0,
+    "DespawnRadius": 880.0,
+    "CanLootAI": 1,
+    "InfectedDeletionRadius": 250
+}

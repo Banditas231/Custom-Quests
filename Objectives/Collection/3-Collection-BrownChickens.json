@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 22,
+    "ID": 3,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Kill 5 Brown Chickens and bring them back to Peter at the Trader.",
+    "TimeLimit": -1,
+    "Collections": [
+        {
+            "Amount": 5,
+            "ClassName": "DeadChicken_Brown",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": 0
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}

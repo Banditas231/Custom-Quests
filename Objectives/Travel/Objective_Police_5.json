@@ -1,0 +1,17 @@
+{
+    "ConfigVersion": 22,
+    "ID": 5,
+    "ObjectiveType": 3,
+    "ObjectiveText": "Find the cops",
+    "TimeLimit": -1,
+    "Position": [
+        10157.3,
+        243.949,
+        5474.52
+    ],
+    "MaxDistance": 20.0,
+    "MarkerName": "Find the cops",
+    "ShowDistance": 1,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 0
+}
