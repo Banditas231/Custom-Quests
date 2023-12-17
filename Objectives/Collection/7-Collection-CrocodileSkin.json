@@ -1,0 +1,18 @@
+{
+  "ConfigVersion": 22,
+  "ID": 7,
+  "ObjectiveType": 4,
+  "ObjectiveText": "Kill and Skin a Croco, bring back the Teeth to Peter at the Trader.",
+  "TimeLimit": -1,
+  "Collections": [
+    {
+      "Amount": 1,
+      "ClassName": "CrocodileTeeth",
+      "QuantityPercent": -1,
+      "MinQuantityPercent": 0
+    }
+  ],
+  "ShowDistance": 1,
+  "AddItemsToNearbyMarketZone": 0,
+  "NeedAnyCollection": 0
+}

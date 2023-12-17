@@ -1,0 +1,43 @@
+{
+    "ConfigVersion": 23,
+    "ID": 2,
+    "ObjectiveType": 7,
+    "ObjectiveText": "Kill all 4 units of the Plotina Lake patrol",
+    "TimeLimit": -1,
+    "AIPatrol": {
+        "NPCUnits": 4,
+        "Waypoints": [
+            [
+                1279.76,
+                149.497,
+                6380.24
+            ],
+            [
+                1266.12,
+                150.054,
+                6301.25
+            ],
+            [
+                1181.45,
+                149.895,
+                6252.96
+            ]
+        ],
+        "NPCSpeed": "WALK",
+        "NPCMode": "ALTERNATE",
+        "NPCFaction": "West",
+        "NPCFormation": "RANDOM",
+        "NPCLoadoutFile": "GorkaLoadout",
+        "NPCAccuracyMin": 0.45,
+        "NPCAccuracyMax": 0.75,
+        "ClassNames": [
+            "eAIBase"
+        ],
+        "SpecialWeapon": 0,
+        "AllowedWeapons": []
+    },
+    "MinDistRadius": 50.0,
+    "MaxDistRadius": 350.0,
+    "DespawnRadius": 750.0,
+    "CanLootAI": 1
+}

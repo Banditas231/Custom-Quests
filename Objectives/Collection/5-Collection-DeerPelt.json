@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 22,
+    "ID": 5,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Kill and Skin a Deer, bring back the pelt to Peter at the Trader.",
+    "TimeLimit": -1,
+    "Collections": [
+        {
+            "Amount": 1,
+            "ClassName": "DeerPelt",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": 0
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}

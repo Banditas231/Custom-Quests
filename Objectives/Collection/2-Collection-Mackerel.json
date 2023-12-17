@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 22,
+    "ID": 2,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Catch a mackerel",
+    "TimeLimit": -1,
+    "Collections": [
+        {
+            "Amount": 1,
+            "ClassName": "Mackerel",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": 0
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}

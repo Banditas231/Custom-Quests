@@ -1,0 +1,11 @@
+{
+    "ConfigVersion": 22,
+    "ID": 1,
+    "ObjectiveType": 11,
+    "ObjectiveText": "",
+    "TimeLimit": -1,
+    "ItemNames": [
+        "ImprovisedFishingRod"
+    ],
+    "ExecutionAmount": 1
+}

@@ -1,0 +1,82 @@
+{
+    "ConfigVersion": 24,
+    "ID": 4,
+    "ObjectiveType": 8,
+    "ObjectiveText": "Kill the 5 bandits",
+    "TimeLimit": -1,
+    "AICamp": {
+        "Positions": [
+            [
+                13779.6,
+                2.73456,
+                3115.22
+            ],
+            [
+                13793.3,
+                2.62394,
+                3083.7
+            ],
+            [
+                13789.5,
+                2.70321,
+                3128.17
+            ],
+            [
+                13816,
+                2.70322,
+                3112.5
+            ],
+            [
+                13778,
+                2.72414,
+                3108.56
+            ]
+        ],
+        "NPCSpeed": "RUN",
+        "NPCMode": "HALT",
+        "NPCFaction": "West",
+        "NPCLoadoutFile": "ERDLLoadout",
+        "NPCAccuracyMin": 0.6000000238418579,
+        "NPCAccuracyMax": 0.8999999761581421,
+        "ClassNames": [
+            "eAI_SurvivorM_Mirek",
+            "eAI_SurvivorM_Denis",
+            "eAI_SurvivorM_Boris",
+            "eAI_SurvivorM_Cyril",
+            "eAI_SurvivorM_Elias",
+            "eAI_SurvivorM_Francis",
+            "eAI_SurvivorM_Guo",
+            "eAI_SurvivorM_Hassan",
+            "eAI_SurvivorM_Indar",
+            "eAI_SurvivorM_Jose",
+            "eAI_SurvivorM_Kaito",
+            "eAI_SurvivorM_Lewis",
+            "eAI_SurvivorM_Manua",
+            "eAI_SurvivorM_Niki",
+            "eAI_SurvivorM_Oliver",
+            "eAI_SurvivorM_Peter",
+            "eAI_SurvivorM_Quinn",
+            "eAI_SurvivorM_Rolf",
+            "eAI_SurvivorM_Seth",
+            "eAI_SurvivorM_Taiki",
+            "eAI_SurvivorF_Linda",
+            "eAI_SurvivorF_Maria",
+            "eAI_SurvivorF_Frida",
+            "eAI_SurvivorF_Gabi",
+            "eAI_SurvivorF_Helga",
+            "eAI_SurvivorF_Irena",
+            "eAI_SurvivorF_Judy",
+            "eAI_SurvivorF_Keiko",
+            "eAI_SurvivorF_Eva",
+            "eAI_SurvivorF_Naomi",
+            "eAI_SurvivorF_Baty"
+        ],
+        "SpecialWeapon": 0,
+        "AllowedWeapons": []
+    },
+    "MinDistRadius": 5.0,
+    "MaxDistRadius": 275.0,
+    "DespawnRadius": 880.0,
+    "CanLootAI": 1,
+    "InfectedDeletionRadius": 250
+}

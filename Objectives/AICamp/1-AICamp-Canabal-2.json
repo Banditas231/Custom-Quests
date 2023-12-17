@@ -1,0 +1,82 @@
+ {
+    "ConfigVersion": 22,
+    "ID": 2,
+    "ObjectiveType": 8,
+    "ObjectiveText": "Kill all of the Canabals at the marked location",
+    "TimeLimit": -1,
+    "AICamp": {
+        "Positions": [
+            [
+                12474.84,
+                162.2895050048828,
+                6743.63
+            ],
+            [
+                12483.58,
+                162.2895050048828,
+                6746.06
+            ],
+            [
+                12485.77,
+                162.2895050048828,
+                6754.08
+            ],
+            [
+                12477.27,
+                162.2895050048828,
+                6760.16
+            ],
+            [
+                12471.68,
+                162.2895050048828,
+                6757.24
+            ]
+        ],
+        "NPCSpeed": "RUN",
+        "NPCMode": "HALT",
+        "NPCFaction": "Mercenaries",
+        "NPCLoadoutFile": "BanditLoadout",
+        "NPCAccuracyMin": 0.0,
+        "NPCAccuracyMax": 0.0,
+        "ClassNames": [
+            "eAI_SurvivorM_Mirek",
+            "eAI_SurvivorM_Denis",
+            "eAI_SurvivorM_Boris",
+            "eAI_SurvivorM_Cyril",
+            "eAI_SurvivorM_Elias",
+            "eAI_SurvivorM_Francis",
+            "eAI_SurvivorM_Guo",
+            "eAI_SurvivorM_Hassan",
+            "eAI_SurvivorM_Indar",
+            "eAI_SurvivorM_Jose",
+            "eAI_SurvivorM_Kaito",
+            "eAI_SurvivorM_Lewis",
+            "eAI_SurvivorM_Manua",
+            "eAI_SurvivorM_Niki",
+            "eAI_SurvivorM_Oliver",
+            "eAI_SurvivorM_Peter",
+            "eAI_SurvivorM_Quinn",
+            "eAI_SurvivorM_Rolf",
+            "eAI_SurvivorM_Seth",
+            "eAI_SurvivorM_Taiki",
+            "eAI_SurvivorF_Linda",
+            "eAI_SurvivorF_Maria",
+            "eAI_SurvivorF_Frida",
+            "eAI_SurvivorF_Gabi",
+            "eAI_SurvivorF_Helga",
+            "eAI_SurvivorF_Irena",
+            "eAI_SurvivorF_Judy",
+            "eAI_SurvivorF_Keiko",
+            "eAI_SurvivorF_Eva",
+            "eAI_SurvivorF_Naomi",
+            "eAI_SurvivorF_Baty"
+        ],
+        "SpecialWeapon": 0,
+        "AllowedWeapons": []
+    },
+    "MinDistRadius": 50.0,
+    "MaxDistRadius": 150.0,
+    "DespawnRadius": 880.0,
+    "CanLootAI": 2,
+    "InfectedDeletionRadius": 500
+}
