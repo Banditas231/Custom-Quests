@@ -1,0 +1,71 @@
+{
+    "ConfigVersion": 20,
+    "ID": 900,
+    "Type": 1,
+    "Title": "Clear out the power plant",
+    "Descriptions": [
+        "Mercenaries and infected have taken over the power plant, get it back.",
+        "Eliminate all of the mercenaries & infected.",
+        "Nice work! Hopefully thats the last of those fuckers, here is your payment."
+    ],
+    "ObjectiveText": "Kill all mercenaries at the marked locations.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 1,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 1,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "ExpansionBanknoteHryvnia",
+            "Amount": 20000,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": 0,
+    "RewardsForGroupOwnerOnly": 0,
+    "QuestGiverIDs": [
+        5
+    ],
+    "QuestTurnInIDs": [
+        5
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 22,
+            "ID": 9,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 23,
+            "ID": 3,
+            "ObjectiveType": 7
+        },
+        {
+            "ConfigVersion": 22,
+            "ID": 32,
+            "ObjectiveType": 2
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 100,
+    "ReputationRequirement": 0,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {}
+}

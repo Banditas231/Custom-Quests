@@ -1,0 +1,60 @@
+{
+  "ConfigVersion": 20,
+  "ID": 7,
+  "Type": 1,
+  "Title": "Skin the Crocodile",
+  "Descriptions": [
+    "There are rumors that there is a crocodile in our river!",
+    "But I don't really believe in these fakes. If you show me that I will give you a generous gift.",
+    "Sweet, here is your reward."
+  ],
+  "ObjectiveText": "Kill the crocodile and bring its Teeth.",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 0,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "ExpansionBanknoteHryvnia",
+      "Amount": 10000,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1.0
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": 0,
+  "QuestGiverIDs": [
+    1
+  ],
+  "QuestTurnInIDs": [
+    1
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 22,
+      "ID": 7,
+      "ObjectiveType": 4
+    }
+  ],
+  "QuestColor": -1237743,
+  "ReputationReward": 200,
+  "ReputationRequirement": 0,
+  "PreQuestIDs": [],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 0,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {}
+}
