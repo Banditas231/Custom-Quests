@@ -1,4 +1,4 @@
-Hello here is my Expansion Quests , 
+Hello here is my Expansion Quests for Chernogorsk map , 
 Some Quests requeres mods for loot. So like Hunterz mod: 
 https://steamcommunity.com/sharedfiles/filedetails/?id=3013430583&searchtext= 
 But also you can change loot for what you like.
