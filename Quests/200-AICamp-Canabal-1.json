@@ -1,0 +1,65 @@
+{
+    "ConfigVersion": 20,
+    "ID": 200,
+    "Type": 1,
+    "Title": "Clear Canabal Camp 1",
+    "Descriptions": [
+        "Can you believe it? One of ours hunting parties found a camp of Cannibals located somewhere on Adamovka E... We are willing to pay if you can deal with them",
+        "Eleminate all of the Canabals at the camp.",
+        "Nice work! Hopefully thats the last of those fuckers, here is your payment."
+    ],
+    "ObjectiveText": "Kill all Canabals at the marked location.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 1,
+    "CancelQuestOnPlayerDeath": 1,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "bandit2",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "HM_Resin",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": 0,
+    "QuestGiverIDs": [
+        1
+    ],
+    "QuestTurnInIDs": [
+        1
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 22,
+            "ID": 1,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 22,
+            "ID": 1,
+            "ObjectiveType": 8
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": 0,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {}
+}

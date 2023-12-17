@@ -1,0 +1,60 @@
+{
+    "ConfigVersion": 20,
+    "ID": 300,
+    "Type": 1,
+    "Title": "AIPatrol-Bandits",
+    "Descriptions": [
+        "Some bandits have made camp up at Devils Castle and have been shooting up the nearby towns. They need to be dealt with.",
+        "Head up to Devils Castle and clear out the bandits. They are a small group but they are well armed and dangerous. Be careful.",
+        "Nice work, we could use more people like you. Here is your reward."
+    ],
+    "ObjectiveText": "Kill all units of the bandit patrol group at the marked location.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 1,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "ExpansionBanknoteHryvnia",
+            "Amount": 2000,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": 0,
+    "QuestGiverIDs": [
+        1
+    ],
+    "QuestTurnInIDs": [
+        1
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 23,
+            "ID": 1,
+            "ObjectiveType": 7
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": 0,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {}
+}

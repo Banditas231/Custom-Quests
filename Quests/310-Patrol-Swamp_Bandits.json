@@ -1,0 +1,66 @@
+{
+    "ConfigVersion": 20,
+    "ID": 310,
+    "Type": 1,
+    "Title": "Clear Patrol - Lake Bandits",
+    "Descriptions": [
+        "Some bandits have made camp up in the Plotina lake and patrol the area daily",
+        "Head up to the outskirst of the lake and clear out the bandits.",
+        "Nice work, we could use more people like you. Here is your reward."
+    ],
+    "ObjectiveText": "Kill all units of the bandit patrol group near the marked location.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 1,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 1,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "ExpansionBanknoteHryvnia",
+            "Amount": 15000,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": 0,
+    "RewardsForGroupOwnerOnly": 0,
+    "QuestGiverIDs": [
+        5
+    ],
+    "QuestTurnInIDs": [
+        5
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 22,
+            "ID": 6,
+            "ObjectiveType": 3
+        },
+        {
+            "ConfigVersion": 23,
+            "ID": 2,
+            "ObjectiveType": 7
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 50,
+    "ReputationRequirement": 0,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {}
+}

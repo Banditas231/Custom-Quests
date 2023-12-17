@@ -1,0 +1,63 @@
+{
+    "ConfigVersion": 20,
+    "ID": 701,
+    "Type": 1,
+    "Title": "Peter's package",
+    "Descriptions": [
+        "Oh right, here's what Peter wants. Bring it to him and he will be satisfied. Don't even think about opening the package! Just go and bring it to him.",
+        "What are you doing still here? Go to Peter!",
+        "Why did this take so long?... You got what I wanted? ** (He looks at the package with wide eyes and rips it out of your hands) ** Good!... What? Your way out? Well what should I say, but I lied to you. There is no fucking way out of this hell, and you will die here as we all. You can have this backpack and try your luck out there. I am sorry I lied to you, but we all have to see how we somehow survive here. I wish you good luck out there... You will need it."
+    ],
+    "ObjectiveText": "Go back to peter and give him the package from Steve.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 1,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "ExpansionBanknoteHryvnia",
+            "Amount": 2500,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 1,
+    "RandomReward": 0,
+    "RandomRewardAmount": 0,
+    "RewardsForGroupOwnerOnly": 0,
+    "QuestGiverIDs": [
+        2
+    ],
+    "QuestTurnInIDs": [
+        1
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 22,
+            "ID": 2,
+            "ObjectiveType": 5
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": 0,
+    "PreQuestIDs": [
+        700
+    ],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 1,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {}
+}
