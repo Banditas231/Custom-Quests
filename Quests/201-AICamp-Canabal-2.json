@@ -20,8 +20,8 @@
     "QuestItems": [],
     "Rewards": [
         {
-            "ClassName": "HM_Resin",
-            "Amount": 2,
+            "ClassName": "ExpansionBanknoteHryvnia",
+            "Amount": 2500,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
