@@ -23,7 +23,7 @@
     ],
     "NPCEmoteID": 46,
     "NPCEmoteIsStatic": 0,
-    "NPCLoadoutFile": "MulticamBlackLoadout",
+    "NPCLoadoutFile": "BlackLoadout",
     "NPCInteractionEmoteID": 1,
     "NPCQuestCancelEmoteID": 60,
     "NPCQuestStartEmoteID": 58,

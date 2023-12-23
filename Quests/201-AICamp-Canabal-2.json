@@ -2,13 +2,13 @@
     "ConfigVersion": 20,
     "ID": 201,
     "Type": 1,
-    "Title": "Clear Canabal Camp 2",
+    "Title": "Clear Cannibal Camp 2",
     "Descriptions": [
         "Can you believe it? Those Cannibals... Hunters found another camp of Cannibals.. The camp is located somewhere in the SE of Orlovets. I see you strong , so maybe you can help us ? We are willing to pay if you can deal with them",
-        "Eleminate all of the Canabals at the camp.",
+        "Eliminate all of the Cannibals at the camp.",
         "Nice work! Hopefully thats the last of those fuckers, here is your payment."
     ],
-    "ObjectiveText": "Kill all Canabals at the marked location.",
+    "ObjectiveText": "Kill all Cannibals at the marked location.",
     "FollowUpQuest": -1,
     "Repeatable": 1,
     "IsDailyQuest": 0,

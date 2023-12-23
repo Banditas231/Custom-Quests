@@ -23,7 +23,7 @@
     ],
     "NPCEmoteID": 14,
     "NPCEmoteIsStatic": 1,
-    "NPCLoadoutFile": "AlpineLoadout",
+    "NPCLoadoutFile": "NBCLoadout",
     "NPCInteractionEmoteID": 1,
     "NPCQuestCancelEmoteID": 60,
     "NPCQuestStartEmoteID": 58,

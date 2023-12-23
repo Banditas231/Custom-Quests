@@ -2,7 +2,7 @@
     "ConfigVersion": 22,
     "ID": 2,
     "ObjectiveType": 8,
-    "ObjectiveText": "Kill all of the Canabals at the marked location",
+    "ObjectiveText": "Kill all of the Cannibals at the marked location",
     "TimeLimit": -1,
     "AICamp": {
         "Positions": [
