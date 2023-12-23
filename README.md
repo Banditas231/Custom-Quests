@@ -1,8 +1,7 @@
-Hello here is my Expansion Quests for Chernogorsk map , 
-Some Quests requeres mods for loot. So like Hunterz mod: 
-https://steamcommunity.com/sharedfiles/filedetails/?id=3013430583&searchtext= 
-But also you can change loot for what you like.
-Every thing is in the forlders, so just simply add what you like.
+Forked from Banditas231's custom quests. 
 
-That's it .  You done, congratulation you have the Banditas colection of the Quests for your server.
-I hope you like this ...
+Remove HM mid rewards/objectives (I think I got them all).
+
+Minor spelling edits.
+
+Change quest-giver loadouts to match my own custom loadouts.
