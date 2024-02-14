@@ -1,0 +1,70 @@
+{
+    "ConfigVersion": 21,
+    "ID": 809,
+    "Type": 1,
+    "Title": "Hunting Party",
+    "Descriptions": [
+        "Want to have some fun with your friends in the Outdoors? Gather around for a Hunting Party. Can you hunt 50 Animals within 4 hours?",
+        "You are not done yet? Come back when the job is done!",
+        "We thought we had lost you to the Outdoors ... Well, here is your reward."
+    ],
+    "ObjectiveText": "Hunt 50 Animals.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 1,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 0,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [
+        {
+            "ClassName": "expansionbanknotehryvnia",
+            "Amount": 50000,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "HM_Bitcoin",
+            "Amount": 2,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        }
+    ],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": 0,
+    "RewardsForGroupOwnerOnly": 0,
+    "QuestGiverIDs": [
+        3
+    ],
+    "QuestTurnInIDs": [],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 27,
+            "ID": 10,
+            "ObjectiveType": 2
+        }
+    ],
+    "QuestColor": -6900716,
+    "ReputationReward": 1250,
+    "ReputationRequirement": 0,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}
