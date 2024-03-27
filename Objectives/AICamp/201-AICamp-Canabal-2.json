@@ -1,31 +1,31 @@
 {
     "ConfigVersion": 27,
-    "ID": 5,
+    "ID": 2,
     "ObjectiveType": 8,
-    "ObjectiveText": "Kill the mercenaries",
+    "ObjectiveText": "Kill all of the Canabals at the marked location",
     "TimeLimit": -1,
     "Active": 1,
-    "InfectedDeletionRadius": 250.0,
+    "InfectedDeletionRadius": 500.0,
     "AISpawns": [
         {
             "NumberOfAI": 1,
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    0.0,
-                    0.0,
-                    0.0
+                    5395.5400390625,
+                    2.751339912414551,
+                    7644.39990234375
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
-            "Loadout": "DarkWoodlandLoadout",
+            "Loadout": "BanditLoadout",
             "Faction": "Shamans",
             "Speed": 0.0,
             "ThreatSpeed": 3.0,
-            "MinAccuracy": 0.6000000238418579,
-            "MaxAccuracy": 0.949999988079071,
-            "CanBeLooted": 1,
+            "MinAccuracy": 0.0,
+            "MaxAccuracy": 0.0,
+            "CanBeLooted": 2,
             "UnlimitedReload": 1,
             "ThreatDistanceLimit": 1000.0,
             "DamageMultiplier": 1.0,
@@ -66,8 +66,8 @@
             "SniperProneDistanceThreshold": 300.0,
             "RespawnTime": 1.0,
             "DespawnTime": 1.0,
-            "MinDistanceRadius": 5.0,
-            "MaxDistanceRadius": 350.0,
+            "MinDistanceRadius": 50.0,
+            "MaxDistanceRadius": 150.0,
             "DespawnRadius": 880.0
         },
         {
@@ -75,20 +75,20 @@
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    0.0,
-                    0.0,
-                    0.0
+                    5404.8701171875,
+                    2.7352800369262697,
+                    7640.18017578125
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
-            "Loadout": "DarkWoodlandLoadout",
+            "Loadout": "BanditLoadout",
             "Faction": "Shamans",
             "Speed": 0.0,
             "ThreatSpeed": 3.0,
-            "MinAccuracy": 0.6000000238418579,
-            "MaxAccuracy": 0.949999988079071,
-            "CanBeLooted": 1,
+            "MinAccuracy": 0.0,
+            "MaxAccuracy": 0.0,
+            "CanBeLooted": 2,
             "UnlimitedReload": 1,
             "ThreatDistanceLimit": 1000.0,
             "DamageMultiplier": 1.0,
@@ -129,8 +129,8 @@
             "SniperProneDistanceThreshold": 300.0,
             "RespawnTime": 1.0,
             "DespawnTime": 1.0,
-            "MinDistanceRadius": 5.0,
-            "MaxDistanceRadius": 350.0,
+            "MinDistanceRadius": 50.0,
+            "MaxDistanceRadius": 150.0,
             "DespawnRadius": 880.0
         },
         {
@@ -138,20 +138,20 @@
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    0.0,
-                    0.0,
-                    0.0
+                    5407.9501953125,
+                    2.282210111618042,
+                    7629.18994140625
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
-            "Loadout": "DarkWoodlandLoadout",
+            "Loadout": "BanditLoadout",
             "Faction": "Shamans",
             "Speed": 0.0,
             "ThreatSpeed": 3.0,
-            "MinAccuracy": 0.6000000238418579,
-            "MaxAccuracy": 0.949999988079071,
-            "CanBeLooted": 1,
+            "MinAccuracy": 0.0,
+            "MaxAccuracy": 0.0,
+            "CanBeLooted": 2,
             "UnlimitedReload": 1,
             "ThreatDistanceLimit": 1000.0,
             "DamageMultiplier": 1.0,
@@ -192,8 +192,8 @@
             "SniperProneDistanceThreshold": 300.0,
             "RespawnTime": 1.0,
             "DespawnTime": 1.0,
-            "MinDistanceRadius": 5.0,
-            "MaxDistanceRadius": 350.0,
+            "MinDistanceRadius": 50.0,
+            "MaxDistanceRadius": 150.0,
             "DespawnRadius": 880.0
         },
         {
@@ -201,20 +201,20 @@
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    0.0,
-                    0.0,
-                    0.0
+                    5418.2900390625,
+                    2.76636004447937,
+                    7630.9501953125
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
-            "Loadout": "DarkWoodlandLoadout",
+            "Loadout": "BanditLoadout",
             "Faction": "Shamans",
             "Speed": 0.0,
             "ThreatSpeed": 3.0,
-            "MinAccuracy": 0.6000000238418579,
-            "MaxAccuracy": 0.949999988079071,
-            "CanBeLooted": 1,
+            "MinAccuracy": 0.0,
+            "MaxAccuracy": 0.0,
+            "CanBeLooted": 2,
             "UnlimitedReload": 1,
             "ThreatDistanceLimit": 1000.0,
             "DamageMultiplier": 1.0,
@@ -255,8 +255,8 @@
             "SniperProneDistanceThreshold": 300.0,
             "RespawnTime": 1.0,
             "DespawnTime": 1.0,
-            "MinDistanceRadius": 5.0,
-            "MaxDistanceRadius": 350.0,
+            "MinDistanceRadius": 50.0,
+            "MaxDistanceRadius": 150.0,
             "DespawnRadius": 880.0
         },
         {
@@ -264,20 +264,20 @@
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    0.0,
-                    0.0,
-                    0.0
+                    5418.169921875,
+                    2.2313899993896486,
+                    7620.93017578125
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
-            "Loadout": "DarkWoodlandLoadout",
+            "Loadout": "BanditLoadout",
             "Faction": "Shamans",
             "Speed": 0.0,
             "ThreatSpeed": 3.0,
-            "MinAccuracy": 0.6000000238418579,
-            "MaxAccuracy": 0.949999988079071,
-            "CanBeLooted": 1,
+            "MinAccuracy": 0.0,
+            "MaxAccuracy": 0.0,
+            "CanBeLooted": 2,
             "UnlimitedReload": 1,
             "ThreatDistanceLimit": 1000.0,
             "DamageMultiplier": 1.0,
@@ -318,8 +318,8 @@
             "SniperProneDistanceThreshold": 300.0,
             "RespawnTime": 1.0,
             "DespawnTime": 1.0,
-            "MinDistanceRadius": 5.0,
-            "MaxDistanceRadius": 350.0,
+            "MinDistanceRadius": 50.0,
+            "MaxDistanceRadius": 150.0,
             "DespawnRadius": 880.0
         }
     ],

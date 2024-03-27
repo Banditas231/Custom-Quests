@@ -1,8 +1,8 @@
 {
     "ConfigVersion": 27,
-    "ID": 5,
+    "ID": 50,
     "ObjectiveType": 8,
-    "ObjectiveText": "Kill the mercenaries",
+    "ObjectiveText": "Kill all 6 bandits at Belaya Polyana",
     "TimeLimit": -1,
     "Active": 1,
     "InfectedDeletionRadius": 250.0,
@@ -12,19 +12,19 @@
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    0.0,
-                    0.0,
-                    0.0
+                    3743.830078125,
+                    9.424280166625977,
+                    8871.650390625
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
-            "Loadout": "DarkWoodlandLoadout",
+            "Loadout": "BanditLoadout",
             "Faction": "Shamans",
             "Speed": 0.0,
             "ThreatSpeed": 3.0,
-            "MinAccuracy": 0.6000000238418579,
-            "MaxAccuracy": 0.949999988079071,
+            "MinAccuracy": 0.4000000059604645,
+            "MaxAccuracy": 0.75,
             "CanBeLooted": 1,
             "UnlimitedReload": 1,
             "ThreatDistanceLimit": 1000.0,
@@ -67,7 +67,7 @@
             "RespawnTime": 1.0,
             "DespawnTime": 1.0,
             "MinDistanceRadius": 5.0,
-            "MaxDistanceRadius": 350.0,
+            "MaxDistanceRadius": 275.0,
             "DespawnRadius": 880.0
         },
         {
@@ -75,19 +75,19 @@
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    0.0,
-                    0.0,
-                    0.0
+                    3713.27001953125,
+                    9.362500190734864,
+                    8869.4296875
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
-            "Loadout": "DarkWoodlandLoadout",
+            "Loadout": "BanditLoadout",
             "Faction": "Shamans",
             "Speed": 0.0,
             "ThreatSpeed": 3.0,
-            "MinAccuracy": 0.6000000238418579,
-            "MaxAccuracy": 0.949999988079071,
+            "MinAccuracy": 0.4000000059604645,
+            "MaxAccuracy": 0.75,
             "CanBeLooted": 1,
             "UnlimitedReload": 1,
             "ThreatDistanceLimit": 1000.0,
@@ -130,7 +130,7 @@
             "RespawnTime": 1.0,
             "DespawnTime": 1.0,
             "MinDistanceRadius": 5.0,
-            "MaxDistanceRadius": 350.0,
+            "MaxDistanceRadius": 275.0,
             "DespawnRadius": 880.0
         },
         {
@@ -138,19 +138,19 @@
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    0.0,
-                    0.0,
-                    0.0
+                    3699.60009765625,
+                    9.780590057373047,
+                    8880.0703125
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
-            "Loadout": "DarkWoodlandLoadout",
+            "Loadout": "BanditLoadout",
             "Faction": "Shamans",
             "Speed": 0.0,
             "ThreatSpeed": 3.0,
-            "MinAccuracy": 0.6000000238418579,
-            "MaxAccuracy": 0.949999988079071,
+            "MinAccuracy": 0.4000000059604645,
+            "MaxAccuracy": 0.75,
             "CanBeLooted": 1,
             "UnlimitedReload": 1,
             "ThreatDistanceLimit": 1000.0,
@@ -193,7 +193,7 @@
             "RespawnTime": 1.0,
             "DespawnTime": 1.0,
             "MinDistanceRadius": 5.0,
-            "MaxDistanceRadius": 350.0,
+            "MaxDistanceRadius": 275.0,
             "DespawnRadius": 880.0
         },
         {
@@ -201,19 +201,19 @@
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    0.0,
-                    0.0,
-                    0.0
+                    3710.64990234375,
+                    10.976099967956543,
+                    8900.9296875
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
-            "Loadout": "DarkWoodlandLoadout",
+            "Loadout": "BanditLoadout",
             "Faction": "Shamans",
             "Speed": 0.0,
             "ThreatSpeed": 3.0,
-            "MinAccuracy": 0.6000000238418579,
-            "MaxAccuracy": 0.949999988079071,
+            "MinAccuracy": 0.4000000059604645,
+            "MaxAccuracy": 0.75,
             "CanBeLooted": 1,
             "UnlimitedReload": 1,
             "ThreatDistanceLimit": 1000.0,
@@ -256,7 +256,7 @@
             "RespawnTime": 1.0,
             "DespawnTime": 1.0,
             "MinDistanceRadius": 5.0,
-            "MaxDistanceRadius": 350.0,
+            "MaxDistanceRadius": 275.0,
             "DespawnRadius": 880.0
         },
         {
@@ -264,19 +264,19 @@
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    0.0,
-                    0.0,
-                    0.0
+                    3744.780029296875,
+                    12.689000129699707,
+                    8904.83984375
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
-            "Loadout": "DarkWoodlandLoadout",
+            "Loadout": "BanditLoadout",
             "Faction": "Shamans",
             "Speed": 0.0,
             "ThreatSpeed": 3.0,
-            "MinAccuracy": 0.6000000238418579,
-            "MaxAccuracy": 0.949999988079071,
+            "MinAccuracy": 0.4000000059604645,
+            "MaxAccuracy": 0.75,
             "CanBeLooted": 1,
             "UnlimitedReload": 1,
             "ThreatDistanceLimit": 1000.0,
@@ -319,7 +319,70 @@
             "RespawnTime": 1.0,
             "DespawnTime": 1.0,
             "MinDistanceRadius": 5.0,
-            "MaxDistanceRadius": 350.0,
+            "MaxDistanceRadius": 275.0,
+            "DespawnRadius": 880.0
+        },
+        {
+            "NumberOfAI": 1,
+            "NPCName": "Quest Target",
+            "Waypoints": [
+                [
+                    3765.860107421875,
+                    14.181900024414063,
+                    8893.919921875
+                ]
+            ],
+            "Behaviour": 0,
+            "Formation": "RANDOM",
+            "Loadout": "BanditLoadout",
+            "Faction": "Shamans",
+            "Speed": 0.0,
+            "ThreatSpeed": 3.0,
+            "MinAccuracy": 0.4000000059604645,
+            "MaxAccuracy": 0.75,
+            "CanBeLooted": 1,
+            "UnlimitedReload": 1,
+            "ThreatDistanceLimit": 1000.0,
+            "DamageMultiplier": 1.0,
+            "DamageReceivedMultiplier": 1.0,
+            "ClassNames": [
+                "eAI_SurvivorF_Eva",
+                "eAI_SurvivorF_Frida",
+                "eAI_SurvivorF_Gabi",
+                "eAI_SurvivorF_Helga",
+                "eAI_SurvivorF_Irena",
+                "eAI_SurvivorF_Judy",
+                "eAI_SurvivorF_Keiko",
+                "eAI_SurvivorF_Linda",
+                "eAI_SurvivorF_Maria",
+                "eAI_SurvivorF_Naomi",
+                "eAI_SurvivorF_Baty",
+                "eAI_SurvivorM_Boris",
+                "eAI_SurvivorM_Cyril",
+                "eAI_SurvivorM_Denis",
+                "eAI_SurvivorM_Elias",
+                "eAI_SurvivorM_Francis",
+                "eAI_SurvivorM_Guo",
+                "eAI_SurvivorM_Hassan",
+                "eAI_SurvivorM_Indar",
+                "eAI_SurvivorM_Jose",
+                "eAI_SurvivorM_Kaito",
+                "eAI_SurvivorM_Lewis",
+                "eAI_SurvivorM_Manua",
+                "eAI_SurvivorM_Mirek",
+                "eAI_SurvivorM_Niki",
+                "eAI_SurvivorM_Oliver",
+                "eAI_SurvivorM_Peter",
+                "eAI_SurvivorM_Quinn",
+                "eAI_SurvivorM_Rolf",
+                "eAI_SurvivorM_Seth",
+                "eAI_SurvivorM_Taiki"
+            ],
+            "SniperProneDistanceThreshold": 300.0,
+            "RespawnTime": 1.0,
+            "DespawnTime": 1.0,
+            "MinDistanceRadius": 5.0,
+            "MaxDistanceRadius": 275.0,
             "DespawnRadius": 880.0
         }
     ],
