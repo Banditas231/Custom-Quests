@@ -1,0 +1,125 @@
+{
+    "ConfigVersion": 27,
+    "ID": 2,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Find the location of the grave in Elekto",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestSeaChest",
+    "DigInStash": 1,
+    "MarkerName": "???",
+    "MarkerVisibility": 4,
+    "Positions": [
+        [
+            10607.5,
+            33.0198,
+            2638.31
+        ],
+        [
+            10611,
+            32.9549,
+            2647.19
+        ],
+        [
+            10617.8,
+            32.9337,
+            2657.26
+        ],
+        [
+            10623.6,
+            32.9743,
+            2664.26
+        ],
+        [
+            10634.3,
+            32.984,
+            2657.94
+        ]
+    ],
+    "LootItemsAmount": -5,
+    "MaxDistance": 10.0,
+    "Loot": [
+        {
+            "Name": "NailBox",
+            "Chance": 0.30000001192092898,
+            "Attachments": [],
+            "QuantityPercent": -1,
+            "Max": -1,
+            "Min": 0,
+            "Variants": []
+        },
+        {
+            "Name": "NailBox",
+            "Chance": 0.50000001192092898,
+            "Attachments": [],
+            "QuantityPercent": -1,
+            "Max": -1,
+            "Min": 0,
+            "Variants": []
+        },
+        {
+            "Name": "HM_Bitcoin",
+            "Chance": 0.30000001192092898,
+            "Attachments": [],
+            "QuantityPercent": -1,
+            "Max": -1,
+            "Min": 0,
+            "Variants": []
+        },
+        {
+            "Name": "HM_Bitcoin",
+            "Chance": 0.20000001192092898,
+            "Attachments": [],
+            "QuantityPercent": -1,
+            "Max": -1,
+            "Min": 0,
+            "Variants": []
+        },
+        {
+            "Name": "HM_GPU",
+            "Chance": 0.10000001192092898,
+            "Attachments": [],
+            "QuantityPercent": -1,
+            "Max": -1,
+            "Min": 0,
+            "Variants": []
+        },
+        {
+            "Name": "HM_GPU",
+            "Chance": 0.10000001192092898,
+            "Attachments": [],
+            "QuantityPercent": -1,
+            "Max": -1,
+            "Min": 0,
+            "Variants": []
+        },
+        {
+            "Name": "Lockpick",
+            "Chance": 0.40000001192092898,
+            "Attachments": [],
+            "QuantityPercent": -1,
+            "Max": -1,
+            "Min": 0,
+            "Variants": []
+        },
+        {
+            "Name": "HM_PSU",
+            "Chance": 0.10000001192092898,
+            "Attachments": [],
+            "QuantityPercent": -1,
+            "Max": -1,
+            "Min": 0,
+            "Variants": []
+        },
+        {
+            "Name": "Vodka",
+            "Chance": 0.20000001192092898,
+            "Attachments": [],
+            "QuantityPercent": -1,
+            "Max": -1,
+            "Min": 0,
+            "Variants": []
+        }
+    ]
+}

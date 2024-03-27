@@ -1,0 +1,19 @@
+{
+    "ConfigVersion": 27,
+    "ID": 6,
+    "ObjectiveType": 3,
+    "ObjectiveText": "Get into position near the lake",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "MarkerName": "Find the patrol",
+    "MarkerVisibility": 4,
+    "Position": [
+        1372.72998046875,
+        161.7530059814453,
+        6479.93994140625
+    ],
+    "MaxDistance": 50.0,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 0
+}
