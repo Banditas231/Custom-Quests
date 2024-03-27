@@ -3,7 +3,7 @@
     "ID": 14,
     "ObjectiveType": 2,
     "ObjectiveText": "Hunt 10 Rabbits",
-    "TimeLimit": 0,
+    "TimeLimit": -1,
     "Active": 1,
     "Position": [
         0.0,
