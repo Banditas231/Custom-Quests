@@ -1,0 +1,77 @@
+{
+  "ConfigVersion": 23,
+  "ID": 1,
+  "ObjectiveType": 7,
+  "ObjectiveText": "Kill all 10 bandits at the marked location",
+  "TimeLimit": -1,
+  "AICamp": {
+    "Positions": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "NPCSpeed": "RUN",
+    "NPCMode": "HALT",
+    "NPCFaction": "Shamans",
+    "NPCLoadoutFile": "BanditLoadout",
+    "NPCAccuracyMin": 0,
+    "NPCAccuracyMax": 0,
+    "ClassNames": [
+      "eAIBase"
+    ],
+    "SpecialWeapon": 0,
+    "AllowedWeapons": []
+  },
+  "MinDistRadius": 50,
+  "MaxDistRadius": 150,
+  "DespawnRadius": 880,
+  "CanLootAI": 1,
+  "InfectedDeletionRadius": 500
+}
