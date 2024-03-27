@@ -13,7 +13,7 @@
   "MarkerName": "Kill Infected",
   "ShowDistance": 1,
   "Target": {
-    "Amount": 20,
+    "Amount": 10,
     "ClassNames": [
       "ZmbM_CitizenASkinny_Base",
       "ZmbM_CitizenASkinny_LT_Base",
