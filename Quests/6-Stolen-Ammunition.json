@@ -1,0 +1,51 @@
+{
+    "ConfigVersion": 21,
+    "ID": 6,
+    "Type": 1,
+    "Title": "Stolen Ammunition",
+    "Descriptions": [
+        "Hello <> Once a soldier named Marcus stole ammunition from the army and hid it in a remote base. However, before he could retrieve it, he was turned into a zombie. Now, as an undead creature, he roams the area near the base, guarding the hidden loot from anyone who dares to approach.",
+        "Ammunition is rare, so what you waiting for ?",
+        "Well, you have eggs :D"
+    ],
+    "ObjectiveText": "Find the stolen ammunition.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 1,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 1,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": 0,
+    "RewardsForGroupOwnerOnly": 0,
+    "QuestGiverIDs": [
+        1
+    ],
+    "QuestTurnInIDs": [],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 27,
+            "ID": 3,
+            "ObjectiveType": 6
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 500,
+    "ReputationRequirement": 1000,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}
