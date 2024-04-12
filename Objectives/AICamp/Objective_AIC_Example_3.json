@@ -1,31 +1,31 @@
 {
     "ConfigVersion": 27,
-    "ID": 4,
+    "ID": 3,
     "ObjectiveType": 8,
-    "ObjectiveText": "Kill the 5 bandits",
+    "ObjectiveText": "Kill all 5 Soldiers at the marked location:",
     "TimeLimit": -1,
     "Active": 1,
-    "InfectedDeletionRadius": 250.0,
+    "InfectedDeletionRadius": 500.0,
     "AISpawns": [
         {
             "NumberOfAI": 1,
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    13779.599609375,
-                    2.734560012817383,
-                    3115.219970703125
+                    7328.93017578125,
+                    48.1505012512207,
+                    10510.7001953125
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
-            "Loadout": "ERDLLoadout",
-            "Faction": "West",
+            "Loadout": "Namalsk_NAC",
+            "Faction": "NAC",
             "Speed": 0.0,
             "ThreatSpeed": 3.0,
-            "MinAccuracy": 0.6000000238418579,
-            "MaxAccuracy": 0.8999999761581421,
-            "CanBeLooted": 1,
+            "MinAccuracy": 0.5,
+            "MaxAccuracy": 0.699999988079071,
+            "CanBeLooted": 0,
             "UnlimitedReload": 1,
             "ThreatDistanceLimit": 1000.0,
             "DamageMultiplier": 1.0,
@@ -66,8 +66,8 @@
             "SniperProneDistanceThreshold": 300.0,
             "RespawnTime": 1.0,
             "DespawnTime": 1.0,
-            "MinDistanceRadius": 5.0,
-            "MaxDistanceRadius": 275.0,
+            "MinDistanceRadius": 50.0,
+            "MaxDistanceRadius": 150.0,
             "DespawnRadius": 880.0
         },
         {
@@ -75,20 +75,20 @@
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    13793.2998046875,
-                    2.6239399909973146,
-                    3083.699951171875
+                    7283.7001953125,
+                    48.2599983215332,
+                    10534.400390625
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
-            "Loadout": "ERDLLoadout",
-            "Faction": "West",
+            "Loadout": "Namalsk_NAC",
+            "Faction": "NAC",
             "Speed": 0.0,
             "ThreatSpeed": 3.0,
-            "MinAccuracy": 0.6000000238418579,
-            "MaxAccuracy": 0.8999999761581421,
-            "CanBeLooted": 1,
+            "MinAccuracy": 0.5,
+            "MaxAccuracy": 0.699999988079071,
+            "CanBeLooted": 0,
             "UnlimitedReload": 1,
             "ThreatDistanceLimit": 1000.0,
             "DamageMultiplier": 1.0,
@@ -129,8 +129,8 @@
             "SniperProneDistanceThreshold": 300.0,
             "RespawnTime": 1.0,
             "DespawnTime": 1.0,
-            "MinDistanceRadius": 5.0,
-            "MaxDistanceRadius": 275.0,
+            "MinDistanceRadius": 50.0,
+            "MaxDistanceRadius": 150.0,
             "DespawnRadius": 880.0
         },
         {
@@ -138,20 +138,20 @@
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    13789.5,
-                    2.7032101154327394,
-                    3128.169921875
+                    7309.75,
+                    45.495601654052737,
+                    10525.900390625
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
-            "Loadout": "ERDLLoadout",
-            "Faction": "West",
+            "Loadout": "Namalsk_NAC",
+            "Faction": "NAC",
             "Speed": 0.0,
             "ThreatSpeed": 3.0,
-            "MinAccuracy": 0.6000000238418579,
-            "MaxAccuracy": 0.8999999761581421,
-            "CanBeLooted": 1,
+            "MinAccuracy": 0.5,
+            "MaxAccuracy": 0.699999988079071,
+            "CanBeLooted": 0,
             "UnlimitedReload": 1,
             "ThreatDistanceLimit": 1000.0,
             "DamageMultiplier": 1.0,
@@ -192,8 +192,8 @@
             "SniperProneDistanceThreshold": 300.0,
             "RespawnTime": 1.0,
             "DespawnTime": 1.0,
-            "MinDistanceRadius": 5.0,
-            "MaxDistanceRadius": 275.0,
+            "MinDistanceRadius": 50.0,
+            "MaxDistanceRadius": 150.0,
             "DespawnRadius": 880.0
         },
         {
@@ -201,20 +201,20 @@
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    13816.0,
-                    2.7032198905944826,
-                    3112.5
+                    7309.72021484375,
+                    45.51839828491211,
+                    10507.2001953125
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
-            "Loadout": "ERDLLoadout",
-            "Faction": "West",
+            "Loadout": "Namalsk_NAC",
+            "Faction": "NAC",
             "Speed": 0.0,
             "ThreatSpeed": 3.0,
-            "MinAccuracy": 0.6000000238418579,
-            "MaxAccuracy": 0.8999999761581421,
-            "CanBeLooted": 1,
+            "MinAccuracy": 0.5,
+            "MaxAccuracy": 0.699999988079071,
+            "CanBeLooted": 0,
             "UnlimitedReload": 1,
             "ThreatDistanceLimit": 1000.0,
             "DamageMultiplier": 1.0,
@@ -255,8 +255,8 @@
             "SniperProneDistanceThreshold": 300.0,
             "RespawnTime": 1.0,
             "DespawnTime": 1.0,
-            "MinDistanceRadius": 5.0,
-            "MaxDistanceRadius": 275.0,
+            "MinDistanceRadius": 50.0,
+            "MaxDistanceRadius": 150.0,
             "DespawnRadius": 880.0
         },
         {
@@ -264,20 +264,20 @@
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    13778.0,
-                    2.724139928817749,
-                    3108.56005859375
+                    7282.93994140625,
+                    45.47999954223633,
+                    10552.2998046875
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
-            "Loadout": "ERDLLoadout",
-            "Faction": "West",
+            "Loadout": "Namalsk_NAC",
+            "Faction": "NAC",
             "Speed": 0.0,
             "ThreatSpeed": 3.0,
-            "MinAccuracy": 0.6000000238418579,
-            "MaxAccuracy": 0.8999999761581421,
-            "CanBeLooted": 1,
+            "MinAccuracy": 0.5,
+            "MaxAccuracy": 0.699999988079071,
+            "CanBeLooted": 0,
             "UnlimitedReload": 1,
             "ThreatDistanceLimit": 1000.0,
             "DamageMultiplier": 1.0,
@@ -318,8 +318,8 @@
             "SniperProneDistanceThreshold": 300.0,
             "RespawnTime": 1.0,
             "DespawnTime": 1.0,
-            "MinDistanceRadius": 5.0,
-            "MaxDistanceRadius": 275.0,
+            "MinDistanceRadius": 50.0,
+            "MaxDistanceRadius": 150.0,
             "DespawnRadius": 880.0
         }
     ],

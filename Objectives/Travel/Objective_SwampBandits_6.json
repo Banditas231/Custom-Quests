@@ -5,15 +5,14 @@
     "ObjectiveText": "Get into position near the lake",
     "TimeLimit": -1,
     "Active": 1,
-    "ShowDistance": 1,
-    "MarkerName": "Find the patrol",
-    "MarkerVisibility": 4,
     "Position": [
         1372.72998046875,
         161.7530059814453,
         6479.93994140625
     ],
     "MaxDistance": 50.0,
+    "MarkerName": "Find the patrol",
+    "ShowDistance": 1,
     "TriggerOnEnter": 1,
     "TriggerOnExit": 0
 }

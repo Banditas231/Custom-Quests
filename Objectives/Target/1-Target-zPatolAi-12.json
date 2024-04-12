@@ -44,8 +44,7 @@
         "eAI_SurvivorF_Keiko",
         "eAI_SurvivorF_Eva",
         "eAI_SurvivorF_Naomi",
-        "eAI_SurvivorF_Baty",
-        "eAIBase"
+        "eAI_SurvivorF_Baty"
     ],
     "CountSelfKill": 0,
     "AllowedWeapons": [],
