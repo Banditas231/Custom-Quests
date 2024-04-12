@@ -19,3 +19,6 @@ That's it .  You done, congratulation you have the Banditas colection of the Que
 I hope you like this ...
 
 New quests added: Hunt animals and another for killing eAi. You need change reward for your likings
+
+I keep my files updated, so people can use correct and working files.
+Last updated 04/12/2024
