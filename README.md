@@ -14,8 +14,10 @@ Also change NPC Loadouts for what you use.
 Every thing is in the forlders, so just simply add what you like.
 
 That's it .  You done, congratulation you have the Banditas colection of the Quests for your server.
-I hope you like this ...
+I hope you like this ... 
+
 Some quests I found on internet and fixed/updated.
+
 Other quests is eddited be my (Banditas)
 
 New quests added: Hunt animals and another for killing eAi. You need change reward for your likings
