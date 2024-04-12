@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 21,
+    "ConfigVersion": 22,
     "ID": 809,
     "Type": 1,
     "Title": "Hunting Party",
@@ -42,6 +42,7 @@
     "RandomReward": 0,
     "RandomRewardAmount": 0,
     "RewardsForGroupOwnerOnly": 0,
+    "RewardBehavior": 0,
     "QuestGiverIDs": [
         3
     ],

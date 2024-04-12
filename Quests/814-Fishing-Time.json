@@ -1,26 +1,35 @@
 {
     "ConfigVersion": 22,
-    "ID": 505,
+    "ID": 814,
     "Type": 1,
-    "Title": "Mushroom Stew",
+    "Title": "Fisher",
     "Descriptions": [
-        "The old hag has been asking around for Agaricus Mushrooms for some shit ass stew, the next time your out could you help me shut her up about it?",
-        "Collect 10 Agaricus Mushrooms and bring them back to Peter at the Trade Center.",
-        "That will shut her up!, here is your reward."
+        "Easter is here! Although it is a difficult time, but I have a suggestion for you. Hunt for Easter 10 rabbits. And take Ester gift.",
+        "You are not done yet? Come back when the job is done!",
+        "Happy Easter and good luck."
     ],
-    "ObjectiveText": "Collect 10 Agaricus Mushrooms.",
+    "ObjectiveText": "Catch 5 Carp.",
     "FollowUpQuest": -1,
-    "Repeatable": 1,
+    "Repeatable": 0,
     "IsDailyQuest": 0,
-    "IsWeeklyQuest": 1,
+    "IsWeeklyQuest": 0,
     "CancelQuestOnPlayerDeath": 0,
-    "Autocomplete": 0,
+    "Autocomplete": 1,
     "IsGroupQuest": 0,
     "ObjectSetFileName": "",
     "QuestItems": [],
     "Rewards": [
         {
-            "ClassName": "BookTheJustifiedSinner",
+            "ClassName": "expansionbanknotehryvnia",
+            "Amount": 1000,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "FishingRod",
             "Amount": 1,
             "Attachments": [],
             "DamagePercent": 0,
@@ -29,17 +38,8 @@
             "Chance": 1.0
         },
         {
-            "ClassName": "BookThePossessed",
-            "Amount": 1,
-            "Attachments": [],
-            "DamagePercent": 0,
-            "HealthPercent": 0,
-            "QuestID": -1,
-            "Chance": 1.0
-        },
-        {
-            "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 200,
+            "ClassName": "Hook",
+            "Amount": 2,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
@@ -55,19 +55,17 @@
     "QuestGiverIDs": [
         1
     ],
-    "QuestTurnInIDs": [
-        1
-    ],
+    "QuestTurnInIDs": [],
     "IsAchievement": 0,
     "Objectives": [
         {
             "ConfigVersion": 27,
-            "ID": 6,
+            "ID": 8,
             "ObjectiveType": 4
         }
     ],
-    "QuestColor": 0,
-    "ReputationReward": 50,
+    "QuestColor": -6900716,
+    "ReputationReward": 250,
     "ReputationRequirement": 0,
     "PreQuestIDs": [],
     "RequiredFaction": "",

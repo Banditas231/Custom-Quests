@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 21,
+    "ConfigVersion": 22,
     "ID": 811,
     "Type": 1,
     "Title": "Us against the World ",
@@ -51,10 +51,13 @@
     "RandomReward": 0,
     "RandomRewardAmount": 0,
     "RewardsForGroupOwnerOnly": 0,
+    "RewardBehavior": 0,
     "QuestGiverIDs": [
         3
     ],
-    "QuestTurnInIDs": [],
+    "QuestTurnInIDs": [
+        3
+    ],
     "IsAchievement": 0,
     "Objectives": [
         {
@@ -64,14 +67,16 @@
         }
     ],
     "QuestColor": -3662306,
-    "ReputationReward": 500,
-    "ReputationRequirement": 0,
-    "PreQuestIDs": [],
+    "ReputationReward": 1500,
+    "ReputationRequirement": 25000,
+    "PreQuestIDs": [
+        810
+    ],
     "RequiredFaction": "",
     "FactionReward": "",
     "PlayerNeedQuestItems": 1,
     "DeleteQuestItems": 1,
-    "SequentialObjectives": 0,
+    "SequentialObjectives": 1,
     "FactionReputationRequirements": {},
     "FactionReputationRewards": {},
     "SuppressQuestLogOnCompetion": 0,
