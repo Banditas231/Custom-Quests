@@ -18,7 +18,7 @@ I hope you like this ...
 
 Some quests I found on internet and fixed/updated.
 
-Other quests is eddited be my (Banditas)
+Other quests is eddited be my (Banditas231)
 
 New quests added: Hunt animals and another for killing eAi. You need change reward for your likings
 
