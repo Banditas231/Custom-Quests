@@ -1,5 +1,3 @@
-UPDATED !!!
-
 All files what i use on my server. 
 
 Hello here is my Expansion Quests for Chernogorsk map , Some Quests requeres mods for loot/eAI Loadouts.
@@ -17,6 +15,8 @@ Every thing is in the forlders, so just simply add what you like.
 
 That's it .  You done, congratulation you have the Banditas colection of the Quests for your server.
 I hope you like this ...
+Some quests I found on internet and fixed/updated.
+Other quests is eddited be my (Banditas)
 
 New quests added: Hunt animals and another for killing eAi. You need change reward for your likings
 
