@@ -16,7 +16,7 @@
     "CancelQuestOnPlayerDeath": 1,
     "Autocomplete": 0,
     "IsGroupQuest": 1,
-    "ObjectSetFileName": "bandit2",
+    "ObjectSetFileName": "",
     "QuestItems": [],
     "Rewards": [
         {
