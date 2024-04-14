@@ -4,7 +4,7 @@
     "Type": 1,
     "Title": "Clear Canabal Camp 1",
     "Descriptions": [
-        "Can you believe it? One of ours hunting parties found a camp of Cannibals located somewhere on Adamovka E... We are willing to pay if you can deal with them",
+        "Can you believe it? One of ours hunting parties found a camp of Cannibals located somewhere on Vavilovo... We are willing to pay if you can deal with them",
         "Eleminate all of the Canabals at the camp.",
         "Nice work! Hopefully thats the last of those fuckers, here is your payment."
     ],
@@ -63,7 +63,7 @@
         }
     ],
     "QuestColor": 0,
-    "ReputationReward": 0,
+    "ReputationReward": 500,
     "ReputationRequirement": 0,
     "PreQuestIDs": [],
     "RequiredFaction": "",
