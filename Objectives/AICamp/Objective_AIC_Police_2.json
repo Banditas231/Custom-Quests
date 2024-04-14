@@ -5,31 +5,41 @@
     "ObjectiveText": "Kill all 5 police imposters at the marked location",
     "TimeLimit": -1,
     "Active": 1,
-    "InfectedDeletionRadius": 250.0,
+    "InfectedDeletionRadius": 0,
     "AISpawns": [
         {
             "NumberOfAI": 1,
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    10150.7998046875,
-                    244.5959930419922,
-                    5525.89013671875
+                    10107.3,
+                    245.46,
+                    5453.4
+                ],
+                [
+                    10078.2,
+                    245.598,
+                    5460.22
+                ],
+                [
+                    10097.4,
+                    245.012,
+                    5449.48
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
             "Loadout": "PoliceLoadout",
-            "Faction": "West",
-            "Speed": 0.0,
-            "ThreatSpeed": 3.0,
+            "Faction": "Shamans",
+            "Speed": 0,
+            "ThreatSpeed": 3,
             "MinAccuracy": 0.6499999761581421,
             "MaxAccuracy": 0.8500000238418579,
-            "CanBeLooted": 1,
+            "CanBeLooted": 0,
             "UnlimitedReload": 1,
-            "ThreatDistanceLimit": 1000.0,
-            "DamageMultiplier": 1.0,
-            "DamageReceivedMultiplier": 1.0,
+            "ThreatDistanceLimit": 1000,
+            "DamageMultiplier": 1,
+            "DamageReceivedMultiplier": 1,
             "ClassNames": [
                 "eAI_SurvivorF_Eva",
                 "eAI_SurvivorF_Frida",
@@ -63,36 +73,46 @@
                 "eAI_SurvivorM_Seth",
                 "eAI_SurvivorM_Taiki"
             ],
-            "SniperProneDistanceThreshold": 300.0,
-            "RespawnTime": 1.0,
-            "DespawnTime": 1.0,
-            "MinDistanceRadius": 5.0,
-            "MaxDistanceRadius": 275.0,
-            "DespawnRadius": 880.0
+            "SniperProneDistanceThreshold": 300,
+            "RespawnTime": 60,
+            "DespawnTime": 60,
+            "MinDistanceRadius": 50,
+            "MaxDistanceRadius": 275,
+            "DespawnRadius": 880
         },
         {
             "NumberOfAI": 1,
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    10153.7998046875,
-                    244.60000610351563,
-                    5534.60009765625
+                    10145,
+                    245.162,
+                    5487.26
+                ],
+                [
+                    10144,
+                    248.413,
+                    5488.41
+                ],
+                [
+                    10138.9,
+                    245.051,
+                    5501.72
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
             "Loadout": "PoliceLoadout",
-            "Faction": "West",
-            "Speed": 0.0,
-            "ThreatSpeed": 3.0,
+            "Faction": "Shamans",
+            "Speed": 0,
+            "ThreatSpeed": 3,
             "MinAccuracy": 0.6499999761581421,
             "MaxAccuracy": 0.8500000238418579,
-            "CanBeLooted": 1,
+            "CanBeLooted": 0,
             "UnlimitedReload": 1,
-            "ThreatDistanceLimit": 1000.0,
-            "DamageMultiplier": 1.0,
-            "DamageReceivedMultiplier": 1.0,
+            "ThreatDistanceLimit": 1000,
+            "DamageMultiplier": 1,
+            "DamageReceivedMultiplier": 1,
             "ClassNames": [
                 "eAI_SurvivorF_Eva",
                 "eAI_SurvivorF_Frida",
@@ -126,36 +146,46 @@
                 "eAI_SurvivorM_Seth",
                 "eAI_SurvivorM_Taiki"
             ],
-            "SniperProneDistanceThreshold": 300.0,
-            "RespawnTime": 1.0,
-            "DespawnTime": 1.0,
-            "MinDistanceRadius": 5.0,
-            "MaxDistanceRadius": 275.0,
-            "DespawnRadius": 880.0
+            "SniperProneDistanceThreshold": 300,
+            "RespawnTime": 60,
+            "DespawnTime": 60,
+            "MinDistanceRadius": 50,
+            "MaxDistanceRadius": 275,
+            "DespawnRadius": 880
         },
         {
             "NumberOfAI": 1,
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    10150.0,
-                    248.1739959716797,
-                    5529.91015625
+                    10170.2,
+                    243.921,
+                    5537.83
+                ],
+                [
+                    10154.5,
+                    248.168,
+                    5535.1
+                ],
+                [
+                    10152.1,
+                    251.921,
+                    5533.46
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
             "Loadout": "PoliceLoadout",
-            "Faction": "West",
-            "Speed": 0.0,
-            "ThreatSpeed": 3.0,
-            "MinAccuracy": 0.6499999761581421,
-            "MaxAccuracy": 0.8500000238418579,
-            "CanBeLooted": 1,
+            "Faction": "Shamans",
+            "Speed": 0,
+            "ThreatSpeed": 3,
+            "MinAccuracy": 0.8,
+            "MaxAccuracy": 0.9,
+            "CanBeLooted": 0,
             "UnlimitedReload": 1,
-            "ThreatDistanceLimit": 1000.0,
-            "DamageMultiplier": 1.0,
-            "DamageReceivedMultiplier": 1.0,
+            "ThreatDistanceLimit": 1000,
+            "DamageMultiplier": 1,
+            "DamageReceivedMultiplier": 1,
             "ClassNames": [
                 "eAI_SurvivorF_Eva",
                 "eAI_SurvivorF_Frida",
@@ -189,36 +219,46 @@
                 "eAI_SurvivorM_Seth",
                 "eAI_SurvivorM_Taiki"
             ],
-            "SniperProneDistanceThreshold": 300.0,
-            "RespawnTime": 1.0,
-            "DespawnTime": 1.0,
-            "MinDistanceRadius": 5.0,
-            "MaxDistanceRadius": 275.0,
-            "DespawnRadius": 880.0
+            "SniperProneDistanceThreshold": 300,
+            "RespawnTime": 60,
+            "DespawnTime": 60,
+            "MinDistanceRadius": 50,
+            "MaxDistanceRadius": 275,
+            "DespawnRadius": 880
         },
         {
             "NumberOfAI": 1,
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    10160.400390625,
-                    248.1750030517578,
-                    5528.7099609375
+                    10158.1,
+                    251.915,
+                    5535.72
+                ],
+                [
+                    10164.7,
+                    244.38,
+                    5556.99
+                ],
+                [
+                    10171.6,
+                    246.129,
+                    5538.04
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
             "Loadout": "PoliceLoadout",
-            "Faction": "West",
-            "Speed": 0.0,
-            "ThreatSpeed": 3.0,
+            "Faction": "Shamans",
+            "Speed": 0,
+            "ThreatSpeed": 3,
             "MinAccuracy": 0.6499999761581421,
             "MaxAccuracy": 0.8500000238418579,
-            "CanBeLooted": 1,
+            "CanBeLooted": 0,
             "UnlimitedReload": 1,
-            "ThreatDistanceLimit": 1000.0,
-            "DamageMultiplier": 1.0,
-            "DamageReceivedMultiplier": 1.0,
+            "ThreatDistanceLimit": 1000,
+            "DamageMultiplier": 1,
+            "DamageReceivedMultiplier": 1,
             "ClassNames": [
                 "eAI_SurvivorF_Eva",
                 "eAI_SurvivorF_Frida",
@@ -252,36 +292,46 @@
                 "eAI_SurvivorM_Seth",
                 "eAI_SurvivorM_Taiki"
             ],
-            "SniperProneDistanceThreshold": 300.0,
-            "RespawnTime": 1.0,
-            "DespawnTime": 1.0,
-            "MinDistanceRadius": 5.0,
-            "MaxDistanceRadius": 275.0,
-            "DespawnRadius": 880.0
+            "SniperProneDistanceThreshold": 300,
+            "RespawnTime": 60,
+            "DespawnTime": 60,
+            "MinDistanceRadius": 50,
+            "MaxDistanceRadius": 275,
+            "DespawnRadius": 880
         },
         {
             "NumberOfAI": 1,
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    10154.400390625,
-                    248.16900634765626,
-                    5534.91015625
+                    10139.5,
+                    248.413,
+                    5493.23
+                ],
+                [
+                    10145.8,
+                    244.968,
+                    5411.53
+                ],
+                [
+                    10123.8,
+                    250.249,
+                    5407.28
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
             "Loadout": "PoliceLoadout",
-            "Faction": "West",
-            "Speed": 0.0,
-            "ThreatSpeed": 3.0,
+            "Faction": "Shamans",
+            "Speed": 0,
+            "ThreatSpeed": 3,
             "MinAccuracy": 0.6499999761581421,
             "MaxAccuracy": 0.8500000238418579,
-            "CanBeLooted": 1,
+            "CanBeLooted": 0,
             "UnlimitedReload": 1,
-            "ThreatDistanceLimit": 1000.0,
-            "DamageMultiplier": 1.0,
-            "DamageReceivedMultiplier": 1.0,
+            "ThreatDistanceLimit": 1000,
+            "DamageMultiplier": 1,
+            "DamageReceivedMultiplier": 1,
             "ClassNames": [
                 "eAI_SurvivorF_Eva",
                 "eAI_SurvivorF_Frida",
@@ -315,16 +365,16 @@
                 "eAI_SurvivorM_Seth",
                 "eAI_SurvivorM_Taiki"
             ],
-            "SniperProneDistanceThreshold": 300.0,
-            "RespawnTime": 1.0,
-            "DespawnTime": 1.0,
-            "MinDistanceRadius": 5.0,
-            "MaxDistanceRadius": 275.0,
-            "DespawnRadius": 880.0
+            "SniperProneDistanceThreshold": 300,
+            "RespawnTime": 60,
+            "DespawnTime": 60,
+            "MinDistanceRadius": 50,
+            "MaxDistanceRadius": 275,
+            "DespawnRadius": 880
         }
     ],
-    "MaxDistance": -1.0,
-    "MinDistance": -1.0,
+    "MaxDistance": -1,
+    "MinDistance": -1,
     "AllowedWeapons": [],
     "AllowedDamageZones": []
 }

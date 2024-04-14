@@ -64,8 +64,8 @@
                 "eAI_SurvivorM_Taiki"
             ],
             "SniperProneDistanceThreshold": 300.0,
-            "RespawnTime": 1.0,
-            "DespawnTime": 1.0,
+            "RespawnTime": 60.0,
+            "DespawnTime": 60.0,
             "MinDistanceRadius": 5.0,
             "MaxDistanceRadius": 350.0,
             "DespawnRadius": 880.0
@@ -127,8 +127,8 @@
                 "eAI_SurvivorM_Taiki"
             ],
             "SniperProneDistanceThreshold": 300.0,
-            "RespawnTime": 1.0,
-            "DespawnTime": 1.0,
+            "RespawnTime": 60.0,
+            "DespawnTime": 60.0,
             "MinDistanceRadius": 5.0,
             "MaxDistanceRadius": 350.0,
             "DespawnRadius": 880.0
@@ -190,8 +190,8 @@
                 "eAI_SurvivorM_Taiki"
             ],
             "SniperProneDistanceThreshold": 300.0,
-            "RespawnTime": 1.0,
-            "DespawnTime": 1.0,
+            "RespawnTime": 60.0,
+            "DespawnTime": 60.0,
             "MinDistanceRadius": 5.0,
             "MaxDistanceRadius": 350.0,
             "DespawnRadius": 880.0
@@ -253,8 +253,8 @@
                 "eAI_SurvivorM_Taiki"
             ],
             "SniperProneDistanceThreshold": 300.0,
-            "RespawnTime": 1.0,
-            "DespawnTime": 1.0,
+            "RespawnTime": 60.0,
+            "DespawnTime": 60.0,
             "MinDistanceRadius": 5.0,
             "MaxDistanceRadius": 350.0,
             "DespawnRadius": 880.0
@@ -316,8 +316,8 @@
                 "eAI_SurvivorM_Taiki"
             ],
             "SniperProneDistanceThreshold": 300.0,
-            "RespawnTime": 1.0,
-            "DespawnTime": 1.0,
+            "RespawnTime": 60.0,
+            "DespawnTime": 60.0,
             "MinDistanceRadius": 5.0,
             "MaxDistanceRadius": 350.0,
             "DespawnRadius": 880.0

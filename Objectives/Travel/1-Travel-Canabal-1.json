@@ -6,11 +6,11 @@
     "TimeLimit": -1,
     "Active": 1,
     "Position": [
-        5814.69775390625,
-        248.60989379882813,
-        11277.83203125
+        2323.67,
+        275.104,
+        11087.5
     ],
-    "MaxDistance": 20.0,
+    "MaxDistance": 300.0,
     "MarkerName": "Get to the Village",
     "ShowDistance": 1,
     "TriggerOnEnter": 1,

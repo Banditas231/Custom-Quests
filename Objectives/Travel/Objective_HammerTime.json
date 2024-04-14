@@ -9,11 +9,11 @@
     "MarkerName": "Hammer Time",
     "MarkerVisibility": 4,
     "Position": [
-        2596.699951171875,
-        306.1000061035156,
-        6378.47021484375
+        6066.37,
+        301,
+        7770.19
     ],
-    "MaxDistance": 20.0,
+    "MaxDistance": 300.0,
     "TriggerOnEnter": 1,
     "TriggerOnExit": 0
 }

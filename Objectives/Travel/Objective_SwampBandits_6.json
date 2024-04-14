@@ -6,11 +6,11 @@
     "TimeLimit": -1,
     "Active": 1,
     "Position": [
-        1372.72998046875,
-        161.7530059814453,
-        6479.93994140625
+        1236.54,
+        149.894,
+        6287.7
     ],
-    "MaxDistance": 50.0,
+    "MaxDistance": 300.0,
     "MarkerName": "Find the patrol",
     "ShowDistance": 1,
     "TriggerOnEnter": 1,

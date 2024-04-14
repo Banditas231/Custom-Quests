@@ -6,11 +6,11 @@
   "TimeLimit": -1,
   "Active": 1,
   "Position": [
-    2596.699951171875,
-    306.1000061035156,
-    6378.47021484375
+    6066.37,
+    301,
+    7770.19
   ],
-  "MaxDistance": 150,
+  "MaxDistance": 300,
   "MinDistance": -1,
   "Amount": 10,
   "ClassNames": [

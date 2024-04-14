@@ -5,31 +5,41 @@
     "ObjectiveText": "Kill all of the Canabals at the marked location",
     "TimeLimit": -1,
     "Active": 1,
-    "InfectedDeletionRadius": 500.0,
+    "InfectedDeletionRadius": 0,
     "AISpawns": [
         {
             "NumberOfAI": 1,
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    5814.69775390625,
-                    248.60989379882813,
-                    11277.83203125
+                    2230.78,
+                    265.942,
+                    11104.5
+                ],
+                [
+                    2224.79,
+                    266.196,
+                    11071.6
+                ],
+                [
+                    2260.09,
+                    271.14,
+                    11060
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
-            "Loadout": "BanditLoadout",
-            "Faction": "Mercenaries",
-            "Speed": 0.0,
-            "ThreatSpeed": 3.0,
-            "MinAccuracy": 0.0,
-            "MaxAccuracy": 0.0,
-            "CanBeLooted": 2,
+            "Loadout": "ShturmanLoadout",
+            "Faction": "Shamans",
+            "Speed": 0,
+            "ThreatSpeed": 3,
+            "MinAccuracy": 0,
+            "MaxAccuracy": 0,
+            "CanBeLooted": 0,
             "UnlimitedReload": 1,
-            "ThreatDistanceLimit": 1000.0,
-            "DamageMultiplier": 1.0,
-            "DamageReceivedMultiplier": 1.0,
+            "ThreatDistanceLimit": 1000,
+            "DamageMultiplier": 1,
+            "DamageReceivedMultiplier": 1,
             "ClassNames": [
                 "eAI_SurvivorF_Eva",
                 "eAI_SurvivorF_Frida",
@@ -63,36 +73,46 @@
                 "eAI_SurvivorM_Seth",
                 "eAI_SurvivorM_Taiki"
             ],
-            "SniperProneDistanceThreshold": 300.0,
-            "RespawnTime": 1.0,
-            "DespawnTime": 1.0,
-            "MinDistanceRadius": 50.0,
-            "MaxDistanceRadius": 150.0,
-            "DespawnRadius": 880.0
+            "SniperProneDistanceThreshold": 300,
+            "RespawnTime": 60,
+            "DespawnTime": 60,
+            "MinDistanceRadius": 50,
+            "MaxDistanceRadius": 150,
+            "DespawnRadius": 880
         },
         {
             "NumberOfAI": 1,
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    5810.6796875,
-                    248.3096160888672,
-                    11282.96484375
+                    2222.84,
+                    269.229,
+                    11037.7
+                ],
+                [
+                    2228.73,
+                    265.816,
+                    11077.4
+                ],
+                [
+                    2232.53,
+                    269.198,
+                    11105.8
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
-            "Loadout": "BanditLoadout",
-            "Faction": "Mercenaries",
-            "Speed": 0.0,
-            "ThreatSpeed": 3.0,
-            "MinAccuracy": 0.0,
-            "MaxAccuracy": 0.0,
-            "CanBeLooted": 2,
+            "Loadout": "SanitarLoadout",
+            "Faction": "Shamans",
+            "Speed": 0,
+            "ThreatSpeed": 3,
+            "MinAccuracy": 0,
+            "MaxAccuracy": 0,
+            "CanBeLooted": 0,
             "UnlimitedReload": 1,
-            "ThreatDistanceLimit": 1000.0,
-            "DamageMultiplier": 1.0,
-            "DamageReceivedMultiplier": 1.0,
+            "ThreatDistanceLimit": 1000,
+            "DamageMultiplier": 1,
+            "DamageReceivedMultiplier": 1,
             "ClassNames": [
                 "eAI_SurvivorF_Eva",
                 "eAI_SurvivorF_Frida",
@@ -126,36 +146,46 @@
                 "eAI_SurvivorM_Seth",
                 "eAI_SurvivorM_Taiki"
             ],
-            "SniperProneDistanceThreshold": 300.0,
-            "RespawnTime": 1.0,
-            "DespawnTime": 1.0,
-            "MinDistanceRadius": 50.0,
-            "MaxDistanceRadius": 150.0,
-            "DespawnRadius": 880.0
+            "SniperProneDistanceThreshold": 300,
+            "RespawnTime": 60,
+            "DespawnTime": 60,
+            "MinDistanceRadius": 50,
+            "MaxDistanceRadius": 150,
+            "DespawnRadius": 880
         },
         {
             "NumberOfAI": 1,
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    5806.5244140625,
-                    249.56314086914063,
-                    11281.36328125
+                    2183.31,
+                    267.663,
+                    11091.2
+                ],
+                [
+                    2183.02,
+                    264.414,
+                    11097.5
+                ],
+                [
+                    2177.23,
+                    264.417,
+                    11113.6
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
             "Loadout": "BanditLoadout",
-            "Faction": "Mercenaries",
-            "Speed": 0.0,
-            "ThreatSpeed": 3.0,
-            "MinAccuracy": 0.0,
-            "MaxAccuracy": 0.0,
-            "CanBeLooted": 2,
+            "Faction": "Shamans",
+            "Speed": 0,
+            "ThreatSpeed": 3,
+            "MinAccuracy": 0,
+            "MaxAccuracy": 0,
+            "CanBeLooted": 0,
             "UnlimitedReload": 1,
-            "ThreatDistanceLimit": 1000.0,
-            "DamageMultiplier": 1.0,
-            "DamageReceivedMultiplier": 1.0,
+            "ThreatDistanceLimit": 1000,
+            "DamageMultiplier": 1,
+            "DamageReceivedMultiplier": 1,
             "ClassNames": [
                 "eAI_SurvivorF_Eva",
                 "eAI_SurvivorF_Frida",
@@ -189,36 +219,46 @@
                 "eAI_SurvivorM_Seth",
                 "eAI_SurvivorM_Taiki"
             ],
-            "SniperProneDistanceThreshold": 300.0,
-            "RespawnTime": 1.0,
-            "DespawnTime": 1.0,
-            "MinDistanceRadius": 50.0,
-            "MaxDistanceRadius": 150.0,
-            "DespawnRadius": 880.0
+            "SniperProneDistanceThreshold": 300,
+            "RespawnTime": 60,
+            "DespawnTime": 60,
+            "MinDistanceRadius": 50,
+            "MaxDistanceRadius": 150,
+            "DespawnRadius": 880
         },
         {
             "NumberOfAI": 1,
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    5808.89013671875,
-                    248.07200622558595,
-                    11287.5
+                    2182.93,
+                    264.326,
+                    11126.9
+                ],
+                [
+                    2220.07,
+                    265.496,
+                    11127
+                ],
+                [
+                    2230.49,
+                    269.87,
+                    11146.5
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
-            "Loadout": "BanditLoadout",
-            "Faction": "Mercenaries",
-            "Speed": 0.0,
-            "ThreatSpeed": 3.0,
-            "MinAccuracy": 0.0,
-            "MaxAccuracy": 0.0,
-            "CanBeLooted": 2,
+            "Loadout": "RoguesLoadout",
+            "Faction": "Shamans",
+            "Speed": 0,
+            "ThreatSpeed": 3,
+            "MinAccuracy": 0,
+            "MaxAccuracy": 0,
+            "CanBeLooted": 0,
             "UnlimitedReload": 1,
-            "ThreatDistanceLimit": 1000.0,
-            "DamageMultiplier": 1.0,
-            "DamageReceivedMultiplier": 1.0,
+            "ThreatDistanceLimit": 1000,
+            "DamageMultiplier": 1,
+            "DamageReceivedMultiplier": 1,
             "ClassNames": [
                 "eAI_SurvivorF_Eva",
                 "eAI_SurvivorF_Frida",
@@ -252,36 +292,46 @@
                 "eAI_SurvivorM_Seth",
                 "eAI_SurvivorM_Taiki"
             ],
-            "SniperProneDistanceThreshold": 300.0,
-            "RespawnTime": 1.0,
-            "DespawnTime": 1.0,
-            "MinDistanceRadius": 50.0,
-            "MaxDistanceRadius": 150.0,
-            "DespawnRadius": 880.0
+            "SniperProneDistanceThreshold": 300,
+            "RespawnTime": 60,
+            "DespawnTime": 60,
+            "MinDistanceRadius": 50,
+            "MaxDistanceRadius": 150,
+            "DespawnRadius": 880
         },
         {
             "NumberOfAI": 1,
             "NPCName": "Quest Target",
             "Waypoints": [
                 [
-                    5817.10302734375,
-                    248.00677490234376,
-                    11284.2734375
+                    2225.71,
+                    268.358,
+                    11124.2
+                ],
+                [
+                    2247.6,
+                    267.328,
+                    11074.5
+                ],
+                [
+                    2238.9,
+                    271.889,
+                    11018.1
                 ]
             ],
             "Behaviour": 0,
             "Formation": "RANDOM",
-            "Loadout": "BanditLoadout",
-            "Faction": "Mercenaries",
-            "Speed": 0.0,
-            "ThreatSpeed": 3.0,
-            "MinAccuracy": 0.0,
-            "MaxAccuracy": 0.0,
-            "CanBeLooted": 2,
+            "Loadout": "ReshalaGuardsLoadout",
+            "Faction": "Shamans",
+            "Speed": 0,
+            "ThreatSpeed": 3,
+            "MinAccuracy": 0,
+            "MaxAccuracy": 0,
+            "CanBeLooted": 0,
             "UnlimitedReload": 1,
-            "ThreatDistanceLimit": 1000.0,
-            "DamageMultiplier": 1.0,
-            "DamageReceivedMultiplier": 1.0,
+            "ThreatDistanceLimit": 1000,
+            "DamageMultiplier": 1,
+            "DamageReceivedMultiplier": 1,
             "ClassNames": [
                 "eAI_SurvivorF_Eva",
                 "eAI_SurvivorF_Frida",
@@ -315,16 +365,16 @@
                 "eAI_SurvivorM_Seth",
                 "eAI_SurvivorM_Taiki"
             ],
-            "SniperProneDistanceThreshold": 300.0,
-            "RespawnTime": 1.0,
-            "DespawnTime": 1.0,
-            "MinDistanceRadius": 50.0,
-            "MaxDistanceRadius": 150.0,
-            "DespawnRadius": 880.0
+            "SniperProneDistanceThreshold": 300,
+            "RespawnTime": 60,
+            "DespawnTime": 60,
+            "MinDistanceRadius": 50,
+            "MaxDistanceRadius": 150,
+            "DespawnRadius": 880
         }
     ],
-    "MaxDistance": -1.0,
-    "MinDistance": -1.0,
+    "MaxDistance": -1,
+    "MinDistance": -1,
     "AllowedWeapons": [],
     "AllowedDamageZones": []
 }

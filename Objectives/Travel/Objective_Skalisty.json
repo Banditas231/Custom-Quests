@@ -13,7 +13,7 @@
         2.451550006866455,
         3108.39990234375
     ],
-    "MaxDistance": 70.0,
+    "MaxDistance": 400.0,
     "TriggerOnEnter": 1,
     "TriggerOnExit": 0
 }
