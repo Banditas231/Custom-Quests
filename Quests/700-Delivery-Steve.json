@@ -13,7 +13,7 @@
   "Repeatable": 0,
   "IsDailyQuest": 0,
   "IsWeeklyQuest": 0,
-  "CancelQuestOnPlayerDeath": 0,
+  "CancelQuestOnPlayerDeath": 1,
   "Autocomplete": 0,
   "IsGroupQuest": 0,
   "ObjectSetFileName": "",

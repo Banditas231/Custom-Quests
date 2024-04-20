@@ -1,14 +1,14 @@
 {
     "ConfigVersion": 22,
-    "ID": 506,
+    "ID": 507,
     "Type": 1,
-    "Title": "Skin the Crocodile",
+    "Title": "Rats of Cheno",
     "Descriptions": [
-        "There are rumors that there is a crocodile in our river!",
-        "But I don't really believe in these fakes. If you show me that I will give you a generous gift.",
+        "In the aftermath of Cheno's destruction, the once bustling town has been overrun by an unexpected plague of rats.",
+        "Your task is to venture into the ruins of Cheno and capture as many rats as possible. These creatures are not only a nuisance but also carriers of disease, making their eradication imperative for the safety of the survivors.",
         "Sweet, here is your reward."
     ],
-    "ObjectiveText": "Kill the crocodile and bring its Teeth.",
+    "ObjectiveText": "Conquer the Rat Menace.",
     "FollowUpQuest": -1,
     "Repeatable": 1,
     "IsDailyQuest": 0,
@@ -21,7 +21,7 @@
     "Rewards": [
         {
             "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 10000,
+            "Amount": 6000,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
@@ -44,7 +44,7 @@
     "Objectives": [
         {
             "ConfigVersion": 27,
-            "ID": 7,
+            "ID": 9,
             "ObjectiveType": 4
         }
     ],
