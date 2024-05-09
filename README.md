@@ -19,4 +19,5 @@ Other quests is eddited by (Banditas231)
 New quests added: Hunt animals and another for killing eAi. You need change reward for your likings
 
 # I keep my files updated, so people can use correct and working files.
-# Last updated 04/14/2024 Redone 50% of quests
+# Last updated 05/09/2024 Redone 50% of quests
+# Some eAIs will now spawn in unique locations / sometimes move from point A to point Z. Zombie killing quests are now 1-2-3 (meaning you have to complete the first quest to unlock the second)
