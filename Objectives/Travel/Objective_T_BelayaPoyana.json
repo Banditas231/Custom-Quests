@@ -6,11 +6,11 @@
     "TimeLimit": -1,
     "Active": 1,
     "Position": [
-        14097.8,
-        135.958,
-        14988.9
+        1228.14,
+        149.894,
+        6283.35
     ],
-    "MaxDistance": 300.0,
+    "MaxDistance": 500.0,
     "MarkerName": "Get to outskirts",
     "ShowDistance": 1,
     "TriggerOnEnter": 1,

@@ -64,7 +64,7 @@
     "SniperProneDistanceThreshold": 300,
     "RespawnTime": 60,
     "DespawnTime": 60,
-    "MinDistanceRadius": 50,
+    "MinDistanceRadius": 300,
     "MaxDistanceRadius": 375,
     "DespawnRadius": 800
   },

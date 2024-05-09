@@ -1,85 +1,140 @@
 {
-    "ConfigVersion": 27,
-    "ID": 2,
-    "ObjectiveType": 7,
-    "ObjectiveText": "Kill all 4 units of the Plotina Lake patrol",
-    "TimeLimit": -1,
-    "Active": 1,
-    "AISpawn": {
-        "NumberOfAI": 4,
-        "NPCName": "Quest Target",
-        "Waypoints": [
-            [
-                1279.760009765625,
-                149.4969940185547,
-                6380.240234375
-            ],
-            [
-                1266.1199951171876,
-                150.0540008544922,
-                6301.25
-            ],
-            [
-                1181.449951171875,
-                149.89500427246095,
-                6252.9599609375
-            ]
-        ],
-        "Behaviour": 0,
-        "Formation": "RANDOM",
-        "Loadout": "GorkaLoadout",
-        "Faction": "West",
-        "Speed": 1.0,
-        "ThreatSpeed": 3.0,
-        "MinAccuracy": 0.44999998807907107,
-        "MaxAccuracy": 0.75,
-        "CanBeLooted": 1,
-        "UnlimitedReload": 1,
-        "ThreatDistanceLimit": 1000.0,
-        "DamageMultiplier": 1.0,
-        "DamageReceivedMultiplier": 1.0,
-        "ClassNames": [
-            "eAI_SurvivorF_Eva",
-            "eAI_SurvivorF_Frida",
-            "eAI_SurvivorF_Gabi",
-            "eAI_SurvivorF_Helga",
-            "eAI_SurvivorF_Irena",
-            "eAI_SurvivorF_Judy",
-            "eAI_SurvivorF_Keiko",
-            "eAI_SurvivorF_Linda",
-            "eAI_SurvivorF_Maria",
-            "eAI_SurvivorF_Naomi",
-            "eAI_SurvivorF_Baty",
-            "eAI_SurvivorM_Boris",
-            "eAI_SurvivorM_Cyril",
-            "eAI_SurvivorM_Denis",
-            "eAI_SurvivorM_Elias",
-            "eAI_SurvivorM_Francis",
-            "eAI_SurvivorM_Guo",
-            "eAI_SurvivorM_Hassan",
-            "eAI_SurvivorM_Indar",
-            "eAI_SurvivorM_Jose",
-            "eAI_SurvivorM_Kaito",
-            "eAI_SurvivorM_Lewis",
-            "eAI_SurvivorM_Manua",
-            "eAI_SurvivorM_Mirek",
-            "eAI_SurvivorM_Niki",
-            "eAI_SurvivorM_Oliver",
-            "eAI_SurvivorM_Peter",
-            "eAI_SurvivorM_Quinn",
-            "eAI_SurvivorM_Rolf",
-            "eAI_SurvivorM_Seth",
-            "eAI_SurvivorM_Taiki"
-        ],
-        "SniperProneDistanceThreshold": 300.0,
-        "RespawnTime": 1.0,
-        "DespawnTime": 1.0,
-        "MinDistanceRadius": 50.0,
-        "MaxDistanceRadius": 350.0,
-        "DespawnRadius": 750.0
-    },
-    "MaxDistance": -1.0,
-    "MinDistance": -1.0,
-    "AllowedWeapons": [],
-    "AllowedDamageZones": []
+  "ConfigVersion": 27,
+  "ID": 2,
+  "ObjectiveType": 7,
+  "ObjectiveText": "Kill all 4 units of the Chernoye Ozero patrol",
+  "TimeLimit": -1,
+  "Active": 1,
+  "AISpawn": {
+    "NumberOfAI": 4,
+    "NPCName": "Quest Target",
+    "Waypoints": [
+      [
+        13454.3,
+        64.5618,
+        12132.2
+      ],
+      [
+        13462.2,
+        64.3417,
+        12127.1
+      ],
+      [
+        13453.9,
+        64.0156,
+        12107.7
+      ],
+      [
+        13421.1,
+        66.1094,
+        12114.5
+      ],
+      [
+        13376.6,
+        68.9902,
+        12121
+      ],
+      [
+        13354.3,
+        69.7907,
+        12097.2
+      ],
+      [
+        13345.7,
+        70.0189,
+        12099.9
+      ],
+      [
+        13342.7,
+        70.4218,
+        12116.1
+      ],
+      [
+        13349.3,
+        73.2753,
+        12133.6
+      ],
+      [
+        13344.8,
+        79.6831,
+        12160.5
+      ],
+      [
+        13331.1,
+        81.2253,
+        12170.1
+      ],
+      [
+        13313.5,
+        79.0632,
+        12183.4
+      ],
+      [
+        13298.3,
+        80.4366,
+        12196.7
+      ],
+      [
+        13273.7,
+        87.5304,
+        12192.2
+      ]
+    ],
+    "Behaviour": 2,
+    "Formation": "RANDOM",
+    "Loadout": "GorkaLoadout",
+    "Faction": "Shamans",
+    "Speed": 1,
+    "ThreatSpeed": 3,
+    "MinAccuracy": 0.6,
+    "MaxAccuracy": 0.8,
+    "CanBeLooted": 1,
+    "UnlimitedReload": 1,
+    "ThreatDistanceLimit": 1000,
+    "DamageMultiplier": 1,
+    "DamageReceivedMultiplier": 1,
+    "ClassNames": [
+      "eAI_SurvivorF_Eva",
+      "eAI_SurvivorF_Frida",
+      "eAI_SurvivorF_Gabi",
+      "eAI_SurvivorF_Helga",
+      "eAI_SurvivorF_Irena",
+      "eAI_SurvivorF_Judy",
+      "eAI_SurvivorF_Keiko",
+      "eAI_SurvivorF_Linda",
+      "eAI_SurvivorF_Maria",
+      "eAI_SurvivorF_Naomi",
+      "eAI_SurvivorF_Baty",
+      "eAI_SurvivorM_Boris",
+      "eAI_SurvivorM_Cyril",
+      "eAI_SurvivorM_Denis",
+      "eAI_SurvivorM_Elias",
+      "eAI_SurvivorM_Francis",
+      "eAI_SurvivorM_Guo",
+      "eAI_SurvivorM_Hassan",
+      "eAI_SurvivorM_Indar",
+      "eAI_SurvivorM_Jose",
+      "eAI_SurvivorM_Kaito",
+      "eAI_SurvivorM_Lewis",
+      "eAI_SurvivorM_Manua",
+      "eAI_SurvivorM_Mirek",
+      "eAI_SurvivorM_Niki",
+      "eAI_SurvivorM_Oliver",
+      "eAI_SurvivorM_Peter",
+      "eAI_SurvivorM_Quinn",
+      "eAI_SurvivorM_Rolf",
+      "eAI_SurvivorM_Seth",
+      "eAI_SurvivorM_Taiki"
+    ],
+    "SniperProneDistanceThreshold": 500,
+    "RespawnTime": 1,
+    "DespawnTime": 1,
+    "MinDistanceRadius": 400,
+    "MaxDistanceRadius": 550,
+    "DespawnRadius": 750
+  },
+  "MaxDistance": -1,
+  "MinDistance": -1,
+  "AllowedWeapons": [],
+  "AllowedDamageZones": []
 }

@@ -35,7 +35,7 @@
         11380.7998046875
       ]
     ],
-    "Behaviour": 0,
+    "Behaviour": 3,
     "Formation": "RANDOM",
     "Loadout": "RoguesLoadout",
     "Faction": "Shamans",
@@ -84,7 +84,7 @@
     "SniperProneDistanceThreshold": 300,
     "RespawnTime": 60,
     "DespawnTime": 60,
-    "MinDistanceRadius": 50,
+    "MinDistanceRadius": 100,
     "MaxDistanceRadius": 150,
     "DespawnRadius": 880
   },
