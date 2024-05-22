@@ -1,0 +1,20 @@
+{
+    "ConfigVersion": 27,
+    "ID": 12,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Show me the gold bar for the ride",
+    "TimeLimit": -1,
+    "Collections": [
+        {
+            "Amount": 10,
+            "ClassName": "ExpansionGoldNugget",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": 0
+        }
+    ],
+    "MaxDistance": 10.0,
+    "MarkerName": "Deliver Items",
+    "ShowDistance": 0,
+    "AddItemsToNearbyMarketZone": 0,
+    "Active": 1
+}
