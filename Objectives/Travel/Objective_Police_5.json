@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 27,
+    "ConfigVersion": 28,
     "ID": 5,
     "ObjectiveType": 3,
     "ObjectiveText": "Find the cops",
@@ -7,8 +7,8 @@
     "Active": 1,
     "Position": [
         10097.5,
-        244.993,
-        5499.08
+        244.9929962158203,
+        5499.080078125
     ],
     "MaxDistance": 300.0,
     "MarkerName": "Find the cops",
