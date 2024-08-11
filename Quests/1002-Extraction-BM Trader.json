@@ -1,54 +1,54 @@
 {
-  "ConfigVersion": 22,
-  "ID": 1002,
-  "Type": 1,
-  "Title": "Extraction BM Trader",
-  "Descriptions": [
-    "Need a lift back to BM Trader?",
-    "Description while quest is active.",
-    "Description when take in quest."
-  ],
-  "ObjectiveText": "",
-  "FollowUpQuest": -1,
-  "Repeatable": 1,
-  "IsDailyQuest": 0,
-  "IsWeeklyQuest": 0,
-  "CancelQuestOnPlayerDeath": 0,
-  "Autocomplete": 1,
-  "IsGroupQuest": 0,
-  "ObjectSetFileName": "",
-  "QuestItems": [],
-  "Rewards": [],
-  "NeedToSelectReward": 0,
-  "RandomReward": 0,
-  "RandomRewardAmount": 2500,
-  "RewardsForGroupOwnerOnly": 1,
-  "RewardBehavior": 0,
-  "QuestGiverIDs": [
-    9
-  ],
-  "QuestTurnInIDs": [
-    9
-  ],
-  "IsAchievement": 0,
-  "Objectives": [
-    {
-      "ConfigVersion": 27,
-      "ID": 12,
-      "ObjectiveType": 4
-    }
-  ],
-  "QuestColor": 0,
-  "ReputationReward": 0,
-  "ReputationRequirement": 5000,
-  "PreQuestIDs": [],
-  "RequiredFaction": "",
-  "FactionReward": "",
-  "PlayerNeedQuestItems": 0,
-  "DeleteQuestItems": 0,
-  "SequentialObjectives": 0,
-  "FactionReputationRequirements": {},
-  "FactionReputationRewards": {},
-  "SuppressQuestLogOnCompetion": 1,
-  "Active": 1
+    "ConfigVersion": 22,
+    "ID": 1002,
+    "Type": 1,
+    "Title": "Extraction BM Trader",
+    "Descriptions": [
+        "Need a lift back to BM Trader?",
+        "Description while quest is active.",
+        "Description when take in quest."
+    ],
+    "ObjectiveText": "",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 0,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 1,
+    "IsGroupQuest": 0,
+    "ObjectSetFileName": "",
+    "QuestItems": [],
+    "Rewards": [],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": 2500,
+    "RewardsForGroupOwnerOnly": 1,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        9
+    ],
+    "QuestTurnInIDs": [
+        9
+    ],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 12,
+            "ObjectiveType": 4
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": 7000,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 0,
+    "DeleteQuestItems": 0,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
 }
