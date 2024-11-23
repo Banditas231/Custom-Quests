@@ -14,7 +14,7 @@
         {
             "Name": "Quest Target",
             "Persist": 0,
-            "Faction": "West",
+            "Faction": "Shamans",
             "Formation": "RANDOM",
             "FormationLooseness": 0.0,
             "Loadout": "BanditLoadout",
