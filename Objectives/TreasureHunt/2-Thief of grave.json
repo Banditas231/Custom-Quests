@@ -1,5 +1,5 @@
 {
-    "ConfigVersion": 27,
+    "ConfigVersion": 28,
     "ID": 2,
     "ObjectiveType": 6,
     "ObjectiveText": "Find the location of the grave in Elekto",
@@ -13,31 +13,31 @@
     "Positions": [
         [
             10607.5,
-            33.0198,
-            2638.31
+            33.019798278808597,
+            2638.31005859375
         ],
         [
-            10611,
-            32.9549,
-            2647.19
+            10611.0,
+            32.954898834228519,
+            2647.18994140625
         ],
         [
-            10617.8,
-            32.9337,
-            2657.26
+            10617.7998046875,
+            32.93370056152344,
+            2657.260009765625
         ],
         [
-            10623.6,
-            32.9743,
-            2664.26
+            10623.599609375,
+            32.974300384521487,
+            2664.260009765625
         ],
         [
-            10634.3,
-            32.984,
-            2657.94
+            10634.2998046875,
+            32.98400115966797,
+            2657.93994140625
         ]
     ],
-    "LootItemsAmount": -5,
+    "LootItemsAmount": -7,
     "MaxDistance": 10.0,
     "Loot": [
         {
@@ -51,7 +51,7 @@
         },
         {
             "Name": "NailBox",
-            "Chance": 0.50000001192092898,
+            "Chance": 0.5,
             "Attachments": [],
             "QuantityPercent": -1,
             "Max": -1,
@@ -69,7 +69,7 @@
         },
         {
             "Name": "HM_Bitcoin",
-            "Chance": 0.20000001192092898,
+            "Chance": 0.20000001788139344,
             "Attachments": [],
             "QuantityPercent": -1,
             "Max": -1,
@@ -78,7 +78,7 @@
         },
         {
             "Name": "HM_GPU",
-            "Chance": 0.10000001192092898,
+            "Chance": 0.10000000894069672,
             "Attachments": [],
             "QuantityPercent": -1,
             "Max": -1,
@@ -87,7 +87,7 @@
         },
         {
             "Name": "HM_GPU",
-            "Chance": 0.10000001192092898,
+            "Chance": 0.10000000894069672,
             "Attachments": [],
             "QuantityPercent": -1,
             "Max": -1,
@@ -96,7 +96,7 @@
         },
         {
             "Name": "Lockpick",
-            "Chance": 0.40000001192092898,
+            "Chance": 0.4000000059604645,
             "Attachments": [],
             "QuantityPercent": -1,
             "Max": -1,
@@ -105,7 +105,7 @@
         },
         {
             "Name": "HM_PSU",
-            "Chance": 0.10000001192092898,
+            "Chance": 0.10000000894069672,
             "Attachments": [],
             "QuantityPercent": -1,
             "Max": -1,
@@ -114,7 +114,7 @@
         },
         {
             "Name": "Vodka",
-            "Chance": 0.20000001192092898,
+            "Chance": 0.20000001788139344,
             "Attachments": [],
             "QuantityPercent": -1,
             "Max": -1,
