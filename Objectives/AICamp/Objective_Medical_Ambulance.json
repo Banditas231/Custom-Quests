@@ -51,7 +51,7 @@
                 "eAI_SurvivorM_Seth",
                 "eAI_SurvivorM_Taiki"
             ],
-            "NumberOfAI": 1,
+            "NumberOfAI": -2,
             "Behaviour": "HALT",
             "Speed": "STATIC",
             "UnderThreatSpeed": "SPRINT",
@@ -71,7 +71,7 @@
             "MinSpreadRadius": 0.0,
             "MaxSpreadRadius": 0.0,
             "Chance": 1.0,
-            "WaypointInterpolation": "",
+            "WaypointInterpolation": "UniformCubic",
             "DespawnTime": 1.0,
             "RespawnTime": 1.0,
             "UseRandomWaypointAsStartPoint": 1,
