@@ -13,7 +13,7 @@
     0
   ],
   "NPCName": "Electozavodsk EXTRACTION PILOT",
-  "DefaultNPCText": "You need first visit the camp",
+  "DefaultNPCText": "Something wrong, maybe your reputation is low ?",
   "Waypoints": [],
   "NPCEmoteID": 46,
   "NPCEmoteIsStatic": 0,

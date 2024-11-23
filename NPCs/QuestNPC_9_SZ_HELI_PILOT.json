@@ -3,17 +3,17 @@
   "ID": 9,
   "ClassName": "ExpansionQuestNPCAISeth",
   "Position": [
-    3692.52,
-    402.012,
-    5980.67
+    3685.54,
+    402.692,
+    5988.3
   ],
   "Orientation": [
-    0,
-    0,
-    0
+    3685.54,
+    402.692,
+    5988.3
   ],
   "NPCName": "CARRIER HELI PILOT",
-  "DefaultNPCText": "You need first visit the camp",
+  "DefaultNPCText": "Something wrong, maybe your reputation is low ?",
   "Waypoints": [],
   "NPCEmoteID": 46,
   "NPCEmoteIsStatic": 0,
