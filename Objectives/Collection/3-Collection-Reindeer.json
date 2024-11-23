@@ -1,0 +1,19 @@
+{
+    "ConfigVersion": 28,
+    "ID": 3,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Kill 5 Reindeer and return them to Peter at the merchant.",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 5,
+            "ClassName": "ReindeerSteakMeat",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": 0
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}
