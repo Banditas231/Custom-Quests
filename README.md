@@ -12,9 +12,10 @@ Some quests I found on internet and fixed/updated.
 Other quests is eddited by (Banditas231)
 
 New quests added: Hunt animals and another for killing eAi. You need change reward for your likings
+Added Loadouts.
 
 # I keep my files updated, so people can use correct and working files.
-# Last updated 08/11/2024 New quest and ini file
+# Last updated 12/15/2024 New quest and ini file
 # Some eAIs will now spawn in unique locations / sometimes move from point A to point Z. Zombie killing quests are now 1-2-3 (meaning you have to complete the first quest to unlock the second)
 # Added ini.c This one needs for some quests and Extraction, also you can spawn with custom gear (only clothes). Also if player with name Survivor joins it gonna be naked.
 
