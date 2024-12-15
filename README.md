@@ -12,6 +12,7 @@ Some quests I found on internet and fixed/updated.
 Other quests is eddited by (Banditas231)
 
 New quests added: Hunt animals and another for killing eAi. You need change reward for your likings
+
 Added Loadouts.
 
 # I keep my files updated, so people can use correct and working files.
