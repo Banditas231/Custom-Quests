@@ -19,7 +19,7 @@ Added Loadouts.
 # Last updated 1/10/2025 Added New Quest check it here:
 https://youtu.be/haSRZjZIRbg
 # Some eAIs will now spawn in unique locations / sometimes move from point A to point Z. Zombie killing quests are now 1-2-3 (meaning you have to complete the first quest to unlock the second)
-# Added ini.c This one needs for some quests and Extraction, also you can spawn with custom gear (only clothes). Also if player with name Survivor joins it gonna be naked.
+# Added ini.c This one needs for some quests, also your players spawn with custom gear (only clothes). And if player with name Survivor joins it gonna be naked, so this file helps me to have players with custom names.
 
 # How to instal/use mine Quests on yor server
 # 1 go to your server, and open folder like this: (mine looks like this) ->DayZServer\profiles\ExpansionMod\Quests
