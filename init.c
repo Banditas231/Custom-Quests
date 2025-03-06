@@ -3,7 +3,7 @@ void main()
   //INIT WEATHER BEFORE ECONOMY INIT------------------------
   Weather weather = g_Game.GetWeather();
 
-  weather.MissionWeather(false); // false = use weather controller from Weather.c
+  weather.MissionWeather(true); // false = use weather controller from Weather.c
 
   weather.GetOvercast().Set(Math.RandomFloatInclusive(0.4, 0.6), 1, 0);
   weather.GetRain().Set(0, 0, 1);
@@ -16,7 +16,7 @@ void main()
 
   //DATE RESET AFTER ECONOMY INIT-------------------------
   int year, month, day, hour, minute;
-  int reset_month = 12, reset_day = 20;
+  int reset_month = 3, reset_day = 10;
   GetGame().GetWorld().GetDate(year, month, day, hour, minute);
 
   if ((month == reset_month) && (day < reset_day)) {
@@ -34,7 +34,7 @@ void main()
 
 class CustomMission: MissionServer
 {
-	//! Quest Events Medic Investigate Hospital
+	//! Quest Events Field Medic and Good Person
 #ifdef EXPANSIONMODQUESTS
     override void Expansion_OnQuestStart(ExpansionQuest quest)
     {
@@ -152,6 +152,51 @@ class CustomMission: MissionServer
         ExpansionTempQuestHolderPosition questHolderEscortPos = new ExpansionTempQuestHolderPosition("3230.55 210.046 13025.7", "140.698 0 -0");
         ExpansionQuestModule.GetModuleInstance().SpawnQuestHolder(questHolderEscort, questHolderEscortPos);
     }
+  //! ADD THIS AFTER EVERYTHING ELSE IN THIS CLASS
+	//! Quest Event Repair my Weapon
+	override void Expansion_OnQuestCompletion(ExpansionQuest quest)
+{
+    switch (quest.GetQuestConfig().GetID())
+    {
+        case 910: //! If quest ID is 910 then this will be executed on quest completion
+        {
+            PlayerBase player = quest.GetPlayer();
+            if (player)
+            {
+                array<EntityAI> items;
+                array<EntityAI> attachmentsItems;
+
+                // Get the weapon in the player's hands
+                EntityAI handItem = player.GetHumanInventory().GetEntityInHands();
+
+                // Check if it's a weapon
+                if (handItem && handItem.IsInherited(Weapon))
+                {
+                    // Repair the weapon
+                    if (handItem.GetHealth("","") < handItem.GetMaxHealth("",""))
+                        handItem.SetFullHealth();
+
+                    // Repair attachments on the weapon
+                    attachmentsItems = new array<EntityAI>;
+                    attachmentsItems.Reserve(handItem.GetInventory().CountInventory());
+                    handItem.GetInventory().EnumerateInventory(InventoryTraversalType.PREORDER, attachmentsItems);
+
+                    foreach (EntityAI attachment: attachmentsItems)
+                    {
+                        if (attachment && attachment.GetHealth("","") < attachment.GetMaxHealth("",""))
+                            attachment.SetFullHealth();
+                    }
+                }
+            }
+        }
+        break;
+    }
+
+    super.Expansion_OnQuestCompletion(quest);
+}
+
+
+
 #endif
 
   /* Set global variables to use in the following functions */
