@@ -15,8 +15,10 @@ New quests added: Hunt animals and another for killing eAi. You need change rewa
 
 Added Loadouts.
 
+
 # I keep my files updated, so people can use correct and working files.
-# Last updated 1/10/2025 Added New Quest check it here:
+# Last updated 03/06/2025 Added New Quest check it here:
+https://youtu.be/niajpiBvWZM (NEW)
 https://youtu.be/haSRZjZIRbg
 # Some eAIs will now spawn in unique locations / sometimes move from point A to point Z. Zombie killing quests are now 1-2-3 (meaning you have to complete the first quest to unlock the second)
 # Added ini.c This one needs for some quests, also your players spawn with custom gear (only clothes). And if player with name Survivor joins it gonna be naked, so this file helps me to have players with custom names.
