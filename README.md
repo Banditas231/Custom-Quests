@@ -1,19 +1,20 @@
-All files what i use on my server.
-Hello here is my Expansion Quests for Chernogorsk map , Some Quests requeres mods for loot/eAI Loadouts.
+**All files that I use on my server.**
 
-Mods:
-@MMG - Mightys Military Gear @SNAFU Weapons @Hunter Mega Pack But also you can change loot for what you like.
+**Hello, here are my Expansion Quests for the Chernogorsk map.** 
+Some quests require mods for loot/eAI loadouts.
 
-Also change NPC Loadouts for what you use.
-Every thing is in the forlders, so just simply add what you like.
+**Mods:** @MMG - Mighty's Military Gear, @SNAFU Weapons, @Hunter Mega Pack. But you can also change the loot to whatever you like.
 
-That's it . You done, congratulation now you have the Banditas colection of the Quests for your server. I hope you like this ...
-Some quests I found on internet and fixed/updated.
-Other quests is eddited by (Banditas231)
+Also, change the NPC loadouts to match what you use. Everything is in the folders, so just add what you like.
 
-New quests added: Hunt animals and another for killing eAi. You need change reward for your likings
+That's it. You're done! Congratulations, you now have the Banditas collection of quests for your server. I hope you like it... Some quests I found on the internet and fixed/updated. Other quests were edited by (Banditas231).
 
-Added Loadouts.
+**New quests added:** 
+Hunt animals and another for killing eAI. 
+You need to change the rewards to your liking.
+
+**Added Loadouts.**
+
 
 
 # I keep my files updated, so people can use correct and working files.
