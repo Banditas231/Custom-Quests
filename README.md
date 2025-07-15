@@ -43,4 +43,5 @@ DayZServer\profiles\ExpansionMod\Quests
 Drag and drop the 3 folders provided (if you're using default Expansion settings and don’t yet have custom quests).
 That’s it! Start your server and adjust the quests as you like.
 
-
+I hope this helps some of you out there! 💪
+If you have any questions, feel free to ask.
