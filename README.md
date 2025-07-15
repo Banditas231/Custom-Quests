@@ -1,30 +1,46 @@
-**All files that I use on my server.**
+**All the files I use on my server.**
 
-**Hello, here are my Expansion Quests for the Chernogorsk map.** 
-Some quests require mods for loot/eAI loadouts.
+**Hello! These are my Expansion Quests for the Chernogorsk map.** 
+Some quests require specific mods for loot or eAI loadouts.
 
-**Mods:** @MMG - Mighty's Military Gear, @SNAFU Weapons, @Hunter Mega Pack. But you can also change the loot to whatever you like.
+**Required Mods:**
+@MMG - Mighty's Military Gear, @SNAFU Weapons, @Hunter Mega Pack
+You can replace the loot with anything you prefer.
+Make sure to update the NPC loadouts to match your server setup. All the files are organized into folders, so you can easily pick and use what you need.
 
-Also, change the NPC loadouts to match what you use. Everything is in the folders, so just add what you like.
-
-That's it. You're done! Congratulations, you now have the Banditas collection of quests for your server. I hope you like it... Some quests I found on the internet and fixed/updated. Other quests were edited by (Banditas231).
+That’s it — you’re done! Congratulations, you now have the Banditas Collection of quests for your server. I hope you enjoy them!
+Some quests were found online and fixed/updated by me, while others were custom-edited by Banditas231.
 
 **New quests added:** 
-Hunt animals and another for killing eAI. 
-You need to change the rewards to your liking.
+Hunt animals
+Kill eAI
 
-**Added Loadouts.**
+Don’t forget to adjust the rewards to your liking.
+
+Loadouts have also been added.
 
 
 
-# I keep my files updated, so people can use correct and working files.
-# Last updated 03/06/2025 Added New Quest check it here:
-(NEW) https://youtu.be/niajpiBvWZM
-(Other Quest) https://youtu.be/haSRZjZIRbg
-# Some eAIs will now spawn in unique locations / sometimes move from point A to point Z. Zombie killing quests are now 1-2-3 (meaning you have to complete the first quest to unlock the second)
-# Added ini.c This one needs for some quests, also your players spawn with custom gear (only clothes). And if player with name Survivor joins it gonna be naked, so this file helps me to have players with custom names.
+✅ I keep my files updated so people can use correct and working quests.
+🕓 Last updated: 03/06/2025
+➡️ New quest added — check it here:
 
-# How to instal/use mine Quests on yor server
-# 1 go to your server, and open folder like this: (mine looks like this) ->DayZServer\profiles\ExpansionMod\Quests
-# 2 Drag and drop those 3 folders (If you use default settings and not have random Quest yet)
-# Thats it, start your server . And ajust Quest for your liking. I hope it helps on some of you.
+🔥 (NEW) https://youtu.be/niajpiBvWZM
+
+🎯 (Other Quest) https://youtu.be/haSRZjZIRbg
+
+🔄 Updates:
+Some eAI now spawn in unique locations and may move from point A to point Z.
+Zombie-killing quests are now tiered (1-2-3), meaning you must complete Quest 1 to unlock Quest 2, and so on.
+Added init.c — this file is required for some quests. It also gives players custom starting clothes.
+
+Players with the default name "Survivor" will spawn naked, so this file helps enforce custom character names.
+
+📦 How to Install/Use My Quests on Your Server:
+Go to your DayZ server folder and navigate to:
+DayZServer\profiles\ExpansionMod\Quests
+(This is my path — yours may look similar)
+Drag and drop the 3 folders provided (if you're using default Expansion settings and don’t yet have custom quests).
+That’s it! Start your server and adjust the quests as you like.
+
+
