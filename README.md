@@ -11,8 +11,8 @@ Make sure to update the NPC loadouts to match your server setup. All the files a
 That’s it — you’re done! Congratulations, you now have the Banditas Collection of quests for your server. I hope you enjoy them!
 Some quests were found online and fixed/updated by me, while others were custom-edited by Banditas231.
 
-**New quests added:** 
-"The Lost Survivor" 
+**New quests added:**
+"The Lost Survivor"
 Hunt animals
 Kill eAI
 
