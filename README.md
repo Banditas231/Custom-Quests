@@ -13,8 +13,6 @@ Some quests were found online and fixed/updated by me, while others were custom-
 
 **New quests added:** The Lost Survivor
 
-Hunt animals
-Kill eAI
 
 Don’t forget to adjust the rewards to your liking.
 
