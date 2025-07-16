@@ -1,0 +1,59 @@
+{
+  "ConfigVersion": 22,
+  "ID": 133,
+  "Type": 1,
+  "Title": "The Lost Survivor",
+  "Descriptions": [
+    "I need your help to find a missing survivor. Can I count on you? This is their last known location. But be prepared—this survivor was kidnapped. You'll likely need some gear... and transport. This won’t be easy.",
+    "Head to the marked location and find the kidnapped survivor.",
+    "Thank you. You saved our survivors from the Hostiles—they owe you their lives."
+  ],
+  "ObjectiveText": "Travel to last known location.",
+  "FollowUpQuest": 406,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 1,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": -1,
+  "RewardsForGroupOwnerOnly": 1,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    2
+  ],
+  "QuestTurnInIDs": [
+    4003
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 73,
+      "ObjectiveType": 3
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 73,
+      "ObjectiveType": 8
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 500,
+  "ReputationRequirement": -1,
+  "PreQuestIDs": [],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}
