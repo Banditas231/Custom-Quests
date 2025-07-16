@@ -12,6 +12,7 @@ That’s it — you’re done! Congratulations, you now have the Banditas Collec
 Some quests were found online and fixed/updated by me, while others were custom-edited by Banditas231.
 
 **New quests added:** 
+"The Lost Survivor" 
 Hunt animals
 Kill eAI
 
@@ -22,7 +23,7 @@ Loadouts have also been added.
 
 
 ✅ I keep my files updated so people can use correct and working quests.
-🕓 Last updated: 03/06/2025
+🕓 Last updated: 07/16/2025
 ➡️ New quest added — check it here:
 
 🔥 (NEW) https://youtu.be/niajpiBvWZM
