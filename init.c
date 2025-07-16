@@ -3,7 +3,7 @@ void main()
   //INIT WEATHER BEFORE ECONOMY INIT------------------------
   Weather weather = g_Game.GetWeather();
 
-  weather.MissionWeather(true); // false = use weather controller from Weather.c
+  weather.MissionWeather(false); // false = use weather controller from Weather.c
 
   weather.GetOvercast().Set(Math.RandomFloatInclusive(0.4, 0.6), 1, 0);
   weather.GetRain().Set(0, 0, 1);
@@ -16,7 +16,7 @@ void main()
 
   //DATE RESET AFTER ECONOMY INIT-------------------------
   int year, month, day, hour, minute;
-  int reset_month = 3, reset_day = 10;
+  int reset_month = 6, reset_day = 10;
   GetGame().GetWorld().GetDate(year, month, day, hour, minute);
 
   if ((month == reset_month) && (day < reset_day)) {
@@ -34,7 +34,7 @@ void main()
 
 class CustomMission: MissionServer
 {
-	//! Quest Events Field Medic and Good Person
+	//! Quest Events Medic Investigate Hospital
 #ifdef EXPANSIONMODQUESTS
     override void Expansion_OnQuestStart(ExpansionQuest quest)
     {
@@ -61,11 +61,25 @@ class CustomMission: MissionServer
                     SpawnQuestHolder_4001();
             }
             break;
-            //! Quest 403 - Survivors - Field Medic
+            //! Quest 403 - Survivors - Good Person
 			      case 403:
 			      {
 			      	if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(8))
 			      		ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4001, ExpansionQuestNPCType.AI);
+			      }
+			      break;
+            //! Quest 133 - The Lost Survivor - NEW QUEST
+            case 133:
+            {
+                if (!ExpansionQuestModule.GetModuleInstance().TempQuestHolderExists(4003))
+                    SpawnQuestHolder_4003();
+            }
+            break;
+            //! Quest 406 - The Lost Survivor - NEW QUEST
+			      case 406:
+			      {
+			      	if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(8))
+			      		ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4003, ExpansionQuestNPCType.AI);
 			      }
 			      break;
         }
@@ -93,6 +107,14 @@ class CustomMission: MissionServer
                     SpawnQuestHolder_4001();
             }
             break;
+            //! Quest 133--The Lost Survivor - NEW QUEST
+            //! Spawn a new quest-giver NPC on the given location
+            case 133:
+            {
+                if (!ExpansionQuestModule.GetModuleInstance().TempQuestHolderExists(4003))
+                    SpawnQuestHolder_4003();
+            }
+            break;
         }
     }
 
@@ -102,6 +124,7 @@ class CustomMission: MissionServer
 
         switch (quest.GetQuestConfig().GetID())
         {
+            //! Quest 131 - Survivors - AI Escort quest chain
             case 131:
             {
                 if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(131))
@@ -114,6 +137,7 @@ class CustomMission: MissionServer
 			      	  	  ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4000, ExpansionQuestNPCType.AI);
 			      }
 			      break;
+            //! Quest 132--Good Person, Investigate School
             case 132:
             {
                 if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(132))
@@ -126,9 +150,22 @@ class CustomMission: MissionServer
 			      	  	  ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4001, ExpansionQuestNPCType.AI);
 			      }
 			      break;
+            //!The Lost Survivor - NEW QUEST
+            case 133:
+            {
+                if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(133))
+                    ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4003, ExpansionQuestNPCType.AI);
+            }
+            break;
+            case 406:
+			      {
+			      	  if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(8))
+			      	  	  ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4003, ExpansionQuestNPCType.AI);
+			      }
+			      break;
         }
     }
-
+    //! Quest 131 - Survivors - AI Escort quest chain
     protected void SpawnQuestHolder_4000()
     {
         ExpansionTempQuestHolder questHolderEscort = new ExpansionTempQuestHolder(4000, "ExpansionQuestNPCAIFrida", "Marina Sidorova", "There is nothing to do here for you...");
@@ -140,7 +177,7 @@ class CustomMission: MissionServer
         ExpansionTempQuestHolderPosition questHolderEscortPos = new ExpansionTempQuestHolderPosition("5991.19 307.92 7692.06", "-166.768 0 -0");
         ExpansionQuestModule.GetModuleInstance().SpawnQuestHolder(questHolderEscort, questHolderEscortPos);
     }
-
+    //! Quest 132--Good Person, Investigate School
     protected void SpawnQuestHolder_4001()
     {
         ExpansionTempQuestHolder questHolderEscort = new ExpansionTempQuestHolder(4001, "ExpansionQuestNPCAIJudy", "Elena Petrova", "There is nothing to do here for you...");
@@ -152,51 +189,18 @@ class CustomMission: MissionServer
         ExpansionTempQuestHolderPosition questHolderEscortPos = new ExpansionTempQuestHolderPosition("3230.55 210.046 13025.7", "140.698 0 -0");
         ExpansionQuestModule.GetModuleInstance().SpawnQuestHolder(questHolderEscort, questHolderEscortPos);
     }
-  //! ADD THIS AFTER EVERYTHING ELSE IN THIS CLASS
-	//! Quest Event Repair my Weapon
-	override void Expansion_OnQuestCompletion(ExpansionQuest quest)
-{
-    switch (quest.GetQuestConfig().GetID())
+    //!The Lost Survivor - NEW QUEST
+    protected void SpawnQuestHolder_4003()
     {
-        case 910: //! If quest ID is 910 then this will be executed on quest completion
-        {
-            PlayerBase player = quest.GetPlayer();
-            if (player)
-            {
-                array<EntityAI> items;
-                array<EntityAI> attachmentsItems;
+        ExpansionTempQuestHolder questHolderEscort = new ExpansionTempQuestHolder(4003, "ExpansionQuestNPCAIHassan", "Hassan", "There is nothing to do here for you...");
+        if (!questHolderEscort)
+            return;
 
-                // Get the weapon in the player's hands
-                EntityAI handItem = player.GetHumanInventory().GetEntityInHands();
-
-                // Check if it's a weapon
-                if (handItem && handItem.IsInherited(Weapon))
-                {
-                    // Repair the weapon
-                    if (handItem.GetHealth("","") < handItem.GetMaxHealth("",""))
-                        handItem.SetFullHealth();
-
-                    // Repair attachments on the weapon
-                    attachmentsItems = new array<EntityAI>;
-                    attachmentsItems.Reserve(handItem.GetInventory().CountInventory());
-                    handItem.GetInventory().EnumerateInventory(InventoryTraversalType.PREORDER, attachmentsItems);
-
-                    foreach (EntityAI attachment: attachmentsItems)
-                    {
-                        if (attachment && attachment.GetHealth("","") < attachment.GetMaxHealth("",""))
-                            attachment.SetFullHealth();
-                    }
-                }
-            }
-        }
-        break;
+        questHolderEscort.SetNPCEmoteID(EmoteConstants.ID_EMOTE_SITA);
+        questHolderEscort.SetLoadoutName("SurvivorLoadout");
+        ExpansionTempQuestHolderPosition questHolderEscortPos = new ExpansionTempQuestHolderPosition("13854.64 30.53 2889.72", "62.99 -0 -0");
+        ExpansionQuestModule.GetModuleInstance().SpawnQuestHolder(questHolderEscort, questHolderEscortPos);
     }
-
-    super.Expansion_OnQuestCompletion(quest);
-}
-
-
-
 #endif
 
   /* Set global variables to use in the following functions */
