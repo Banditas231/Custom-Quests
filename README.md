@@ -1,6 +1,6 @@
 **All the files I use on my server.**
 
-**Hello! These are my Expansion Quests for the Chernogorsk map.** 
+**Hello! These are my Expansion Quests for the Chernogorsk map.**
 Some quests require specific mods for loot or eAI loadouts.
 
 **Required Mods:**
@@ -11,11 +11,11 @@ Make sure to update the NPC loadouts to match your server setup. All the files a
 That’s it — you’re done! Congratulations, you now have the Banditas Collection of quests for your server. I hope you enjoy them!
 Some quests were found online and fixed/updated by me, while others were custom-edited by Banditas231.
 
-**New quests added:** The Lost Survivor
+**New quests added:**
+The Lost Survivor
 
 
 Don’t forget to adjust the rewards to your liking.
-
 Loadouts have also been added.
 
 
