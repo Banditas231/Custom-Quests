@@ -24,7 +24,8 @@ Loadouts have also been added.
 🕓 Last updated: 07/16/2025
 ➡️ New quest added — check it here:
 
-🔥 (NEW) https://youtu.be/niajpiBvWZM
+🔥 (NEW) https://youtu.be/5oO62rVa2jA
+🔥 https://youtu.be/niajpiBvWZM
 
 🎯 (Other Quest) https://youtu.be/haSRZjZIRbg
 
