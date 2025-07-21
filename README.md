@@ -21,7 +21,8 @@ Loadouts have also been added.
 
 
 ✅ I keep my files updated so people can use correct and working quests.
-🕓 Last updated: 07/16/2025
+🕓 Last updated: **07/21/2025**
+**Rewritten texts, changed some quest rewards, added a few custom quests**
 ➡️ New quest added — check it here:
 
 🔥 (NEW) https://youtu.be/5oO62rVa2jA
