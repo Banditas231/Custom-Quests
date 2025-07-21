@@ -1,111 +1,120 @@
 {
-    "ConfigVersion": 22,
-    "ID": 402,
-    "Type": 1,
-    "Title": "Field Medic",
-    "Descriptions": [
-        "I am sorry.. I was not sure if you are friendly or not. My name is \"Marina Sidorova\". I waked up a few hours ago on the coast to the north and ended up here in this city looking for help.. Then I found a radio and could get in contant with that camp before I got attacked by a dead looking person and lost the radio while I ran away.. I managed to escape into this building and waited until you arived here now. I don't know whats going on here or how the hell I ended up on this place but could you please bring me to that camp? I don't have a lot but if you help me you can have these items i found..",
-        "...",
-        "Thank you for bringing me here %1. I will stay here for now and warm myself up first before I think about what to do next.."
-    ],
-    "ObjectiveText": "Escort \"Marina Sidorova\" to the \"Survivor Camp\".",
-    "FollowUpQuest": -1,
-    "Repeatable": 1,
-    "IsDailyQuest": 0,
-    "IsWeeklyQuest": 1,
-    "CancelQuestOnPlayerDeath": 0,
-    "Autocomplete": 0,
-    "IsGroupQuest": 0,
-    "ObjectSetFileName": "",
-    "QuestItems": [],
-    "Rewards": [
-        {
-            "ClassName": "HM_Medical_Bag",
-            "Amount": 1,
-            "Attachments": [],
-            "DamagePercent": 0,
-            "HealthPercent": 0,
-            "QuestID": 1,
-            "Chance": 0.0
-        },
-        {
-            "ClassName": "HM_Emebandage",
-            "Amount": 1,
-            "Attachments": [],
-            "DamagePercent": 0,
-            "HealthPercent": 0,
-            "QuestID": 1,
-            "Chance": 0.0
-        },
-        {
-            "ClassName": "HM_Golden_Star",
-            "Amount": 1,
-            "Attachments": [],
-            "DamagePercent": 0,
-            "HealthPercent": 0,
-            "QuestID": 1,
-            "Chance": 0.0
-        },
-        {
-            "ClassName": "HM_AI2",
-            "Amount": 1,
-            "Attachments": [],
-            "DamagePercent": 0,
-            "HealthPercent": 0,
-            "QuestID": 1,
-            "Chance": 0.0
-        },
-        {
-            "ClassName": "HM_Propital_Green",
-            "Amount": 1,
-            "Attachments": [],
-            "DamagePercent": 0,
-            "HealthPercent": 0,
-            "QuestID": 1,
-            "Chance": 0.0
-        },
-        {
-            "ClassName": "HM_Propital_Red",
-            "Amount": 1,
-            "Attachments": [],
-            "DamagePercent": 0,
-            "HealthPercent": 0,
-            "QuestID": 1,
-            "Chance": 0.0
-        }
-    ],
-    "NeedToSelectReward": 0,
-    "RandomReward": 0,
-    "RandomRewardAmount": 0,
-    "RewardsForGroupOwnerOnly": 0,
-    "RewardBehavior": 0,
-    "QuestGiverIDs": [
-        4000
-    ],
-    "QuestTurnInIDs": [
-        1
-    ],
-    "IsAchievement": 0,
-    "Objectives": [
-        {
-            "ConfigVersion": 28,
-            "ID": 3,
-            "ObjectiveType": 9
-        }
-    ],
-    "QuestColor": 0,
-    "ReputationReward": 1000,
-    "ReputationRequirement": 0,
-    "PreQuestIDs": [
-        131
-    ],
-    "RequiredFaction": "",
-    "FactionReward": "",
-    "PlayerNeedQuestItems": 1,
-    "DeleteQuestItems": 1,
-    "SequentialObjectives": 1,
-    "FactionReputationRequirements": {},
-    "FactionReputationRewards": {},
-    "SuppressQuestLogOnCompetion": 0,
-    "Active": 1
+  "ConfigVersion": 22,
+  "ID": 402,
+  "Type": 1,
+  "Title": "Field Medic",
+  "Descriptions": [
+    "I am sorry.. I was not sure if you are friendly or not. My name is \"Marina Sidorova\". I waked up a few hours ago on the coast to the north and ended up here in this city looking for help.. Then I found a radio and could get in contant with that camp before I got attacked by a dead looking person and lost the radio while I ran away.. I managed to escape into this building and waited until you arived here now. I don't know whats going on here or how the hell I ended up on this place but could you please bring me to that camp? I don't have a lot but if you help me you can have these items i found..",
+    "...",
+    "Thank you for bringing me here %1. I will stay here for now and warm myself up first before I think about what to do next.."
+  ],
+  "ObjectiveText": "Escort \"Marina Sidorova\" to the \"Survivor Camp\".",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 1,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "InediaPain_FirstAidCase_Black",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": 1,
+      "Chance": 0
+    },
+    {
+      "ClassName": "InediaPain_SurgicalKit",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": 1,
+      "Chance": 0
+    },
+    {
+      "ClassName": "InediaPain_Tramadol",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": 1,
+      "Chance": 0
+    },
+    {
+      "ClassName": "InediaPain_HemostaticDressing",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": 1,
+      "Chance": 0
+    },
+    {
+      "ClassName": "InediaPain_Metoclopramide",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": 1,
+      "Chance": 0
+    },
+    {
+      "ClassName": "InediaPain_Sorbifer",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": 1,
+      "Chance": 0
+    },
+    {
+      "ClassName": "InediaPain_Vikasol",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": 1,
+      "Chance": 0
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": 0,
+  "RewardsForGroupOwnerOnly": 0,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    4000
+  ],
+  "QuestTurnInIDs": [
+    1
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 3,
+      "ObjectiveType": 9
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 2000,
+  "ReputationRequirement": 0,
+  "PreQuestIDs": [
+    131
+  ],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
 }

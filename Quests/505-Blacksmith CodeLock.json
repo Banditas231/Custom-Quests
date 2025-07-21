@@ -1,35 +1,26 @@
 {
   "ConfigVersion": 22,
-  "ID": 504,
+  "ID": 505,
   "Type": 1,
-  "Title": "Deer Pelt",
+  "Title": "Blacksmith codelock",
   "Descriptions": [
-    "The nights are started to get colder, we need some Deer pelts to make blankets out of.",
-    "Kill a Deer and bring it's pelt back to Peter at the Trade Center.",
-    "Sweet, here is your reward."
+    "In an apocalypse, those days aren't safe. It seems like you'll need one of the best locks around!",
+    "Collect all items and bring them back to Peter at the Trade Center.",
+    "That should keep you safe for a while."
   ],
-  "ObjectiveText": "Kill and field dress a Deer.",
+  "ObjectiveText": "Collect all items.",
   "FollowUpQuest": -1,
   "Repeatable": 1,
   "IsDailyQuest": 0,
   "IsWeeklyQuest": 1,
-  "CancelQuestOnPlayerDeath": 1,
+  "CancelQuestOnPlayerDeath": 0,
   "Autocomplete": 0,
   "IsGroupQuest": 0,
   "ObjectSetFileName": "",
   "QuestItems": [],
   "Rewards": [
     {
-      "ClassName": "ExpansionBanknoteHryvnia",
-      "Amount": 3750,
-      "Attachments": [],
-      "DamagePercent": 0,
-      "HealthPercent": 0,
-      "QuestID": -1,
-      "Chance": 1
-    },
-    {
-      "ClassName": "LeatherSewingKit",
+      "ClassName": "ExpansionCodeLock",
       "Amount": 1,
       "Attachments": [],
       "DamagePercent": 0,
@@ -53,13 +44,13 @@
   "Objectives": [
     {
       "ConfigVersion": 28,
-      "ID": 5,
+      "ID": 6,
       "ObjectiveType": 4
     }
   ],
   "QuestColor": 0,
-  "ReputationReward": 1200,
-  "ReputationRequirement": 0,
+  "ReputationReward": 0,
+  "ReputationRequirement": 3000,
   "PreQuestIDs": [],
   "RequiredFaction": "",
   "FactionReward": "",

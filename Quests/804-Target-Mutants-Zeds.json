@@ -1,15 +1,15 @@
 {
   "ConfigVersion": 22,
-  "ID": 802,
+  "ID": 804,
   "Type": 1,
   "Title": "Zombie Detail",
   "Descriptions": [
-    "The infected are growing in numbers, and we're running out of time. We need someone capable of thinning their ranks. %1 Your task: eliminate 50 zombies. Can we count on you %1 ?",
+    "They only come out at night... and most people are smart enough to stay inside. But we need someone reckless — or brave — enough to take them down. Hunt and kill 10 mutants under the cover of darkness. It's dangerous out there... don't become one of them.",
     "You are not done yet? Come back when the job is done!",
-    "Objective complete. 50 hostiles neutralized. Good work, soldier — here’s your compensation."
+    "You went out there at night and actually came back in one piece? Either you’re crazy or just really good. Either way — here, take this."
   ],
-  "ObjectiveText": "Kill 50 Zombies.",
-  "FollowUpQuest": 801,
+  "ObjectiveText": "Kill 10 Mutants.",
+  "FollowUpQuest": 803,
   "Repeatable": 1,
   "IsDailyQuest": 0,
   "IsWeeklyQuest": 1,
@@ -21,7 +21,7 @@
   "Rewards": [
     {
       "ClassName": "ExpansionBanknoteHryvnia",
-      "Amount": 3000,
+      "Amount": 5000,
       "Attachments": [],
       "DamagePercent": 0,
       "HealthPercent": 0,
@@ -29,7 +29,7 @@
       "Chance": 1
     },
     {
-      "ClassName": "InediaPain_FirstAidKit_White",
+      "ClassName": "ExpansionCodeLock",
       "Amount": 1,
       "Attachments": [],
       "DamagePercent": 0,
@@ -51,15 +51,15 @@
   "Objectives": [
     {
       "ConfigVersion": 28,
-      "ID": 3,
+      "ID": 5,
       "ObjectiveType": 2
     }
   ],
   "QuestColor": 0,
-  "ReputationReward": 500,
+  "ReputationReward": 2500,
   "ReputationRequirement": 0,
   "PreQuestIDs": [
-    801
+    803
   ],
   "RequiredFaction": "",
   "FactionReward": "",
