@@ -1,125 +1,233 @@
 {
-    "ConfigVersion": 28,
-    "ID": 2,
-    "ObjectiveType": 6,
-    "ObjectiveText": "Find the location of the grave in Elekto",
-    "TimeLimit": -1,
-    "Active": 1,
-    "ShowDistance": 1,
-    "ContainerName": "ExpansionQuestSeaChest",
-    "DigInStash": 1,
-    "MarkerName": "???",
-    "MarkerVisibility": 4,
-    "Positions": [
-        [
-            10607.5,
-            33.019798278808597,
-            2638.31005859375
-        ],
-        [
-            10611.0,
-            32.954898834228519,
-            2647.18994140625
-        ],
-        [
-            10617.7998046875,
-            32.93370056152344,
-            2657.260009765625
-        ],
-        [
-            10623.599609375,
-            32.974300384521487,
-            2664.260009765625
-        ],
-        [
-            10634.2998046875,
-            32.98400115966797,
-            2657.93994140625
-        ]
+  "ConfigVersion": 28,
+  "ID": 2,
+  "ObjectiveType": 6,
+  "ObjectiveText": "Find the location of the grave in Elekto",
+  "TimeLimit": -1,
+  "Active": 1,
+  "ShowDistance": 1,
+  "ContainerName": "ExpansionQuestSeaChest",
+  "DigInStash": 1,
+  "MarkerName": "???",
+  "MarkerVisibility": 4,
+  "Positions": [
+    [
+      10607.5,
+      33.019798278808594,
+      2638.31005859375
     ],
-    "LootItemsAmount": -7,
-    "MaxDistance": 10.0,
-    "Loot": [
-        {
-            "Name": "NailBox",
-            "Chance": 0.30000001192092898,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "NailBox",
-            "Chance": 0.5,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "HM_Bitcoin",
-            "Chance": 0.30000001192092898,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "HM_Bitcoin",
-            "Chance": 0.20000001788139344,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "HM_GPU",
-            "Chance": 0.10000000894069672,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "HM_GPU",
-            "Chance": 0.10000000894069672,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "Lockpick",
-            "Chance": 0.4000000059604645,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "HM_PSU",
-            "Chance": 0.10000000894069672,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "Vodka",
-            "Chance": 0.20000001788139344,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        }
+    [
+      10611,
+      32.954898834228516,
+      2647.18994140625
+    ],
+    [
+      10617.7998046875,
+      32.93370056152344,
+      2657.260009765625
+    ],
+    [
+      10623.599609375,
+      32.974300384521484,
+      2664.260009765625
+    ],
+    [
+      10634.2998046875,
+      32.98400115966797,
+      2657.93994140625
     ]
+  ],
+  "LootItemsAmount": -7,
+  "MaxDistance": 10,
+  "Loot": [
+    {
+      "Name": "NailBox",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "NailBox",
+      "Chance": 0.5,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "Project3DPrinter_Filament_Blue",
+      "Chance": 0.10000000894069672,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "Project3DPrinter_Filament_LightBlue",
+      "Chance": 0.10000000894069672,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "Project3DPrinter_Filament_Orange",
+      "Chance": 0.10000000894069672,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "Project3DPrinter_Filament_Red",
+      "Chance": 0.10000000894069672,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "Project3DPrinter_Filament_Violet",
+      "Chance": 0.10000000894069672,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "Project3DPrinter_Filament_Yellow",
+      "Chance": 0.10000000894069672,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "Project3DPrinter_Filament_Green",
+      "Chance": 0.10000000894069672,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "TerjeBookAthletic1",
+      "Chance": 0.10000000894069672,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "TerjeBookFishing1",
+      "Chance": 0.10000000894069672,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "TerjeBookHunting1",
+      "Chance": 0.10000000894069672,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "TerjeBookMetabolism1",
+      "Chance": 0.10000000894069672,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "TerjeBookStealth1",
+      "Chance": 0.10000000894069672,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "TerjeBookStrength1",
+      "Chance": 0.10000000894069672,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "TerjeBookSurvival1",
+      "Chance": 0.10000000894069672,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "Lockpick",
+      "Chance": 0.4000000059604645,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "Project3DPrinter_USB_01",
+      "Chance": 0.020000001788139342,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "Project3DPrinter_USB_02",
+      "Chance": 0.020000001788139342,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "Project3DPrinter_USB_03",
+      "Chance": 0.020000001788139342,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "Project3DPrinter_USB_04",
+      "Chance": 0.020000001788139342,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    }
+  ]
 }
