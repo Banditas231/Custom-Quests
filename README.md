@@ -27,7 +27,10 @@ Some quests were found online and fixed/updated by me, while others were custom-
 
 ### **New Quests Added:**
 
-- **The Lost Survivor**
+- **Pilot Crash chain quest 3 quests**
+- 🔥 [NEW VIDEO #1]https://youtu.be/c_zEjZuaSmg
+You will need a solution for the 1-2 PilotCrash issues: how to get zombies into the area.
+3 is no problem; I use eAI.
 
 Don’t forget to adjust the rewards to your liking.  
 Loadouts have also been added.
