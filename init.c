@@ -107,12 +107,36 @@ class CustomMission: MissionServer
                     SpawnQuestHolder_4001();
             }
             break;
-            //! Quest 133--The Lost Survivor - NEW QUEST
+            //! Quest 133--The Lost Survivor
             //! Spawn a new quest-giver NPC on the given location
             case 133:
             {
                 if (!ExpansionQuestModule.GetModuleInstance().TempQuestHolderExists(4003))
                     SpawnQuestHolder_4003();
+            }
+            break;
+            //! Quest 134--PilotCrash - NEW QUEST
+            //! Spawn a new quest-giver NPC on the given location
+            case 134:
+            {
+                if (!ExpansionQuestModule.GetModuleInstance().TempQuestHolderExists(4004))
+                    SpawnQuestHolder_4004();
+            }
+            break;
+            //! Quest 135--PilotCrash_1 - NEW QUEST
+            //! Spawn a new quest-giver NPC on the given location
+            case 135:
+            {
+                if (!ExpansionQuestModule.GetModuleInstance().TempQuestHolderExists(4005))
+                    SpawnQuestHolder_4005();
+            }
+            break;
+            //! Quest 136--PilotCrash_2 - NEW QUEST
+            //! Spawn a new quest-giver NPC on the given location
+            case 136:
+            {
+                if (!ExpansionQuestModule.GetModuleInstance().TempQuestHolderExists(4006))
+                    SpawnQuestHolder_4006();
             }
             break;
         }
@@ -150,7 +174,7 @@ class CustomMission: MissionServer
 			      	  	  ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4001, ExpansionQuestNPCType.AI);
 			      }
 			      break;
-            //!The Lost Survivor - NEW QUEST
+            //! Quest 133--The Lost Survivor
             case 133:
             {
                 if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(133))
@@ -161,6 +185,45 @@ class CustomMission: MissionServer
 			      {
 			      	  if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(8))
 			      	  	  ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4003, ExpansionQuestNPCType.AI);
+			      }
+			      break;
+            //! Quest 134--PilotCrash - NEW QUEST
+            case 134:
+            {
+                if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(134))
+                    ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4004, ExpansionQuestNPCType.AI);
+            }
+            break;
+            case 407:
+			      {
+			      	  if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(8))
+			      	  	  ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4004, ExpansionQuestNPCType.AI);
+			      }
+			      break;
+            //! Quest 135--PilotCrash_1 - NEW QUEST
+            case 135:
+            {
+                if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(135))
+                    ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4005, ExpansionQuestNPCType.AI);
+            }
+            break;
+            case 408:
+			      {
+			      	  if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(8))
+			      	  	  ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4005, ExpansionQuestNPCType.AI);
+			      }
+			      break;
+            //! Quest 136--PilotCrash_1 - NEW QUEST
+            case 136:
+            {
+                if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(136))
+                    ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4006, ExpansionQuestNPCType.AI);
+            }
+            break;
+            case 409:
+			      {
+			      	  if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(8))
+			      	  	  ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4006, ExpansionQuestNPCType.AI);
 			      }
 			      break;
         }
@@ -189,7 +252,7 @@ class CustomMission: MissionServer
         ExpansionTempQuestHolderPosition questHolderEscortPos = new ExpansionTempQuestHolderPosition("3230.55 210.046 13025.7", "140.698 0 -0");
         ExpansionQuestModule.GetModuleInstance().SpawnQuestHolder(questHolderEscort, questHolderEscortPos);
     }
-    //!The Lost Survivor - NEW QUEST
+    //! Quest 133--The Lost Survivor
     protected void SpawnQuestHolder_4003()
     {
         ExpansionTempQuestHolder questHolderEscort = new ExpansionTempQuestHolder(4003, "ExpansionQuestNPCAIHassan", "Hassan", "There is nothing to do here for you...");
@@ -199,6 +262,42 @@ class CustomMission: MissionServer
         questHolderEscort.SetNPCEmoteID(EmoteConstants.ID_EMOTE_SITA);
         questHolderEscort.SetLoadoutName("SurvivorLoadout");
         ExpansionTempQuestHolderPosition questHolderEscortPos = new ExpansionTempQuestHolderPosition("13854.64 30.53 2889.72", "62.99 -0 -0");
+        ExpansionQuestModule.GetModuleInstance().SpawnQuestHolder(questHolderEscort, questHolderEscortPos);
+    }
+    //! Quest 134--PilotCrash - NEW QUEST
+    protected void SpawnQuestHolder_4004()
+    {
+        ExpansionTempQuestHolder questHolderEscort = new ExpansionTempQuestHolder(4004, "ExpansionQuestNPCAIHassan", "Survivor", "There is nothing to do here for you...");
+        if (!questHolderEscort)
+            return;
+
+        questHolderEscort.SetNPCEmoteID(EmoteConstants.ID_EMOTE_SITA);
+        questHolderEscort.SetLoadoutName("PilotNPCExtraction");
+        ExpansionTempQuestHolderPosition questHolderEscortPos = new ExpansionTempQuestHolderPosition("8782.02 141.95 2904.97", "-44.99 0 0");
+        ExpansionQuestModule.GetModuleInstance().SpawnQuestHolder(questHolderEscort, questHolderEscortPos);
+    }
+    //! Quest 135--PilotCrash_1 - NEW QUEST
+    protected void SpawnQuestHolder_4005()
+    {
+        ExpansionTempQuestHolder questHolderEscort = new ExpansionTempQuestHolder(4005, "ExpansionQuestNPCAIHassan", "Survivor", "There is nothing to do here for you...");
+        if (!questHolderEscort)
+            return;
+
+        questHolderEscort.SetNPCEmoteID(EmoteConstants.ID_EMOTE_SITA);
+        questHolderEscort.SetLoadoutName("PilotNPCExtraction");
+        ExpansionTempQuestHolderPosition questHolderEscortPos = new ExpansionTempQuestHolderPosition("12319.18 251.86 4553.80", "161.99 0.0 -0.0");
+        ExpansionQuestModule.GetModuleInstance().SpawnQuestHolder(questHolderEscort, questHolderEscortPos);
+    }
+    //! Quest 136--PilotCrash_2 - NEW QUEST
+    protected void SpawnQuestHolder_4006()
+    {
+        ExpansionTempQuestHolder questHolderEscort = new ExpansionTempQuestHolder(4006, "ExpansionQuestNPCAIHassan", "Survivor", "There is nothing to do here for you...");
+        if (!questHolderEscort)
+            return;
+
+        questHolderEscort.SetNPCEmoteID(EmoteConstants.ID_EMOTE_SITA);
+        questHolderEscort.SetLoadoutName("PilotNPCExtraction");
+        ExpansionTempQuestHolderPosition questHolderEscortPos = new ExpansionTempQuestHolderPosition("6246.88 273.78 11612.51", "0.0 -0.0 -0.0");
         ExpansionQuestModule.GetModuleInstance().SpawnQuestHolder(questHolderEscort, questHolderEscortPos);
     }
 #endif
