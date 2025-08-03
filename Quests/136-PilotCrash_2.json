@@ -1,21 +1,21 @@
 {
   "ConfigVersion": 22,
-  "ID": 132,
+  "ID": 136,
   "Type": 1,
-  "Title": "Good Person, Investigate School",
+  "Title": "PilotCrash",
   "Descriptions": [
-    "A report just came in from one of the schools — they were ambushed by bandits. No one’s sure who survived, but supplies may still be inside. It’s a dangerous area, and time is critical. You’ll need a vehicle to get there safely. Move quickly and be careful.",
-    "Goto the location. And try to help the survivors",
-    "You made it out — and brought back what was needed. Whatever happened there, at least someone did something. Thank you — here’s your reward."
+    "The storm took its toll, yet not all the disappearances can be blamed on thunder and lightning. We’ve heard stories of another aircraft that flew that night – one that never crashed, never landed, never called for help. Some say raiders forced it down. Others say it was captured by a group that doesn’t want to be found.",
+    "If you’re brave enough, track the lead. If there’s truth to these whispers, this mission will be more dangerous than the last two.",
+    "Thank you."
   ],
-  "ObjectiveText": "Travel to School and locate Bandits",
-  "FollowUpQuest": 403,
-  "Repeatable": 0,
+  "ObjectiveText": "Travel to last known location.",
+  "FollowUpQuest": 409,
+  "Repeatable": 1,
   "IsDailyQuest": 0,
-  "IsWeeklyQuest": 0,
+  "IsWeeklyQuest": 1,
   "CancelQuestOnPlayerDeath": 1,
   "Autocomplete": 0,
-  "IsGroupQuest": 1,
+  "IsGroupQuest": 0,
   "ObjectSetFileName": "",
   "QuestItems": [],
   "Rewards": [],
@@ -28,25 +28,27 @@
     2
   ],
   "QuestTurnInIDs": [
-    4001
+    4006
   ],
   "IsAchievement": 0,
   "Objectives": [
     {
       "ConfigVersion": 28,
-      "ID": 71,
+      "ID": 76,
       "ObjectiveType": 3
     },
     {
       "ConfigVersion": 28,
-      "ID": 71,
+      "ID": 76,
       "ObjectiveType": 8
     }
   ],
   "QuestColor": 0,
-  "ReputationReward": 1000,
-  "ReputationRequirement": 5000,
-  "PreQuestIDs": [],
+  "ReputationReward": 500,
+  "ReputationRequirement": -1,
+  "PreQuestIDs": [
+    408
+  ],
   "RequiredFaction": "",
   "FactionReward": "",
   "PlayerNeedQuestItems": 1,
