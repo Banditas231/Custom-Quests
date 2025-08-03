@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 28,
+    "ID": 72,
+    "ObjectiveType": 3,
+    "ObjectiveText": "Travel to the last signal location.",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        15247.3,
+        7.7,
+        5028.64
+    ],
+    "MaxDistance": 300.0,
+    "MarkerName": "SOS",
+    "ShowDistance": 1,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 0
+}

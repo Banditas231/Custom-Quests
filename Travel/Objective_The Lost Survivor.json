@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 28,
+    "ID": 73,
+    "ObjectiveType": 3,
+    "ObjectiveText": "Travel to Skalisty.",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        13617.04,
+        41.15,
+        3042.64
+    ],
+    "MaxDistance": 300.0,
+    "MarkerName": "Travel to Skalisty",
+    "ShowDistance": 0,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 0
+}

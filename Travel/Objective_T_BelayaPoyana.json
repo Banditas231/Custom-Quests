@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 28,
+    "ID": 60,
+    "ObjectiveType": 3,
+    "ObjectiveText": "Get to the outskirts of town and scope out the scene",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        1228.1400146484376,
+        149.8939971923828,
+        6283.35009765625
+    ],
+    "MaxDistance": 500.0,
+    "MarkerName": "Get to outskirts",
+    "ShowDistance": 1,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 0
+}

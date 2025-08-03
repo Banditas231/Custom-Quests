@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 28,
+    "ID": 9,
+    "ObjectiveType": 3,
+    "ObjectiveText": "Head towards the power plant",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        353.28900146484377,
+        482.79901123046877,
+        13495.0
+    ],
+    "MaxDistance": 500.0,
+    "MarkerName": "Head to the plant",
+    "ShowDistance": 1,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 0
+}

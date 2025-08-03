@@ -1,0 +1,173 @@
+{
+  "ConfigVersion": 28,
+  "ID": 73,
+  "ObjectiveType": 8,
+  "ObjectiveText": "Find and destroy Bandits",
+  "TimeLimit": -1,
+  "Active": 1,
+  "InfectedDeletionRadius": 0,
+  "MaxDistance": -1,
+  "MinDistance": -1,
+  "AllowedWeapons": [],
+  "AllowedDamageZones": [],
+  "AISpawns": [
+    {
+      "Name": "Quest Target",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationLooseness": 0,
+      "Loadout": "BanditLoadout",
+      "Units": [],
+      "NumberOfAI": 1,
+      "Behaviour": "HALT_OR_LOOP ",
+      "LootingBehaviour": "",
+      "Speed": "RANDOM_NONSTATIC ",
+      "UnderThreatSpeed": "SPRINT",
+      "CanBeLooted": 0,
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 80,
+      "AccuracyMin": 0.9,
+      "AccuracyMax": 1,
+      "ThreatDistanceLimit": 500,
+      "NoiseInvestigationDistanceLimit": 400,
+      "DamageMultiplier": 1,
+      "DamageReceivedMultiplier": 1,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": 100,
+      "MaxDistRadius": 200,
+      "DespawnRadius": 500,
+      "MinSpreadRadius": 0,
+      "MaxSpreadRadius": 0,
+      "Chance": 1,
+      "WaypointInterpolation": "",
+      "DespawnTime": 1,
+      "RespawnTime": 1,
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          13851.9794921875,
+          31.382328033447266,
+          2895.655029296875
+        ],
+        [
+          13847.0205078125,
+          33.40707778930664,
+          2867.973388671875
+        ],
+        [
+          13869.775390625,
+          34.20595932006836,
+          2883.443115234375
+        ]
+      ]
+    },
+    {
+      "Name": "Quest Target",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationLooseness": 0,
+      "Loadout": "BanditLoadout",
+      "Units": [],
+      "NumberOfAI": 1,
+      "Behaviour": "HALT_OR_LOOP ",
+      "LootingBehaviour": "",
+      "Speed": "RANDOM_NONSTATIC ",
+      "UnderThreatSpeed": "SPRINT",
+      "CanBeLooted": 0,
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 80,
+      "AccuracyMin": 0.9,
+      "AccuracyMax": 1,
+      "ThreatDistanceLimit": 500,
+      "NoiseInvestigationDistanceLimit": 400,
+      "DamageMultiplier": 1,
+      "DamageReceivedMultiplier": 1,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": 100,
+      "MaxDistRadius": 200,
+      "DespawnRadius": 500,
+      "MinSpreadRadius": 0,
+      "MaxSpreadRadius": 0,
+      "Chance": 1,
+      "WaypointInterpolation": "",
+      "DespawnTime": 1,
+      "RespawnTime": 1,
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          13846.9111328125,
+          35.6473274230957,
+          2893.29345703125
+        ],
+        [
+          13856.6494140625,
+          32.718692779541016,
+          2887.253662109375
+        ],
+        [
+          13855.3720703125,
+          32.71788787841797,
+          2883.247802734375
+        ]
+      ]
+    },
+    {
+      "Name": "Quest Target",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationLooseness": 0,
+      "Loadout": "BanditLoadout",
+      "Units": [],
+      "NumberOfAI": 1,
+      "Behaviour": "HALT_OR_LOOP ",
+      "LootingBehaviour": "",
+      "Speed": "RANDOM_NONSTATIC ",
+      "UnderThreatSpeed": "SPRINT",
+      "CanBeLooted": 0,
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 80,
+      "AccuracyMin": 0.9,
+      "AccuracyMax": 1,
+      "ThreatDistanceLimit": 500,
+      "NoiseInvestigationDistanceLimit": 400,
+      "DamageMultiplier": 1,
+      "DamageReceivedMultiplier": 1,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": 100,
+      "MaxDistRadius": 200,
+      "DespawnRadius": 500,
+      "MinSpreadRadius": 0,
+      "MaxSpreadRadius": 0,
+      "Chance": 1,
+      "WaypointInterpolation": "",
+      "DespawnTime": 1,
+      "RespawnTime": 1,
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          13858.44921875,
+          30.635948181152344,
+          2894.476318359375
+        ],
+        [
+          13841.8076171875,
+          30.886316299438477,
+          2884.224365234375
+        ],
+        [
+          13854.3369140625,
+          30.025432586669922,
+          2879.002197265625
+        ],
+        [
+          13862.666015625,
+          30.378524780273438,
+          2886.591064453125
+        ]
+      ]
+    }
+  ]
+}

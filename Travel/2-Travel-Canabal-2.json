@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 28,
+    "ID": 2,
+    "ObjectiveType": 3,
+    "ObjectiveText": "Get to the Canabal Camp2",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        12147.7001953125,
+        186.6909942626953,
+        7267.52001953125
+    ],
+    "MaxDistance": 300.0,
+    "MarkerName": "Clear Canabal Camp",
+    "ShowDistance": 1,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 0
+}

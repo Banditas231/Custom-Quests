@@ -1,0 +1,66 @@
+{
+  "ConfigVersion": 28,
+  "ID": 70,
+  "ObjectiveType": 8,
+  "ObjectiveText": "Ambushed Hospital",
+  "TimeLimit": -1,
+  "Active": 1,
+  "InfectedDeletionRadius": 0,
+  "MaxDistance": -1,
+  "MinDistance": -1,
+  "AllowedWeapons": [],
+  "AllowedDamageZones": [],
+  "AISpawns": [
+    {
+      "Name": "Quest Target",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationLooseness": 0,
+      "Loadout": "NBCLoadout",
+      "Units": [],
+      "NumberOfAI": 1,
+      "Behaviour": "HALT_OR_LOOP ",
+      "LootingBehaviour": "",
+      "Speed": "RANDOM_NONSTATIC ",
+      "UnderThreatSpeed": "SPRINT",
+      "CanBeLooted": 0,
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 80,
+      "AccuracyMin": 0.9,
+      "AccuracyMax": 1,
+      "ThreatDistanceLimit": 500,
+      "NoiseInvestigationDistanceLimit": 400,
+      "DamageMultiplier": 1,
+      "DamageReceivedMultiplier": 1,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": 100,
+      "MaxDistRadius": 200,
+      "DespawnRadius": 500,
+      "MinSpreadRadius": 0,
+      "MaxSpreadRadius": 0,
+      "Chance": 1,
+      "WaypointInterpolation": "",
+      "DespawnTime": 1,
+      "RespawnTime": 1,
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          5990.39013671875,
+          307.9200134277344,
+          7676.68994140625
+        ],
+        [
+          5986.9501953125,
+          307.9200134277344,
+          7681
+        ],
+        [
+          5995.25,
+          307.9200134277344,
+          7680.169921875
+        ]
+      ]
+    }
+  ]
+}
