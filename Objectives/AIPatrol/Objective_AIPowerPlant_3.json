@@ -1,34 +1,22 @@
 {
-  "ConfigVersion": 27,
+  "ConfigVersion": 28,
   "ID": 3,
   "ObjectiveType": 7,
   "ObjectiveText": "Watch for the patrol, and be quiet, infected are near.",
   "TimeLimit": -1,
   "Active": 1,
+  "MaxDistance": -1,
+  "MinDistance": -1,
+  "AllowedWeapons": [],
+  "AllowedDamageZones": [],
   "AISpawn": {
-    "NumberOfAI": 3,
-    "NPCName": "Quest Target",
-    "Waypoints": [
-      [
-        565.6630249023438,
-        497.1499938964844,
-        13566.599609375
-      ]
-    ],
-    "Behaviour": 0,
-    "Formation": "RANDOM",
-    "Loadout": "MMG_SNAFU_Green",
+    "Name": "Quest Target",
+    "Persist": 0,
     "Faction": "West",
-    "Speed": 1,
-    "ThreatSpeed": 3,
-    "MinAccuracy": 0.5,
-    "MaxAccuracy": 0.800000011920929,
-    "CanBeLooted": 1,
-    "UnlimitedReload": 1,
-    "ThreatDistanceLimit": 1000,
-    "DamageMultiplier": 1,
-    "DamageReceivedMultiplier": 1,
-    "ClassNames": [
+    "Formation": "RANDOM",
+    "FormationLooseness": 0,
+    "Loadout": "MMG_SNAFU_Green",
+    "Units": [
       "eAI_SurvivorF_Eva",
       "eAI_SurvivorF_Frida",
       "eAI_SurvivorF_Gabi",
@@ -61,15 +49,35 @@
       "eAI_SurvivorM_Seth",
       "eAI_SurvivorM_Taiki"
     ],
-    "SniperProneDistanceThreshold": 300,
-    "RespawnTime": 60,
+    "NumberOfAI": 3,
+    "Behaviour": "HALT",
+    "Speed": "WALK",
+    "UnderThreatSpeed": "SPRINT",
+    "CanBeLooted": 0,
+    "UnlimitedReload": 1,
+    "SniperProneDistanceThreshold": 80,
+    "AccuracyMin": 0.8,
+    "AccuracyMax": 1,
+    "ThreatDistanceLimit": 1000,
+    "NoiseInvestigationDistanceLimit": 400,
+    "DamageMultiplier": 1,
+    "DamageReceivedMultiplier": 1,
+    "MinDistRadius": 300,
+    "MaxDistRadius": 375,
+    "DespawnRadius": 800,
+    "MinSpreadRadius": 0,
+    "MaxSpreadRadius": 20,
+    "Chance": 1,
+    "WaypointInterpolation": "",
     "DespawnTime": 60,
-    "MinDistanceRadius": 300,
-    "MaxDistanceRadius": 375,
-    "DespawnRadius": 800
-  },
-  "MaxDistance": -1,
-  "MinDistance": -1,
-  "AllowedWeapons": [],
-  "AllowedDamageZones": []
+    "RespawnTime": 60,
+    "UseRandomWaypointAsStartPoint": 1,
+    "Waypoints": [
+      [
+        565.6630249023438,
+        497.1499938964844,
+        13566.599609375
+      ]
+    ]
+  }
 }
