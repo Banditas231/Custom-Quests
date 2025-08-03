@@ -2,13 +2,13 @@
 
 ---
 
-### **Hello! These are my Expansion Quests for the Chernogorsk map.**
+### Hello! These are my Expansion Quests for the Chernogorsk map.
 
 Some quests require specific mods for loot or eAI loadouts.
 
 ---
 
-### **Required Mods:**
+### Required Mods:
 
 - `@MMG - Mighty's Military Gear`
 - `@SNAFU Weapons`
@@ -25,12 +25,12 @@ Some quests were found online and fixed/updated by me, while others were custom-
 
 ---
 
-### **New Quests Added:**
+### New Quests Added:
 
-- **Pilot Crash chain quest 3 quests**
-- 🔥 [NEW VIDEO #1]https://youtu.be/c_zEjZuaSmg
-You will need a solution for the 1-2 PilotCrash issues: how to get zombies into the area.
-3 is no problem; I use eAI.
+- **Pilot Crash chain quest (3 quests)**
+- 🔥 [VIDEO #1](https://youtu.be/c_zEjZuaSmg)  
+  You will need a solution for the Pilot Crash 1–2 issues: how to get zombies into the area.  
+  Quest 3 is no problem; I use eAI.
 
 Don’t forget to adjust the rewards to your liking.  
 Loadouts have also been added.
@@ -39,27 +39,20 @@ Loadouts have also been added.
 
 ✅ I keep my files updated so people can use correct and working quests.  
 🕓 **Last updated:** 07/21/2025  
-**Rewritten texts, changed some quest rewards, added a few custom quests**
-
-➡️ **New quest added — check it here:**
-
-- 🔥 [NEW VIDEO #1](https://youtu.be/5oO62rVa2jA)
-- 🔥 [NEW VIDEO #2](https://youtu.be/niajpiBvWZM)
-
-🎯 [Other Quest](https://youtu.be/haSRZjZIRbg)
+**Rewritten texts, changed some quest rewards, and added a few custom quests**
 
 ---
 
-### 🔄 **Updates:**
+### 🔄 Updates:
 
 - Some eAI now spawn in unique locations and may move from point A to point Z.
-- Zombie-killing quests are now tiered (1-2-3), meaning you must complete Quest 1 to unlock Quest 2, and so on.
+- Zombie-killing quests are now tiered (1–2–3), meaning you must complete Quest 1 to unlock Quest 2, and so on.
 - Added `init.c` — this file is required for some quests. It also gives players custom starting clothes.
 - Players with the default name `"Survivor"` will spawn naked — this helps enforce custom names.
 
 ---
 
-### 📦 **How to Install/Use My Quests on Your Server:**
+### 📦 How to Install/Use My Quests on Your Server:
 
 1. Go to your DayZ server folder and navigate to:  
    `DayZServer\profiles\ExpansionMod\Quests`  
