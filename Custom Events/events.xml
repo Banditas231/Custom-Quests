@@ -1,4 +1,4 @@
-//add this to your events
+"// Add this to your events"
 
     <event name="StaticShipwreckEvent">
         <nominal>1</nominal>
