@@ -1,4 +1,4 @@
-// add to your cfgeventspawn.xml
+"// Add this to your cfgeventspawn.xml"
 
 	<event name="StaticShipwreckEvent">
 		<zone smin="0" smax="0" dmin="1" dmax="1" r="20" />
