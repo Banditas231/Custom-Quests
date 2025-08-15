@@ -1,0 +1,13 @@
+// add to your cfgeventspawn.xml
+
+	<event name="StaticShipwreckEvent">
+		<zone smin="0" smax="0" dmin="1" dmax="1" r="20" />
+		<pos x="2117.65" z="1509.96" a="0" y="18.38" group="CargoShip"/><!--Kamenka-->
+		<pos x="4584.54" z="1721.63" a="0" y="18.38" group="CargoShip"/><!--Balota-->
+		<pos x="6609.97" z="1831.10" a="0" y="18.38" group="CargoShip"/><!--Cherno-->
+		<pos x="11042.22" z="1844.73" a="0" y="18.38" group="CargoShip"/><!--Electro-->
+		<pos x="12720.20" z="3190.84" a="0" y="18.38" group="CargoShip"/><!--Skalisty-->
+		<pos x="13990.32" z="5801.44" a="0" y="18.38" group="CargoShip"/><!--Solnechny-->
+		<pos x="13562.60" z="9612.03" a="0" y="18.38" group="CargoShip"/><!--Berezino-->
+		<pos x="14628.02" z="13002.68" a="0" y="18.38" group="CargoShip"/><!--Svetloyarsk-->
+	</event>
