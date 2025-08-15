@@ -1,4 +1,4 @@
-//add this to sfgeventgroups.xml
+"// Add this to sfgeventgroups.xml"
 
     <group name="CargoShip">
 	    <child type="StaticObj_Container_2A" spawnsecondary="false" x="0" z="0" a="107.99993896484375" y="0"/>
