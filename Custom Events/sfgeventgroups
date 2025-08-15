@@ -1,0 +1,45 @@
+//add this to sfgeventgroups.xml
+
+    <group name="CargoShip">
+	    <child type="StaticObj_Container_2A" spawnsecondary="false" x="0" z="0" a="107.99993896484375" y="0"/>
+	    <child type="StaticObj_Container_2A" spawnsecondary="false" x="-7.809814453125" z="-0.0916748046875" a="182.91909790039062" y="0.0000019073486328125"/>
+	    <child type="StaticObj_Container_2A" spawnsecondary="false" x="-3.244384765625" z="4.845703125" a="287.9999694824219" y="-1.0834236145019531"/>
+	    <child type="StaticObj_Container_2C" spawnsecondary="false" x="-46.963623046875" z="13.045166015625" a="315.0000190734863" y="-2.4673900604248047"/>
+	    <child type="StaticObj_Container_2C" spawnsecondary="false" x="-49.798095703125" z="10.909912109375" a="297.0000190734863" y="-2.3720474243164062"/>
+	    <child type="StaticObj_Container_2C" spawnsecondary="false" x="-42.159912109375" z="8.0811767578125" a="297.0000190734863" y="-2.4674148559570312"/>
+	    <child type="StaticObj_Container_2E" spawnsecondary="false" x="-40.012451171875" z="10.4376220703125" a="107.99992370605469" y="-2.467418670654297"/>
+	    <child type="StaticObj_Container_2E" spawnsecondary="false" x="-38.599609375" z="14.2083740234375" a="125.99990844726562" y="-2.478616714477539"/>
+	    <child type="StaticObj_Container_2E" spawnsecondary="false" x="-33.430419921875" z="18.6192626953125" a="111.59983825683594" y="-2.4786109924316406"/>
+	    <child type="StaticObj_Container_2E" spawnsecondary="false" x="-35.886962890625" z="18.4974365234375" a="111.59983825683594" y="-12.432955265045166"/>
+	    <child type="StaticObj_Container_2E" spawnsecondary="false" x="-35.91064453125" z="15.2412109375" a="111.59983825683594" y="-12.432955265045166"/>
+	    <child type="StaticObj_Container_2E" spawnsecondary="false" x="-49.861572265625" z="9.0487060546875" a="111.59983825683594" y="-14.994968891143799"/>
+	    <child type="Land_Ship_Big_FrontA" deloot="1" lootmax="3" lootmin="1" x="-14.708984375" z="6.8675537109375" a="22.675983428955078" y="-0.5192680358886719"/>
+	    <child type="Land_Ship_Big_FrontB" deloot="1" lootmax="3" lootmin="1" x="-33.97900390625" z="12.4075927734375" a="22.676294326782227" y="-2.034942626953125"/>
+	    <child type="Land_Ship_Big_BackA" deloot="1" lootmax="3" lootmin="1" x="-67.439208984375" z="25.340087890625" a="23.366153717041016" y="-0.4902763366699219"/>
+	    <child type="Land_Ship_Big_BackB" deloot="1" lootmax="3" lootmin="1" x="-85.104248046875" z="33.580322265625" a="23.91714096069336" y="-1.982940673828125"/>
+	    <child type="Land_Ship_Big_Castle" deloot="1" lootmax="3" lootmin="1" x="-74.713623046875" z="28.9765625" a="23.399904251098633" y="8.196800231933594"/>
+	    <child type="Land_Container_1Mo" deloot="1" lootmax="3" lootmin="1" x="-47.718994140625" z="27.6375732421875" a="293.50001525878906" y="-4.993709564208984"/>
+	    <child type="Land_Container_1Mo" deloot="1" lootmax="3" lootmin="1" x="-53.989013671875" z="9.517578125" a="293.79000091552734" y="-4.96151065826416"/>
+	    <child type="Land_Container_1Aoh_DE" deloot="1" lootmax="2" lootmin="1" x="-35.9921875" z="8.5875244140625" a="23.399980545043945" y="-3.8526744842529297"/>
+	    <child type="Land_Container_1Bo_DE" deloot="1" lootmax="2" lootmin="1" x="-34.049560546875" z="17.56591796875" a="332.99999237060547" y="-16.380202531814575"/>
+	    <child type="Land_Container_1Bo_DE" deloot="1" lootmax="2" lootmin="1" x="-37.343505859375" z="17.6068115234375" a="351.00001430511475" y="-16.380203247070312"/>
+	    <child type="Land_Container_1Bo_DE" deloot="1" lootmax="2" lootmin="1" x="-42.19482421875" z="22.6534423828125" a="270.00006103515625" y="-16.380176067352295"/>
+	    <child type="Land_Container_1Bo_DE" deloot="1" lootmax="2" lootmin="1" x="-53.637939453125" z="26.0306396484375" a="234.0001449584961" y="-16.285197734832764"/>
+	    <child type="Land_Container_1Aoh_DE" deloot="1" lootmax="2" lootmin="1" x="-37.443115234375" z="8.49609375" a="324.00002670288086" y="-16.380205154418945"/>
+	    <child type="Land_Container_1Aoh" deloot="1" lootmax="2" lootmin="1" x="-43.396484375" z="10.244873046875" a="18.0000057220459" y="-16.35921621322632"/>
+	    <child type="Land_Container_1Bo_DE" deloot="1" lootmax="2" lootmin="1" x="-47.200439453125" z="14.2574462890625" a="288.0000534057617" y="-16.38020133972168"/>
+	    <child type="Land_Container_1Aoh" deloot="1" lootmax="2" lootmin="1" x="-66.782958984375" z="20.34619140625" a="17.99998664855957" y="-3.762174606323242"/>
+	    <child type="Land_Container_1Aoh" deloot="1" lootmax="2" lootmin="1" x="-55.36572265625" z="27.52685546875" a="297" y="-3.762178421020508"/>
+	    <child type="Land_Container_1Aoh" deloot="1" lootmax="2" lootmin="1" x="-61.5458984375" z="31.1114501953125" a="324.0000190734863" y="-3.762216567993164"/>
+	    <child type="Land_Container_1Bo_DE" deloot="1" lootmax="2" lootmin="1" x="-62.526123046875" z="27.1707763671875" a="297.00003814697266" y="-3.762197494506836"/>
+	    <child type="Land_Container_1Bo_DE" deloot="1" lootmax="2" lootmin="1" x="-62.03955078125" z="22.94970703125" a="306.000057220459" y="-3.762174606323242"/>
+	    <child type="Land_Container_1Bo_DE" deloot="1" lootmax="2" lootmin="1" x="-56.697021484375" z="21.5330810546875" a="18.000051498413086" y="-3.808530807495117"/>
+	    <child type="Land_Container_1Bo_DE" deloot="1" lootmax="2" lootmin="1" x="-60.26611328125" z="16.9219970703125" a="99.00003814697266" y="-3.762136459350586"/>
+	    <child type="Land_Container_1Bo_DE" deloot="1" lootmax="2" lootmin="1" x="-22.412109375" z="10.87060546875" a="107.99996185302734" y="-16.380205154418945"/>
+	    <child type="Land_Container_1Mo_DE" deloot="1" lootmax="2" lootmin="1" x="-25.833251953125" z="3.8389892578125" a="297.0000190734863" y="-16.38020658493042"/>
+	    <child type="Land_Container_1Mo_DE" deloot="1" lootmax="2" lootmin="1" x="-24.062744140625" z="7.106201171875" a="315.00002670288086" y="-16.380204677581787"/>
+	    <child type="Land_Container_1Mo" deloot="1" lootmax="3" lootmin="1" x="-15.63037109375" z="5.0672607421875" a="18.0000057220459" y="-16.373366832733154"/>
+	    <child type="Land_Container_1Mo" deloot="1" lootmax="3" lootmin="1" x="-20.008056640625" z="3.1298828125" a="18.0000057220459" y="-16.373366832733154"/>
+	    <child type="StaticObj_Container_2A" spawnsecondary="false" x="-2.17529296875" z="-5.2059326171875" a="116.99994659423828" y="0"/>
+	    <child type="StaticObj_Container_2A" spawnsecondary="false" x="-1.006103515625" z="-2.7646484375" a="116.99994659423828" y="0"/>
+    </group>
