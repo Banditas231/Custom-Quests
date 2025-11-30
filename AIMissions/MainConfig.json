@@ -1,0 +1,2356 @@
+{
+    "Settings": [
+        {
+            "Config_Version": 2.0,
+            "Minimum_Players": 0,
+            "Bots_Timeout_Radius": 150,
+            "Bots_Timeout_Time": 300,
+            "Cleanup_Radius_Startup": 50,
+            "Cleanup_Radius_Running": 100,
+            "Cleanup_Time_Running": 300,
+            "Missions_Max_Concurrent": 1,
+            "Mission_Start_Delay": 600,
+            "Mission_Starting_Failed_Retry_Delay": 120,
+            "Mission_Time_Between": 2700,
+            "Mission_Time_Limit": 2700,
+            "Mission_Time_Extension_Limit": 900,
+            "Mission_Inner_Radius": 500,
+            "Mission_AI_Spawn_Radius": 1200,
+            "Reward_Loot_Weapons_Minimum": 1,
+            "Reward_Loot_Weapons_Maximum": 2,
+            "Reward_Loot_Weapons_Multiplier": 0.75,
+            "Reward_Loot_Armour_Minimum": 1,
+            "Reward_Loot_Armour_Maximum": 2,
+            "Reward_Loot_Armour_Multiplier": 0.5,
+            "Reward_Loot_Misc_Minimum": 1,
+            "Reward_Loot_Misc_Maximum": 4,
+            "Reward_Loot_Misc_Multiplier": 0.5,
+            "Text_MissionTitle": "AI Mission",
+            "Notification_StartMessage": "Mission '%1' starting! Eliminate all threats to claim the loot!",
+            "Notification_WinMessage": "Mission '%1' completed! All threats were eliminated!",
+            "Notification_LoseMessage": "Mission '%1' failed! You ran out of time!",
+            "Notification_Time": 10,
+            "Notification_Icon": "Soldier",
+            "Marker3D_LB_Path": "LBmaster_Groups\\gui\\icons\\player.paa",
+            "Markers_Icon": "",
+            "Markers_Show2D": 1,
+            "Markers_Show3D": 0,
+            "Markers_ColourAlpha": 255,
+            "Markers_ColourRed": 255,
+            "Markers_ColourGreen": 0,
+            "Markers_ColourBlue": 0,
+            "Markers_CircleRadius": 350,
+            "Debug_Logging_Enabled": 1,
+            "Debug_Disable_Notifications": 0,
+            "Debug_Disable_Markers": 0,
+            "Debug_Force_Win": 0,
+            "Debug_QuickMode": 0,
+            "Debug_Ignore_Player_Radius": 0
+        }
+    ],
+    "Missions": [
+        {
+            "Name": "Cargo Ship",
+            "Position": [
+                2069.947021484375,
+                0.8898429870605469,
+                1518.5704345703126
+            ],
+            "Bots_Count_Minimum": 4,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadout": "SeaAlpha_MMG_Snafu_Admiral",
+            "Bots_Loadout_ID": 1,
+            "Bots_Range": 400,
+            "Bots_Accuracy": 0.7,
+            "Bots_Damage_Done_Multiplier": 1.0,
+            "Bots_Damage_Taken_Multiplier": 1.0,
+            "Bots_Drop_Loot": 1,
+            "Bots_Drop_Weapon": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "Land_Ship_Big_FrontA",
+                    "Scale": 1.0,
+                    "Position": [
+                        2117.419921875,
+                        17.864990234375,
+                        1509.93994140625
+                    ],
+                    "Rotation": [
+                        22.675983428955079,
+                        -0.000001371789494442055,
+                        -2.9013782487652408e-9
+                    ]
+                },
+                {
+                    "ClassName": "Land_Ship_Big_FrontB",
+                    "Scale": 1.0,
+                    "Position": [
+                        2098.14990234375,
+                        16.349315643310548,
+                        1515.47998046875
+                    ],
+                    "Rotation": [
+                        22.676294326782228,
+                        0.000007588625067000976,
+                        0.000007678228939766996
+                    ]
+                },
+                {
+                    "ClassName": "Land_Ship_Big_BackA",
+                    "Scale": 1.0,
+                    "Position": [
+                        2064.689697265625,
+                        17.89398193359375,
+                        1528.4124755859376
+                    ],
+                    "Rotation": [
+                        23.366151809692384,
+                        -0.00020317781309131533,
+                        -0.00029067465220578015
+                    ]
+                },
+                {
+                    "ClassName": "Land_Ship_Big_BackB",
+                    "Scale": 1.0,
+                    "Position": [
+                        2047.024658203125,
+                        16.401317596435548,
+                        1536.6527099609376
+                    ],
+                    "Rotation": [
+                        23.91714096069336,
+                        -0.00018786749569699168,
+                        -0.00031389202922582626
+                    ]
+                },
+                {
+                    "ClassName": "Land_Ship_Big_Castle",
+                    "Scale": 1.0,
+                    "Position": [
+                        2057.415283203125,
+                        26.581058502197267,
+                        1532.0489501953126
+                    ],
+                    "Rotation": [
+                        23.399904251098634,
+                        -0.00009902229066938162,
+                        -0.0003216223558411002
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Container_2A",
+                    "Scale": 1.0,
+                    "Position": [
+                        2132.12890625,
+                        18.384258270263673,
+                        1503.0723876953126
+                    ],
+                    "Rotation": [
+                        107.99993896484375,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Container_2A",
+                    "Scale": 1.0,
+                    "Position": [
+                        2124.319091796875,
+                        18.384260177612306,
+                        1502.980712890625
+                    ],
+                    "Rotation": [
+                        -177.08090209960938,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Container_2A",
+                    "Scale": 1.0,
+                    "Position": [
+                        2128.884521484375,
+                        17.30083465576172,
+                        1507.9180908203126
+                    ],
+                    "Rotation": [
+                        -72.00003051757813,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Container_2C",
+                    "Scale": 1.0,
+                    "Position": [
+                        2085.165283203125,
+                        15.916868209838868,
+                        1516.1175537109376
+                    ],
+                    "Rotation": [
+                        -44.99998092651367,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Container_2C",
+                    "Scale": 1.0,
+                    "Position": [
+                        2082.330810546875,
+                        16.012210845947267,
+                        1513.9822998046876
+                    ],
+                    "Rotation": [
+                        -62.99997329711914,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Container_2C",
+                    "Scale": 1.0,
+                    "Position": [
+                        2090.311279296875,
+                        15.916840553283692,
+                        1510.6419677734376
+                    ],
+                    "Rotation": [
+                        -62.99997329711914,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Container_2E",
+                    "Scale": 1.0,
+                    "Position": [
+                        2092.116455078125,
+                        15.916839599609375,
+                        1513.510009765625
+                    ],
+                    "Rotation": [
+                        107.99990844726563,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Container_2E",
+                    "Scale": 1.0,
+                    "Position": [
+                        2095.040283203125,
+                        15.905641555786133,
+                        1516.3111572265626
+                    ],
+                    "Rotation": [
+                        125.99989318847656,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Container_2E",
+                    "Scale": 1.0,
+                    "Position": [
+                        2098.698486328125,
+                        15.905647277832032,
+                        1521.691650390625
+                    ],
+                    "Rotation": [
+                        111.5998306274414,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Container_2E",
+                    "Scale": 1.0,
+                    "Position": [
+                        2096.241943359375,
+                        5.951303005218506,
+                        1521.56982421875
+                    ],
+                    "Rotation": [
+                        111.5998306274414,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Container_2E",
+                    "Scale": 1.0,
+                    "Position": [
+                        2096.21826171875,
+                        5.951303005218506,
+                        1518.3135986328126
+                    ],
+                    "Rotation": [
+                        111.5998306274414,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Container_2E",
+                    "Scale": 1.0,
+                    "Position": [
+                        2082.267333984375,
+                        3.389289379119873,
+                        1512.12109375
+                    ],
+                    "Rotation": [
+                        111.5998306274414,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Container_1Mo",
+                    "Scale": 1.0,
+                    "Position": [
+                        2084.409912109375,
+                        13.390548706054688,
+                        1530.7099609375
+                    ],
+                    "Rotation": [
+                        -66.49998474121094,
+                        1.3448898661394538e-9,
+                        -5.5757909400711018e-9
+                    ]
+                },
+                {
+                    "ClassName": "Land_Container_1Mo",
+                    "Scale": 1.0,
+                    "Position": [
+                        2078.139892578125,
+                        13.422747611999512,
+                        1512.5899658203126
+                    ],
+                    "Rotation": [
+                        -66.20999908447266,
+                        -3.0024664976480155e-9,
+                        -5.601849206726683e-9
+                    ]
+                },
+                {
+                    "ClassName": "Land_Container_1Aoh_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        2095.983642578125,
+                        14.53158187866211,
+                        1509.93017578125
+                    ],
+                    "Rotation": [
+                        23.399980545043947,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Container_1Bo_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        2098.079345703125,
+                        2.0040557384490969,
+                        1520.6383056640626
+                    ],
+                    "Rotation": [
+                        -27.00000762939453,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Container_1Bo_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        2094.785400390625,
+                        2.0040550231933595,
+                        1520.67919921875
+                    ],
+                    "Rotation": [
+                        -8.999985694885254,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Container_1Bo_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        2089.93408203125,
+                        2.004082202911377,
+                        1525.725830078125
+                    ],
+                    "Rotation": [
+                        -89.99993133544922,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Container_1Bo_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        2076.81591796875,
+                        2.099057197570801,
+                        1527.751953125
+                    ],
+                    "Rotation": [
+                        32.61924362182617,
+                        -0.00004284321767045185,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Container_1Aoh_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        2094.685791015625,
+                        2.0040531158447267,
+                        1511.5684814453126
+                    ],
+                    "Rotation": [
+                        -35.99997329711914,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Container_1Aoh",
+                    "Scale": 1.0,
+                    "Position": [
+                        2088.732421875,
+                        2.0250420570373537,
+                        1513.3172607421876
+                    ],
+                    "Rotation": [
+                        18.000003814697267,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Container_1Bo_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        2084.928466796875,
+                        2.004056930541992,
+                        1517.329833984375
+                    ],
+                    "Rotation": [
+                        -71.99994659423828,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Container_1Aoh",
+                    "Scale": 1.0,
+                    "Position": [
+                        2072.3759765625,
+                        14.622136116027832,
+                        1517.7769775390626
+                    ],
+                    "Rotation": [
+                        114.2632064819336,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Container_1Bo_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        2067.437744140625,
+                        13.49049186706543,
+                        1517.2342529296876
+                    ],
+                    "Rotation": [
+                        112.63799285888672,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Container_1Bo_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        2073.7158203125,
+                        13.49041748046875,
+                        1535.1728515625
+                    ],
+                    "Rotation": [
+                        111.43818664550781,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Container_1Bo_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        2109.716796875,
+                        2.0040531158447267,
+                        1513.9429931640626
+                    ],
+                    "Rotation": [
+                        107.99996185302735,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Container_1Mo_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        2106.295654296875,
+                        2.004051685333252,
+                        1506.911376953125
+                    ],
+                    "Rotation": [
+                        -62.99997329711914,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Container_1Mo_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        2108.066162109375,
+                        2.0040535926818849,
+                        1510.1785888671876
+                    ],
+                    "Rotation": [
+                        -44.99997329711914,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Container_1Aoh",
+                    "Scale": 1.0,
+                    "Position": [
+                        2070.109619140625,
+                        14.62204360961914,
+                        1533.9908447265626
+                    ],
+                    "Rotation": [
+                        114.26319885253906,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Container_1Mo",
+                    "Scale": 1.0,
+                    "Position": [
+                        2116.49853515625,
+                        2.0108914375305177,
+                        1508.1396484375
+                    ],
+                    "Rotation": [
+                        18.000003814697267,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Container_1Mo",
+                    "Scale": 1.0,
+                    "Position": [
+                        2112.120849609375,
+                        2.0108914375305177,
+                        1506.2022705078126
+                    ],
+                    "Rotation": [
+                        18.000003814697267,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Container_2A",
+                    "Scale": 1.0,
+                    "Position": [
+                        2129.95361328125,
+                        18.384258270263673,
+                        1497.866455078125
+                    ],
+                    "Rotation": [
+                        116.99994659423828,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Container_2A",
+                    "Scale": 1.0,
+                    "Position": [
+                        2131.122802734375,
+                        18.384258270263673,
+                        1500.3077392578126
+                    ],
+                    "Rotation": [
+                        116.99994659423828,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Container_1Bo_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        2086.60693359375,
+                        -0.4409217834472656,
+                        1531.6712646484376
+                    ],
+                    "Rotation": [
+                        -110.30830383300781,
+                        -0.000009614288501325064,
+                        -0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "NWAF Runway",
+            "Position": [
+                4176.365234375,
+                338.7732238769531,
+                10725.6533203125
+            ],
+            "Bots_Count_Minimum": 4,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadout": "BanditLoadout",
+            "Bots_Loadout_ID": 1,
+            "Bots_Range": 800,
+            "Bots_Accuracy": 0.5,
+            "Bots_Damage_Done_Multiplier": 1.0,
+            "Bots_Damage_Taken_Multiplier": 1.0,
+            "Bots_Drop_Loot": 1,
+            "Bots_Drop_Weapon": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "Land_wreck_truck01_aban1_blue_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        4195.1943359375,
+                        338.6871337890625,
+                        10704.130859375
+                    ],
+                    "Rotation": [
+                        -144.6427764892578,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Wreck_Ikarus_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        4180.0087890625,
+                        340.23150634765627,
+                        10740.97265625
+                    ],
+                    "Rotation": [
+                        -80.99995422363281,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Wreck_Ikarus_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        4160.92919921875,
+                        340.2047424316406,
+                        10730.39453125
+                    ],
+                    "Rotation": [
+                        -152.99989318847657,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Wreck_C130J_Cargo",
+                    "Scale": 1.0,
+                    "Position": [
+                        4208.20947265625,
+                        343.5050048828125,
+                        10715.8505859375
+                    ],
+                    "Rotation": [
+                        -92.95488739013672,
+                        4.899999618530273,
+                        0.10000002384185791
+                    ]
+                },
+                {
+                    "ClassName": "Land_Wreck_offroad02_aban1",
+                    "Scale": 1.0,
+                    "Position": [
+                        4160.50146484375,
+                        340.57476806640627,
+                        10706.2119140625
+                    ],
+                    "Rotation": [
+                        -116.99991607666016,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_wreck_sed02_aban1_police_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        4168.212890625,
+                        339.65435791015627,
+                        10741.2021484375
+                    ],
+                    "Rotation": [
+                        -44.99999237060547,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_wreck_truck01_aban2_green_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        4174.14013671875,
+                        338.7236328125,
+                        10694.3525390625
+                    ],
+                    "Rotation": [
+                        -93.67823028564453,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Rubble_DirtPile_Medium2",
+                    "Scale": 1.0,
+                    "Position": [
+                        4211.99072265625,
+                        338.96612548828127,
+                        10719.23046875
+                    ],
+                    "Rotation": [
+                        18.0,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Rubble_DirtPile_Large",
+                    "Scale": 1.0,
+                    "Position": [
+                        4218.2587890625,
+                        339.4327392578125,
+                        10719.8173828125
+                    ],
+                    "Rotation": [
+                        -44.99999237060547,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Rubble_DirtPile_Large",
+                    "Scale": 1.0,
+                    "Position": [
+                        4225.35546875,
+                        339.4296875,
+                        10716.6767578125
+                    ],
+                    "Rotation": [
+                        -80.99995422363281,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Rubble_DirtPile_Medium2",
+                    "Scale": 1.0,
+                    "Position": [
+                        4221.08544921875,
+                        338.9477233886719,
+                        10714.345703125
+                    ],
+                    "Rotation": [
+                        9.0,
+                        -0.0,
+                        -0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Zenit Ambush",
+            "Position": [
+                8112.97,
+                458.612,
+                9327.1
+            ],
+            "Bots_Count_Minimum": 4,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadout": "BanditLoadout",
+            "Bots_Loadout_ID": 1,
+            "Bots_Range": 800,
+            "Bots_Accuracy": 0.7,
+            "Bots_Damage_Done_Multiplier": 1.0,
+            "Bots_Damage_Taken_Multiplier": 1.0,
+            "Bots_Drop_Loot": 1,
+            "Bots_Drop_Weapon": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 1,
+            "Allow_Helicopter_Reward": 1,
+            "Static_Objects": []
+        },
+        {
+            "Name": "SEAF Runway",
+            "Position": [
+                4741.35,
+                338.627,
+                9742.18
+            ],
+            "Bots_Count_Minimum": 4,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadout": "BanditLoadout",
+            "Bots_Loadout_ID": 1,
+            "Bots_Range": 800,
+            "Bots_Accuracy": 0.5,
+            "Bots_Damage_Done_Multiplier": 1.0,
+            "Bots_Damage_Taken_Multiplier": 1.0,
+            "Bots_Drop_Loot": 1,
+            "Bots_Drop_Weapon": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 1,
+            "Allow_Helicopter_Reward": 1,
+            "Static_Objects": []
+        },
+        {
+            "Name": "Krasno_AF Runway",
+            "Position": [
+                12089,
+                140.025,
+                12531
+            ],
+            "Bots_Count_Minimum": 4,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadout": "BanditLoadout",
+            "Bots_Loadout_ID": 1,
+            "Bots_Range": 800,
+            "Bots_Accuracy": 0.5,
+            "Bots_Damage_Done_Multiplier": 1.0,
+            "Bots_Damage_Taken_Multiplier": 1.0,
+            "Bots_Drop_Loot": 1,
+            "Bots_Drop_Weapon": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 1,
+            "Allow_Helicopter_Reward": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "Land_wreck_truck01_aban1_green_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        12120.2,
+                        140.025,
+                        12533.2
+                    ],
+                    "Rotation": [
+                        -51.3334,
+                        -0,
+                        0
+                    ]
+                },
+                {
+                    "ClassName": "Land_wreck_truck01_aban2_green_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        12046.7,
+                        139.894,
+                        12528.4
+                    ],
+                    "Rotation": [
+                        -136.917,
+                        0,
+                        -0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Balota_AF Runway",
+            "Position": [
+                5079.87,
+                9.36494,
+                2295.96
+            ],
+            "Bots_Count_Minimum": 4,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadout": "BanditLoadout",
+            "Bots_Loadout_ID": 1,
+            "Bots_Range": 800,
+            "Bots_Accuracy": 0.5,
+            "Bots_Damage_Done_Multiplier": 1.0,
+            "Bots_Damage_Taken_Multiplier": 1.0,
+            "Bots_Drop_Loot": 1,
+            "Bots_Drop_Weapon": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Static_Objects": []
+        },
+        {
+            "Name": "Rog Castle Ambush",
+            "Position": [
+                11251.6,
+                293.68,
+                4272.42
+            ],
+            "Bots_Count_Minimum": 4,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadout": "BanditLoadout",
+            "Bots_Loadout_ID": 1,
+            "Bots_Range": 800,
+            "Bots_Accuracy": 0.7,
+            "Bots_Damage_Done_Multiplier": 1.0,
+            "Bots_Damage_Taken_Multiplier": 1.0,
+            "Bots_Drop_Loot": 1,
+            "Bots_Drop_Weapon": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Static_Objects": []
+        },
+        {
+            "Name": "Gnomov Castle Ambush",
+            "Position": [
+                7418.43,
+                406.834,
+                9105.29
+            ],
+            "Bots_Count_Minimum": 4,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadout": "BanditLoadout",
+            "Bots_Loadout_ID": 1,
+            "Bots_Range": 800,
+            "Bots_Accuracy": 0.8,
+            "Bots_Damage_Done_Multiplier": 1.0,
+            "Bots_Damage_Taken_Multiplier": 1.0,
+            "Bots_Drop_Loot": 1,
+            "Bots_Drop_Weapon": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Static_Objects": []
+        },
+        {
+            "Name": "Chortov Castle Ambush",
+            "Position": [
+                6890.06,
+                405.929,
+                11438.5
+            ],
+            "Bots_Count_Minimum": 4,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadout": "BanditLoadout",
+            "Bots_Loadout_ID": 1,
+            "Bots_Range": 800,
+            "Bots_Accuracy": 0.8,
+            "Bots_Damage_Done_Multiplier": 1.0,
+            "Bots_Damage_Taken_Multiplier": 1.0,
+            "Bots_Drop_Loot": 1,
+            "Bots_Drop_Weapon": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 1,
+            "Allow_Helicopter_Reward": 0,
+            "Static_Objects": []
+        },
+        {
+            "Name": "Krona Castle Ambush",
+            "Position": [
+                1397.26,
+                303.241,
+                9303
+            ],
+            "Bots_Count_Minimum": 4,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadout": "BanditLoadout",
+            "Bots_Loadout_ID": 1,
+            "Bots_Range": 800,
+            "Bots_Accuracy": 0.8,
+            "Bots_Damage_Done_Multiplier": 1.0,
+            "Bots_Damage_Taken_Multiplier": 1.0,
+            "Bots_Drop_Loot": 1,
+            "Bots_Drop_Weapon": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 1,
+            "Static_Objects": []
+        },
+        {
+            "Name": "Downed Helicopter",
+            "Position": [
+                144.31246948242188,
+                319.55841064453127,
+                8073.83740234375
+            ],
+            "Bots_Count_Minimum": 3,
+            "Bots_Count_Maximum": 3,
+            "Bots_Expansion_Loadout": "BanditLoadout",
+            "Bots_Loadout_ID": 1,
+            "Bots_Range": 400,
+            "Bots_Accuracy": 0.5,
+            "Bots_Damage_Done_Multiplier": 1.0,
+            "Bots_Damage_Taken_Multiplier": 1.0,
+            "Bots_Drop_Loot": 1,
+            "Bots_Drop_Weapon": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "StaticObj_Wreck_Mi8_Crashed",
+                    "Scale": 1.0,
+                    "Position": [
+                        144.06399536132813,
+                        321.1470031738281,
+                        8068.35986328125
+                    ],
+                    "Rotation": [
+                        -69.11962890625,
+                        0.0,
+                        -0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Downed Helicopter",
+            "Position": [
+                6739.81,
+                386.412,
+                14062.2
+            ],
+            "Bots_Count_Minimum": 3,
+            "Bots_Count_Maximum": 3,
+            "Bots_Expansion_Loadout": "BanditLoadout",
+            "Bots_Loadout_ID": 1,
+            "Bots_Range": 400,
+            "Bots_Accuracy": 0.6,
+            "Bots_Damage_Done_Multiplier": 1.0,
+            "Bots_Damage_Taken_Multiplier": 1.0,
+            "Bots_Drop_Loot": 1,
+            "Bots_Drop_Weapon": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "StaticObj_Wreck_Mi8_Crashed",
+                    "Scale": 1.0,
+                    "Position": [
+                        6730.48,
+                        385.974,
+                        14080.7
+                    ],
+                    "Rotation": [
+                        -31.0862,
+                        -0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Downed Helicopter",
+            "Position": [
+                2913.08,
+                268.023,
+                9441.63
+            ],
+            "Bots_Count_Minimum": 3,
+            "Bots_Count_Maximum": 3,
+            "Bots_Expansion_Loadout": "BanditLoadout",
+            "Bots_Loadout_ID": 1,
+            "Bots_Range": 400,
+            "Bots_Accuracy": 0.6,
+            "Bots_Damage_Done_Multiplier": 1.0,
+            "Bots_Damage_Taken_Multiplier": 1.0,
+            "Bots_Drop_Loot": 1,
+            "Bots_Drop_Weapon": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "StaticObj_Wreck_Mi8_Crashed",
+                    "Scale": 1.0,
+                    "Position": [
+                        2906.78,
+                        267.729,
+                        9431.74
+                    ],
+                    "Rotation": [
+                        179.039,
+                        0,
+                        -0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Downed Helicopter",
+            "Position": [
+                924.606,
+                360.894,
+                10768.3
+            ],
+            "Bots_Count_Minimum": 3,
+            "Bots_Count_Maximum": 3,
+            "Bots_Expansion_Loadout": "BanditLoadout",
+            "Bots_Loadout_ID": 1,
+            "Bots_Range": 400,
+            "Bots_Accuracy": 0.8,
+            "Bots_Damage_Done_Multiplier": 1.0,
+            "Bots_Damage_Taken_Multiplier": 1.0,
+            "Bots_Drop_Loot": 1,
+            "Bots_Drop_Weapon": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "StaticObj_Wreck_Mi8_Crashed",
+                    "Scale": 1.0,
+                    "Position": [
+                        937.528,
+                        357.687,
+                        10747
+                    ],
+                    "Rotation": [
+                        111.733,
+                        0,
+                        -0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Train Ambush",
+            "Position": [
+                6536.2314453125,
+                14.84666633605957,
+                2633.99169921875
+            ],
+            "Bots_Count_Minimum": 4,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadout": "BanditLoadout",
+            "Bots_Loadout_ID": 1,
+            "Bots_Range": 200,
+            "Bots_Accuracy": 0.7,
+            "Bots_Damage_Done_Multiplier": 1.0,
+            "Bots_Damage_Taken_Multiplier": 1.0,
+            "Bots_Drop_Loot": 1,
+            "Bots_Drop_Weapon": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "Land_Train_Wagon_Box_Mil_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        6544.9755859375,
+                        15.527912139892579,
+                        2655.983642578125
+                    ],
+                    "Rotation": [
+                        41.39997863769531,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Train_Wagon_Box_Mil_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        6536.7587890625,
+                        15.723071098327637,
+                        2647.1826171875
+                    ],
+                    "Rotation": [
+                        41.39997863769531,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Train_Wagon_Box_Mil_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        6528.76611328125,
+                        15.588619232177735,
+                        2638.063720703125
+                    ],
+                    "Rotation": [
+                        41.39997863769531,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Train_Wagon_Box_Mil_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        6520.6640625,
+                        15.55003833770752,
+                        2629.065673828125
+                    ],
+                    "Rotation": [
+                        41.39997863769531,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Train_Wagon_Box_Mil_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        6527.41162109375,
+                        15.614457130432129,
+                        2612.174072265625
+                    ],
+                    "Rotation": [
+                        41.39997863769531,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Train_Wagon_Box_Mil_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        6535.4296875,
+                        15.614457130432129,
+                        2621.26513671875
+                    ],
+                    "Rotation": [
+                        41.39997863769531,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Train_Wagon_Box_Mil_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        6543.43359375,
+                        15.608309745788575,
+                        2630.318603515625
+                    ],
+                    "Rotation": [
+                        41.39997863769531,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Train_Wagon_Box_Mil_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        6551.4453125,
+                        15.644317626953125,
+                        2639.399169921875
+                    ],
+                    "Rotation": [
+                        41.39997863769531,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Train_742_Blue",
+                    "Scale": 1.0,
+                    "Position": [
+                        6518.84326171875,
+                        16.290809631347658,
+                        2602.81103515625
+                    ],
+                    "Rotation": [
+                        -138.59996032714845,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Train_742_Red",
+                    "Scale": 1.0,
+                    "Position": [
+                        6553.30859375,
+                        16.235332489013673,
+                        2665.537841796875
+                    ],
+                    "Rotation": [
+                        -137.57998657226563,
+                        0.0,
+                        -0.0
+                    ]
+                }
+            ]
+        }
+    ],
+    "Loadouts": [
+        {
+            "AI_Loot_Misc_Max": 2,
+            "AI_Loot_Special_Max": 1,
+            "Shirts": [
+                "GorkaEJacket_Autumn",
+                "GorkaEJacket_Flat",
+                "GorkaEJacket_PautRev",
+                "GorkaEJacket_Summer"
+            ],
+            "Pants": [
+                "GorkaPants_Autumn",
+                "GorkaPants_Flat",
+                "GorkaPants_PautRev",
+                "GorkaPants_Summer"
+            ],
+            "Shoes": [
+                "TTSKOBoots",
+                "WorkingBoots_Beige",
+                "CombatBoots_Beige",
+                "CombatBoots_Black",
+                "CombatBoots_Brown"
+            ],
+            "BackPacks": [
+                "CoyoteBag_Brown",
+                "CoyoteBag_Green",
+                "HuntingBag",
+                "TortillaBag",
+                "WaterproofBag_Green"
+            ],
+            "Gloves": [
+                "WorkingGloves_Beige",
+                "WorkingGloves_Black",
+                "NBCGlovesGray",
+                "OMNOGloves_Brown"
+            ],
+            "Belts": [
+                "CivilianBelt",
+                "MilitaryBelt"
+            ],
+            "NBC_Loadout": [
+                "NBCGlovesGray",
+                "NBCJacketGray",
+                "NBCPantsGray",
+                "NBCBootsGray",
+                "NBCHoodGray",
+                "GasMask"
+            ],
+            "AI_Loot_Misc": [
+                "SardinesCan",
+                "SodaCan_Cola",
+                "SodaCan_Kvass",
+                "Rice",
+                "Rope",
+                "Screwdriver"
+            ],
+            "AI_Loot_Special": [
+                "NailBox",
+                "Hatchet",
+                "RGD5Grenade"
+            ],
+            "Weapons": [
+                {
+                    "Loadout_ID": 0,
+                    "Weapon_ClassName": "CZ61",
+                    "Magazine_ClassName": "Mag_CZ61_20Rnd",
+                    "Attach": []
+                },
+                {
+                    "Loadout_ID": 1,
+                    "Weapon_ClassName": "M4A1",
+                    "Magazine_ClassName": "Mag_CMAG_40Rnd",
+                    "Attach": [
+                        "M4_RISHndgrd",
+                        "M4_MPBttstck",
+                        "ACOGOptic"
+                    ]
+                },
+                {
+                    "Loadout_ID": 2,
+                    "Weapon_ClassName": "SVD",
+                    "Magazine_ClassName": "Mag_SVD_10Rnd",
+                    "Attach": [
+                        "PSO1Optic"
+                    ]
+                }
+            ],
+            "Armour": [
+                {
+                    "Loadout_ID": 0,
+                    "Armour_ClassName": "PlateCarrierVest_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "Loadout_ID": 0,
+                    "Armour_ClassName": "PlateCarrierVest_Green",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "Loadout_ID": 1,
+                    "Armour_ClassName": "PlateCarrierVest_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "Loadout_ID": 1,
+                    "Armour_ClassName": "PlateCarrierVest_Green",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "Loadout_ID": 2,
+                    "Armour_ClassName": "PlateCarrierVest_Camo",
+                    "Attach": [],
+                    "Contents": []
+                }
+            ],
+            "Headgear": [
+                {
+                    "Loadout_ID": 0,
+                    "Helmet_ClassName": "GorkaHelmet",
+                    "Give_NVG": 1
+                },
+                {
+                    "Loadout_ID": 1,
+                    "Helmet_ClassName": "GorkaHelmet",
+                    "Give_NVG": 1
+                },
+                {
+                    "Loadout_ID": 2,
+                    "Helmet_ClassName": "Mich2001Helmet",
+                    "Give_NVG": 1
+                }
+            ]
+        }
+    ],
+    "RewardObjects": [
+        {
+            "Reward_Type": 1,
+            "ClassName": "SeaChest",
+            "Replace_ClassName": "CJ_LootChest_Green_Large",
+            "Loot_Initial": [],
+            "Loot_Win": []
+        },
+        {
+            "Reward_Type": 1,
+            "ClassName": "Barrel_Blue",
+            "Replace_ClassName": "",
+            "Loot_Initial": [],
+            "Loot_Win": []
+        },
+        {
+            "Reward_Type": 2,
+            "ClassName": "Truck_01_Covered",
+            "Replace_ClassName": "",
+            "Loot_Initial": [
+                "Truck_01_Wheel",
+                "Truck_01_Wheel",
+                "Truck_01_WheelDouble",
+                "Truck_01_WheelDouble",
+                "Truck_01_WheelDouble",
+                "Truck_01_WheelDouble",
+                "Truck_01_Door_1_1",
+                "Truck_01_Door_2_1",
+                "Truck_01_Hood",
+                "HeadlightH7",
+                "HeadlightH7"
+            ],
+            "Loot_Win": [
+                "TruckBattery",
+                "SparkPlug"
+            ]
+        },
+        {
+            "Reward_Type": 2,
+            "ClassName": "Offroad_02",
+            "Replace_ClassName": "",
+            "Loot_Initial": [
+                "Offroad_02_Wheel",
+                "Offroad_02_Wheel",
+                "Offroad_02_Wheel",
+                "Offroad_02_Wheel",
+                "Offroad_02_Door_1_1",
+                "Offroad_02_Door_1_2",
+                "Offroad_02_Door_2_1",
+                "Offroad_02_Door_2_2",
+                "Offroad_02_Hood",
+                "Offroad_02_Trunk",
+                "HeadlightH7",
+                "HeadlightH7"
+            ],
+            "Loot_Win": [
+                "Offroad_02_Wheel",
+                "CarBattery",
+                "GlowPlug"
+            ]
+        },
+        {
+            "Reward_Type": 2,
+            "ClassName": "OffroadHatchback",
+            "Replace_ClassName": "",
+            "Loot_Initial": [
+                "CarRadiator",
+                "HatchbackWheel",
+                "HatchbackWheel",
+                "HatchbackWheel",
+                "HatchbackWheel",
+                "HatchbackDoors_Driver",
+                "HatchbackDoors_CoDriver",
+                "HatchbackHood",
+                "HatchbackTrunk",
+                "HeadlightH7",
+                "HeadlightH7"
+            ],
+            "Loot_Win": [
+                "CarBattery",
+                "SparkPlug"
+            ]
+        },
+        {
+            "Reward_Type": 2,
+            "ClassName": "rag_hummer_Armored",
+            "Replace_ClassName": "",
+            "Loot_Initial": [
+                "CarRadiator",
+                "rag_hummer_wheel",
+                "rag_hummer_wheel",
+                "rag_hummer_wheel",
+                "rag_hummer_wheel",
+                "rag_hummer_door_1",
+                "rag_hummer_door_2",
+                "rag_hummer_door_3",
+                "rag_hummer_door_4",
+                "rag_hummer_hood",
+                "rag_hummer_trunk",
+                "HeadlightH7",
+                "HeadlightH7"
+            ],
+            "Loot_Win": [
+                "CarBattery",
+                "SparkPlug",
+                "rag_hummer_wheel"
+            ]
+        },
+        {
+            "Reward_Type": 2,
+            "ClassName": "rag_hummer_tan_Armored",
+            "Replace_ClassName": "",
+            "Loot_Initial": [
+                "CarRadiator",
+                "rag_hummer_wheel",
+                "rag_hummer_wheel",
+                "rag_hummer_wheel",
+                "rag_hummer_wheel",
+                "rag_hummer_door_tan_1",
+                "rag_hummer_door_tan_2",
+                "rag_hummer_door_tan_3",
+                "rag_hummer_door_tan_4",
+                "rag_hummer_hood_tan",
+                "rag_hummer_trunk_tan",
+                "HeadlightH7",
+                "HeadlightH7"
+            ],
+            "Loot_Win": [
+                "CarBattery",
+                "SparkPlug",
+                "rag_hummer_wheel"
+            ]
+        },
+        {
+            "Reward_Type": 2,
+            "ClassName": "rag_hummer_camo_Armored",
+            "Replace_ClassName": "",
+            "Loot_Initial": [
+                "CarRadiator",
+                "rag_hummer_wheel",
+                "rag_hummer_wheel",
+                "rag_hummer_wheel",
+                "rag_hummer_wheel",
+                "rag_hummer_door_camo_1",
+                "rag_hummer_door_camo_2",
+                "rag_hummer_door_camo_3",
+                "rag_hummer_door_camo_4",
+                "rag_hummer_hood_camo",
+                "rag_hummer_trunk_camo",
+                "HeadlightH7",
+                "HeadlightH7"
+            ],
+            "Loot_Win": [
+                "CarBattery",
+                "SparkPlug",
+                "rag_hummer_wheel"
+            ]
+        },
+        {
+            "Reward_Type": 2,
+            "ClassName": "rag_landrover_110_olive",
+            "Replace_ClassName": "",
+            "Loot_Initial": [
+                "CarRadiator",
+                "rag_landrover_110_wheel",
+                "rag_landrover_110_wheel",
+                "rag_landrover_110_wheel",
+                "rag_landrover_110_wheel",
+                "rag_landrover_110_driverdoor_olive",
+                "rag_landrover_110_codriverdoor_olive",
+                "rag_landrover_110_cargo1_olive",
+                "rag_landrover_110_cargo2_olive",
+                "rag_landrover_110_cargo3_olive",
+                "rag_landrover_110_hood_olive",
+                "HeadlightH7",
+                "HeadlightH7"
+            ],
+            "Loot_Win": [
+                "CarBattery",
+                "SparkPlug",
+                "rag_landrover_110_wheel"
+            ]
+        },
+        {
+            "Reward_Type": 2,
+            "ClassName": "rag_landrover_110_red",
+            "Replace_ClassName": "",
+            "Loot_Initial": [
+                "CarRadiator",
+                "rag_landrover_110_wheel",
+                "rag_landrover_110_wheel",
+                "rag_landrover_110_wheel",
+                "rag_landrover_110_wheel",
+                "rag_landrover_110_driverdoor_red",
+                "rag_landrover_110_codriverdoor_red",
+                "rag_landrover_110_cargo1_red",
+                "rag_landrover_110_cargo2_red",
+                "rag_landrover_110_cargo3_red",
+                "rag_landrover_110_hood_red",
+                "HeadlightH7",
+                "HeadlightH7"
+            ],
+            "Loot_Win": [
+                "CarBattery",
+                "SparkPlug",
+                "rag_landrover_110_wheel"
+            ]
+        },
+        {
+            "Reward_Type": 2,
+            "ClassName": "rag_mtvr",
+            "Replace_ClassName": "",
+            "Loot_Initial": [
+                "CarRadiator",
+                "rag_mtvr_wheel",
+                "rag_mtvr_wheel",
+                "rag_mtvr_wheel",
+                "rag_mtvr_wheel",
+                "rag_mtvr_wheel",
+                "rag_mtvr_wheel",
+                "rag_mtvr_door_1_1",
+                "rag_mtvr_door_1_2",
+                "rag_mtvr_hood",
+                "rag_mtvr_cargo1door",
+                "HeadlightH7",
+                "HeadlightH7"
+            ],
+            "Loot_Win": [
+                "TruckBattery",
+                "SparkPlug",
+                "rag_mtvr_wheel"
+            ]
+        },
+        {
+            "Reward_Type": 2,
+            "ClassName": "rag_zil_130",
+            "Replace_ClassName": "",
+            "Loot_Initial": [
+                "CarRadiator",
+                "rag_zil_130_wheel",
+                "rag_zil_130_wheel",
+                "rag_zil_130_wheel_double",
+                "rag_zil_130_wheel_double",
+                "rag_zil_130_driverdoor",
+                "rag_zil_130_codriverdoor",
+                "rag_zil_130_trunk",
+                "rag_zil_130_hood",
+                "HeadlightH7",
+                "HeadlightH7"
+            ],
+            "Loot_Win": [
+                "TruckBattery",
+                "SparkPlug",
+                "rag_zil_130_wheel"
+            ]
+        }
+    ],
+    "Loot": [
+        {
+            "Weapons": [
+                {
+                    "ClassName": "FAL",
+                    "Magazine_ClassName": "Mag_FAL_20Rnd",
+                    "Attach": [
+                        "Fal_OeBttsck",
+                        "ACOGOptic"
+                    ],
+                    "Loot": [
+                        "Mag_FAL_20Rnd",
+                        "Mag_FAL_20Rnd"
+                    ]
+                },
+                {
+                    "ClassName": "SVD",
+                    "Magazine_ClassName": "Mag_SVD_10Rnd",
+                    "Attach": [
+                        "PSO1Optic"
+                    ],
+                    "Loot": [
+                        "Mag_SVD_10Rnd",
+                        "Mag_SVD_10Rnd"
+                    ]
+                },
+                {
+                    "ClassName": "SNAFUKivaari_Black_GUN",
+                    "Magazine_ClassName": "SNAFUKivaari_10rdMag",
+                    "Attach": [
+                        "SNAFUKivaari_338_Supp",
+                        "SNAFU_HuntingOptic"
+                    ],
+                    "Loot": [
+                        "SNAFUKivaari_10rdMag"
+                    ]
+                },
+                {
+                    "ClassName": "SNAFU_M1918A2",
+                    "Magazine_ClassName": "SNAFU_M1918A2_Mag",
+                    "Attach": [],
+                    "Loot": [
+                        "SNAFU_M1918A2_Mag"
+                    ]
+                },
+                {
+                    "ClassName": "SNAFU_M14",
+                    "Magazine_ClassName": "SNAFU_M14_Mag",
+                    "Attach": [
+                        "SNAFU_M14Optic"
+                    ],
+                    "Loot": [
+                        "SNAFU_M14_Mag"
+                    ]
+                },
+                {
+                    "ClassName": "SNAFU_M76",
+                    "Magazine_ClassName": "SNAFU_M76_Mag",
+                    "Attach": [
+                        "SNAFU_AKKahles"
+                    ],
+                    "Loot": [
+                        "SNAFU_M76_Mag"
+                    ]
+                },
+                {
+                    "ClassName": "SNAFU_SKS",
+                    "Magazine_ClassName": "SNAFU_SKS_10Rnd_Mag",
+                    "Attach": [
+                        "SNAFU_MWalther"
+                    ],
+                    "Loot": [
+                        "SNAFU_SKS_10Rnd_Mag",
+                        "SNAFU_SKS_10Rnd_Mag"
+                    ]
+                },
+                {
+                    "ClassName": "SN_Glock19",
+                    "Magazine_ClassName": "Mag_Glock_15Rnd",
+                    "Attach": [
+                        "FNP45_MRDSOptic",
+                        "PistolSuppressor",
+                        "TLRLight"
+                    ],
+                    "Loot": [
+                        "Mag_Glock_15Rnd",
+                        "Mag_Glock_15Rnd"
+                    ]
+                },
+                {
+                    "ClassName": "SN_M870",
+                    "Magazine_ClassName": "",
+                    "Attach": [
+                        "SNAFU_Shotgunchoke_Black"
+                    ],
+                    "Loot": [
+                        "",
+                        ""
+                    ]
+                },
+                {
+                    "ClassName": "SN_Mp443",
+                    "Magazine_ClassName": "SN_Mp443_Mag",
+                    "Attach": [
+                        "PistolSuppressor"
+                    ],
+                    "Loot": [
+                        "SN_Mp443_Mag",
+                        "SN_Mp443_Mag"
+                    ]
+                },
+                {
+                    "ClassName": "SN_M9",
+                    "Magazine_ClassName": "SN_M9_Mag",
+                    "Attach": [
+                        "PistolSuppressor"
+                    ],
+                    "Loot": [
+                        "SN_M9_Mag",
+                        "SN_M9_Mag"
+                    ]
+                },
+                {
+                    "ClassName": "SN_USP",
+                    "Magazine_ClassName": "SN_USP_Mag",
+                    "Attach": [
+                        "FNP45_MRDSOptic",
+                        "PistolSuppressor"
+                    ],
+                    "Loot": [
+                        "SN_USP_Mag",
+                        "SN_USP_Mag"
+                    ]
+                },
+                {
+                    "ClassName": "GCGN_MP7",
+                    "Magazine_ClassName": "GCGN_MP7_40Rnd",
+                    "Attach": [
+                        "PistolSuppressor",
+                        "SNAFU_Trijicon"
+                    ],
+                    "Loot": [
+                        "GCGN_MP7_40Rnd",
+                        ""
+                    ]
+                },
+                {
+                    "ClassName": "GCGN_VEPR",
+                    "Magazine_ClassName": "GCGN_VEPR_10rnd",
+                    "Attach": [
+                        "SNAFU_AKHuntingOptic"
+                    ],
+                    "Loot": [
+                        "GCGN_VEPR_10rnd",
+                        "GCGN_VEPR_10rnd"
+                    ]
+                },
+                {
+                    "ClassName": "SNAFU_AEK545_Gun",
+                    "Magazine_ClassName": "SNAFU_RPK16_Black_Mag",
+                    "Attach": [
+                        "SNAFU_Standardized_Suppressor_Black",
+                        "SNAFU_Kobra"
+                    ],
+                    "Loot": [
+                        "SNAFU_RPK16_Black_Mag",
+                        ""
+                    ]
+                },
+                {
+                    "ClassName": "SNAFU_CZ805_Gun",
+                    "Magazine_ClassName": "Mag_STANAG_30Rnd",
+                    "Attach": [
+                        "SNAFU_Kahles",
+                        "SNAFU_FGCR_Grip",
+                        "SNAFU_Standardized_Suppressor_Black"
+                    ],
+                    "Loot": [
+                        "Mag_STANAG_30Rnd",
+                        "Mag_STANAG_30Rnd"
+                    ]
+                }
+            ],
+            "Armour": [
+                {
+                    "ClassName": "PlateCarrierVest",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "PlateCarrierVest_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "PlateCarrierVest_Camo",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "BallisticHelmet_Green",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "BallisticHelmet_Black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "BallisticHelmet_Woodland",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_JPC_Vest_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_tt_Vest_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_chestrig_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_MK_III_Armor_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_MK_V_Armor_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_carrier_backpack_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_supplybag_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_assault_pack_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_camelback_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_mmps_bag_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_falcon_b1_belt_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_tactical_helmet_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_striker_helmet_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_armored_helmet_black",
+                    "Attach": [
+                        "mmg_armored_helmet_visor_black"
+                    ],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_headphones_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_bottle_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_Holster_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_tac_goggles_red_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_operatorshirt_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_tactical_shirt_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_combatshirt_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_combatpants_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_tactical_pants_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_tactical_gloves_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_boots_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_facemask_black",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_facemask_skull",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_facemask_joker",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "MMG_balaclava_black",
+                    "Attach": [],
+                    "Contents": []
+                }
+            ],
+            "Misc": [
+                {
+                    "ClassName": "BandageDressing",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "PainkillerTablets",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Morphine",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "SledgeHammer",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "NailBox",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Hatchet",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "WeaponCleaningKit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "ElectronicRepairKit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "LeatherSewingKit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "SewingKit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "TireRepairKit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Whetstone",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "LBS_SleepingBag_New_Camo",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "ExpansionCodeLock",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "CJ_Key1",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "CJ_Key2",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "CJ_Key3",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "CJ_Key4",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "CJ_Key5",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Project3DPrinter_Battery",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Project3DBench_Kit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Project3DPrinter_Filament_Gold",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Project3DPrinter_Filament_Silver",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Project3DPrinter_USB_01",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Project3DPrinter_USB_02",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Project3DPrinter_USB_03",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Project3DPrinter_USB_04",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Project3DPrinter_USB_05",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "Project3DPrinter_Kit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_equipment_locker_green_kit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_equipment_locker_black_kit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_equipment_locker_grey_kit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_locker02_blue_kit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_locker02_green_kit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_locker02_tan_kit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_gun_rack_kit_blue",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_gun_rack_kit_green",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_gun_rack_kit_tan",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_lockable_gun_rack_kit_grey",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_gun_wall_kit_wooden",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_gun_wall_kit_metal",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_fridge_kit_beige",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_fridge_kit_blue",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_gear_stand_kit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_greenhouse_kit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_solo_locker_yellow_kit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_solo_locker_blue_kit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_solo_locker_red_kit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_solo_locker_grey_kit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_solo_locker_purple_kit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_solo_locker_green_kit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_solo_locker_medic_kit",
+                    "Attach": [],
+                    "Contents": []
+                },
+                {
+                    "ClassName": "mmg_raid_driver",
+                    "Attach": [],
+                    "Contents": []
+                }
+            ]
+        }
+    ]
+}
