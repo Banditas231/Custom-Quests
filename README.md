@@ -38,17 +38,14 @@ Loadouts have also been added.
 ---
 
 ✅ I keep my files updated so people can use correct and working quests.  
-🕓 **Last updated:** 07/21/2025  
-**Rewritten texts, changed some quest rewards, and added a few custom quests**
+🕓 **Last updated:** 12/24/2025  
+**Added fix for Repai my Weapon quest check `init.c`**
 
 ---
 
 ### 🔄 Updates:
 
-- Some eAI now spawn in unique locations and may move from point A to point Z.
-- Zombie-killing quests are now tiered (1–2–3), meaning you must complete Quest 1 to unlock Quest 2, and so on.
-- Added `init.c` — this file is required for some quests. It also gives players custom starting clothes.
-- Players with the default name `"Survivor"` will spawn naked — this helps enforce custom names.
+- `init.c` — this file is required for some quests. It also gives players custom starting clothes.
 
 ---
 
