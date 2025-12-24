@@ -300,6 +300,216 @@ class CustomMission: MissionServer
         ExpansionTempQuestHolderPosition questHolderEscortPos = new ExpansionTempQuestHolderPosition("6246.88 273.78 11612.51", "0.0 -0.0 -0.0");
         ExpansionQuestModule.GetModuleInstance().SpawnQuestHolder(questHolderEscort, questHolderEscortPos);
     }
+	//! This one needed for Repair my Weapon
+  	//! ADD THIS AFTER EVERYTHING ELSE IN THIS CLASS
+	//! Quest Events
+	override void Expansion_OnQuestCompletion(ExpansionQuest quest)
+    {
+        bool shouldCompleteNormally = true;
+        
+        switch (quest.GetQuestConfig().GetID())
+        {
+            case 910: //! If quest ID is 910 then this will be executed on quest completion
+            {
+                PlayerBase player = quest.GetPlayer();
+                if (player)
+                {
+					array<EntityAI> attachmentsItems;
+
+                    //! Check if player has an item in hands
+                    EntityAI handItem = player.GetHumanInventory().GetEntityInHands();
+                    
+                    //! Validate that player has a weapon in hands
+                    if (!handItem)
+                    {
+                        //! No item in hands - return money and send warning message
+                        ReturnMoneyToPlayer(player, 25000); //! Return the money that was taken
+                        SendQuestMessage(player, "ERROR: You don't have a weapon in your hands! Quest cannot be completed. Money refunded.");
+                        shouldCompleteNormally = false;
+                    }
+                    else
+                    {
+                        //! Check if the item is a weapon using IsKindOf method
+                        bool isWeapon = false;
+                        
+                        //! Try using IsKindOf to check if item is a weapon
+                        if (handItem.IsKindOf("Weapon_Base"))
+                        {
+                            isWeapon = true;
+                        }
+                        //! If IsKindOf doesn't work, we'll accept any item in hands as valid
+                        //! Player is responsible for having weapon in hands
+                        
+                        if (!isWeapon)
+                        {
+                            //! Item in hands is not a weapon - return money and send warning message
+                            ReturnMoneyToPlayer(player, 25000); //! Return the money that was taken
+                            SendQuestMessage(player, "ERROR: No weapon in your hands! Quest cannot be completed. Money refunded.");
+                            shouldCompleteNormally = false;
+                        }
+                        else
+                        {
+                            //! Check if weapon and all attachments are pristine (fully repaired)
+                            float weaponHealth = handItem.GetHealth("","");
+                            float weaponMaxHealth = handItem.GetMaxHealth("","");
+                            bool weaponIsPristine = (weaponHealth >= weaponMaxHealth);
+                            bool allAttachmentsPristine = true;
+                            bool hasAttachments = false;
+                            
+                            //! Check attachments if weapon has inventory
+                            if (handItem.GetInventory() && handItem.GetInventory().CountInventory() > 0)
+                            {
+                                hasAttachments = true;
+                                attachmentsItems = new array<EntityAI>;
+                                attachmentsItems.Reserve(handItem.GetInventory().CountInventory());
+                                handItem.GetInventory().EnumerateInventory(InventoryTraversalType.PREORDER, attachmentsItems);
+
+                                foreach (EntityAI checkAttachment: attachmentsItems)
+                                {
+                                    if (checkAttachment)
+                                    {
+                                        float attachHealth = checkAttachment.GetHealth("","");
+                                        float attachMaxHealth = checkAttachment.GetMaxHealth("","");
+                                        if (attachHealth < attachMaxHealth)
+                                        {
+                                            allAttachmentsPristine = false;
+                                            break; //! Found damaged attachment, no need to check further
+                                        }
+                                    }
+                                }
+                            }
+                            
+                            //! If weapon and all attachments are pristine, return money and don't complete quest
+                            if (weaponIsPristine && allAttachmentsPristine)
+                            {
+                                ReturnMoneyToPlayer(player, 25000); //! Return the money that was taken
+                                SendQuestMessage(player, "ERROR: Your weapon and all attachments are already in perfect condition! Quest cannot be completed. Money refunded.");
+                                shouldCompleteNormally = false;
+                            }
+                            else
+                            {
+                                //! Weapon or attachments are damaged - proceed with repair (even if broken)
+                                bool wasRepaired = false;
+                                
+                                //! Repair weapon (even if broken) - check if it needs repair
+                                if (weaponHealth < weaponMaxHealth)
+                                {
+                                    handItem.SetFullHealth();
+                                    wasRepaired = true;
+                                }
+
+                                //! Repair attachments (even if broken)
+                                if (handItem.GetInventory() && handItem.GetInventory().CountInventory() > 0)
+                                {
+                                    if (!hasAttachments || attachmentsItems.Count() == 0)
+                                    {
+                                        attachmentsItems = new array<EntityAI>;
+                                        attachmentsItems.Reserve(handItem.GetInventory().CountInventory());
+                                        handItem.GetInventory().EnumerateInventory(InventoryTraversalType.PREORDER, attachmentsItems);
+                                    }
+
+                                    foreach (EntityAI attachment: attachmentsItems)
+                                    {
+                                        if (attachment)
+                                        {
+                                            float repairAttachHealth = attachment.GetHealth("","");
+                                            float repairAttachMaxHealth = attachment.GetMaxHealth("","");
+                                            if (repairAttachHealth < repairAttachMaxHealth)
+                                            {
+                                                attachment.SetFullHealth();
+                                                wasRepaired = true;
+                                            }
+                                        }
+                                    }
+                                }
+                                
+                                if (wasRepaired)
+                                {
+                                    SendQuestMessage(player, "Weapon successfully repaired!");
+                                }
+                                else
+                                {
+                                    //! This should not happen if pristine check works, but just in case
+                                    ReturnMoneyToPlayer(player, 25000);
+                                    SendQuestMessage(player, "ERROR: Your weapon and all attachments are already in perfect condition! Quest cannot be completed. Money refunded.");
+                                    shouldCompleteNormally = false;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            break;
+        }
+
+        //! Only call super if quest should complete normally
+        if (shouldCompleteNormally)
+        {
+            super.Expansion_OnQuestCompletion(quest);
+        }
+    }
+    
+    //! Helper function to send messages to player
+    void SendQuestMessage(PlayerBase player, string message)
+    {
+        if (player)
+        {
+            PlayerIdentity identity = player.GetIdentity();
+            if (identity)
+            {
+                Param1<string> msgParam = new Param1<string>(message);
+                GetGame().RPCSingleParam(player, ERPCs.RPC_USER_ACTION_MESSAGE, msgParam, true, identity);
+            }
+        }
+    }
+    
+    //! Helper function to return money to player (grąžina pinigus žaidėjui kaip stack'intą sumą)
+    void ReturnMoneyToPlayer(PlayerBase player, int amount)
+    {
+        if (!player || amount <= 0)
+            return;
+            
+        //! ExpansionBanknoteHryvnia: 1 banknotas = 1 pinigų vienetas
+        //! Amount is 25000, so we need quantity = 25000
+        int banknoteCount = amount;
+        
+        EntityAI createdItem = null;
+        ItemBase itemBase = null;
+        
+        //! Try to create ONE stacked banknote with the correct quantity in player's inventory
+        createdItem = player.GetInventory().CreateInInventory("ExpansionBanknoteHryvnia");
+        
+        if (createdItem)
+        {
+            //! Cast to ItemBase to set quantity
+            itemBase = ItemBase.Cast(createdItem);
+            if (itemBase)
+            {
+                //! Set the quantity to the correct amount (stack the banknotes)
+                itemBase.SetQuantity(banknoteCount);
+            }
+        }
+        else
+        {
+            //! If inventory is full, try to drop near player
+            vector playerPos = player.GetPosition();
+            vector dropPos = playerPos;
+            dropPos[1] = dropPos[1] + 1.0; //! Slightly above ground
+            
+            createdItem = GetGame().CreateObject("ExpansionBanknoteHryvnia", dropPos, false, true);
+            if (createdItem)
+            {
+                createdItem.SetOrientation(player.GetOrientation());
+                
+                //! Set quantity for dropped item too
+                itemBase = ItemBase.Cast(createdItem);
+                if (itemBase)
+                {
+                    itemBase.SetQuantity(banknoteCount);
+                }
+            }
+        }
+    }
 #endif
 
   /* Set global variables to use in the following functions */
@@ -743,4 +953,5 @@ class CustomMission: MissionServer
 
 Mission CreateCustomMission(string path) {
   return new CustomMission();
+
 }
