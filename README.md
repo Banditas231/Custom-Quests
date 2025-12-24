@@ -27,14 +27,8 @@ Some quests were found online and fixed/updated by me, while others were custom-
 
 ### New Quests Added:
 
-- **Pilot Crash chain quest (3 quests)**
-- 🔥 [VIDEO #1](https://youtu.be/c_zEjZuaSmg)  
-  You will need a solution for the Pilot Crash 1–2 issues: how to get zombies into the area.  
-  Quest 3 is no problem; I use eAI.
-
-Don’t forget to adjust the rewards to your liking.  
-Loadouts have also been added.
-
+- **Repair my Weapon (Fixed old quest)**
+- 🔥 [VIDEO #1]([https://youtu.be/c_zEjZuaSmg](https://youtu.be/O-vUILGkMRA)) 
 ---
 
 ✅ I keep my files updated so people can use correct and working quests.  
