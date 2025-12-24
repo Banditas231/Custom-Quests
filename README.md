@@ -28,7 +28,7 @@ Some quests were found online and fixed/updated by me, while others were custom-
 ### New Quests Added:
 
 - **Repair my Weapon (Fixed old quest)**
-- 🔥 [VIDEO #1]([https://youtu.be/c_zEjZuaSmg](https://youtu.be/O-vUILGkMRA)) 
+- 🔥 [VIDEO #1](https://youtu.be/O-vUILGkMRA)
 ---
 
 ✅ I keep my files updated so people can use correct and working quests.  
