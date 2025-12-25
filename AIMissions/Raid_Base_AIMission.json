@@ -1,0 +1,3719 @@
+{
+    "Missions": [
+        {
+            "Name": "Raid_Base",
+            "Position": [
+                5655.80029296875,
+                236.7462615966797,
+                6351.685546875
+            ],
+            "Bots_Positions": [
+                [
+                    5652.4267578125,
+                    234.85047912597656,
+                    6352.77490234375
+                ],
+                [
+                    5654.6708984375,
+                    234.2486572265625,
+                    6343.99853515625
+                ],
+                [
+                    5654.10888671875,
+                    236.7389373779297,
+                    6350.11962890625
+                ],
+                [
+                    5648.91162109375,
+                    234.77365112304688,
+                    6353.59423828125
+                ],
+                [
+                    5658.6630859375,
+                    236.7418975830078,
+                    6352.4775390625
+                ],
+                [
+                    5660.423828125,
+                    236.46498107910156,
+                    6347.64306640625
+                ]
+            ],
+            "Bots_Count_Minimum": 3,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [],
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "Land_House_1W06",
+                    "Scale": 1.0,
+                    "Position": [
+                        5655.30712890625,
+                        237.66461181640625,
+                        6351.2734375
+                    ],
+                    "Rotation": [
+                        -33.84672164916992,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Raid_Base_1",
+            "Position": [
+                3620.056640625,
+                276.38104248046875,
+                5150.556640625
+            ],
+            "Bots_Positions": [
+                [
+                    3623.38671875,
+                    274.7219543457031,
+                    5147.5458984375
+                ],
+                [
+                    3618.302490234375,
+                    275.6237487792969,
+                    5151.71826171875
+                ],
+                [
+                    3623.42431640625,
+                    275.00628662109375,
+                    5157.7626953125
+                ],
+                [
+                    3620.899658203125,
+                    275.6256103515625,
+                    5151.4326171875
+                ],
+                [
+                    3618.584716796875,
+                    275.6256103515625,
+                    5147.4169921875
+                ],
+                [
+                    3618.360595703125,
+                    275.6214904785156,
+                    5155.5712890625
+                ],
+                [
+                    3616.9814453125,
+                    275.6202392578125,
+                    5157.861328125
+                ]
+            ],
+            "Bots_Count_Minimum": 3,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [],
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "Land_House_1W08",
+                    "Scale": 1.0,
+                    "Position": [
+                        3619.96337890625,
+                        277.5096130371094,
+                        5151.994140625
+                    ],
+                    "Rotation": [
+                        -84.60000610351562,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Raid_Base_2",
+            "Position": [
+                1548.59033203125,
+                165.52622985839844,
+                4871.3466796875
+            ],
+            "Bots_Positions": [
+                [
+                    1543.7568359375,
+                    164.7667999267578,
+                    4876.64404296875
+                ],
+                [
+                    1536.7738037109375,
+                    165.04066467285156,
+                    4874.494140625
+                ],
+                [
+                    1542.2862548828125,
+                    164.7084503173828,
+                    4858.35693359375
+                ],
+                [
+                    1544.7540283203125,
+                    165.52622985839844,
+                    4868.46484375
+                ],
+                [
+                    1547.2989501953125,
+                    165.52622985839844,
+                    4871.6962890625
+                ],
+                [
+                    1535.904052734375,
+                    165.04788208007812,
+                    4868.25244140625
+                ],
+                [
+                    1543.90478515625,
+                    165.52622985839844,
+                    4872.310546875
+                ]
+            ],
+            "Bots_Count_Minimum": 3,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [],
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "StaticObj_Wall_Wood3_4_End",
+                    "Scale": 1.0,
+                    "Position": [
+                        1537.6485595703125,
+                        165.6120147705078,
+                        4876.0400390625
+                    ],
+                    "Rotation": [
+                        -8.999999046325684,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Wood3_4_End",
+                    "Scale": 1.0,
+                    "Position": [
+                        1533.557861328125,
+                        165.62344360351562,
+                        4867.58837890625
+                    ],
+                    "Rotation": [
+                        80.50234985351562,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Wood3_4_End",
+                    "Scale": 1.0,
+                    "Position": [
+                        1533.7193603515625,
+                        165.60171508789062,
+                        4871.2353515625
+                    ],
+                    "Rotation": [
+                        96.65936279296875,
+                        -24.069162368774414,
+                        -0.18253135681152344
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Wood3_4_End",
+                    "Scale": 1.0,
+                    "Position": [
+                        1534.0040283203125,
+                        165.6199951171875,
+                        4875.46484375
+                    ],
+                    "Rotation": [
+                        -8.999999046325684,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Wood3_4_End",
+                    "Scale": 1.0,
+                    "Position": [
+                        1534.76416015625,
+                        165.6288299560547,
+                        4860.36669921875
+                    ],
+                    "Rotation": [
+                        80.50234985351562,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Wood3_4_End",
+                    "Scale": 1.0,
+                    "Position": [
+                        1534.1558837890625,
+                        165.6276397705078,
+                        4864.00341796875
+                    ],
+                    "Rotation": [
+                        80.50234985351562,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_House_1W01_Red",
+                    "Scale": 1.0,
+                    "Position": [
+                        1544.05029296875,
+                        168.37493896484375,
+                        4873.0595703125
+                    ],
+                    "Rotation": [
+                        170.99998474121094,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Wood3_4_End",
+                    "Scale": 1.0,
+                    "Position": [
+                        1530.49951171875,
+                        164.5836639404297,
+                        4874.1220703125
+                    ],
+                    "Rotation": [
+                        170.90530395507812,
+                        60.446842193603516,
+                        55.192508697509766
+                    ]
+                },
+                {
+                    "ClassName": "Land_Misc_DogHouse",
+                    "Scale": 1.0,
+                    "Position": [
+                        1545.59765625,
+                        165.6751251220703,
+                        4874.68896484375
+                    ],
+                    "Rotation": [
+                        -98.99998474121094,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Wood3_4_End",
+                    "Scale": 1.0,
+                    "Position": [
+                        1551.828125,
+                        165.18748474121094,
+                        4877.2939453125
+                    ],
+                    "Rotation": [
+                        -4.284670829772949,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Wood3_4_End",
+                    "Scale": 1.0,
+                    "Position": [
+                        1548.148681640625,
+                        165.19546508789062,
+                        4877.0205078125
+                    ],
+                    "Rotation": [
+                        -4.284670829772949,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_Garbage_Bin",
+                    "Scale": 1.0,
+                    "Position": [
+                        1544.5997314453125,
+                        165.2928466796875,
+                        4875.3798828125
+                    ],
+                    "Rotation": [
+                        90.0,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wreck_BMP2",
+                    "Scale": 1.0,
+                    "Position": [
+                        1530.5186767578125,
+                        165.90127563476562,
+                        4873.13671875
+                    ],
+                    "Rotation": [
+                        -80.99999237060547,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_Forest_DeerSkeleton_Pile",
+                    "Scale": 1.0,
+                    "Position": [
+                        1546.3330078125,
+                        164.77999877929688,
+                        4873.60205078125
+                    ],
+                    "Rotation": [
+                        -44.99999237060547,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Wood3_4_End",
+                    "Scale": 1.0,
+                    "Position": [
+                        1554.4859619140625,
+                        165.19268798828125,
+                        4871.869140625
+                    ],
+                    "Rotation": [
+                        80.50234985351562,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Wood3_4_End",
+                    "Scale": 1.0,
+                    "Position": [
+                        1553.877685546875,
+                        165.19149780273438,
+                        4875.505859375
+                    ],
+                    "Rotation": [
+                        80.50234985351562,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Wood3_4_End",
+                    "Scale": 1.0,
+                    "Position": [
+                        1554.6182861328125,
+                        163.75344848632812,
+                        4864.427734375
+                    ],
+                    "Rotation": [
+                        -97.13685607910156,
+                        -85.61930084228516,
+                        178.02821350097656
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Wood3_4_End",
+                    "Scale": 1.0,
+                    "Position": [
+                        1555.310546875,
+                        164.3147735595703,
+                        4868.08642578125
+                    ],
+                    "Rotation": [
+                        99.2745361328125,
+                        -66.63224792480469,
+                        -0.3608531653881073
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Raid_Base_3",
+            "Position": [
+                3051.430908203125,
+                150.30548095703125,
+                3326.32080078125
+            ],
+            "Bots_Positions": [
+                [
+                    3066.544921875,
+                    148.97100830078125,
+                    3330.8154296875
+                ],
+                [
+                    3050.64208984375,
+                    150.30540466308594,
+                    3322.689453125
+                ],
+                [
+                    3039.064453125,
+                    147.53228759765625,
+                    3319.76025390625
+                ],
+                [
+                    3048.27978515625,
+                    148.21609497070312,
+                    3331.039794921875
+                ]
+            ],
+            "Bots_Count_Minimum": 3,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [],
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "Land_House_1W06",
+                    "Scale": 1.0,
+                    "Position": [
+                        3051.08544921875,
+                        151.2238311767578,
+                        3326.86279296875
+                    ],
+                    "Rotation": [
+                        63.527976989746094,
+                        0.0,
+                        -0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Raid_Base_4",
+            "Position": [
+                12670.4833984375,
+                21.3367862701416,
+                8293.7060546875
+            ],
+            "Bots_Positions": [
+                [
+                    12671.06640625,
+                    21.00112533569336,
+                    8297.5888671875
+                ],
+                [
+                    12669.5205078125,
+                    20.488203048706055,
+                    8289.884765625
+                ],
+                [
+                    12667.958984375,
+                    20.488203048706055,
+                    8293.4912109375
+                ],
+                [
+                    12669.16796875,
+                    19.906715393066406,
+                    8282.1552734375
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "Land_House_1W09",
+                    "Scale": 1.0,
+                    "Position": [
+                        12672.7333984375,
+                        22.445222854614258,
+                        8290.931640625
+                    ],
+                    "Rotation": [
+                        10.799997329711914,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Wreck_Caravan_MRust",
+                    "Scale": 1.0,
+                    "Position": [
+                        12670.9921875,
+                        21.675186157226562,
+                        8297.65234375
+                    ],
+                    "Rotation": [
+                        -79.1999282836914,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Wreck_Trailer_Closed",
+                    "Scale": 1.0,
+                    "Position": [
+                        12671.6142578125,
+                        20.96001434326172,
+                        8276.4541015625
+                    ],
+                    "Rotation": [
+                        -53.99998474121094,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Wreck_hb02_aban2_red",
+                    "Scale": 1.0,
+                    "Position": [
+                        12669.765625,
+                        20.619970321655273,
+                        8283.7158203125
+                    ],
+                    "Rotation": [
+                        -80.99995422363281,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Raid_Base_5",
+            "Position": [
+                11960.44140625,
+                110.58527374267578,
+                10576.6572265625
+            ],
+            "Bots_Positions": [
+                [
+                    11956.34375,
+                    110.01118469238281,
+                    10579.3583984375
+                ],
+                [
+                    11964.318359375,
+                    109.7366943359375,
+                    10575.94921875
+                ],
+                [
+                    11960.8232421875,
+                    109.7366943359375,
+                    10574.15234375
+                ],
+                [
+                    11971.5107421875,
+                    108.16046905517578,
+                    10573.2421875
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "Land_House_1W09",
+                    "Scale": 1.0,
+                    "Position": [
+                        11963.060546875,
+                        111.69371032714844,
+                        10579.0859375
+                    ],
+                    "Rotation": [
+                        -82.99466705322266,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Wreck_Caravan_MRust",
+                    "Scale": 1.0,
+                    "Position": [
+                        11956.4130859375,
+                        110.65409088134766,
+                        10579.087890625
+                    ],
+                    "Rotation": [
+                        -173.0154266357422,
+                        -7.420215606689453,
+                        -1.897977590560913
+                    ]
+                },
+                {
+                    "ClassName": "Land_Wreck_Trailer_Closed",
+                    "Scale": 1.0,
+                    "Position": [
+                        11975.279296875,
+                        110.04315948486328,
+                        10579.2998046875
+                    ],
+                    "Rotation": [
+                        118.6163101196289,
+                        -2.5716562271118164,
+                        5.017866611480713
+                    ]
+                },
+                {
+                    "ClassName": "Land_Wreck_hb02_aban2_red",
+                    "Scale": 1.0,
+                    "Position": [
+                        11969.326171875,
+                        108.72120666503906,
+                        10572.5087890625
+                    ],
+                    "Rotation": [
+                        130.00515747070312,
+                        -6.388068675994873,
+                        7.783766746520996
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Raid_Base_6",
+            "Position": [
+                4114.0986328125,
+                8.186752319335938,
+                2579.6123046875
+            ],
+            "Bots_Positions": [
+                [
+                    4118.7939453125,
+                    7.537470817565918,
+                    2549.5205078125
+                ],
+                [
+                    4111.74365234375,
+                    6.316072940826416,
+                    2559.5849609375
+                ],
+                [
+                    4116.28955078125,
+                    8.199320793151855,
+                    2581.63330078125
+                ],
+                [
+                    4119.82470703125,
+                    8.186219215393066,
+                    2579.456787109375
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "Land_House_1W06_Blue",
+                    "Scale": 1.0,
+                    "Position": [
+                        4118.71533203125,
+                        9.105212211608887,
+                        2579.32421875
+                    ],
+                    "Rotation": [
+                        -162.00009155273438,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_House_1W13_Dam_Snow",
+                    "Scale": 1.0,
+                    "Position": [
+                        4119.5185546875,
+                        9.090778350830078,
+                        2548.904296875
+                    ],
+                    "Rotation": [
+                        53.999969482421875,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_House_1W14_Dam_Snow",
+                    "Scale": 1.0,
+                    "Position": [
+                        4114.64453125,
+                        6.572262287139893,
+                        2561.697509765625
+                    ],
+                    "Rotation": [
+                        -80.9999008178711,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Raid_Base_7",
+            "Position": [
+                6266.00146484375,
+                41.450347900390625,
+                3253.135986328125
+            ],
+            "Bots_Positions": [
+                [
+                    6275.36865234375,
+                    38.856754302978516,
+                    3250.469482421875
+                ],
+                [
+                    6267.1337890625,
+                    41.463871002197266,
+                    3255.093017578125
+                ],
+                [
+                    6270.7587890625,
+                    41.4498176574707,
+                    3256.39208984375
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 3,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "Land_House_1W06_Blue",
+                    "Scale": 1.0,
+                    "Position": [
+                        6269.88330078125,
+                        42.36880874633789,
+                        3255.65185546875
+                    ],
+                    "Rotation": [
+                        161.47998046875,
+                        0.0,
+                        -0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Raid_Base_8",
+            "Position": [
+                7978.22119140625,
+                9.697208404541016,
+                3234.16650390625
+            ],
+            "Bots_Positions": [
+                [
+                    7982.91650390625,
+                    9.04792594909668,
+                    3204.07470703125
+                ],
+                [
+                    7975.8662109375,
+                    7.826528549194336,
+                    3214.13916015625
+                ],
+                [
+                    7980.412109375,
+                    9.709775924682617,
+                    3236.1875
+                ],
+                [
+                    7983.947265625,
+                    9.696674346923828,
+                    3234.010986328125
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "Land_House_1W06_Blue",
+                    "Scale": 1.0,
+                    "Position": [
+                        7982.837890625,
+                        10.615667343139648,
+                        3233.87841796875
+                    ],
+                    "Rotation": [
+                        -162.00009155273438,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_House_1W13_Dam_Snow",
+                    "Scale": 1.0,
+                    "Position": [
+                        7983.64111328125,
+                        10.601234436035156,
+                        3203.45849609375
+                    ],
+                    "Rotation": [
+                        53.999969482421875,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_House_1W14_Dam_Snow",
+                    "Scale": 1.0,
+                    "Position": [
+                        7978.76708984375,
+                        8.082717895507812,
+                        3216.251708984375
+                    ],
+                    "Rotation": [
+                        -80.9999008178711,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Raid_Base_9",
+            "Position": [
+                10358.9580078125,
+                9.960558891296387,
+                1993.9271240234375
+            ],
+            "Bots_Positions": [
+                [
+                    10363.6533203125,
+                    9.311277389526367,
+                    1963.8353271484375
+                ],
+                [
+                    10356.6025390625,
+                    8.089879989624023,
+                    1973.8997802734375
+                ],
+                [
+                    10361.1494140625,
+                    9.973128318786621,
+                    1995.9481201171875
+                ],
+                [
+                    10364.6845703125,
+                    9.960026741027832,
+                    1993.7716064453125
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "Land_House_1W06_Blue",
+                    "Scale": 1.0,
+                    "Position": [
+                        10363.5751953125,
+                        10.879019737243652,
+                        1993.6390380859375
+                    ],
+                    "Rotation": [
+                        -162.00009155273438,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_House_1W13_Dam_Snow",
+                    "Scale": 1.0,
+                    "Position": [
+                        10364.3779296875,
+                        10.864584922790527,
+                        1963.2191162109375
+                    ],
+                    "Rotation": [
+                        53.999969482421875,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_House_1W14_Dam_Snow",
+                    "Scale": 1.0,
+                    "Position": [
+                        10359.50390625,
+                        8.3460693359375,
+                        1976.0123291015625
+                    ],
+                    "Rotation": [
+                        -80.9999008178711,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Raid_Base_10",
+            "Position": [
+                12166.20703125,
+                51.54783630371094,
+                8895.2060546875
+            ],
+            "Bots_Positions": [
+                [
+                    12151.65234375,
+                    51.578739166259766,
+                    8866.09765625
+                ],
+                [
+                    12158.6689453125,
+                    49.81907653808594,
+                    8873.333984375
+                ],
+                [
+                    12164.2294921875,
+                    51.56040573120117,
+                    8892.9755859375
+                ],
+                [
+                    12160.494140625,
+                    51.547306060791016,
+                    8894.7880859375
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "Land_House_1W06_Blue",
+                    "Scale": 1.0,
+                    "Position": [
+                        12161.5849609375,
+                        52.4662971496582,
+                        8895.03125
+                    ],
+                    "Rotation": [
+                        12.258284568786621,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_House_1W13_Dam_Snow",
+                    "Scale": 1.0,
+                    "Position": [
+                        12151.681640625,
+                        53.132049560546875,
+                        8865.1474609375
+                    ],
+                    "Rotation": [
+                        101.87040710449219,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_House_1W14_Dam_Snow",
+                    "Scale": 1.0,
+                    "Position": [
+                        12156.6611328125,
+                        50.07526779174805,
+                        8876.30859375
+                    ],
+                    "Rotation": [
+                        -168.95498657226562,
+                        0.0,
+                        -0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Raid_Base_11",
+            "Position": [
+                13349.767578125,
+                80.96916198730469,
+                13138.8857421875
+            ],
+            "Bots_Positions": [
+                [
+                    13327.5009765625,
+                    79.1054916381836,
+                    13154.79296875
+                ],
+                [
+                    13348.1171875,
+                    80.98172760009766,
+                    13141.3681640625
+                ],
+                [
+                    13350.8251953125,
+                    80.9686279296875,
+                    13144.5146484375
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 3,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "Land_House_1W06_Blue",
+                    "Scale": 1.0,
+                    "Position": [
+                        13350.78125,
+                        81.88761901855469,
+                        13143.3984375
+                    ],
+                    "Rotation": [
+                        117.083740234375,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_House_1W14_Dam_Snow",
+                    "Scale": 1.0,
+                    "Position": [
+                        13328.5068359375,
+                        79.36167907714844,
+                        13151.3486328125
+                    ],
+                    "Rotation": [
+                        28.78436851501465,
+                        0.0,
+                        -0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Raid_Base_12",
+            "Position": [
+                1744.1585693359375,
+                21.20477294921875,
+                2381.796875
+            ],
+            "Bots_Positions": [
+                [
+                    1747.977783203125,
+                    21.103126525878906,
+                    2384.626708984375
+                ],
+                [
+                    1744.810791015625,
+                    21.113733291625977,
+                    2390.623046875
+                ],
+                [
+                    1751.5150146484375,
+                    19.356769561767578,
+                    2364.064208984375
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 3,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 1,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [
+                1741.2332763671875,
+                19.374242782592773,
+                2364.001708984375
+            ],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "bldr_wall_tin7_red_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1749.2462158203125,
+                        21.59977912902832,
+                        2397.188720703125
+                    ],
+                    "Rotation": [
+                        -155.17893981933594,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_Garbage_Pile8",
+                    "Scale": 1.0,
+                    "Position": [
+                        1753.3441162109375,
+                        19.509449005126953,
+                        2369.88720703125
+                    ],
+                    "Rotation": [
+                        72.00001525878906,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_red_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1740.81396484375,
+                        20.737703323364258,
+                        2379.507080078125
+                    ],
+                    "Rotation": [
+                        144.0,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_red_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1736.6015625,
+                        20.213308334350586,
+                        2372.848876953125
+                    ],
+                    "Rotation": [
+                        53.99993896484375,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_red_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1738.86328125,
+                        20.745840072631836,
+                        2376.360595703125
+                    ],
+                    "Rotation": [
+                        98.99993133544922,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_red_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1752.888671875,
+                        20.461442947387695,
+                        2372.728759765625
+                    ],
+                    "Rotation": [
+                        -89.99984741210938,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Garage_Row_Small",
+                    "Scale": 1.0,
+                    "Position": [
+                        1745.6829833984375,
+                        20.9007625579834,
+                        2366.748046875
+                    ],
+                    "Rotation": [
+                        -12.600051879882812,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_red_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1753.421630859375,
+                        20.921371459960938,
+                        2379.882568359375
+                    ],
+                    "Rotation": [
+                        144.0001220703125,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_House_1W03_Yellow",
+                    "Scale": 1.0,
+                    "Position": [
+                        1746.607421875,
+                        23.367080688476562,
+                        2389.34912109375
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_red_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1752.4371337890625,
+                        20.93423843383789,
+                        2381.12060546875
+                    ],
+                    "Rotation": [
+                        -82.32635498046875,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_red_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1752.8330078125,
+                        20.968515396118164,
+                        2385.12646484375
+                    ],
+                    "Rotation": [
+                        -89.99995422363281,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_red_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1752.7945556640625,
+                        21.289146423339844,
+                        2389.11181640625
+                    ],
+                    "Rotation": [
+                        -91.30522918701172,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_red_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1737.7027587890625,
+                        20.208009719848633,
+                        2369.194580078125
+                    ],
+                    "Rotation": [
+                        89.9999008178711,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_red_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1752.0548095703125,
+                        21.633466720581055,
+                        2394.606689453125
+                    ],
+                    "Rotation": [
+                        -120.42115783691406,
+                        0.0,
+                        -0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Raid_Base_13",
+            "Position": [
+                1730.2431640625,
+                143.82789611816406,
+                3752.491455078125
+            ],
+            "Bots_Positions": [
+                [
+                    1731.7047119140625,
+                    143.82789611816406,
+                    3747.4111328125
+                ],
+                [
+                    1729.5560302734375,
+                    143.82789611816406,
+                    3740.114990234375
+                ],
+                [
+                    1723.0814208984375,
+                    143.83392333984375,
+                    3747.380126953125
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 3,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 1,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [
+                1728.205810546875,
+                143.8023681640625,
+                3733.866943359375
+            ],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1718.3477783203125,
+                        143.83493041992188,
+                        3736.8642578125
+                    ],
+                    "Rotation": [
+                        -27.07295799255371,
+                        -84.7832260131836,
+                        0.07273034751415253
+                    ]
+                },
+                {
+                    "ClassName": "Land_House_1W07_Green",
+                    "Scale": 1.0,
+                    "Position": [
+                        1728.969482421875,
+                        146.86410522460938,
+                        3745.55908203125
+                    ],
+                    "Rotation": [
+                        89.9999008178711,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1737.11669921875,
+                        144.7836151123047,
+                        3738.392822265625
+                    ],
+                    "Rotation": [
+                        -62.99997329711914,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1717.786865234375,
+                        145.1463623046875,
+                        3752.258056640625
+                    ],
+                    "Rotation": [
+                        98.99993133544922,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Garage_Small",
+                    "Scale": 1.0,
+                    "Position": [
+                        1728.2452392578125,
+                        144.98814392089844,
+                        3734.6708984375
+                    ],
+                    "Rotation": [
+                        95.39990234375,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1716.859375,
+                        145.17141723632812,
+                        3748.39013671875
+                    ],
+                    "Rotation": [
+                        107.99999237060547,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1723.9107666015625,
+                        144.99815368652344,
+                        3756.52294921875
+                    ],
+                    "Rotation": [
+                        171.00010681152344,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1731.80322265625,
+                        144.9500274658203,
+                        3756.122802734375
+                    ],
+                    "Rotation": [
+                        -179.9998779296875,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1718.60009765625,
+                        143.90895080566406,
+                        3745.5234375
+                    ],
+                    "Rotation": [
+                        56.988224029541016,
+                        86.82355499267578,
+                        2.9347989559173584
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1738.0377197265625,
+                        144.7666015625,
+                        3742.134521484375
+                    ],
+                    "Rotation": [
+                        -89.99995422363281,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1737.73193359375,
+                        144.77468872070312,
+                        3746.150634765625
+                    ],
+                    "Rotation": [
+                        -98.99993133544922,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1727.8372802734375,
+                        144.9720916748047,
+                        3756.455810546875
+                    ],
+                    "Rotation": [
+                        -170.99986267089844,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1737.1546630859375,
+                        144.78753662109375,
+                        3750.108154296875
+                    ],
+                    "Rotation": [
+                        -98.99998474121094,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1719.0272216796875,
+                        144.8275604248047,
+                        3731.210205078125
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1735.9510498046875,
+                        143.58250427246094,
+                        3754.279541015625
+                    ],
+                    "Rotation": [
+                        44.778968811035156,
+                        88.48237609863281,
+                        179.77903747558594
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1722.975341796875,
+                        144.81422424316406,
+                        3731.282470703125
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1734.276123046875,
+                        144.87693786621094,
+                        3736.222412109375
+                    ],
+                    "Rotation": [
+                        -11.060734748840332,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1717.04345703125,
+                        144.858642578125,
+                        3733.086181640625
+                    ],
+                    "Rotation": [
+                        89.99995422363281,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        1720.255615234375,
+                        145.04306030273438,
+                        3755.434326171875
+                    ],
+                    "Rotation": [
+                        152.9998321533203,
+                        0.0,
+                        -0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Raid_Base_14",
+            "Position": [
+                4260.6904296875,
+                204.00460815429688,
+                4473.87451171875
+            ],
+            "Bots_Positions": [
+                [
+                    4252.7158203125,
+                    203.497314453125,
+                    4475.88671875
+                ],
+                [
+                    4259.34716796875,
+                    202.0056915283203,
+                    4482.447265625
+                ],
+                [
+                    4274.59423828125,
+                    201.8595428466797,
+                    4468.27197265625
+                ],
+                [
+                    4246.85888671875,
+                    205.34213256835938,
+                    4464.0771484375
+                ],
+                [
+                    4252.451171875,
+                    205.3335418701172,
+                    4453.35498046875
+                ],
+                [
+                    4241.931640625,
+                    205.67724609375,
+                    4452.2255859375
+                ],
+                [
+                    4263.4443359375,
+                    204.1018524169922,
+                    4463.76806640625
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 7,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 1,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [
+                4235.55224609375,
+                205.27867126464844,
+                4460.54248046875
+            ],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "StaticObj_Wall_Tin7_Blue_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        4247.77197265625,
+                        204.8758544921875,
+                        4475.560546875
+                    ],
+                    "Rotation": [
+                        135.17002868652344,
+                        -69.54690551757812,
+                        -0.018260924145579338
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Misc_Pallet",
+                    "Scale": 1.0,
+                    "Position": [
+                        4267.46142578125,
+                        202.0546875,
+                        4475.2900390625
+                    ],
+                    "Rotation": [
+                        62.99997329711914,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_House_1W08_Blue",
+                    "Scale": 1.0,
+                    "Position": [
+                        4261.71142578125,
+                        205.88973999023438,
+                        4472.3505859375
+                    ],
+                    "Rotation": [
+                        35.999996185302734,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Tin7_Blue_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        4245.3408203125,
+                        205.53384399414062,
+                        4472.16357421875
+                    ],
+                    "Rotation": [
+                        144.0,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Misc_Pallets3",
+                    "Scale": 1.0,
+                    "Position": [
+                        4266.1337890625,
+                        202.158203125,
+                        4476.2470703125
+                    ],
+                    "Rotation": [
+                        -44.99999237060547,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Garage_Tall",
+                    "Scale": 1.0,
+                    "Position": [
+                        4235.86181640625,
+                        208.90716552734375,
+                        4460.50537109375
+                    ],
+                    "Rotation": [
+                        -126.00004577636719,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Tin7_Blue_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        4263.26220703125,
+                        202.25625610351562,
+                        4484.18017578125
+                    ],
+                    "Rotation": [
+                        -125.99999237060547,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Tin7_Blue_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        4266.06103515625,
+                        202.322509765625,
+                        4481.40087890625
+                    ],
+                    "Rotation": [
+                        -144.60519409179688,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Tin7_Blue_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        4268.201171875,
+                        203.39260864257812,
+                        4474.3486328125
+                    ],
+                    "Rotation": [
+                        -143.99998474121094,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Tin7_Blue_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        4260.41259765625,
+                        202.33233642578125,
+                        4486.91943359375
+                    ],
+                    "Rotation": [
+                        -144.0,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Tin7_Blue_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        4269.35693359375,
+                        203.23370361328125,
+                        4473.85400390625
+                    ],
+                    "Rotation": [
+                        -143.99989318847656,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Tin7_Blue_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        4269.6884765625,
+                        203.3261260986328,
+                        4473.0078125
+                    ],
+                    "Rotation": [
+                        -143.9998779296875,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Misc_Pallet",
+                    "Scale": 1.0,
+                    "Position": [
+                        4270.681640625,
+                        201.96945190429688,
+                        4472.98828125
+                    ],
+                    "Rotation": [
+                        18.0,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Tin7_Blue_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        4250.41796875,
+                        204.60244750976562,
+                        4479.25537109375
+                    ],
+                    "Rotation": [
+                        134.99989318847656,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Misc_Pallets2",
+                    "Scale": 1.0,
+                    "Position": [
+                        4270.61083984375,
+                        201.95889282226562,
+                        4473.81689453125
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Tin7_Blue_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        4256.86767578125,
+                        202.35768127441406,
+                        4487.76953125
+                    ],
+                    "Rotation": [
+                        179.83909606933594,
+                        0.0,
+                        -0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Raid_Base_15",
+            "Position": [
+                8608.13671875,
+                351.890869140625,
+                6647.6826171875
+            ],
+            "Bots_Positions": [
+                [
+                    8620.5966796875,
+                    349.744873046875,
+                    6647.57666015625
+                ],
+                [
+                    8625.1875,
+                    349.0879821777344,
+                    6630.83740234375
+                ],
+                [
+                    8604.40625,
+                    351.2603759765625,
+                    6633.70263671875
+                ],
+                [
+                    8592.59375,
+                    352.0901184082031,
+                    6646.20458984375
+                ],
+                [
+                    8603.12890625,
+                    351.29052734375,
+                    6660.8125
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 5,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 1,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [
+                8616.08984375,
+                350.1595458984375,
+                6628.6259765625
+            ],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "Land_Garage_Tall",
+                    "Scale": 1.0,
+                    "Position": [
+                        8615.7666015625,
+                        354.0313720703125,
+                        6628.64892578125
+                    ],
+                    "Rotation": [
+                        35.999977111816406,
+                        -0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Wreck_Tractor",
+                    "Scale": 1.0,
+                    "Position": [
+                        8618.025390625,
+                        350.9688720703125,
+                        6634.53662109375
+                    ],
+                    "Rotation": [
+                        116.99989318847656,
+                        -5.7307209968566895,
+                        -3.1677603721618652
+                    ]
+                },
+                {
+                    "ClassName": "Land_wreck_truck01_aban2_blue_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        8615.68359375,
+                        350.2742614746094,
+                        6645.8212890625
+                    ],
+                    "Rotation": [
+                        -147.70254516601562,
+                        1.9458303451538086,
+                        -5.348480701446533
+                    ]
+                },
+                {
+                    "ClassName": "ExpansionStaticWreckUAZ",
+                    "Scale": 1.0,
+                    "Position": [
+                        8598.1318359375,
+                        352.4943542480469,
+                        6638.14892578125
+                    ],
+                    "Rotation": [
+                        -54.00002670288086,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_House_1W11_Blue",
+                    "Scale": 1.0,
+                    "Position": [
+                        8604.666015625,
+                        354.54254150390625,
+                        6648.81787109375
+                    ],
+                    "Rotation": [
+                        -153.00006103515625,
+                        0.0,
+                        -0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Raid_Base_16",
+            "Position": [
+                3354.3095703125,
+                207.03125,
+                13340.9345703125
+            ],
+            "Bots_Positions": [
+                [
+                    3346.357421875,
+                    207.40982055664062,
+                    13355.7705078125
+                ],
+                [
+                    3370.333740234375,
+                    206.43728637695312,
+                    13346.8564453125
+                ],
+                [
+                    3359.103515625,
+                    206.68780517578125,
+                    13341.87109375
+                ],
+                [
+                    3366.1640625,
+                    206.8142852783203,
+                    13360.1259765625
+                ],
+                [
+                    3358.0009765625,
+                    207.0712432861328,
+                    13355.9970703125
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 5,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "StaticObj_Wall_Tin6_1_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3366.512451171875,
+                        207.0001983642578,
+                        13341.09765625
+                    ],
+                    "Rotation": [
+                        -24.000001907348633,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Tin6_1_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3369.566162109375,
+                        207.5615234375,
+                        13364.1015625
+                    ],
+                    "Rotation": [
+                        -94.81354522705078,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Tin6_1_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3370.177490234375,
+                        206.9950714111328,
+                        13342.7421875
+                    ],
+                    "Rotation": [
+                        -24.000001907348633,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Tin6_1_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3359.101318359375,
+                        207.221435546875,
+                        13337.7177734375
+                    ],
+                    "Rotation": [
+                        -24.000001907348633,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Tin6_1_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3372.958740234375,
+                        207.0446014404297,
+                        13345.294921875
+                    ],
+                    "Rotation": [
+                        -61.88619613647461,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Tin6_1_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3371.24853515625,
+                        207.3422393798828,
+                        13356.2158203125
+                    ],
+                    "Rotation": [
+                        -103.14998626708984,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Barn_StrawStack",
+                    "Scale": 1.0,
+                    "Position": [
+                        3339.67236328125,
+                        209.73922729492188,
+                        13369.7138671875
+                    ],
+                    "Rotation": [
+                        70.9080810546875,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Barn_Hopper",
+                    "Scale": 1.0,
+                    "Position": [
+                        3337.423583984375,
+                        214.0321807861328,
+                        13354.7353515625
+                    ],
+                    "Rotation": [
+                        -21.0,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Tin6_1_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3370.30859375,
+                        207.45252990722656,
+                        13360.1630859375
+                    ],
+                    "Rotation": [
+                        -105.02237701416016,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Barn_Brick1",
+                    "Scale": 1.0,
+                    "Position": [
+                        3355.949951171875,
+                        212.87399291992188,
+                        13370.1240234375
+                    ],
+                    "Rotation": [
+                        72.00001525878906,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_House_1W03_Yellow",
+                    "Scale": 1.0,
+                    "Position": [
+                        3351.321533203125,
+                        209.3816375732422,
+                        13343.6796875
+                    ],
+                    "Rotation": [
+                        -23.721717834472656,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Tin6_1_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3368.906982421875,
+                        207.6717529296875,
+                        13368.0048828125
+                    ],
+                    "Rotation": [
+                        -103.14998626708984,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wall_Tin6_1_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3362.82080078125,
+                        207.10877990722656,
+                        13339.34375
+                    ],
+                    "Rotation": [
+                        -24.000001907348633,
+                        0.0,
+                        -0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Raid_Base_17",
+            "Position": [
+                3088.925048828125,
+                208.03492736816406,
+                12910.517578125
+            ],
+            "Bots_Positions": [
+                [
+                    3081.353271484375,
+                    207.76565551757812,
+                    12894.6298828125
+                ],
+                [
+                    3090.732177734375,
+                    207.3826141357422,
+                    12904.353515625
+                ],
+                [
+                    3093.153076171875,
+                    207.2848663330078,
+                    12910.2421875
+                ],
+                [
+                    3088.2890625,
+                    207.48931884765625,
+                    12919.5537109375
+                ],
+                [
+                    3070.26904296875,
+                    208.1896514892578,
+                    12912.7490234375
+                ],
+                [
+                    3072.7294921875,
+                    208.09478759765625,
+                    12898.083984375
+                ],
+                [
+                    3076.12158203125,
+                    207.9265594482422,
+                    12920.1923828125
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 7,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 1,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [
+                3071.015380859375,
+                208.23948669433594,
+                12904.9482421875
+            ],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3088.635009765625,
+                        208.61756896972656,
+                        12891.1357421875
+                    ],
+                    "Rotation": [
+                        -40.46527099609375,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3090.921142578125,
+                        208.60055541992188,
+                        12894.23828125
+                    ],
+                    "Rotation": [
+                        -67.46524810791016,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3092.177001953125,
+                        208.608642578125,
+                        12898.064453125
+                    ],
+                    "Rotation": [
+                        -76.46522521972656,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3093.1611328125,
+                        208.62149047851562,
+                        12901.9423828125
+                    ],
+                    "Rotation": [
+                        -76.46527862548828,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3085.179931640625,
+                        208.7108917236328,
+                        12890.2197265625
+                    ],
+                    "Rotation": [
+                        11.473971366882324,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3066.731201171875,
+                        208.44810485839844,
+                        12917.6572265625
+                    ],
+                    "Rotation": [
+                        37.419097900390625,
+                        -84.7832260131836,
+                        0.07273232936859131
+                    ]
+                },
+                {
+                    "ClassName": "Land_House_1W07_Green",
+                    "Scale": 1.0,
+                    "Position": [
+                        3082.119873046875,
+                        211.07113647460938,
+                        12908.681640625
+                    ],
+                    "Rotation": [
+                        154.49195861816406,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3069.9677734375,
+                        209.33984375,
+                        12894.546875
+                    ],
+                    "Rotation": [
+                        52.5158576965332,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3084.35595703125,
+                        208.36573791503906,
+                        12925.724609375
+                    ],
+                    "Rotation": [
+                        163.4919891357422,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Garage_Small",
+                    "Scale": 1.0,
+                    "Position": [
+                        3071.83056640625,
+                        209.4427032470703,
+                        12905.13671875
+                    ],
+                    "Rotation": [
+                        159.8919677734375,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3080.635009765625,
+                        208.50485229492188,
+                        12924.9775390625
+                    ],
+                    "Rotation": [
+                        172.49205017089844,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3090.544921875,
+                        208.68045043945312,
+                        12922.40234375
+                    ],
+                    "Rotation": [
+                        -124.5078125,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3093.582275390625,
+                        208.63232421875,
+                        12915.107421875
+                    ],
+                    "Rotation": [
+                        -115.5078125,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3075.6806640625,
+                        207.9498748779297,
+                        12923.787109375
+                    ],
+                    "Rotation": [
+                        121.48027801513672,
+                        86.82355499267578,
+                        2.9347963333129883
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3072.947509765625,
+                        209.3228302001953,
+                        12892.1025390625
+                    ],
+                    "Rotation": [
+                        25.5158748626709,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3076.70361328125,
+                        209.33091735839844,
+                        12890.6494140625
+                    ],
+                    "Rotation": [
+                        16.515901565551758,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3092.1748046875,
+                        208.65438842773438,
+                        12918.830078125
+                    ],
+                    "Rotation": [
+                        -106.50779724121094,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3080.5244140625,
+                        209.34376525878906,
+                        12889.46484375
+                    ],
+                    "Rotation": [
+                        16.51584243774414,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3064.88818359375,
+                        209.0345916748047,
+                        12911.4755859375
+                    ],
+                    "Rotation": [
+                        64.49205780029297,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3092.7333984375,
+                        207.31568908691406,
+                        12906.0908203125
+                    ],
+                    "Rotation": [
+                        109.27102661132812,
+                        88.48237609863281,
+                        179.7790069580078
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3066.653564453125,
+                        209.02125549316406,
+                        12907.943359375
+                    ],
+                    "Rotation": [
+                        64.49205780029297,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3069.23291015625,
+                        209.43316650390625,
+                        12898.044921875
+                    ],
+                    "Rotation": [
+                        104.45509338378906,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3065.72705078125,
+                        209.065673828125,
+                        12914.07421875
+                    ],
+                    "Rotation": [
+                        154.4920196533203,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        3087.988037109375,
+                        208.72535705566406,
+                        12925.232421875
+                    ],
+                    "Rotation": [
+                        -142.5081024169922,
+                        0.0,
+                        -0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Raid_Base_18",
+            "Position": [
+                8500.8447265625,
+                105.94757080078125,
+                12812.5439453125
+            ],
+            "Bots_Positions": [
+                [
+                    8511.037109375,
+                    107.32904815673828,
+                    12836.3447265625
+                ],
+                [
+                    8500.2978515625,
+                    107.45657348632812,
+                    12834.646484375
+                ],
+                [
+                    8495.2109375,
+                    106.50141143798828,
+                    12819.6220703125
+                ],
+                [
+                    8502.015625,
+                    105.09173583984375,
+                    12802.6474609375
+                ],
+                [
+                    8525.5556640625,
+                    105.25008392333984,
+                    12816.4755859375
+                ],
+                [
+                    8518.931640625,
+                    107.2178726196289,
+                    12837.642578125
+                ],
+                [
+                    8518.6220703125,
+                    105.1046371459961,
+                    12810.6650390625
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 7,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 1,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [
+                8504.46875,
+                107.80750274658203,
+                12840.6240234375
+            ],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "StaticObj_Garbage_Container",
+                    "Scale": 1.0,
+                    "Position": [
+                        8525.134765625,
+                        106.61626434326172,
+                        12824.37109375
+                    ],
+                    "Rotation": [
+                        -98.99998474121094,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Garbage_Pile1",
+                    "Scale": 1.0,
+                    "Position": [
+                        8523.09375,
+                        106.7894515991211,
+                        12832.037109375
+                    ],
+                    "Rotation": [
+                        -80.99999237060547,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Garbage_Pile4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8524.85546875,
+                        106.34772491455078,
+                        12830.43359375
+                    ],
+                    "Rotation": [
+                        -45.0,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_Garbage_Bin",
+                    "Scale": 1.0,
+                    "Position": [
+                        8511.5078125,
+                        105.83322143554688,
+                        12811.599609375
+                    ],
+                    "Rotation": [
+                        0.0,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_Garbage_Container",
+                    "Scale": 1.0,
+                    "Position": [
+                        8514.869140625,
+                        106.10963439941406,
+                        12812.7314453125
+                    ],
+                    "Rotation": [
+                        18.000003814697266,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Garbage_Pile2",
+                    "Scale": 1.0,
+                    "Position": [
+                        8512.703125,
+                        105.5255126953125,
+                        12812.296875
+                    ],
+                    "Rotation": [
+                        -36.000003814697266,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8493.53515625,
+                        108.28653717041016,
+                        12826.28125
+                    ],
+                    "Rotation": [
+                        102.535400390625,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8492.69140625,
+                        108.04764556884766,
+                        12822.3662109375
+                    ],
+                    "Rotation": [
+                        102.53534698486328,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8498.5400390625,
+                        109.16680908203125,
+                        12841.1494140625
+                    ],
+                    "Rotation": [
+                        138.53536987304688,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8496.3349609375,
+                        108.990234375,
+                        12837.9111328125
+                    ],
+                    "Rotation": [
+                        111.53538513183594,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8495.2119140625,
+                        108.7670669555664,
+                        12834.130859375
+                    ],
+                    "Rotation": [
+                        102.53540802001953,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8494.3681640625,
+                        108.5281753540039,
+                        12830.2158203125
+                    ],
+                    "Rotation": [
+                        102.53534698486328,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8508.6943359375,
+                        109.13113403320312,
+                        12843.087890625
+                    ],
+                    "Rotation": [
+                        -169.52537536621094,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8528.263671875,
+                        106.3296127319336,
+                        12813.70703125
+                    ],
+                    "Rotation": [
+                        -42.31126403808594,
+                        -13.787300109863281,
+                        -4.551697731018066
+                    ]
+                },
+                {
+                    "ClassName": "Land_House_1W07_Green",
+                    "Scale": 1.0,
+                    "Position": [
+                        8507.6162109375,
+                        108.98377990722656,
+                        12814.4990234375
+                    ],
+                    "Rotation": [
+                        -26.507396697998047,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8523.3837890625,
+                        108.32546997070312,
+                        12837.708984375
+                    ],
+                    "Rotation": [
+                        -128.48348999023438,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8504.224609375,
+                        106.23796844482422,
+                        12799.3291015625
+                    ],
+                    "Rotation": [
+                        -17.507366180419922,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Garage_Small",
+                    "Scale": 1.0,
+                    "Position": [
+                        8503.728515625,
+                        109.01080322265625,
+                        12840.591796875
+                    ],
+                    "Rotation": [
+                        -21.473909378051758,
+                        6.403304269042565e-07,
+                        2.555872526954772e-07
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8508.13671875,
+                        106.2099609375,
+                        12800.2900390625
+                    ],
+                    "Rotation": [
+                        -8.50731372833252,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8497.916015625,
+                        106.40933990478516,
+                        12802.671875
+                    ],
+                    "Rotation": [
+                        54.49283981323242,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8494.6455078125,
+                        106.9219741821289,
+                        12809.8212890625
+                    ],
+                    "Rotation": [
+                        63.492820739746094,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8512.166015625,
+                        105.06382751464844,
+                        12803.337890625
+                    ],
+                    "Rotation": [
+                        -49.939212799072266,
+                        87.5802993774414,
+                        11.955826759338379
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8520.1953125,
+                        108.63449096679688,
+                        12840.0068359375
+                    ],
+                    "Rotation": [
+                        -155.4834747314453,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8516.361328125,
+                        108.83197021484375,
+                        12841.2490234375
+                    ],
+                    "Rotation": [
+                        -164.4834442138672,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8496.130859375,
+                        106.6603012084961,
+                        12806.1279296875
+                    ],
+                    "Rotation": [
+                        72.49285125732422,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8512.5400390625,
+                        109.00897979736328,
+                        12842.236328125
+                    ],
+                    "Rotation": [
+                        -164.48350524902344,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8528.5576171875,
+                        106.90629577636719,
+                        12820.236328125
+                    ],
+                    "Rotation": [
+                        -116.50728607177734,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8494.9375,
+                        105.96490478515625,
+                        12814.9052734375
+                    ],
+                    "Rotation": [
+                        -71.72831726074219,
+                        88.48237609863281,
+                        179.77899169921875
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8526.7314453125,
+                        106.89295959472656,
+                        12823.7373046875
+                    ],
+                    "Rotation": [
+                        -116.50728607177734,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8524.4697265625,
+                        107.98046875,
+                        12834.28515625
+                    ],
+                    "Rotation": [
+                        -76.54425048828125,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8529.619140625,
+                        106.4607925415039,
+                        12816.822265625
+                    ],
+                    "Rotation": [
+                        -100.43087005615234,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8500.7060546875,
+                        106.3122329711914,
+                        12799.9130859375
+                    ],
+                    "Rotation": [
+                        36.49253845214844,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8492.9443359375,
+                        107.72122955322266,
+                        12818.4404296875
+                    ],
+                    "Rotation": [
+                        68.7494888305664,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "bldr_wall_tin7_green_4",
+                    "Scale": 1.0,
+                    "Position": [
+                        8494.4638671875,
+                        107.30770874023438,
+                        12814.6953125
+                    ],
+                    "Rotation": [
+                        68.74943542480469,
+                        0.0,
+                        -0.0
+                    ]
+                }
+            ]
+        }
+    ]
+}

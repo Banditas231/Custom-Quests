@@ -1,0 +1,977 @@
+{
+    "Missions": [
+        {
+            "Name": "Gang_Mission",
+            "Position": [
+                4425.87646484375,
+                11.947677612304688,
+                2464.008056640625
+            ],
+            "Bots_Positions": [
+                [
+                    4416.63818359375,
+                    6.556496620178223,
+                    2477.28515625
+                ],
+                [
+                    4421.7705078125,
+                    6.776816368103027,
+                    2458.763427734375
+                ],
+                [
+                    4425.2998046875,
+                    11.948076248168945,
+                    2466.477294921875
+                ],
+                [
+                    4431.3974609375,
+                    6.600658416748047,
+                    2447.049072265625
+                ],
+                [
+                    4437.77734375,
+                    6.530993461608887,
+                    2475.74462890625
+                ],
+                [
+                    4429.02880859375,
+                    11.945501327514648,
+                    2460.812744140625
+                ],
+                [
+                    4443.61474609375,
+                    6.41792631149292,
+                    2470.931640625
+                ],
+                [
+                    4412.23583984375,
+                    6.750490665435791,
+                    2465.101806640625
+                ],
+                [
+                    4430.13330078125,
+                    7.574043273925781,
+                    2463.77490234375
+                ],
+                [
+                    4438.62939453125,
+                    6.5335588455200195,
+                    2455.085205078125
+                ],
+                [
+                    4436.99462890625,
+                    6.3860626220703125,
+                    2467.49658203125
+                ],
+                [
+                    4426.90673828125,
+                    6.5175042152404785,
+                    2472.909912109375
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 12,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "Land_Wreck_Lada_Green",
+                    "Scale": 1.0,
+                    "Position": [
+                        4442.1806640625,
+                        6.89854621887207,
+                        2460.666015625
+                    ],
+                    "Rotation": [
+                        -177.99986267089844,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wreck_Ural",
+                    "Scale": 1.0,
+                    "Position": [
+                        4370.03759765625,
+                        8.363934516906738,
+                        2521.56396484375
+                    ],
+                    "Rotation": [
+                        61.57011413574219,
+                        -9.176923413178883e-06,
+                        -6.425738774851197e-06
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wreck_Trailer_Flat",
+                    "Scale": 1.0,
+                    "Position": [
+                        4468.2490234375,
+                        7.459691047668457,
+                        2467.626708984375
+                    ],
+                    "Rotation": [
+                        42.183658599853516,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wreck_Ural",
+                    "Scale": 1.0,
+                    "Position": [
+                        4463.31103515625,
+                        7.374420166015625,
+                        2462.782958984375
+                    ],
+                    "Rotation": [
+                        59.72503662109375,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Garbage_Pile3",
+                    "Scale": 1.0,
+                    "Position": [
+                        4465.451171875,
+                        6.4716620445251465,
+                        2465.78076171875
+                    ],
+                    "Rotation": [
+                        113.18363952636719,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Garbage_Pile2",
+                    "Scale": 1.0,
+                    "Position": [
+                        4365.9052734375,
+                        7.4114227294921875,
+                        2520.749755859375
+                    ],
+                    "Rotation": [
+                        100.57024383544922,
+                        -3.0879357382218586e-06,
+                        -1.0768963875307236e-05
+                    ]
+                },
+                {
+                    "ClassName": "Land_Wreck_sed01_aban1_wine",
+                    "Scale": 1.0,
+                    "Position": [
+                        4469.15576171875,
+                        7.909234523773193,
+                        2468.3740234375
+                    ],
+                    "Rotation": [
+                        40.18364334106445,
+                        1.9999994039535522,
+                        0.07639217376708984
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        4431.1875,
+                        6.644511699676514,
+                        2485.58154296875
+                    ],
+                    "Rotation": [
+                        16.37002182006836,
+                        0.4581167697906494,
+                        -179.99989318847656
+                    ]
+                },
+                {
+                    "ClassName": "Land_Wreck_Ikarus",
+                    "Scale": 1.0,
+                    "Position": [
+                        4426.87451171875,
+                        7.8952741622924805,
+                        2485.998779296875
+                    ],
+                    "Rotation": [
+                        130.37686157226562,
+                        0.2291414737701416,
+                        -0.3056418001651764
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        4422.86474609375,
+                        7.913493633270264,
+                        2488.144775390625
+                    ],
+                    "Rotation": [
+                        121.37785339355469,
+                        67.0143051147461,
+                        -0.1529180407524109
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        4428.78271484375,
+                        8.016520500183105,
+                        2485.0615234375
+                    ],
+                    "Rotation": [
+                        127.3717269897461,
+                        72.41698455810547,
+                        -0.8402000069618225
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        4427.82275390625,
+                        7.9459028244018555,
+                        2483.837158203125
+                    ],
+                    "Rotation": [
+                        122.3759765625,
+                        79.11309051513672,
+                        -0.611027181148529
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        4424.83935546875,
+                        7.9874982833862305,
+                        2488.3671875
+                    ],
+                    "Rotation": [
+                        118.37671661376953,
+                        63.9672737121582,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        4426.23388671875,
+                        8.04395580291748,
+                        2487.2666015625
+                    ],
+                    "Rotation": [
+                        125.37588500976562,
+                        64.9778823852539,
+                        2.018530494751758e-06
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        4425.46240234375,
+                        7.8407697677612305,
+                        2485.768798828125
+                    ],
+                    "Rotation": [
+                        127.3768081665039,
+                        64.99466705322266,
+                        1.0098988241225015e-05
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        4426.6650390625,
+                        7.9305219650268555,
+                        2484.812744140625
+                    ],
+                    "Rotation": [
+                        116.37539672851562,
+                        66.97381591796875,
+                        -6.548151304741623e-06
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        4423.60302734375,
+                        7.8684492111206055,
+                        2487.417724609375
+                    ],
+                    "Rotation": [
+                        131.37786865234375,
+                        59.961387634277344,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wreck_HMMWV",
+                    "Scale": 1.0,
+                    "Position": [
+                        4367.9267578125,
+                        8.07592487335205,
+                        2517.64697265625
+                    ],
+                    "Rotation": [
+                        -153.42977905273438,
+                        1.1202942914678715e-05,
+                        -0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Gang_Mission_1",
+            "Position": [
+                10220.919921875,
+                237.0773162841797,
+                5441.13720703125
+            ],
+            "Bots_Positions": [
+                [
+                    10207.45703125,
+                    232.8054962158203,
+                    5439.390625
+                ],
+                [
+                    10231.583984375,
+                    229.84413146972656,
+                    5437.36669921875
+                ],
+                [
+                    10218.26953125,
+                    237.0773162841797,
+                    5443.28564453125
+                ],
+                [
+                    10222.89453125,
+                    237.0773162841797,
+                    5440.27392578125
+                ],
+                [
+                    10214.83984375,
+                    230.8603515625,
+                    5432.484375
+                ],
+                [
+                    10220.3037109375,
+                    231.91595458984375,
+                    5451.39599609375
+                ],
+                [
+                    10229.6533203125,
+                    231.2555389404297,
+                    5453.529296875
+                ],
+                [
+                    10234.4326171875,
+                    230.24456787109375,
+                    5444.31494140625
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 8,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "Land_Wreck_sed01_aban1_wine",
+                    "Scale": 1.0,
+                    "Position": [
+                        10191.0947265625,
+                        238.26907348632812,
+                        5449.3349609375
+                    ],
+                    "Rotation": [
+                        80.96200561523438,
+                        -15.01987361907959,
+                        -3.1636569499969482
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        10239.947265625,
+                        231.3781280517578,
+                        5463.8720703125
+                    ],
+                    "Rotation": [
+                        16.37002182006836,
+                        0.4581156373023987,
+                        -179.99989318847656
+                    ]
+                },
+                {
+                    "ClassName": "Land_Wreck_Ikarus",
+                    "Scale": 1.0,
+                    "Position": [
+                        10235.6337890625,
+                        232.62889099121094,
+                        5464.28955078125
+                    ],
+                    "Rotation": [
+                        130.37686157226562,
+                        0.22914502024650574,
+                        -0.3056415617465973
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        10231.6240234375,
+                        232.64710998535156,
+                        5466.435546875
+                    ],
+                    "Rotation": [
+                        121.37785339355469,
+                        67.0143051147461,
+                        -0.1529114991426468
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        10237.5419921875,
+                        232.75013732910156,
+                        5463.3525390625
+                    ],
+                    "Rotation": [
+                        127.3717269897461,
+                        72.41698455810547,
+                        -0.8402028679847717
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        10236.58203125,
+                        232.6795196533203,
+                        5462.1279296875
+                    ],
+                    "Rotation": [
+                        122.3759765625,
+                        79.11307525634766,
+                        -0.6110339164733887
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        10233.5986328125,
+                        232.7211151123047,
+                        5466.658203125
+                    ],
+                    "Rotation": [
+                        118.37671661376953,
+                        63.96726608276367,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        10234.9931640625,
+                        232.77757263183594,
+                        5465.5576171875
+                    ],
+                    "Rotation": [
+                        125.37588500976562,
+                        64.97789764404297,
+                        2.018530494751758e-06
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        10234.2216796875,
+                        232.5743865966797,
+                        5464.0595703125
+                    ],
+                    "Rotation": [
+                        127.37677764892578,
+                        64.99468231201172,
+                        8.07919423095882e-06
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        10235.423828125,
+                        232.6641387939453,
+                        5463.103515625
+                    ],
+                    "Rotation": [
+                        116.37539672851562,
+                        66.97381591796875,
+                        -6.548151304741623e-06
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        10232.3623046875,
+                        232.60206604003906,
+                        5465.70849609375
+                    ],
+                    "Rotation": [
+                        131.37786865234375,
+                        59.961387634277344,
+                        1.193889602291165e-05
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wreck_HMMWV",
+                    "Scale": 1.0,
+                    "Position": [
+                        10136.8583984375,
+                        236.12030029296875,
+                        5482.2451171875
+                    ],
+                    "Rotation": [
+                        -153.4297637939453,
+                        1.2379713552945759e-05,
+                        1.0312121156985654e-09
+                    ]
+                },
+                {
+                    "ClassName": "Land_Wreck_Lada_Green",
+                    "Scale": 1.0,
+                    "Position": [
+                        10213.9208984375,
+                        232.82638549804688,
+                        5466.4951171875
+                    ],
+                    "Rotation": [
+                        -173.02911376953125,
+                        2.337745428085327,
+                        -4.014005184173584
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wreck_Ural",
+                    "Scale": 1.0,
+                    "Position": [
+                        10138.9697265625,
+                        236.40830993652344,
+                        5486.162109375
+                    ],
+                    "Rotation": [
+                        61.57011413574219,
+                        -7.683964213356376e-06,
+                        -4.256351985532092e-06
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wreck_Trailer_Flat",
+                    "Scale": 1.0,
+                    "Position": [
+                        10191.92578125,
+                        237.6005401611328,
+                        5449.5185546875
+                    ],
+                    "Rotation": [
+                        -99.24369049072266,
+                        15.030759811401367,
+                        3.1103289127349854
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wreck_Ural",
+                    "Scale": 1.0,
+                    "Position": [
+                        10199.2041015625,
+                        236.00424194335938,
+                        5449.08642578125
+                    ],
+                    "Rotation": [
+                        -81.70231628417969,
+                        10.349514961242676,
+                        5.434103488922119
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Garbage_Pile3",
+                    "Scale": 1.0,
+                    "Position": [
+                        10194.7978515625,
+                        235.89328002929688,
+                        5449.75390625
+                    ],
+                    "Rotation": [
+                        -28.2436580657959,
+                        1.093179702758789,
+                        13.711121559143066
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Garbage_Pile2",
+                    "Scale": 1.0,
+                    "Position": [
+                        10134.8369140625,
+                        235.455810546875,
+                        5485.34814453125
+                    ],
+                    "Rotation": [
+                        100.57024383544922,
+                        1.7075474261218915e-06,
+                        -9.645793397794478e-06
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Gang_Mission_2",
+            "Position": [
+                1668.1031494140625,
+                143.9965057373047,
+                3854.533203125
+            ],
+            "Bots_Positions": [
+                [
+                    1677.0565185546875,
+                    143.989990234375,
+                    3888.016845703125
+                ],
+                [
+                    1666.4644775390625,
+                    143.99803161621094,
+                    3858.86328125
+                ],
+                [
+                    1680.33203125,
+                    143.99000549316406,
+                    3870.683837890625
+                ],
+                [
+                    1654.4749755859375,
+                    143.93142700195312,
+                    3861.545654296875
+                ],
+                [
+                    1640.8096923828125,
+                    143.70884704589844,
+                    3875.70703125
+                ],
+                [
+                    1645.7099609375,
+                    143.6747589111328,
+                    3888.686767578125
+                ],
+                [
+                    1661.8486328125,
+                    143.95677185058594,
+                    3902.67724609375
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 7,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "StaticObj_Wreck_Ural",
+                    "Scale": 1.0,
+                    "Position": [
+                        1673.8260498046875,
+                        145.17752075195312,
+                        3880.86669921875
+                    ],
+                    "Rotation": [
+                        59.82238006591797,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        1696.0538330078125,
+                        144.182861328125,
+                        3808.318359375
+                    ],
+                    "Rotation": [
+                        117.9107894897461,
+                        0.6954999566078186,
+                        -179.9864501953125
+                    ]
+                },
+                {
+                    "ClassName": "Land_Wreck_Ikarus",
+                    "Scale": 1.0,
+                    "Position": [
+                        1697.32080078125,
+                        145.4312286376953,
+                        3812.462890625
+                    ],
+                    "Rotation": [
+                        -128.0818328857422,
+                        0.12029018998146057,
+                        -0.09425783902406693
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        1700.2255859375,
+                        145.454345703125,
+                        3815.96240234375
+                    ],
+                    "Rotation": [
+                        -136.55091857910156,
+                        66.93880462646484,
+                        0.42354726791381836
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        1696.020263671875,
+                        145.5504913330078,
+                        3810.781005859375
+                    ],
+                    "Rotation": [
+                        -130.40731811523438,
+                        72.31806945800781,
+                        -0.12639401853084564
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        1695.012939453125,
+                        145.47401428222656,
+                        3811.96630859375
+                    ],
+                    "Rotation": [
+                        -134.9247589111328,
+                        79.03245544433594,
+                        0.5689324736595154
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        1700.048095703125,
+                        145.53109741210938,
+                        3813.983154296875
+                    ],
+                    "Rotation": [
+                        -139.61412048339844,
+                        63.903804779052734,
+                        0.5214951634407043
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        1698.6905517578125,
+                        145.5844268798828,
+                        3812.837158203125
+                    ],
+                    "Rotation": [
+                        -132.6137237548828,
+                        64.88697814941406,
+                        0.5185493230819702
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        1697.378173828125,
+                        145.3744659423828,
+                        3813.892333984375
+                    ],
+                    "Rotation": [
+                        -130.61959838867188,
+                        64.8961410522461,
+                        0.5110048651695251
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        1696.2005615234375,
+                        145.46148681640625,
+                        3812.905517578125
+                    ],
+                    "Rotation": [
+                        -141.5407257080078,
+                        66.91825103759766,
+                        0.5903459191322327
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Forest_HumanSkeleton",
+                    "Scale": 1.0,
+                    "Position": [
+                        1699.3656005859375,
+                        145.4070587158203,
+                        3815.38427734375
+                    ],
+                    "Rotation": [
+                        -126.72067260742188,
+                        59.84819030761719,
+                        0.4169972240924835
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wreck_HMMWV",
+                    "Scale": 1.0,
+                    "Position": [
+                        1632.1202392578125,
+                        144.6824951171875,
+                        3863.240478515625
+                    ],
+                    "Rotation": [
+                        -153.42974853515625,
+                        -0.00011381862714188173,
+                        0.683249294757843
+                    ]
+                },
+                {
+                    "ClassName": "Land_Wreck_Lada_Green",
+                    "Scale": 1.0,
+                    "Position": [
+                        1698.309326171875,
+                        144.66184997558594,
+                        3808.28076171875
+                    ],
+                    "Rotation": [
+                        108.27489471435547,
+                        -0.049271028488874435,
+                        -0.33814412355422974
+                    ]
+                },
+                {
+                    "ClassName": "StaticObj_Wreck_Ural",
+                    "Scale": 1.0,
+                    "Position": [
+                        1634.9530029296875,
+                        144.95394897460938,
+                        3867.90771484375
+                    ],
+                    "Rotation": [
+                        61.57176208496094,
+                        0.18487676978111267,
+                        -0.6212496161460876
+                    ]
+                }
+            ]
+        }
+    ]
+}

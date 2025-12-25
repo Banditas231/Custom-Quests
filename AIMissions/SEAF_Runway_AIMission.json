@@ -1,0 +1,461 @@
+{
+    "Missions": [
+        {
+            "Name": "SEAF_Runway",
+            "Position": [
+                5013.4248046875,
+                339.0,
+                9793.9228515625
+            ],
+            "Bots_Positions": [
+                [
+                    5008.6484375,
+                    339.0,
+                    9790.833984375
+                ],
+                [
+                    5019.73193359375,
+                    338.9999694824219,
+                    9799.5947265625
+                ],
+                [
+                    5011.10107421875,
+                    339.0104064941406,
+                    9796.3076171875
+                ],
+                [
+                    5015.5390625,
+                    339.0,
+                    9779.2900390625
+                ],
+                [
+                    5012.5517578125,
+                    339.01043701171875,
+                    9766.16796875
+                ],
+                [
+                    5008.892578125,
+                    338.9999694824219,
+                    9758.7919921875
+                ],
+                [
+                    5025.630859375,
+                    338.9999694824219,
+                    9758.126953125
+                ],
+                [
+                    5035.93701171875,
+                    339.0,
+                    9769.1103515625
+                ],
+                [
+                    5031.865234375,
+                    339.0,
+                    9793.3857421875
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 9,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 1,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [
+                5011.64404296875,
+                339.0790710449219,
+                9782.984375
+            ],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": []
+        },
+        {
+            "Name": "SEAF_Runway_1",
+            "Position": [
+                4560.90771484375,
+                338.9961242675781,
+                10689.4853515625
+            ],
+            "Bots_Positions": [
+                [
+                    4556.267578125,
+                    339.0,
+                    10721.0380859375
+                ],
+                [
+                    4522.84423828125,
+                    339.0189514160156,
+                    10699.76953125
+                ],
+                [
+                    4572.9833984375,
+                    338.9900207519531,
+                    10723.90625
+                ],
+                [
+                    4590.86572265625,
+                    339.0,
+                    10711.4228515625
+                ],
+                [
+                    4591.36962890625,
+                    339.0,
+                    10692.6708984375
+                ],
+                [
+                    4520.62060546875,
+                    338.9999694824219,
+                    10676.7421875
+                ],
+                [
+                    4574.013671875,
+                    339.20733642578125,
+                    10679.662109375
+                ],
+                [
+                    4560.56884765625,
+                    339.0,
+                    10676.9521484375
+                ],
+                [
+                    4551.55224609375,
+                    339.0,
+                    10656.4326171875
+                ],
+                [
+                    4531.63623046875,
+                    338.9892883300781,
+                    10729.001953125
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 10,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 1,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [
+                4553.66259765625,
+                338.9674987792969,
+                10696.3271484375
+            ],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": []
+        },
+        {
+            "Name": "SEAF_Runway_2",
+            "Position": [
+                3865.8095703125,
+                328.0454406738281,
+                10880.83984375
+            ],
+            "Bots_Positions": [
+                [
+                    3832.396484375,
+                    327.41766357421875,
+                    10862.6357421875
+                ],
+                [
+                    3833.155029296875,
+                    327.7919616699219,
+                    10849.09375
+                ],
+                [
+                    3856.365234375,
+                    328.1747131347656,
+                    10888.3837890625
+                ],
+                [
+                    3848.863037109375,
+                    328.43426513671875,
+                    10894.3701171875
+                ],
+                [
+                    3853.1142578125,
+                    328.2991027832031,
+                    10907.345703125
+                ],
+                [
+                    3862.496826171875,
+                    328.115966796875,
+                    10878.359375
+                ],
+                [
+                    3851.5986328125,
+                    327.8920593261719,
+                    10868.0283203125
+                ],
+                [
+                    3838.84716796875,
+                    327.3863525390625,
+                    10868.6943359375
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 8,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": []
+        },
+        {
+            "Name": "SEAF_Runway_3",
+            "Position": [
+                4116.3564453125,
+                343.1971740722656,
+                10181.73828125
+            ],
+            "Bots_Positions": [
+                [
+                    4106.00439453125,
+                    343.498291015625,
+                    10184.5224609375
+                ],
+                [
+                    4099.9521484375,
+                    343.6029968261719,
+                    10178.0771484375
+                ],
+                [
+                    4088.09765625,
+                    343.74432373046875,
+                    10178.2109375
+                ],
+                [
+                    4115.1162109375,
+                    342.8122253417969,
+                    10189.5693359375
+                ],
+                [
+                    4123.37548828125,
+                    341.8003234863281,
+                    10200.2431640625
+                ],
+                [
+                    4132.46533203125,
+                    340.9754943847656,
+                    10207.59375
+                ],
+                [
+                    4113.166015625,
+                    343.2725524902344,
+                    10182.85546875
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 7,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": []
+        },
+        {
+            "Name": "SEAF_Runway_4",
+            "Position": [
+                4494.98828125,
+                345.1083679199219,
+                9705.576171875
+            ],
+            "Bots_Positions": [
+                [
+                    4539.65185546875,
+                    339.0,
+                    9664.587890625
+                ],
+                [
+                    4525.873046875,
+                    338.9999694824219,
+                    9655.1455078125
+                ],
+                [
+                    4501.521484375,
+                    345.1083679199219,
+                    9709.646484375
+                ],
+                [
+                    4508.53857421875,
+                    339.0,
+                    9713.1865234375
+                ],
+                [
+                    4506.509765625,
+                    339.0000305175781,
+                    9685.060546875
+                ],
+                [
+                    4513.51708984375,
+                    338.9999694824219,
+                    9725.1318359375
+                ],
+                [
+                    4527.6611328125,
+                    339.00006103515625,
+                    9711.7138671875
+                ],
+                [
+                    4539.8564453125,
+                    338.9999694824219,
+                    9689.6728515625
+                ],
+                [
+                    4515.498046875,
+                    339.0,
+                    9669.697265625
+                ],
+                [
+                    4534.12890625,
+                    339.0,
+                    9680.751953125
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 10,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 1,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [
+                4512.35009765625,
+                338.9775085449219,
+                9691.9501953125
+            ],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": []
+        }
+    ]
+}

@@ -1,0 +1,225 @@
+{
+    "Missions": [
+        {
+            "Name": "Krasno_AF_Runway",
+            "Position": [
+                11925.14453125,
+                140.00015258789062,
+                12497.595703125
+            ],
+            "Bots_Positions": [
+                [
+                    11938.6337890625,
+                    139.99998474121094,
+                    12489.0517578125
+                ],
+                [
+                    11914.9609375,
+                    140.00001525878906,
+                    12482.9091796875
+                ],
+                [
+                    11891.9375,
+                    140.00003051757812,
+                    12490.2822265625
+                ],
+                [
+                    11902.716796875,
+                    139.99998474121094,
+                    12509.998046875
+                ],
+                [
+                    11922.810546875,
+                    140.0,
+                    12525.30859375
+                ],
+                [
+                    11934.71484375,
+                    140.0,
+                    12522.2666015625
+                ],
+                [
+                    11944.3896484375,
+                    140.0,
+                    12512.1376953125
+                ]
+            ],
+            "Bots_Count_Minimum": 3,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadouts": [
+                "MMG_SNAFU_Alpine",
+                "MMG_SNAFU_Atack",
+                "MMG_SNAFU_Black",
+                "MMG_SNAFU_Dark_Woodland",
+                "MMG_SNAFU_Erdl",
+                "MMG_SNAFU_Green",
+                "MMG_SNAFU_Multicam",
+                "MMG_SNAFU_Multicam_Black",
+                "MMG_SNAFU_Multicam_Tropic",
+                "MMG_SNAFU_Tan",
+                "MMG_SNAFU_Ucp"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": [
+                {
+                    "ClassName": "Land_Wreck_Mi8_Civilian",
+                    "Scale": 1.0,
+                    "Position": [
+                        11921.41796875,
+                        139.99996948242188,
+                        12497.9443359375
+                    ],
+                    "Rotation": [
+                        -27.000001907348633,
+                        0.0,
+                        0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_wreck_sed02_aban1_police",
+                    "Scale": 1.0,
+                    "Position": [
+                        11933.8486328125,
+                        140.8610382080078,
+                        12526.4052734375
+                    ],
+                    "Rotation": [
+                        22.35319709777832,
+                        0.0,
+                        -0.0
+                    ]
+                },
+                {
+                    "ClassName": "Land_Wreck_S1023_Medic_Beige_DE",
+                    "Scale": 1.0,
+                    "Position": [
+                        11899.0029296875,
+                        139.9999542236328,
+                        12510.9599609375
+                    ],
+                    "Rotation": [
+                        -4.671402454376221,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Krasno_AF_Runway_1",
+            "Position": [
+                11844.8125,
+                140.56507873535156,
+                12468.06640625
+            ],
+            "Bots_Positions": [
+                [
+                    11872.1083984375,
+                    140.0948028564453,
+                    12446.0
+                ],
+                [
+                    11874.494140625,
+                    140.00265502929688,
+                    12454.9580078125
+                ],
+                [
+                    11876.294921875,
+                    140.0,
+                    12470.755859375
+                ],
+                [
+                    11866.7333984375,
+                    139.99998474121094,
+                    12473.306640625
+                ],
+                [
+                    11847.2822265625,
+                    140.56507873535156,
+                    12462.888671875
+                ],
+                [
+                    11852.6279296875,
+                    139.91835021972656,
+                    12477.9931640625
+                ],
+                [
+                    11853.7431640625,
+                    140.56507873535156,
+                    12458.1953125
+                ],
+                [
+                    11863.1298828125,
+                    140.0948028564453,
+                    12448.220703125
+                ],
+                [
+                    11864.1513671875,
+                    140.0948028564453,
+                    12442.5712890625
+                ]
+            ],
+            "Bots_Count_Minimum": 3,
+            "Bots_Count_Maximum": 4,
+            "Bots_Expansion_Loadouts": [
+                "MMG_SNAFU_Alpine",
+                "MMG_SNAFU_Atack",
+                "MMG_SNAFU_Black",
+                "MMG_SNAFU_Dark_Woodland",
+                "MMG_SNAFU_Erdl",
+                "MMG_SNAFU_Green",
+                "MMG_SNAFU_Multicam",
+                "MMG_SNAFU_Multicam_Black",
+                "MMG_SNAFU_Multicam_Tropic",
+                "MMG_SNAFU_Tan",
+                "MMG_SNAFU_Ucp"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": []
+        }
+    ]
+}

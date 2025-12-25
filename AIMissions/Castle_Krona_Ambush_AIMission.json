@@ -1,0 +1,84 @@
+{
+    "Missions": [
+        {
+            "Name": "Castle_Krona_Ambush",
+            "Position": [
+                1392.5048828125,
+                304.90777587890625,
+                9319.1357421875
+            ],
+            "Bots_Positions": [
+                [
+                    1409.44091796875,
+                    306.9953918457031,
+                    9285.92578125
+                ],
+                [
+                    1420.7894287109375,
+                    308.704833984375,
+                    9261.21875
+                ],
+                [
+                    1395.48046875,
+                    303.1083068847656,
+                    9303.349609375
+                ],
+                [
+                    1406.7930908203125,
+                    301.56146240234375,
+                    9306.3466796875
+                ],
+                [
+                    1419.357177734375,
+                    301.25189208984375,
+                    9299.66796875
+                ],
+                [
+                    1382.649658203125,
+                    291.9356689453125,
+                    9303.72265625
+                ],
+                [
+                    1373.144775390625,
+                    292.0393371582031,
+                    9312.9814453125
+                ]
+            ],
+            "Bots_Count_Minimum": 2,
+            "Bots_Count_Maximum": 7,
+            "Bots_Expansion_Loadouts": [
+                "SanitarLoadout",
+                "GlukharLoadout",
+                "KillaLoadout",
+                "BirdeyeLoadout",
+                "BigPipeLoadout",
+                "CultistLoadout",
+                "BanditAK_MMG"
+            ],
+            "Bots_Faction": "Shamans",
+            "Bots_Range": 400,
+            "Bots_Accuracy_Min": 0.5,
+            "Bots_Accuracy_Max": 0.7,
+            "Bots_ThreatDistanceLimit": 400,
+            "Bots_NoiseInvestigationDistanceLimit": 250,
+            "Bots_Damage_Done_Multiplier": 1,
+            "Bots_Damage_Taken_Multiplier": 1,
+            "Is_NBC_Mission": 0,
+            "Allow_Crate_Reward": 1,
+            "Allow_Vehicle_Reward": 0,
+            "Allow_Helicopter_Reward": 0,
+            "Vehicle_Spawn_Position": [],
+            "Loot_Pool_Index": 1,
+            "Bots_Formation": "RANDOM",
+            "Bots_FormationLooseness": 0.0,
+            "Bots_Behaviour": "ALTERNATE",
+            "Bots_Speed": "JOG",
+            "Bots_UnderThreatSpeed": "SPRINT",
+            "Bots_UnlimitedReload": 1,
+            "Bots_WaypointInterpolation": "",
+            "Bots_UseRandomWaypointAsStartPoint": 0,
+            "Bots_CanBeLooted": 1,
+            "Static_Objects": []
+        }
+    ]
+}
