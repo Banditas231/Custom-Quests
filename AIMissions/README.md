@@ -1,6 +1,6 @@
 # ✅ **GitHub Update — Fixed and Formatted Version**
 
-**From now on, everyone can choose which custom missions they want to use in `mainmission.json`.**
+**From now on, everyone can choose which custom missions they want to use in `MainConfig.json`.**
 
 **All custom missions are stored in separate files.** Just open the folder with the mission you like and **copy-paste it into the main file**.
 
