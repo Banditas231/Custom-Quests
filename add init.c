@@ -3,6 +3,7 @@ If you want extraction quests to work, then you need add this to your init.c
 --------------------------
 class CustomMission: MissionServer
 {
+//COPY FROM HERE
 //This is the script to TP GMT to Traders ower map
 	override void Expansion_OnQuestCompletion(ExpansionQuest quest)
     {
@@ -98,5 +99,6 @@ class CustomMission: MissionServer
 
         super.Expansion_OnQuestCompletion(quest);
     }
+	//TO HERE
 -------------------------
 Thanks MACCA for sharing the settings.
