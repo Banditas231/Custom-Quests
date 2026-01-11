@@ -54,12 +54,14 @@ Some quests were found online and fixed/updated by me, while others were custom-
 💪 I hope this helps some of you out there!  
 If you have any questions, feel free to ask.
 
-## also if someone want they can join my server
-•------------»CONNECT INFO«------------•
-Hosted:EU
-Platform:PC
-Map: Chernarus Winter 
-Server name:
-IronZone EU |Hardcore PvE
-IP:
-89.34.97.9:2680
+## You are also welcome to join my server.
+## 🌐 CONNECT INFO
+
+| Property       | Details                     |
+|----------------|----------------------------|
+| **Hosted**     | EU                         |
+| **Platform**   | PC                         |
+| **Map**        | Chernarus Winter           |
+| **Server Name**| IronZone EU | Hardcore PvE |
+| **IP**         | 89.34.97.9:2680           |
+
