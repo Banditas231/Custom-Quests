@@ -8,15 +8,12 @@ Some quests require specific mods for loot or eAI loadouts.
 
 ---
 
-### Required Mods:
+### Required Mods: ONLY IF YOU USE MY LOADOUTS!!!
 
 - `@MMG - Mighty's Military Gear`
 - `@SNAFU Weapons`
-- `@Hunter Mega Pack`
 
-You can replace the loot with anything you prefer.  
-Make sure to update the NPC loadouts to match your server setup.  
-All the files are organized into folders, so you can easily pick and use what you need.
+Hello everyone, I spent a few hours rebuilding my quests. Now all quests have vanilla loadouts and loot.
 
 That’s it — you’re done! Congratulations, you now have the **Banditas Collection** of quests for your server.  
 I hope you enjoy them!
@@ -24,7 +21,10 @@ I hope you enjoy them!
 Some quests were found online and fixed/updated by me, while others were custom-edited by **Banditas231**.
 
 ---
-
+### New Video how to use my quests:
+- **Building Better DayZ Quests | Complete Breakdown**
+- 🔥 [VIDEO #1](https://youtu.be/8gWMbhdwSnE)
+---
 ### New Quests Added:
 
 - **Repair my Weapon (Fixed old quest)**
@@ -32,7 +32,7 @@ Some quests were found online and fixed/updated by me, while others were custom-
 ---
 
 ✅ I keep my files updated so people can use correct and working quests.  
-🕓 **Last updated:** 12/24/2025  
+🕓 **Last updated:** 1/11/2026  
 **Added fix for Repai my Weapon quest check `init.c`**
 
 ---
