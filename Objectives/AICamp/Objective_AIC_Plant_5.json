@@ -17,7 +17,7 @@
       "Faction": "Shamans",
       "Formation": "RANDOM",
       "FormationLooseness": 0,
-      "Loadout": "MMG_SNAFU_Basic_NEW",
+      "Loadout": "BanditLoadout",
       "Units": [
         "eAI_SurvivorF_Eva",
         "eAI_SurvivorF_Frida",
@@ -88,7 +88,7 @@
       "Faction": "Shamans",
       "Formation": "RANDOM",
       "FormationLooseness": 0,
-      "Loadout": "DarkWoodlandLoadout",
+      "Loadout": "BanditLoadout",
       "Units": [
         "eAI_SurvivorF_Eva",
         "eAI_SurvivorF_Frida",
@@ -159,7 +159,7 @@
       "Faction": "Shamans",
       "Formation": "RANDOM",
       "FormationLooseness": 0,
-      "Loadout": "MulticamBlackLoadout",
+      "Loadout": "BanditLoadout",
       "Units": [
         "eAI_SurvivorF_Eva",
         "eAI_SurvivorF_Frida",
@@ -230,7 +230,7 @@
       "Faction": "Shamans",
       "Formation": "RANDOM",
       "FormationLooseness": 0,
-      "Loadout": "GlukharLoadout",
+      "Loadout": "BanditLoadout",
       "Units": [
         "eAI_SurvivorF_Eva",
         "eAI_SurvivorF_Frida",
@@ -301,7 +301,7 @@
       "Faction": "Shamans",
       "Formation": "RANDOM",
       "FormationLooseness": 0,
-      "Loadout": "EFTRaidersLoadout",
+      "Loadout": "BanditLoadout",
       "Units": [
         "eAI_SurvivorF_Eva",
         "eAI_SurvivorF_Frida",

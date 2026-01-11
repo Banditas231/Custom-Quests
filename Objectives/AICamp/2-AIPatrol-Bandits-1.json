@@ -60,7 +60,7 @@
     "NPCSpeed": "RUN",
     "NPCMode": "HALT",
     "NPCFaction": "Shamans",
-    "NPCLoadoutFile": "CultistLoadout",
+    "NPCLoadoutFile": "BanditLoadout",
     "NPCAccuracyMin": -1,
     "NPCAccuracyMax": -1,
     "ClassNames": [
