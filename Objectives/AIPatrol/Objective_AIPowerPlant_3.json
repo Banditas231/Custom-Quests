@@ -15,7 +15,7 @@
     "Faction": "West",
     "Formation": "RANDOM",
     "FormationLooseness": 0,
-    "Loadout": "MMG_SNAFU_Green",
+    "Loadout": "EastLoadout",
     "Units": [
       "eAI_SurvivorF_Eva",
       "eAI_SurvivorF_Frida",
