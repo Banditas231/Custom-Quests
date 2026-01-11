@@ -1,36 +1,34 @@
-void main() 
+void main()
 {
-  //INIT WEATHER BEFORE ECONOMY INIT------------------------
-  Weather weather = g_Game.GetWeather();
+	//INIT ECONOMY--------------------------------------
+	Hive ce = CreateHive();
+	if ( ce )
+		ce.InitOffline();
 
-  weather.MissionWeather(false); // false = use weather controller from Weather.c
+	//DATE RESET AFTER ECONOMY INIT-------------------------
+	int year, month, day, hour, minute;
+	int reset_month = 3, reset_day = 1;
+	GetGame().GetWorld().GetDate(year, month, day, hour, minute);
 
-  weather.GetOvercast().Set(Math.RandomFloatInclusive(0.4, 0.6), 1, 0);
-  weather.GetRain().Set(0, 0, 1);
-  weather.GetFog().Set(Math.RandomFloatInclusive(0.05, 0.1), 1, 0);
-
-  //INIT ECONOMY--------------------------------------
-  Hive ce = CreateHive();
-  if (ce)
-    ce.InitOffline();
-
-  //DATE RESET AFTER ECONOMY INIT-------------------------
-  int year, month, day, hour, minute;
-  int reset_month = 6, reset_day = 10;
-  GetGame().GetWorld().GetDate(year, month, day, hour, minute);
-
-  if ((month == reset_month) && (day < reset_day)) {
-    GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
-  } else {
-    if ((month == reset_month + 1) && (day > reset_day)) {
-      GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
-    } else {
-      if ((month < reset_month) || (month > reset_month + 1)) {
-        GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
-      }
-    }
-  }
-};
+	if ((month == reset_month) && (day < reset_day))
+	{
+		GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
+	}
+	else
+	{
+		if ((month == reset_month + 1) && (day > reset_day))
+		{
+			GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
+		}
+		else
+		{
+			if ((month < reset_month) || (month > reset_month + 1))
+			{
+				GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
+			}
+		}
+	}
+}
 
 class CustomMission: MissionServer
 {
@@ -107,36 +105,12 @@ class CustomMission: MissionServer
                     SpawnQuestHolder_4001();
             }
             break;
-            //! Quest 133--The Lost Survivor
+            //! Quest 133--The Lost Survivor - NEW QUEST
             //! Spawn a new quest-giver NPC on the given location
             case 133:
             {
                 if (!ExpansionQuestModule.GetModuleInstance().TempQuestHolderExists(4003))
                     SpawnQuestHolder_4003();
-            }
-            break;
-            //! Quest 134--PilotCrash - NEW QUEST
-            //! Spawn a new quest-giver NPC on the given location
-            case 134:
-            {
-                if (!ExpansionQuestModule.GetModuleInstance().TempQuestHolderExists(4004))
-                    SpawnQuestHolder_4004();
-            }
-            break;
-            //! Quest 135--PilotCrash_1 - NEW QUEST
-            //! Spawn a new quest-giver NPC on the given location
-            case 135:
-            {
-                if (!ExpansionQuestModule.GetModuleInstance().TempQuestHolderExists(4005))
-                    SpawnQuestHolder_4005();
-            }
-            break;
-            //! Quest 136--PilotCrash_2 - NEW QUEST
-            //! Spawn a new quest-giver NPC on the given location
-            case 136:
-            {
-                if (!ExpansionQuestModule.GetModuleInstance().TempQuestHolderExists(4006))
-                    SpawnQuestHolder_4006();
             }
             break;
         }
@@ -174,7 +148,7 @@ class CustomMission: MissionServer
 			      	  	  ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4001, ExpansionQuestNPCType.AI);
 			      }
 			      break;
-            //! Quest 133--The Lost Survivor
+            //!The Lost Survivor - NEW QUEST
             case 133:
             {
                 if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(133))
@@ -185,45 +159,6 @@ class CustomMission: MissionServer
 			      {
 			      	  if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(8))
 			      	  	  ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4003, ExpansionQuestNPCType.AI);
-			      }
-			      break;
-            //! Quest 134--PilotCrash - NEW QUEST
-            case 134:
-            {
-                if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(134))
-                    ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4004, ExpansionQuestNPCType.AI);
-            }
-            break;
-            case 407:
-			      {
-			      	  if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(8))
-			      	  	  ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4004, ExpansionQuestNPCType.AI);
-			      }
-			      break;
-            //! Quest 135--PilotCrash_1 - NEW QUEST
-            case 135:
-            {
-                if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(135))
-                    ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4005, ExpansionQuestNPCType.AI);
-            }
-            break;
-            case 408:
-			      {
-			      	  if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(8))
-			      	  	  ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4005, ExpansionQuestNPCType.AI);
-			      }
-			      break;
-            //! Quest 136--PilotCrash_1 - NEW QUEST
-            case 136:
-            {
-                if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(136))
-                    ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4006, ExpansionQuestNPCType.AI);
-            }
-            break;
-            case 409:
-			      {
-			      	  if (!ExpansionQuestModule.GetModuleInstance().IsOtherQuestInstanceActive(8))
-			      	  	  ExpansionQuestModule.GetModuleInstance().DeleteQuestHolder(4006, ExpansionQuestNPCType.AI);
 			      }
 			      break;
         }
@@ -252,7 +187,7 @@ class CustomMission: MissionServer
         ExpansionTempQuestHolderPosition questHolderEscortPos = new ExpansionTempQuestHolderPosition("3230.55 210.046 13025.7", "140.698 0 -0");
         ExpansionQuestModule.GetModuleInstance().SpawnQuestHolder(questHolderEscort, questHolderEscortPos);
     }
-    //! Quest 133--The Lost Survivor
+    //!The Lost Survivor - NEW QUEST
     protected void SpawnQuestHolder_4003()
     {
         ExpansionTempQuestHolder questHolderEscort = new ExpansionTempQuestHolder(4003, "ExpansionQuestNPCAIHassan", "Hassan", "There is nothing to do here for you...");
@@ -264,44 +199,7 @@ class CustomMission: MissionServer
         ExpansionTempQuestHolderPosition questHolderEscortPos = new ExpansionTempQuestHolderPosition("13854.64 30.53 2889.72", "62.99 -0 -0");
         ExpansionQuestModule.GetModuleInstance().SpawnQuestHolder(questHolderEscort, questHolderEscortPos);
     }
-    //! Quest 134--PilotCrash - NEW QUEST
-    protected void SpawnQuestHolder_4004()
-    {
-        ExpansionTempQuestHolder questHolderEscort = new ExpansionTempQuestHolder(4004, "ExpansionQuestNPCAIHassan", "Survivor", "There is nothing to do here for you...");
-        if (!questHolderEscort)
-            return;
-
-        questHolderEscort.SetNPCEmoteID(EmoteConstants.ID_EMOTE_SITA);
-        questHolderEscort.SetLoadoutName("PilotNPCExtraction");
-        ExpansionTempQuestHolderPosition questHolderEscortPos = new ExpansionTempQuestHolderPosition("8782.02 141.95 2904.97", "-44.99 0 0");
-        ExpansionQuestModule.GetModuleInstance().SpawnQuestHolder(questHolderEscort, questHolderEscortPos);
-    }
-    //! Quest 135--PilotCrash_1 - NEW QUEST
-    protected void SpawnQuestHolder_4005()
-    {
-        ExpansionTempQuestHolder questHolderEscort = new ExpansionTempQuestHolder(4005, "ExpansionQuestNPCAIHassan", "Survivor", "There is nothing to do here for you...");
-        if (!questHolderEscort)
-            return;
-
-        questHolderEscort.SetNPCEmoteID(EmoteConstants.ID_EMOTE_SITA);
-        questHolderEscort.SetLoadoutName("PilotNPCExtraction");
-        ExpansionTempQuestHolderPosition questHolderEscortPos = new ExpansionTempQuestHolderPosition("12319.18 251.86 4553.80", "161.99 0.0 -0.0");
-        ExpansionQuestModule.GetModuleInstance().SpawnQuestHolder(questHolderEscort, questHolderEscortPos);
-    }
-    //! Quest 136--PilotCrash_2 - NEW QUEST
-    protected void SpawnQuestHolder_4006()
-    {
-        ExpansionTempQuestHolder questHolderEscort = new ExpansionTempQuestHolder(4006, "ExpansionQuestNPCAIHassan", "Survivor", "There is nothing to do here for you...");
-        if (!questHolderEscort)
-            return;
-
-        questHolderEscort.SetNPCEmoteID(EmoteConstants.ID_EMOTE_SITA);
-        questHolderEscort.SetLoadoutName("PilotNPCExtraction");
-        ExpansionTempQuestHolderPosition questHolderEscortPos = new ExpansionTempQuestHolderPosition("6246.88 273.78 11612.51", "0.0 -0.0 -0.0");
-        ExpansionQuestModule.GetModuleInstance().SpawnQuestHolder(questHolderEscort, questHolderEscortPos);
-    }
-	//! This one needed for Repair my Weapon
-  	//! ADD THIS AFTER EVERYTHING ELSE IN THIS CLASS
+  //! ADD THIS AFTER EVERYTHING ELSE IN THIS CLASS
 	//! Quest Events
 	override void Expansion_OnQuestCompletion(ExpansionQuest quest)
     {
@@ -543,15 +441,17 @@ class CustomMission: MissionServer
       /* Build Loadout */
       /* this list should include ALL items you want your spawned characters to wear */
       playerGear = {
-        "PrisonUniformJacket",
-        "PrisonUniformPants",
-        "PrisonerCap",
-        "JoggingShoes_White"
+        "BushlatPoliceJacket_Blue",
+        "CargoPants_Blue",
+        "BeanieHat_Black",
+        "AthleticShoes_Blue"
       };
       allItems = {
+        "BandageDressing",
         "greenbellpepper",
         "Apple",
-        "BandageDressing"
+        "Matchbox",
+        "BoneKnife"
       };
       beltAttachments = {};
       itemWeapon = "";
@@ -568,14 +468,17 @@ class CustomMission: MissionServer
       /* Build Loadout */
       /* this list should include ALL items you want your spawned characters to wear */
       playerGear = {
-        "ManSuit_Black",
-        "SlacksPants_Black",
-        "DressShoes_Black"
+        "NavyUniformJacket",
+        "NavyUniformPants",
+        "BeanieHat_Black",
+        "AthleticShoes_Black"
       };
       allItems = {
+        "BandageDressing",
         "greenbellpepper",
         "Apple",
-        "BandageDressing"
+        "Matchbox",
+        "BoneKnife"
       };
       beltAttachments = {};
       itemWeapon = "";
@@ -592,14 +495,17 @@ class CustomMission: MissionServer
       /* Build Loadout */
       /* this list should include ALL items you want your spawned characters to wear */
       playerGear = {
-        "Hoodie_Blue",
-        "Jeans_BlueDark",
-        "JoggingShoes_White"
+        "RidersJacket_Black",
+        "Jeans_Black",
+        "BeanieHat_Black",
+        "AthleticShoes_Black"
       };
       allItems = {
+        "BandageDressing",
         "greenbellpepper",
         "Apple",
-        "BandageDressing"
+        "Matchbox",
+        "BoneKnife"
       };
       beltAttachments = {};
       itemWeapon = "";
@@ -616,15 +522,17 @@ class CustomMission: MissionServer
       /* Build Loadout */
       /* this list should include ALL items you want your spawned characters to wear */
       playerGear = {
-        "Shirt_BlueCheckBright",
-        "CargoPants_Beige",
-        "WorkingBoots_Brown",
-        "ConstructionHelmet_Orange"
+        "JumpsuitJacket_Green",
+        "JumpsuitPants_Green",
+        "BeanieHat_Green",
+        "AthleticShoes_Green"
       };
       allItems = {
+        "BandageDressing",
         "greenbellpepper",
         "Apple",
-        "BandageDressing"
+        "Matchbox",
+        "BoneKnife"
       };
       beltAttachments = {};
       itemWeapon = "";
@@ -641,15 +549,17 @@ class CustomMission: MissionServer
       /* Build Loadout */
       /* this list should include ALL items you want your spawned characters to wear */
       playerGear = {
-        "TrackSuitJacket_Red",
-        "TrackSuitPants_Red",
-        "AthleticShoes_Grey",
-        "BaseballCap_Red"
+        "WoolCoat_Red",
+        "Jeans_Brown",
+        "BeanieHat_Red",
+        "AthleticShoes_Black"
       };
       allItems = {
+        "BandageDressing",
         "greenbellpepper",
         "Apple",
-        "BandageDressing"
+        "Matchbox",
+        "BoneKnife"
       };
       beltAttachments = {};
       itemWeapon = "";
@@ -666,14 +576,17 @@ class CustomMission: MissionServer
       /* Build Loadout */
       /* this list should include ALL items you want your spawned characters to wear */
       playerGear = {
-        "Shirt_GreenCheck",
-        "Jeans_Blue",
-        "WorkingBoots_Brown"
+        "WoolCoat_Green",
+        "Jeans_Green",
+        "BeanieHat_Green",
+        "AthleticShoes_Green"
       };
       allItems = {
+        "BandageDressing",
         "greenbellpepper",
         "Apple",
-        "BandageDressing"
+        "Matchbox",
+        "BoneKnife"
       };
       beltAttachments = {};
       itemWeapon = "";
@@ -692,12 +605,15 @@ class CustomMission: MissionServer
       playerGear = {
         "ParamedicJacket_Blue",
         "ParamedicPants_Blue",
-        "WorkingBoots_Beige"
+        "BeanieHat_Blue",
+        "AthleticShoes_Blue"
       };
       allItems = {
+        "BandageDressing",
         "greenbellpepper",
         "Apple",
-        "BandageDressing"
+        "Matchbox",
+        "BoneKnife"
       };
       beltAttachments = {};
       itemWeapon = "";
@@ -716,12 +632,15 @@ class CustomMission: MissionServer
       playerGear = {
         "HuntingJacket_Brown",
         "HunterPants_Brown",
-        "HikingBoots_Brown"
+        "BeanieHat_Brown",
+        "AthleticShoes_Brown"
       };
       allItems = {
+        "BandageDressing",
         "greenbellpepper",
         "Apple",
-        "BandageDressing"
+        "Matchbox",
+        "BoneKnife"
       };
       beltAttachments = {};
       itemWeapon = "";
@@ -740,12 +659,15 @@ class CustomMission: MissionServer
       playerGear = {
         "FirefighterJacket_Black",
         "FirefightersPants_Black",
-        "WorkingBoots_Grey"
+        "BeanieHat_Black",
+        "AthleticShoes_Grey"
       };
       allItems = {
+        "BandageDressing",
         "greenbellpepper",
         "Apple",
-        "BandageDressing"
+        "Matchbox",
+        "BoneKnife"
       };
       beltAttachments = {};
       itemWeapon = "";
@@ -762,15 +684,17 @@ class CustomMission: MissionServer
       /* Build Loadout */
       /* this list should include ALL items you want your spawned characters to wear */
       playerGear = {
-        "PoliceCap",
-        "PoliceJacket",
-        "PolicePants",
-        "DressShoes_Black"
+        "WoolCoat_BlueCheck",
+        "Jeans_Blue",
+        "BeanieHat_Blue",
+        "AthleticShoes_Blue"
       };
       allItems = {
+        "BandageDressing",
         "greenbellpepper",
         "Apple",
-        "BandageDressing"
+        "Matchbox",
+        "BoneKnife"
       };
       beltAttachments = {};
       itemWeapon = "";
@@ -787,14 +711,17 @@ class CustomMission: MissionServer
       /* Build Loadout */
       /* this list should include ALL items you want your spawned characters to wear */
       playerGear = {
-        "TacticalShirt_Olive",
-        "BDUPants",
-        "JungleBoots_Olive"
+        "WoolCoat_Black",
+        "Jeans_Black",
+        "BeanieHat_Black",
+        "AthleticShoes_Black"
       };
       allItems = {
+        "BandageDressing",
         "greenbellpepper",
         "Apple",
-        "BandageDressing"
+        "Matchbox",
+        "BoneKnife"
       };
       beltAttachments = {};
       itemWeapon = "";
@@ -911,47 +838,89 @@ class CustomMission: MissionServer
     return m_player;
   }
 
-  override void StartingEquipSetup(PlayerBase player, bool clothesChosen) {
+  // Check if player name is invalid/banned
+  bool IsInvalidPlayerName(string playerName) {
+    string nameLower = playerName;
+    nameLower.ToLower();
+    
+    // List of invalid names (case-insensitive)
+    TStringArray invalidNames = {
+      "survivor",
+      "123",
+      "test",
+      "test123",
+      "player",
+      "user",
+      "admin",
+      "administrator",
+      "mod",
+      "moderator",
+      "gm",
+      "game master",
+      "dev",
+      "developer",
+      "",
+      "1",
+      "12",
+      "abc",
+      "12345",
+      "qwerty",
+      "asdf",
+      "player1",
+      "player2",
+      "newplayer"
+    };
+    
+    // Check if name matches any invalid name
+    foreach(string invalidName: invalidNames) {
+      if (nameLower == invalidName) {
+        return true;
+      }
+    }
+    
+    // Check if name is too short (less than 3 characters)
+    if (playerName.Length() < 3) {
+      return true;
+    }
+    
+    return false;
+  }
+
+  override void StartingEquipSetup(PlayerBase player, bool clothesChosen) 
+  {
     // Start By Removing all default items regardess of name or state
     player.RemoveAllItems();
 
     // Get Player Name
-    bool playerNameIsSurvivor = false;
     string characterName = player.GetIdentity().GetName();
-    characterName.ToLower();
-
-    // Does player name contain Survivor
-    if (characterName.Contains("survivor")) {
-      playerNameIsSurvivor = true;
-    }
-
-    // If Player is Named Survivor Remove All Gear
-    if (playerNameIsSurvivor) {
+    
+    // Check if player name is invalid - REMOVE GEAR AND SEND MESSAGE (will need to reconnect with proper name)
+    if (IsInvalidPlayerName(characterName)) {
+      // Remove all items - player spawns naked
       player.RemoveAllItems();
-      GetGame().GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(SurvivorDetected, 5000, true, player);
+      
+      // Send warning message to player
+      string kickMessage = "INVALID NAME: Your character name '" + characterName + "' is not allowed! You will spawn NAKED. Please disconnect and reconnect with a proper name (minimum 3 characters, not 'Survivor', '123', etc.)!";
+      GetGame().GetCallQueue(CALL_CATEGORY_GAMEPLAY).CallLater(SendInvalidNameMessage, 2000, false, player, kickMessage);
+      
+      return;
     } else {
       SetCareerPath(player);
     }
   }
-
-  // Send player message if they have Survivor as a name
-  protected void SurvivorDetected(PlayerBase player) {
-    sendPlayerMessage(player, "Since your name is 'Survivor', you spawn NAKED!");
-    sendPlayerMessage(player, "If you give yourself a name, you get starter pack with clothes");
-    sendPlayerMessage(player, "Because we are an Hard Server it is highly recommended that you pick a character name.");
-  }
-
-  protected void sendPlayerMessage(PlayerBase player, string message) {
-    if ((player) && (message != "")) {
-      Param1 < string > Msgparam;
-      Msgparam = new Param1 < string > (message);
-      GetGame().RPCSingleParam(player, ERPCs.RPC_USER_ACTION_MESSAGE, Msgparam, true, player.GetIdentity());
-      GetGame().GetCallQueue(CALL_CATEGORY_GAMEPLAY).Remove(SurvivorDetected);
+  
+  // Send message to player about invalid name
+  void SendInvalidNameMessage(PlayerBase player, string message) {
+    if (player) {
+      PlayerIdentity identity = player.GetIdentity();
+      if (identity) {
+        Param1<string> msgParam = new Param1<string>(message);
+        GetGame().RPCSingleParam(player, ERPCs.RPC_USER_ACTION_MESSAGE, msgParam, true, identity);
+      }
     }
   }
 };
 
 Mission CreateCustomMission(string path) {
   return new CustomMission();
-
 }
