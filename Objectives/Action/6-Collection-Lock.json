@@ -1,0 +1,31 @@
+{
+    "ConfigVersion": 28,
+    "ID": 6,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Bring items to Peter at the Trader.",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 1,
+            "ClassName": "combinationlock",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": 0
+        },
+        {
+            "Amount": 1,
+            "ClassName": "combinationlock4",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": 0
+        },
+        {
+            "Amount": 1,
+            "ClassName": "electronicrepairkit",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": 0
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}

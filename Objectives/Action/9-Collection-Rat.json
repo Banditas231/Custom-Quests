@@ -1,0 +1,25 @@
+{
+    "ConfigVersion": 28,
+    "ID": 9,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Once you've captured as many rats as possible, safely exit Cheno and return to the survivors' camp.",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 3,
+            "ClassName": "DeadRat_White",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": 0
+        },
+        {
+            "Amount": 3,
+            "ClassName": "DeadRat_Grey",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": 0
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 1
+}
