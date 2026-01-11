@@ -61,7 +61,7 @@
     "MaxDistance": 10.0,
     "Loot": [
         {
-            "Name": "GCGN_Ammo_3006",
+            "Name": "Ammo_22",
             "Chance": 0.10000000894069672,
             "Attachments": [],
             "QuantityPercent": -1,
@@ -70,7 +70,7 @@
             "Variants": []
         },
         {
-            "Name": "GCGN_Ammo_408Chey",
+            "Name": "Ammo_357",
             "Chance": 0.20000001788139344,
             "Attachments": [],
             "QuantityPercent": -1,
@@ -79,125 +79,8 @@
             "Variants": []
         },
         {
-            "Name": "SNAFU_Ammo_338",
+            "Name": "Ammo_12gaSlug",
             "Chance": 0.10000000894069672,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "GCGN_Ammo_762x51",
-            "Chance": 0.30000001192092898,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "SNAFU_Ammo_300ACC",
-            "Chance": 0.10000000894069672,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "SNAFU_Ammo_46x30",
-            "Chance": 0.30000001192092898,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "SNAFU_Ammo_5_7x28mm",
-            "Chance": 0.30000001192092898,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "SNAFU_Ammo_45_70mm",
-            "Chance": 0.30000001192092898,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "SNAFU_Ammo_500_SW",
-            "Chance": 0.10000000894069672,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "SNAFU_Ammo_145Cal",
-            "Chance": 0.30000001192092898,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "SNAFU_MD_Ammo_556x45mm_M855A1",
-            "Chance": 0.30000001192092898,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "SNAFU_Ammo_762x25",
-            "Chance": 0.30000001192092898,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "SNAFU_Ammo_44",
-            "Chance": 0.20000001788139344,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "GCGN_Ammo_50Cal",
-            "Chance": 0.10000000894069672,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "SNAFU_Ammo_127x55mm",
-            "Chance": 0.30000001192092898,
-            "Attachments": [],
-            "QuantityPercent": -1,
-            "Max": -1,
-            "Min": 0,
-            "Variants": []
-        },
-        {
-            "Name": "SNAFU_Ammo_127x55mmAP",
-            "Chance": 0.30000001192092898,
             "Attachments": [],
             "QuantityPercent": -1,
             "Max": -1,
