@@ -15,6 +15,6 @@
     "ShowDistance": 1,
     "CanLootAI": 0,
     "NPCLoadoutFile": "PlayerFemaleSuitLoadout",
-    "NPCClassName": "",
-    "NPCName": ""
+    "NPCClassName": "ExpansionQuestNPCAIJudy",
+    "NPCName": "Elena"
 }

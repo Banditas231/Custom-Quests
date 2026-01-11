@@ -14,7 +14,7 @@
     "MarkerName": "Escort Survivor",
     "ShowDistance": 1,
     "CanLootAI": 0,
-    "NPCLoadoutFile": "SurvivorLoadout",
+    "NPCLoadoutFile": "PlayerMaleSuitLoadout",
     "NPCClassName": "ExpansionQuestNPCAIHassan",
     "NPCName": "Hassan"
 }

@@ -14,7 +14,7 @@
     "MarkerName": "Escort the Jesmine",
     "ShowDistance": 1,
     "CanLootAI": 0,
-    "NPCLoadoutFile": "SurvivorLoadout",
+    "NPCLoadoutFile": "PlayerFemaleSuitLoadout",
     "NPCClassName": "ExpansionQuestNPCAIIrena",
     "NPCName": "Jesmine"
 }

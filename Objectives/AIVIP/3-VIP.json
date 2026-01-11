@@ -14,7 +14,7 @@
     "MarkerName": "Escort Medic",
     "ShowDistance": 1,
     "CanLootAI": 0,
-    "NPCLoadoutFile": "SurvivorLoadout",
-    "NPCClassName": "",
-    "NPCName": ""
+    "NPCLoadoutFile": "PlayerFemaleSuitLoadout",
+    "NPCClassName": "ExpansionQuestNPCAIFrida",
+    "NPCName": "Marina"
 }
