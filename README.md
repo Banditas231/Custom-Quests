@@ -4,7 +4,11 @@
 
 ### Hello! These are my Expansion Quests for the Chernogorsk map.
 
-Some quests require specific mods for loot or eAI loadouts.
+### Hello everyone, I spent a few hours rebuilding my quests. Now all quests have vanilla loadouts and loot.
+That’s it — you’re done! Congratulations, you now have the **Banditas Collection** of quests for your server.  
+I hope you enjoy them!
+
+Some quests were found online and fixed/updated by me, while others were custom-edited by **Banditas231**.
 
 ---
 
@@ -12,14 +16,6 @@ Some quests require specific mods for loot or eAI loadouts.
 
 - `@MMG - Mighty's Military Gear`
 - `@SNAFU Weapons`
-
-Hello everyone, I spent a few hours rebuilding my quests. Now all quests have vanilla loadouts and loot.
-
-That’s it — you’re done! Congratulations, you now have the **Banditas Collection** of quests for your server.  
-I hope you enjoy them!
-
-Some quests were found online and fixed/updated by me, while others were custom-edited by **Banditas231**.
-
 ---
 ### New Video how to use my quests:
 - **Building Better DayZ Quests | Complete Breakdown**
