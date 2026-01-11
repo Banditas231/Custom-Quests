@@ -9,7 +9,7 @@
     306.1000061035156,
     6378.47021484375
   ],
-  "MaxDistance": 150,
+  "MaxDistance": 250,
   "MarkerName": "Kill Infected",
   "ShowDistance": 1,
   "Target": {
