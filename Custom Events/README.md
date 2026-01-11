@@ -1,5 +1,5 @@
 ### The event is vanilla, no mods are required.
-# The event is vanilla; no mods are required.
+# Add it if you want something different in your game.
 
 # 🛳️ Custom Cargo Ship Event by Banditas231
 
