@@ -1,3 +1,6 @@
+### The event is vanilla, no mods are required.
+# The event is vanilla; no mods are required.
+
 # 🛳️ Custom Cargo Ship Event by Banditas231
 
 This is a **custom dynamic event** made for DayZ servers — it spawns a large cargo ship wreck in the ocean with.
