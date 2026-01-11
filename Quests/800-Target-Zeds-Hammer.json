@@ -13,7 +13,7 @@
   "Repeatable": 1,
   "IsDailyQuest": 0,
   "IsWeeklyQuest": 1,
-  "CancelQuestOnPlayerDeath": 1,
+  "CancelQuestOnPlayerDeath": 0,
   "Autocomplete": 1,
   "IsGroupQuest": 0,
   "ObjectSetFileName": "",
@@ -51,7 +51,7 @@
   "ReputationRequirement": 0,
   "PreQuestIDs": [
     803
-    ],
+  ],
   "RequiredFaction": "",
   "FactionReward": "",
   "PlayerNeedQuestItems": 1,

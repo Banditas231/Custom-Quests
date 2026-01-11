@@ -20,8 +20,8 @@
   "QuestItems": [],
   "Rewards": [
     {
-      "ClassName": "Project3DPrinter_Kit",
-      "Amount": 1,
+      "ClassName": "ExpansionBanknoteHryvnia",
+      "Amount": 10000,
       "Attachments": [],
       "DamagePercent": 0,
       "HealthPercent": 0,

@@ -27,15 +27,6 @@
       "HealthPercent": 0,
       "QuestID": -1,
       "Chance": 1
-    },
-    {
-      "ClassName": "MMG_supplybag_dark_woodland",
-      "Amount": 1,
-      "Attachments": [],
-      "DamagePercent": 0,
-      "HealthPercent": 0,
-      "QuestID": -1,
-      "Chance": 1
     }
   ],
   "NeedToSelectReward": 0,

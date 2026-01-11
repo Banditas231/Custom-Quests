@@ -20,53 +20,8 @@
   "QuestItems": [],
   "Rewards": [
     {
-      "ClassName": "Project3DPrinter_Filament_Blue",
-      "Amount": 1,
-      "Attachments": [],
-      "DamagePercent": 0,
-      "HealthPercent": 0,
-      "QuestID": -1,
-      "Chance": 1
-    },
-    {
-      "ClassName": "Project3DPrinter_Filament_LightBlue",
-      "Amount": 1,
-      "Attachments": [],
-      "DamagePercent": 0,
-      "HealthPercent": 0,
-      "QuestID": -1,
-      "Chance": 1
-    },
-    {
-      "ClassName": "Project3DPrinter_Filament_Orange",
-      "Amount": 1,
-      "Attachments": [],
-      "DamagePercent": 0,
-      "HealthPercent": 0,
-      "QuestID": -1,
-      "Chance": 1
-    },
-    {
-      "ClassName": "Project3DPrinter_Filament_Red",
-      "Amount": 1,
-      "Attachments": [],
-      "DamagePercent": 0,
-      "HealthPercent": 0,
-      "QuestID": -1,
-      "Chance": 1
-    },
-    {
-      "ClassName": "Project3DPrinter_Filament_Violet",
-      "Amount": 1,
-      "Attachments": [],
-      "DamagePercent": 0,
-      "HealthPercent": 0,
-      "QuestID": -1,
-      "Chance": 1
-    },
-    {
-      "ClassName": "Project3DPrinter_Filament_Yellow",
-      "Amount": 1,
+      "ClassName": "expansionbanknotehryvnia",
+      "Amount": 12000,
       "Attachments": [],
       "DamagePercent": 0,
       "HealthPercent": 0,

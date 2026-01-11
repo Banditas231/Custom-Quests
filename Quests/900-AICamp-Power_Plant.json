@@ -13,7 +13,7 @@
   "Repeatable": 1,
   "IsDailyQuest": 0,
   "IsWeeklyQuest": 1,
-  "CancelQuestOnPlayerDeath": 1,
+  "CancelQuestOnPlayerDeath": 0,
   "Autocomplete": 0,
   "IsGroupQuest": 1,
   "ObjectSetFileName": "",
@@ -22,15 +22,6 @@
     {
       "ClassName": "ExpansionBanknoteHryvnia",
       "Amount": 20000,
-      "Attachments": [],
-      "DamagePercent": 0,
-      "HealthPercent": 0,
-      "QuestID": -1,
-      "Chance": 1
-    },
-    {
-      "ClassName": "Project3DPrinter_Filament_Green",
-      "Amount": 1,
       "Attachments": [],
       "DamagePercent": 0,
       "HealthPercent": 0,

@@ -13,7 +13,7 @@
   "Repeatable": 0,
   "IsDailyQuest": 0,
   "IsWeeklyQuest": 0,
-  "CancelQuestOnPlayerDeath": 1,
+  "CancelQuestOnPlayerDeath": 0,
   "Autocomplete": 1,
   "IsGroupQuest": 0,
   "ObjectSetFileName": "",
@@ -34,15 +34,6 @@
       "Attachments": [
         "Jig"
       ],
-      "DamagePercent": 0,
-      "HealthPercent": 0,
-      "QuestID": -1,
-      "Chance": 1
-    },
-    {
-      "ClassName": "Jig",
-      "Amount": 2,
-      "Attachments": [],
       "DamagePercent": 0,
       "HealthPercent": 0,
       "QuestID": -1,
