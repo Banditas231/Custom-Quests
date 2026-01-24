@@ -1,11 +1,9 @@
 **All the files I use on my server.**
 
 ---
-### • Please don’t use chain quests — they are broken.
+# • Please don’t use chain quests — they are broken.
 
-# • Expansion has changed how quests work. Because of this, fixing all my quests is quite difficult.
-
-```
+## • Expansion has changed how quests work. Because of this, fixing all my quests is quite difficult.
 
 ### Hello! These are my Expansion Quests for the Chernogorsk map.
 
