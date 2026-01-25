@@ -1,0 +1,14 @@
+{
+    "ConfigVersion": 28,
+    "ID": 9,
+    "ObjectiveType": 10,
+    "ObjectiveText": "",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ActionNames": [
+        "ActionFeedTetracyclineAntibiotics"
+    ],
+    "AllowedClassNames": [],
+    "ExcludedClassNames": [],
+    "ExecutionAmount": 1
+}
