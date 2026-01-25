@@ -23,7 +23,7 @@
   ],
   "NPCEmoteID": 14,
   "NPCEmoteIsStatic": 1,
-  "NPCLoadoutFile": "YeetBrigadeLoadout",
+  "NPCLoadoutFile": "MMG_SNAFU_Atack",
   "NPCInteractionEmoteID": 1,
   "NPCQuestCancelEmoteID": 60,
   "NPCQuestStartEmoteID": 58,
@@ -31,5 +31,4 @@
   "NPCFaction": "InvincibleObservers",
   "NPCType": 2,
   "Active": 1
-
 }

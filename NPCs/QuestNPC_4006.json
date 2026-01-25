@@ -1,0 +1,34 @@
+{
+    "ConfigVersion": 6,
+    "ID": 4006,
+    "ClassName": "ExpansionQuestNPCAIHassan",
+    "Position": [
+        6246.88,
+        273.78,
+        11612.51
+    ],
+    "Orientation": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "NPCName": "Survivor",
+    "DefaultNPCText": "There is nothing to do here for you...",
+    "Waypoints": [
+        [
+            6246.88,
+            273.78,
+            11612.51
+        ]
+    ],
+    "NPCEmoteID": 46,
+    "NPCEmoteIsStatic": 0,
+    "NPCLoadoutFile": "PilotNPCExtraction",
+    "NPCInteractionEmoteID": 1,
+    "NPCQuestCancelEmoteID": 60,
+    "NPCQuestStartEmoteID": 58,
+    "NPCQuestCompleteEmoteID": 39,
+    "NPCFaction": "InvincibleObservers",
+    "NPCType": 2,
+    "Active": 1
+}

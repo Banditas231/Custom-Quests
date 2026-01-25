@@ -1,0 +1,34 @@
+{
+    "ConfigVersion": 6,
+    "ID": 4003,
+    "ClassName": "ExpansionQuestNPCAIHassan",
+    "Position": [
+        13854.64,
+        30.53,
+        2889.72
+    ],
+    "Orientation": [
+        140.698,
+        0,
+        -0
+    ],
+    "NPCName": "Hassan",
+    "DefaultNPCText": "There is nothing to do here for you...",
+    "Waypoints": [
+        [
+            13466.1,
+            4.46379,
+            2919.23
+        ]
+    ],
+    "NPCEmoteID": 14,
+    "NPCEmoteIsStatic": 1,
+    "NPCLoadoutFile": "PlayerMaleSuitLoadout",
+    "NPCInteractionEmoteID": 1,
+    "NPCQuestCancelEmoteID": 60,
+    "NPCQuestStartEmoteID": 58,
+    "NPCQuestCompleteEmoteID": 39,
+    "NPCFaction": "InvincibleObservers",
+    "NPCType": 2,
+    "Active": 0
+}
