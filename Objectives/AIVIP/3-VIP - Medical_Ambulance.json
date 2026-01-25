@@ -1,8 +1,8 @@
 {
     "ConfigVersion": 28,
-    "ID": 4,
+    "ID": 3,
     "ObjectiveType": 9,
-    "ObjectiveText": "Take the Teacher to camp",
+    "ObjectiveText": "Take the Medic to camp",
     "TimeLimit": -1,
     "Active": 1,
     "Position": [
@@ -11,10 +11,10 @@
         5987.080078125
     ],
     "MaxDistance": 20.0,
-    "MarkerName": "Escort Teacher",
+    "MarkerName": "Escort Medic",
     "ShowDistance": 1,
     "CanLootAI": 0,
-    "NPCLoadoutFile": "PlayerFemaleSuitLoadout",
-    "NPCClassName": "ExpansionQuestNPCAIJudy",
-    "NPCName": "Elena Petrova"
+    "NPCLoadoutFile": "Medic_Trader",
+    "NPCClassName": "ExpansionQuestNPCAIFrida",
+    "NPCName": "Marina Sidorova"
 }

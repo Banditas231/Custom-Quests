@@ -14,7 +14,7 @@
     "MarkerName": "Escort VIP",
     "ShowDistance": 1,
     "CanLootAI": 0,
-    "NPCLoadoutFile": "BanditLoadout",
+    "NPCLoadoutFile": "HumanLoadout",
     "NPCClassName": "",
     "NPCName": "Survivor"
 }
