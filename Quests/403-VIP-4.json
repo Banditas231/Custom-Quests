@@ -9,7 +9,7 @@
     "Thank you for bringing me here %1. I will stay here for now and warm myself up first before I think about what to do next.."
   ],
   "ObjectiveText": "Escort \"Teacher\" to the \"Survivor Camp\".",
-  "FollowUpQuest": 132,
+  "FollowUpQuest": -1,
   "Repeatable": 0,
   "IsDailyQuest": 0,
   "IsWeeklyQuest": 0,
@@ -20,8 +20,8 @@
   "QuestItems": [],
   "Rewards": [
     {
-      "ClassName": "ExpansionBanknoteHryvnia",
-      "Amount": 10000,
+      "ClassName": "Project3DPrinter_Kit",
+      "Amount": 1,
       "Attachments": [],
       "DamagePercent": 0,
       "HealthPercent": 0,

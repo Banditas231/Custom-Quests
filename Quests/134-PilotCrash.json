@@ -15,7 +15,7 @@
   "IsWeeklyQuest": 1,
   "CancelQuestOnPlayerDeath": 1,
   "Autocomplete": 0,
-  "IsGroupQuest": 0,
+  "IsGroupQuest": 1,
   "ObjectSetFileName": "",
   "QuestItems": [],
   "Rewards": [],

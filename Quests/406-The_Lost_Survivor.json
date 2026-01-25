@@ -1,12 +1,12 @@
 {
   "ConfigVersion": 22,
-  "ID": 409,
+  "ID": 406,
   "Type": 1,
-  "Title": "PilotCrash",
+  "Title": "The Lost Survivor",
   "Descriptions": [
-    "You… you found me. I thought I was done for. After the plane went down, I lost everyone, and the days since have been nothing but pain and fear.",
+    "I… I didn’t think I’d make it. Name’s Hassan. I was just a fisherman, out at sea, when the storm came—violent, sudden. My boat didn’t stand a chance. Next thing I know, I wake up on a cold shore… tied up, blood dried on my face. Bandits. I don’t know how long I was out, but they kept me alive—for now. While they were passed out from booze or whatever they took, I found an old radio tower nearby. Managed to send a signal to the camp. It was my only shot. I’m weak. Lost. I don’t even know what this place is anymore. But if you can get me to that camp—if you can help me escape—there’s a stash there. Supplies I buried before all this. They're yours if you get me out of here alive.",
     "...",
-    "Thank you, stranger. Without you, I wouldn’t have lasted much longer."
+    "Thank you for bringing me here %1..."
   ],
   "ObjectiveText": "Escort \"Hassan\" to the \"Survivor Camp\".",
   "FollowUpQuest": -1,
@@ -20,8 +20,17 @@
   "QuestItems": [],
   "Rewards": [
     {
-      "ClassName": "ExpansionBanknoteHryvnia",
-      "Amount": 20000,
+      "ClassName": "MMG_mmps_bag_multicam_tropic",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": 1,
+      "Chance": 0
+    },
+    {
+      "ClassName": "PunchedCard",
+      "Amount": 1,
       "Attachments": [],
       "DamagePercent": 0,
       "HealthPercent": 0,
@@ -35,7 +44,7 @@
   "RewardsForGroupOwnerOnly": 0,
   "RewardBehavior": 0,
   "QuestGiverIDs": [
-    4006
+    4003
   ],
   "QuestTurnInIDs": [
     1
@@ -52,7 +61,7 @@
   "ReputationReward": 2000,
   "ReputationRequirement": 0,
   "PreQuestIDs": [
-    136
+    133
   ],
   "RequiredFaction": "",
   "FactionReward": "",

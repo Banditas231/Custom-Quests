@@ -9,25 +9,34 @@
         "Objective complete. 50 hostiles neutralized. Good work, soldier — here’s your compensation."
     ],
     "ObjectiveText": "Kill 50 Zombies.",
-    "FollowUpQuest": 801,
+    "FollowUpQuest": -1,
     "Repeatable": 1,
     "IsDailyQuest": 0,
     "IsWeeklyQuest": 1,
     "CancelQuestOnPlayerDeath": 0,
     "Autocomplete": 1,
-    "IsGroupQuest": 0,
+    "IsGroupQuest": 1,
     "ObjectSetFileName": "",
     "QuestItems": [],
     "Rewards": [
-    {
-      "ClassName": "ExpansionBanknoteHryvnia",
-      "Amount": 10000,
-      "Attachments": [],
-      "DamagePercent": 0,
-      "HealthPercent": 0,
-      "QuestID": 1,
-      "Chance": 0
-    }
+        {
+            "ClassName": "ExpansionBanknoteHryvnia",
+            "Amount": 3000,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1
+        },
+        {
+            "ClassName": "InediaPain_FirstAidKit_White",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1
+        }
     ],
     "NeedToSelectReward": 1,
     "RandomReward": 0,

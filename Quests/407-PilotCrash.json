@@ -9,7 +9,7 @@
     "Thank you, stranger. Without you, I wouldn’t have lasted much longer."
   ],
   "ObjectiveText": "Escort \"Hassan\" to the \"Survivor Camp\".",
-  "FollowUpQuest": 134,
+  "FollowUpQuest": -1,
   "Repeatable": 1,
   "IsDailyQuest": 0,
   "IsWeeklyQuest": 1,

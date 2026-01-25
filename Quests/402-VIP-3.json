@@ -20,8 +20,62 @@
   "QuestItems": [],
   "Rewards": [
     {
-      "ClassName": "ExpansionBanknoteHryvnia",
-      "Amount": 10000,
+      "ClassName": "InediaPain_FirstAidCase_Black",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": 1,
+      "Chance": 0
+    },
+    {
+      "ClassName": "InediaPain_SurgicalKit",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": 1,
+      "Chance": 0
+    },
+    {
+      "ClassName": "InediaPain_Tramadol",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": 1,
+      "Chance": 0
+    },
+    {
+      "ClassName": "InediaPain_HemostaticDressing",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": 1,
+      "Chance": 0
+    },
+    {
+      "ClassName": "InediaPain_Metoclopramide",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": 1,
+      "Chance": 0
+    },
+    {
+      "ClassName": "InediaPain_Sorbifer",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": 1,
+      "Chance": 0
+    },
+    {
+      "ClassName": "InediaPain_Vikasol",
+      "Amount": 1,
       "Attachments": [],
       "DamagePercent": 0,
       "HealthPercent": 0,
