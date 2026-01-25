@@ -15,7 +15,7 @@
     "Faction": "West",
     "Formation": "RANDOM",
     "FormationLooseness": 0,
-    "Loadout": "EastLoadout",
+    "Loadout": "MMG_SNAFU_Green",
     "Units": [
       "eAI_SurvivorF_Eva",
       "eAI_SurvivorF_Frida",
@@ -69,8 +69,8 @@
     "MaxSpreadRadius": 20,
     "Chance": 1,
     "WaypointInterpolation": "",
-    "DespawnTime": 60,
-    "RespawnTime": 60,
+    "DespawnTime": 1,
+    "RespawnTime": 1,
     "UseRandomWaypointAsStartPoint": 1,
     "Waypoints": [
       [
