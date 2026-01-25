@@ -1,13 +1,11 @@
 **All the files I use on my server.**
 
 ---
-# • Please don’t use chain quests — they are broken.
-
-## • Expansion has changed how quests work. Because of this, fixing all my quests is quite difficult.
+## 
 
 ### Hello! These are my Expansion Quests for the Chernogorsk map.
 
-### Hello everyone, I spent a few hours rebuilding my quests. Now all quests have vanilla loadouts and loot.
+### • Expansion has changed how quests work. Because of this, all quests edited or added from my working server now use custom loadouts and rewards. This means you need to adjust them to your own preference. I already have a video explaining how to do this.
 That’s it — you’re done! Congratulations, you now have the **Banditas Collection** of quests for your server.  
 I hope you enjoy them!
 
