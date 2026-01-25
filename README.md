@@ -29,14 +29,12 @@ Some quests were found online and fixed/updated by me, while others were custom-
 ---
 
 ✅ I keep my files updated so people can use correct and working quests.  
-🕓 **Last updated:** 1/11/2026  
-**Added fix for Repai my Weapon quest check `init.c`**
-
+🕓 **Last updated:** 1/25/2026
 ---
 
 ### 🔄 Updates:
 
-- `init.c` — this file is required for some quests. It also gives players custom starting clothes.
+- `init.c` — this file is required for **Repair my Weapon quest**. It also gives players custom starting clothes.
 
 ---
 
