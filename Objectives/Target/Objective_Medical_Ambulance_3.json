@@ -1,0 +1,29 @@
+{
+  "ConfigVersion": 28,
+  "ID": 81,
+  "ObjectiveType": 2,
+  "ObjectiveText": "Clear the area!",
+  "TimeLimit": -1,
+  "Active": 1,
+  "Position": [
+    11931.5,
+	64.9596,
+	9072.51
+  ],
+  "MaxDistance": 250.0,
+  "MinDistance": -1.0,
+  "Amount": 15,
+  "ClassNames": [
+	  "CDAJ_ZmbM_LostInfected",
+      "CDAJ_ZmbM_Mutant",
+      "CDAJ_ZmbM_Mutant_Bloody",
+      "CDAJ_ZmbM_TribeDemon_Pale",
+      "CDAJ_ZmbM_Mutant_Pale"
+  ],
+  "CountSelfKill": 0,
+  "AllowedWeapons": [],
+  "ExcludedClassNames": [],
+  "CountAIPlayers": 0,
+  "AllowedTargetFactions": [],
+  "AllowedDamageZones": []
+}
