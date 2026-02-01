@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 28,
+    "ID": 79,
+    "ObjectiveType": 3,
+    "ObjectiveText": "Travel to Hospital",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        8018.04,
+		251.86,
+		12749.45
+    ],
+    "MaxDistance": 300,
+    "MarkerName": "Get to the Hospital",
+    "ShowDistance": 1,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 0
+}

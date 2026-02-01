@@ -1,0 +1,16 @@
+{
+    "ConfigVersion": 28,
+    "ID": 78,
+    "ObjectiveType": 3,
+    "ObjectiveText": "Travel to Hospital and speak with Doctor",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        5988.01, 307.92, 7680.22
+    ],
+    "MaxDistance": 2.0,
+    "MarkerName": "Get to the Hospital",
+    "ShowDistance": 1,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 0
+}
