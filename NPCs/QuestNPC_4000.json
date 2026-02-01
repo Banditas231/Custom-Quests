@@ -3,9 +3,7 @@
     "ID": 4000,
     "ClassName": "ExpansionQuestNPCAIFrida",
     "Position": [
-        5991.19,
-        307.92,
-        7692.06
+        5988.01, 307.92, 7680.22
     ],
     "Orientation": [
         -166.768,
@@ -14,13 +12,7 @@
     ],
     "NPCName": "Marina Sidorova",
     "DefaultNPCText": "There is nothing to do here for you...",
-    "Waypoints": [
-        [
-            5991.19,
-            307.92,
-            7692.06
-        ]
-    ],
+    "Waypoints": [],
     "NPCEmoteID": 14,
     "NPCEmoteIsStatic": 1,
     "NPCLoadoutFile": "Medic_Trader",
