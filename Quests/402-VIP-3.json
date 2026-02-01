@@ -9,7 +9,7 @@
     "Thank you for bringing me here %1. I will stay here for now and warm myself up first before I think about what to do next.."
   ],
   "ObjectiveText": "Escort \"Marina Sidorova\" to the \"Survivor Camp\".",
-  "FollowUpQuest": -1,
+  "FollowUpQuest": 136,
   "Repeatable": 1,
   "IsDailyQuest": 0,
   "IsWeeklyQuest": 1,
@@ -25,8 +25,8 @@
       "Attachments": [],
       "DamagePercent": 0,
       "HealthPercent": 0,
-      "QuestID": 1,
-      "Chance": 0
+      "QuestID": -1,
+      "Chance": 1
     },
     {
       "ClassName": "InediaPain_SurgicalKit",
@@ -34,8 +34,8 @@
       "Attachments": [],
       "DamagePercent": 0,
       "HealthPercent": 0,
-      "QuestID": 1,
-      "Chance": 0
+      "QuestID": -1,
+      "Chance": 1
     },
     {
       "ClassName": "InediaPain_Tramadol",
@@ -43,8 +43,8 @@
       "Attachments": [],
       "DamagePercent": 0,
       "HealthPercent": 0,
-      "QuestID": 1,
-      "Chance": 0
+      "QuestID": -1,
+      "Chance": 1
     },
     {
       "ClassName": "InediaPain_HemostaticDressing",
@@ -52,8 +52,8 @@
       "Attachments": [],
       "DamagePercent": 0,
       "HealthPercent": 0,
-      "QuestID": 1,
-      "Chance": 0
+      "QuestID": -1,
+      "Chance": 1
     },
     {
       "ClassName": "InediaPain_Metoclopramide",
@@ -61,8 +61,8 @@
       "Attachments": [],
       "DamagePercent": 0,
       "HealthPercent": 0,
-      "QuestID": 1,
-      "Chance": 0
+      "QuestID": -1,
+      "Chance": 1
     },
     {
       "ClassName": "InediaPain_Sorbifer",
@@ -70,8 +70,8 @@
       "Attachments": [],
       "DamagePercent": 0,
       "HealthPercent": 0,
-      "QuestID": 1,
-      "Chance": 0
+      "QuestID": -1,
+      "Chance": 1
     },
     {
       "ClassName": "InediaPain_Vikasol",
@@ -79,8 +79,8 @@
       "Attachments": [],
       "DamagePercent": 0,
       "HealthPercent": 0,
-      "QuestID": 1,
-      "Chance": 0
+      "QuestID": -1,
+      "Chance": 1
     }
   ],
   "NeedToSelectReward": 0,

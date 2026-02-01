@@ -1,0 +1,56 @@
+{
+  "ConfigVersion": 22,
+  "ID": 137,
+  "Type": 1,
+  "Title": "Field Medic: Blood on the Floor",
+  "Descriptions": [
+    "The medic you saved is asking for help.",
+	"Go to the hospital and find out whats wrong.",
+	"The medic thanks you for coming. He asks if you can help save others still trapped inside another hospital."
+  ],
+  "ObjectiveText": "Travel to Hospital",
+  "FollowUpQuest": 805,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 1,
+  "Autocomplete": 0,
+  "IsGroupQuest": 1,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": -1,
+  "RewardsForGroupOwnerOnly": 1,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    2
+  ],
+  "QuestTurnInIDs": [
+    4000
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 78,
+      "ObjectiveType": 3
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 1500,
+  "ReputationRequirement": -1,
+  "PreQuestIDs": [
+	131
+  ],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}
