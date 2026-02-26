@@ -1,0 +1,1 @@
+{"ConfigVersion":28,"ID":88,"ObjectiveType":2,"ObjectiveText":"Kill 1 wolf.","TimeLimit":-1,"Active":1,"Position":[0,0,0],"MaxDistance":-1,"MinDistance":-1,"Amount":1,"ClassNames":["Animal_CanisLupus_Grey","Animal_CanisLupus_White"],"CountSelfKill":0,"AllowedWeapons":[],"ExcludedClassNames":[],"CountAIPlayers":0,"AllowedTargetFactions":[],"AllowedDamageZones":[]}
