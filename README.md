@@ -29,10 +29,13 @@ Some quests were found online and fixed/updated by me, while others were custom-
 ---
 
 ✅ I keep my files updated so people can use correct and working quests.  
-🕓 **Last updated:** 1/25/2026
+🕓 **Last updated:** 3/6/2026
 ---
 
 ### 🔄 Updates:
+
+# Added SpawnerBubakuV2
+This is required for some quests to spawn zombies. You can change the zombies to whichever ones you prefer for your server quests.
 
 - `init.c` — this file is required for **Repair my Weapon quest**. It also gives players custom starting clothes.
 
