@@ -9,7 +9,7 @@
     "Thank you for bringing me here %1. I will stay here for now and warm myself up first before I think about what to do next.."
   ],
   "ObjectiveText": "Escort \"Marina Sidorova\" to the \"Survivor Camp\".",
-  "FollowUpQuest": 136,
+  "FollowUpQuest": 137,
   "Repeatable": 1,
   "IsDailyQuest": 0,
   "IsWeeklyQuest": 1,
@@ -117,4 +117,5 @@
   "FactionReputationRewards": {},
   "SuppressQuestLogOnCompetion": 0,
   "Active": 1
+
 }
