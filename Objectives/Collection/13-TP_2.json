@@ -1,0 +1,17 @@
+{
+    "ConfigVersion": 28,
+    "ID": 11,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Pay \"Peter\" to get your clothes repaired:",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 1,
+            "ClassName": "leathersewingkit"
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}
