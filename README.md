@@ -29,10 +29,12 @@ Some quests were found online and fixed/updated by me, while others were custom-
 ---
 
 ✅ I keep my files updated so people can use correct and working quests.  
-🕓 **Last updated:** 3/6/2026
+🕓 **Last updated:** 3/4/2026
 ---
 
 ### 🔄 Updates:
+
+## “Some quests are currently not working. I’ve marked them with ‘NOT_WORKING’ while I investigate the issue. Apologies for the inconvenience, and thank you for your understanding.”
 
 # Added SpawnerBubakuV2
 This is required for some quests to spawn zombies. You can change the zombies to whichever ones you prefer for your server quests.
