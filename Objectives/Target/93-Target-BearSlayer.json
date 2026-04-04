@@ -1,1 +1,0 @@
-{"ConfigVersion":28,"ID":93,"ObjectiveType":2,"ObjectiveText":"Kill 10 bears.","TimeLimit":-1,"Active":1,"Position":[0,0,0],"MaxDistance":-1,"MinDistance":-1,"Amount":10,"ClassNames":["Animal_UrsusArctos"],"CountSelfKill":0,"AllowedWeapons":[],"ExcludedClassNames":[],"CountAIPlayers":0,"AllowedTargetFactions":[],"AllowedDamageZones":[]}
