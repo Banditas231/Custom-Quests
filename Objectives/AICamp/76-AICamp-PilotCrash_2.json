@@ -1,0 +1,168 @@
+{
+  "ConfigVersion": 28,
+  "ID": 76,
+  "ObjectiveType": 8,
+  "ObjectiveText": "Secure the area and search for the survivor.",
+  "TimeLimit": -1,
+  "Active": 1,
+  "InfectedDeletionRadius": 0,
+  "MaxDistance": -1,
+  "MinDistance": -1,
+  "AllowedWeapons": [],
+  "AllowedDamageZones": [],
+  "AISpawns": [
+    {
+      "Name": "Quest Target",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationLooseness": 0,
+      "Loadout": "BanditLoadout",
+      "Units": [],
+      "NumberOfAI": 1,
+      "Behaviour": "HALT",
+      "LootingBehaviour": "",
+      "Speed": "RANDOM_NONSTATIC ",
+      "UnderThreatSpeed": "SPRINT",
+      "CanBeLooted": 0,
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 80,
+      "AccuracyMin": 0.9,
+      "AccuracyMax": 1,
+      "ThreatDistanceLimit": 500,
+      "NoiseInvestigationDistanceLimit": 400,
+      "DamageMultiplier": 1,
+      "DamageReceivedMultiplier": 1,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": 50,
+      "MaxDistRadius": 80,
+      "DespawnRadius": 500,
+      "MinSpreadRadius": 0,
+      "MaxSpreadRadius": 0,
+      "Chance": 1,
+      "WaypointInterpolation": "",
+      "DespawnTime": 1,
+      "RespawnTime": 1,
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          6267.76,
+          275.044,
+          11561.3
+        ],
+        [
+          6281.03,
+          275.314,
+          11604.1
+        ],
+        [
+          6280.17,
+          274.281,
+          11622.3
+        ]
+      ]
+    },
+    {
+      "Name": "Quest Target",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationLooseness": 0,
+      "Loadout": "BanditLoadout",
+      "Units": [],
+      "NumberOfAI": 1,
+      "Behaviour": "HALT",
+      "LootingBehaviour": "",
+      "Speed": "RANDOM_NONSTATIC ",
+      "UnderThreatSpeed": "SPRINT",
+      "CanBeLooted": 0,
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 80,
+      "AccuracyMin": 0.9,
+      "AccuracyMax": 1,
+      "ThreatDistanceLimit": 500,
+      "NoiseInvestigationDistanceLimit": 400,
+      "DamageMultiplier": 1,
+      "DamageReceivedMultiplier": 1,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": 100,
+      "MaxDistRadius": 120,
+      "DespawnRadius": 500,
+      "MinSpreadRadius": 0,
+      "MaxSpreadRadius": 0,
+      "Chance": 1,
+      "WaypointInterpolation": "",
+      "DespawnTime": 1,
+      "RespawnTime": 1,
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          6257.16,
+          271.299,
+          11649.5
+        ],
+        [
+          6234.88,
+          269.261,
+          11648.8
+        ],
+        [
+          6246.42,
+          272.339,
+          11633.8
+        ]
+      ]
+    },
+    {
+      "Name": "Quest Target",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationLooseness": 0,
+      "Loadout": "BanditLoadout",
+      "Units": [],
+      "NumberOfAI": 1,
+      "Behaviour": "HALT",
+      "LootingBehaviour": "",
+      "Speed": "RANDOM_NONSTATIC ",
+      "UnderThreatSpeed": "SPRINT",
+      "CanBeLooted": 0,
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 80,
+      "AccuracyMin": 0.9,
+      "AccuracyMax": 1,
+      "ThreatDistanceLimit": 500,
+      "NoiseInvestigationDistanceLimit": 400,
+      "DamageMultiplier": 1,
+      "DamageReceivedMultiplier": 1,
+      "CanBeTriggeredByAI": 0,
+      "MinDistRadius": 100,
+      "MaxDistRadius": 150,
+      "DespawnRadius": 500,
+      "MinSpreadRadius": 0,
+      "MaxSpreadRadius": 0,
+      "Chance": 1,
+      "WaypointInterpolation": "",
+      "DespawnTime": 1,
+      "RespawnTime": 1,
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          6242.83,
+          273.307,
+          11612.1
+        ],
+        [
+          6252.72,
+          274.054,
+          11617.7
+        ],
+        [
+          6297.35,
+          275.889,
+          11606.8
+        ]
+      ]
+    }
+  ]
+}

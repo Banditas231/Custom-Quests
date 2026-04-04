@@ -1,0 +1,530 @@
+{
+  "ConfigVersion": 28,
+  "ID": 40,
+  "ObjectiveType": 8,
+  "ObjectiveText": "Kill all 5 police imposters at the marked location",
+  "TimeLimit": -1,
+  "Active": 1,
+  "InfectedDeletionRadius": 0,
+  "MaxDistance": -1,
+  "MinDistance": -1,
+  "AllowedWeapons": [],
+  "AllowedDamageZones": [],
+  "AISpawns": [
+    {
+      "Name": "Quest Target",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationLooseness": 0,
+      "Loadout": "PoliceLoadoutMMG",
+      "Units": [
+        "eAI_SurvivorF_Eva",
+        "eAI_SurvivorF_Frida",
+        "eAI_SurvivorF_Gabi",
+        "eAI_SurvivorF_Helga",
+        "eAI_SurvivorF_Irena",
+        "eAI_SurvivorF_Judy",
+        "eAI_SurvivorF_Keiko",
+        "eAI_SurvivorF_Linda",
+        "eAI_SurvivorF_Maria",
+        "eAI_SurvivorF_Naomi",
+        "eAI_SurvivorF_Baty",
+        "eAI_SurvivorM_Boris",
+        "eAI_SurvivorM_Cyril",
+        "eAI_SurvivorM_Denis",
+        "eAI_SurvivorM_Elias",
+        "eAI_SurvivorM_Francis",
+        "eAI_SurvivorM_Guo",
+        "eAI_SurvivorM_Hassan",
+        "eAI_SurvivorM_Indar",
+        "eAI_SurvivorM_Jose",
+        "eAI_SurvivorM_Kaito",
+        "eAI_SurvivorM_Lewis",
+        "eAI_SurvivorM_Manua",
+        "eAI_SurvivorM_Mirek",
+        "eAI_SurvivorM_Niki",
+        "eAI_SurvivorM_Oliver",
+        "eAI_SurvivorM_Peter",
+        "eAI_SurvivorM_Quinn",
+        "eAI_SurvivorM_Rolf",
+        "eAI_SurvivorM_Seth",
+        "eAI_SurvivorM_Taiki"
+      ],
+      "NumberOfAI": 1,
+      "Behaviour": "ALTERNATE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "SPRINT",
+      "CanBeLooted": 0,
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 300,
+      "AccuracyMin": 0.8,
+      "AccuracyMax": 1,
+      "ThreatDistanceLimit": 1000,
+      "NoiseInvestigationDistanceLimit": 250,
+      "DamageMultiplier": 1,
+      "DamageReceivedMultiplier": 1,
+      "MinDistRadius": 250,
+      "MaxDistRadius": 300,
+      "DespawnRadius": 880,
+      "MinSpreadRadius": 0,
+      "MaxSpreadRadius": 0,
+      "Chance": 1,
+      "WaypointInterpolation": "",
+      "DespawnTime": 1,
+      "RespawnTime": 1,
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          10107.2998046875,
+          245.4600067138672,
+          5453.39990234375
+        ],
+        [
+          10103.9,
+          245.46,
+          5454.35
+        ],
+        [
+          10100.3,
+          245.46,
+          5457.14
+        ],
+        [
+          10106,
+          245.46,
+          5464.38
+        ],
+        [
+          10114.5,
+          245.015,
+          5473.67
+        ],
+        [
+          10129.2,
+          245.02,
+          5466.63
+        ],
+        [
+          10148.7,
+          244.665,
+          5467.88
+        ],
+        [
+          10161.2,
+          243.899,
+          5479.43
+        ],
+        [
+          10160.7,
+          243.941,
+          5501.04
+        ]
+      ]
+    },
+    {
+      "Name": "Quest Target",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationLooseness": 0,
+      "Loadout": "PoliceLoadout",
+      "Units": [
+        "eAI_SurvivorF_Eva",
+        "eAI_SurvivorF_Frida",
+        "eAI_SurvivorF_Gabi",
+        "eAI_SurvivorF_Helga",
+        "eAI_SurvivorF_Irena",
+        "eAI_SurvivorF_Judy",
+        "eAI_SurvivorF_Keiko",
+        "eAI_SurvivorF_Linda",
+        "eAI_SurvivorF_Maria",
+        "eAI_SurvivorF_Naomi",
+        "eAI_SurvivorF_Baty",
+        "eAI_SurvivorM_Boris",
+        "eAI_SurvivorM_Cyril",
+        "eAI_SurvivorM_Denis",
+        "eAI_SurvivorM_Elias",
+        "eAI_SurvivorM_Francis",
+        "eAI_SurvivorM_Guo",
+        "eAI_SurvivorM_Hassan",
+        "eAI_SurvivorM_Indar",
+        "eAI_SurvivorM_Jose",
+        "eAI_SurvivorM_Kaito",
+        "eAI_SurvivorM_Lewis",
+        "eAI_SurvivorM_Manua",
+        "eAI_SurvivorM_Mirek",
+        "eAI_SurvivorM_Niki",
+        "eAI_SurvivorM_Oliver",
+        "eAI_SurvivorM_Peter",
+        "eAI_SurvivorM_Quinn",
+        "eAI_SurvivorM_Rolf",
+        "eAI_SurvivorM_Seth",
+        "eAI_SurvivorM_Taiki"
+      ],
+      "NumberOfAI": 1,
+      "Behaviour": "ALTERNATE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "SPRINT",
+      "CanBeLooted": 0,
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 300,
+      "AccuracyMin": 0.8,
+      "AccuracyMax": 1,
+      "ThreatDistanceLimit": 1000,
+      "NoiseInvestigationDistanceLimit": 250,
+      "DamageMultiplier": 1,
+      "DamageReceivedMultiplier": 1,
+      "MinDistRadius": 250,
+      "MaxDistRadius": 300,
+      "DespawnRadius": 880,
+      "MinSpreadRadius": 0,
+      "MaxSpreadRadius": 0,
+      "Chance": 1,
+      "WaypointInterpolation": "",
+      "DespawnTime": 1,
+      "RespawnTime": 1,
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          10141.1,
+          248.42,
+          5491.72
+        ],
+        [
+          10145.3,
+          248.413,
+          5487.24
+        ],
+        [
+          10150.4,
+          246.717,
+          5482.82
+        ],
+        [
+          10145.6,
+          245.162,
+          5487.4
+        ],
+        [
+          10139.7,
+          244.878,
+          5479.9
+        ],
+        [
+          10131.3,
+          245.017,
+          5484.58
+        ],
+        [
+          10120.6,
+          245.009,
+          5489.84
+        ],
+        [
+          10100.7,
+          245.035,
+          5498.08
+        ],
+        [
+          10097.9,
+          245.777,
+          5524.78
+        ]
+      ]
+    },
+    {
+      "Name": "Quest Target",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationLooseness": 0,
+      "Loadout": "PoliceLoadoutMMG",
+      "Units": [
+        "eAI_SurvivorF_Eva",
+        "eAI_SurvivorF_Frida",
+        "eAI_SurvivorF_Gabi",
+        "eAI_SurvivorF_Helga",
+        "eAI_SurvivorF_Irena",
+        "eAI_SurvivorF_Judy",
+        "eAI_SurvivorF_Keiko",
+        "eAI_SurvivorF_Linda",
+        "eAI_SurvivorF_Maria",
+        "eAI_SurvivorF_Naomi",
+        "eAI_SurvivorF_Baty",
+        "eAI_SurvivorM_Boris",
+        "eAI_SurvivorM_Cyril",
+        "eAI_SurvivorM_Denis",
+        "eAI_SurvivorM_Elias",
+        "eAI_SurvivorM_Francis",
+        "eAI_SurvivorM_Guo",
+        "eAI_SurvivorM_Hassan",
+        "eAI_SurvivorM_Indar",
+        "eAI_SurvivorM_Jose",
+        "eAI_SurvivorM_Kaito",
+        "eAI_SurvivorM_Lewis",
+        "eAI_SurvivorM_Manua",
+        "eAI_SurvivorM_Mirek",
+        "eAI_SurvivorM_Niki",
+        "eAI_SurvivorM_Oliver",
+        "eAI_SurvivorM_Peter",
+        "eAI_SurvivorM_Quinn",
+        "eAI_SurvivorM_Rolf",
+        "eAI_SurvivorM_Seth",
+        "eAI_SurvivorM_Taiki"
+      ],
+      "NumberOfAI": 1,
+      "Behaviour": "ALTERNATE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "SPRINT",
+      "CanBeLooted": 0,
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 300,
+      "AccuracyMin": 0.8,
+      "AccuracyMax": 1,
+      "ThreatDistanceLimit": 1000,
+      "NoiseInvestigationDistanceLimit": 250,
+      "DamageMultiplier": 1,
+      "DamageReceivedMultiplier": 1,
+      "MinDistRadius": 250,
+      "MaxDistRadius": 300,
+      "DespawnRadius": 880,
+      "MinSpreadRadius": 0,
+      "MaxSpreadRadius": 0,
+      "Chance": 1,
+      "WaypointInterpolation": "",
+      "DespawnTime": 1,
+      "RespawnTime": 1,
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          10164,
+          244.415,
+          5554.81
+        ],
+        [
+          10156.5,
+          244.382,
+          5550.3
+        ],
+        [
+          10163.5,
+          243.946,
+          5539.27
+        ],
+        [
+          10169.5,
+          243.906,
+          5527.32
+        ],
+        [
+          10167,
+          243.878,
+          5519.78
+        ],
+        [
+          10156.5,
+          243.906,
+          5517.59
+        ]
+      ]
+    },
+    {
+      "Name": "Quest Target",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationLooseness": 0,
+      "Loadout": "PoliceLoadout",
+      "Units": [
+        "eAI_SurvivorF_Eva",
+        "eAI_SurvivorF_Frida",
+        "eAI_SurvivorF_Gabi",
+        "eAI_SurvivorF_Helga",
+        "eAI_SurvivorF_Irena",
+        "eAI_SurvivorF_Judy",
+        "eAI_SurvivorF_Keiko",
+        "eAI_SurvivorF_Linda",
+        "eAI_SurvivorF_Maria",
+        "eAI_SurvivorF_Naomi",
+        "eAI_SurvivorF_Baty",
+        "eAI_SurvivorM_Boris",
+        "eAI_SurvivorM_Cyril",
+        "eAI_SurvivorM_Denis",
+        "eAI_SurvivorM_Elias",
+        "eAI_SurvivorM_Francis",
+        "eAI_SurvivorM_Guo",
+        "eAI_SurvivorM_Hassan",
+        "eAI_SurvivorM_Indar",
+        "eAI_SurvivorM_Jose",
+        "eAI_SurvivorM_Kaito",
+        "eAI_SurvivorM_Lewis",
+        "eAI_SurvivorM_Manua",
+        "eAI_SurvivorM_Mirek",
+        "eAI_SurvivorM_Niki",
+        "eAI_SurvivorM_Oliver",
+        "eAI_SurvivorM_Peter",
+        "eAI_SurvivorM_Quinn",
+        "eAI_SurvivorM_Rolf",
+        "eAI_SurvivorM_Seth",
+        "eAI_SurvivorM_Taiki"
+      ],
+      "NumberOfAI": 1,
+      "Behaviour": "ONCE",
+      "Speed": "STATIC",
+      "UnderThreatSpeed": "SPRINT",
+      "CanBeLooted": 0,
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 500,
+      "AccuracyMin": 0.8,
+      "AccuracyMax": 1,
+      "ThreatDistanceLimit": 1000,
+      "NoiseInvestigationDistanceLimit": 250,
+      "DamageMultiplier": 1,
+      "DamageReceivedMultiplier": 1,
+      "MinDistRadius": 250,
+      "MaxDistRadius": 300,
+      "DespawnRadius": 880,
+      "MinSpreadRadius": 0,
+      "MaxSpreadRadius": 0,
+      "Chance": 1,
+      "WaypointInterpolation": "",
+      "DespawnTime": 1,
+      "RespawnTime": 1,
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          10158.1,
+          251.915,
+          5535.3
+        ],
+        [
+          10160.3,
+          251.921,
+          5528.62
+        ],
+        [
+          10151.7,
+          251.923,
+          5525.59
+        ],
+        [
+          10149.2,
+          251.92,
+          5532.72
+        ]
+      ]
+    },
+    {
+      "Name": "Quest Target",
+      "Persist": 0,
+      "Faction": "Shamans",
+      "Formation": "RANDOM",
+      "FormationLooseness": 0,
+      "Loadout": "PoliceLoadoutMMG",
+      "Units": [
+        "eAI_SurvivorF_Eva",
+        "eAI_SurvivorF_Frida",
+        "eAI_SurvivorF_Gabi",
+        "eAI_SurvivorF_Helga",
+        "eAI_SurvivorF_Irena",
+        "eAI_SurvivorF_Judy",
+        "eAI_SurvivorF_Keiko",
+        "eAI_SurvivorF_Linda",
+        "eAI_SurvivorF_Maria",
+        "eAI_SurvivorF_Naomi",
+        "eAI_SurvivorF_Baty",
+        "eAI_SurvivorM_Boris",
+        "eAI_SurvivorM_Cyril",
+        "eAI_SurvivorM_Denis",
+        "eAI_SurvivorM_Elias",
+        "eAI_SurvivorM_Francis",
+        "eAI_SurvivorM_Guo",
+        "eAI_SurvivorM_Hassan",
+        "eAI_SurvivorM_Indar",
+        "eAI_SurvivorM_Jose",
+        "eAI_SurvivorM_Kaito",
+        "eAI_SurvivorM_Lewis",
+        "eAI_SurvivorM_Manua",
+        "eAI_SurvivorM_Mirek",
+        "eAI_SurvivorM_Niki",
+        "eAI_SurvivorM_Oliver",
+        "eAI_SurvivorM_Peter",
+        "eAI_SurvivorM_Quinn",
+        "eAI_SurvivorM_Rolf",
+        "eAI_SurvivorM_Seth",
+        "eAI_SurvivorM_Taiki"
+      ],
+      "NumberOfAI": 1,
+      "Behaviour": "ALTERNATE",
+      "Speed": "WALK",
+      "UnderThreatSpeed": "SPRINT",
+      "CanBeLooted": 0,
+      "UnlimitedReload": 1,
+      "SniperProneDistanceThreshold": 300,
+      "AccuracyMin": 0.8,
+      "AccuracyMax": 1,
+      "ThreatDistanceLimit": 1000,
+      "NoiseInvestigationDistanceLimit": 250,
+      "DamageMultiplier": 1,
+      "DamageReceivedMultiplier": 1,
+      "MinDistRadius": 250,
+      "MaxDistRadius": 300,
+      "DespawnRadius": 880,
+      "MinSpreadRadius": 0,
+      "MaxSpreadRadius": 0,
+      "Chance": 1,
+      "WaypointInterpolation": "",
+      "DespawnTime": 1,
+      "RespawnTime": 1,
+      "UseRandomWaypointAsStartPoint": 1,
+      "Waypoints": [
+        [
+          10161.5,
+          244.662,
+          5562.54
+        ],
+        [
+          10147.2,
+          244.681,
+          5559.13
+        ],
+        [
+          10130.4,
+          245.993,
+          5561.42
+        ],
+        [
+          10114.8,
+          246.528,
+          5565.18
+        ],
+        [
+          10093.4,
+          248.061,
+          5557.8
+        ],
+        [
+          10096.4,
+          246.23,
+          5533.74
+        ],
+        [
+          10098.3,
+          245.023,
+          5504.98
+        ],
+        [
+          10102.8,
+          245.005,
+          5480.74
+        ],
+        [
+          10088.9,
+          245.476,
+          5466.75
+        ]
+      ]
+    }
+  ]
+}

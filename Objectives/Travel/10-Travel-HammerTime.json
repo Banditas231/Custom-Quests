@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 28,
+    "ID": 10,
+    "ObjectiveType": 3,
+    "ObjectiveText": "Look around and kill all zeds",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        6066.3701171875,
+        301.0,
+        7770.18994140625
+    ],
+    "MaxDistance": 300.0,
+    "MarkerName": "Hammer Time",
+    "ShowDistance": 1,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 0
+}

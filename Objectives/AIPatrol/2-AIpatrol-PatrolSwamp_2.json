@@ -1,0 +1,148 @@
+{
+  "ConfigVersion": 28,
+  "ID": 2,
+  "ObjectiveType": 7,
+  "ObjectiveText": "Kill all 4 units of the Chernoye Ozero patrol",
+  "TimeLimit": -1,
+  "Active": 1,
+  "MaxDistance": -1,
+  "MinDistance": -1,
+  "AllowedWeapons": [],
+  "AllowedDamageZones": [],
+  "AISpawn": {
+    "Name": "Quest Target",
+    "Persist": 0,
+    "Faction": "Shamans",
+    "Formation": "RANDOM",
+    "FormationLooseness": 0,
+    "Loadout": "GorkaLoadout",
+    "Units": [
+      "eAI_SurvivorF_Eva",
+      "eAI_SurvivorF_Frida",
+      "eAI_SurvivorF_Gabi",
+      "eAI_SurvivorF_Helga",
+      "eAI_SurvivorF_Irena",
+      "eAI_SurvivorF_Judy",
+      "eAI_SurvivorF_Keiko",
+      "eAI_SurvivorF_Linda",
+      "eAI_SurvivorF_Maria",
+      "eAI_SurvivorF_Naomi",
+      "eAI_SurvivorF_Baty",
+      "eAI_SurvivorM_Boris",
+      "eAI_SurvivorM_Cyril",
+      "eAI_SurvivorM_Denis",
+      "eAI_SurvivorM_Elias",
+      "eAI_SurvivorM_Francis",
+      "eAI_SurvivorM_Guo",
+      "eAI_SurvivorM_Hassan",
+      "eAI_SurvivorM_Indar",
+      "eAI_SurvivorM_Jose",
+      "eAI_SurvivorM_Kaito",
+      "eAI_SurvivorM_Lewis",
+      "eAI_SurvivorM_Manua",
+      "eAI_SurvivorM_Mirek",
+      "eAI_SurvivorM_Niki",
+      "eAI_SurvivorM_Oliver",
+      "eAI_SurvivorM_Peter",
+      "eAI_SurvivorM_Quinn",
+      "eAI_SurvivorM_Rolf",
+      "eAI_SurvivorM_Seth",
+      "eAI_SurvivorM_Taiki"
+    ],
+    "NumberOfAI": 4,
+    "Behaviour": "HALT_OR_ALTERNATE ",
+    "Speed": "WALK",
+    "UnderThreatSpeed": "SPRINT",
+    "CanBeLooted": 1,
+    "UnlimitedReload": 1,
+    "SniperProneDistanceThreshold": 50,
+    "AccuracyMin": 0.8000000238418579,
+    "AccuracyMax": 1.0,
+    "ThreatDistanceLimit": 1000,
+    "NoiseInvestigationDistanceLimit": -1,
+    "DamageMultiplier": 1,
+    "DamageReceivedMultiplier": 1,
+    "MinDistRadius": 400,
+    "MaxDistRadius": 550,
+    "DespawnRadius": 750,
+    "MinSpreadRadius": 0,
+    "MaxSpreadRadius": 0,
+    "Chance": 1,
+    "WaypointInterpolation": "",
+    "DespawnTime": 1,
+    "RespawnTime": 1,
+    "UseRandomWaypointAsStartPoint": 1,
+    "Waypoints": [
+      [
+        13454.2998046875,
+        64.56179809570312,
+        12132.2001953125
+      ],
+      [
+        13462.2001953125,
+        64.3416976928711,
+        12127.099609375
+      ],
+      [
+        13453.900390625,
+        64.0156021118164,
+        12107.7001953125
+      ],
+      [
+        13421.099609375,
+        66.1093978881836,
+        12114.5
+      ],
+      [
+        13376.599609375,
+        68.99019622802734,
+        12121
+      ],
+      [
+        13354.2998046875,
+        69.79070281982422,
+        12097.2001953125
+      ],
+      [
+        13345.7001953125,
+        70.0188980102539,
+        12099.900390625
+      ],
+      [
+        13342.7001953125,
+        70.42179870605469,
+        12116.099609375
+      ],
+      [
+        13349.2998046875,
+        73.27529907226562,
+        12133.599609375
+      ],
+      [
+        13344.7998046875,
+        79.68309783935547,
+        12160.5
+      ],
+      [
+        13331.099609375,
+        81.22530364990234,
+        12170.099609375
+      ],
+      [
+        13313.5,
+        79.06320190429688,
+        12183.400390625
+      ],
+      [
+        13298.2998046875,
+        80.43659973144531,
+        12196.7001953125
+      ],
+      [
+        13273.7001953125,
+        87.53040313720703,
+        12192.2001953125
+      ]
+    ]
+  }
+}

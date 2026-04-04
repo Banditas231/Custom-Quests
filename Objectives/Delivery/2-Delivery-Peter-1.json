@@ -1,0 +1,20 @@
+{
+    "ConfigVersion": 28,
+    "ID": 2,
+    "ObjectiveType": 5,
+    "ObjectiveText": "Deliver the package to Peter",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 1,
+            "ClassName": "ExpansionQuestItemPackage",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": 0
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "MaxDistance": 10.0,
+    "MarkerName": "Deliver Items"
+}

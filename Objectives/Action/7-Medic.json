@@ -1,0 +1,14 @@
+{
+    "ConfigVersion": 28,
+    "ID": 7,
+    "ObjectiveType": 10,
+    "ObjectiveText": "",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ActionNames": [
+        "ActionFeedPainkillerTablets"
+    ],
+    "AllowedClassNames": [],
+    "ExcludedClassNames": [],
+    "ExecutionAmount": 1
+}

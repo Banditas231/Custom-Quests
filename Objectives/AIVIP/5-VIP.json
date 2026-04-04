@@ -1,0 +1,20 @@
+{
+    "ConfigVersion": 28,
+    "ID": 5,
+    "ObjectiveType": 9,
+    "ObjectiveText": "Take Jasmine to camp",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        3706.27001953125,
+        402.0119934082031,
+        5987.080078125
+    ],
+    "MaxDistance": 20.0,
+    "MarkerName": "Escort the Jesmine",
+    "ShowDistance": 1,
+    "CanLootAI": 0,
+    "NPCLoadoutFile": "SurvivorLoadout",
+    "NPCClassName": "ExpansionQuestNPCAIIrena",
+    "NPCName": "Jesmine"
+}

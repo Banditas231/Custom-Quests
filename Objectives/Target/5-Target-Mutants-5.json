@@ -1,0 +1,37 @@
+{
+    "ConfigVersion": 28,
+    "ID": 5,
+    "ObjectiveType": 2,
+    "ObjectiveText": "Kill 10 Mutants",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "MaxDistance": -1.0,
+    "MinDistance": -1.0,
+    "Amount": 10,
+    "ClassNames": [
+        "CDAJ_ZmbM_LostInfected",
+        "CDAJ_ZmbM_Boe_Glowing",
+        "CDAJ_ZmbM_JohnCena",
+        "CDAJ_ZmbM_Mutant",
+        "CDAJ_ZmbM_Mutant_Bloody",
+        "CDAJ_ZmbM_TribeDemon_WhiteGlowing",
+        "CDAJ_ZmbM_Skeleton_BlackBlood",
+        "CDAJ_ZmbM_Skeleton_Moss",
+        "CDAJ_ZmbM_Skeleton_Blood",
+        "CDAJ_ZmbM_TribeDemon_Red",
+        "CDAJ_ZmbM_TribeDemon_White",
+        "CDAJ_ZmbM_TribeDemon_Pale",
+        "CDAJ_ZmbM_Mutant_Pale"
+    ],
+    "CountSelfKill": 0,
+    "AllowedWeapons": [],
+    "ExcludedClassNames": [],
+    "CountAIPlayers": 0,
+    "AllowedTargetFactions": [],
+    "AllowedDamageZones": []
+}

@@ -1,0 +1,26 @@
+{
+    "ConfigVersion": 28,
+    "ID": 14,
+    "ObjectiveType": 2,
+    "ObjectiveText": "Hunt 10 Rabbits",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "MaxDistance": -1.0,
+    "MinDistance": -1.0,
+    "Amount": 10,
+    "ClassNames": [
+        "Animal_Rabbit_Grey",
+        "Animal_Rabbit_Brown"
+    ],
+    "CountSelfKill": 0,
+    "AllowedWeapons": [],
+    "ExcludedClassNames": [],
+    "CountAIPlayers": 0,
+    "AllowedTargetFactions": [],
+    "AllowedDamageZones": []
+}

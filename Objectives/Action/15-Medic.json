@@ -1,0 +1,14 @@
+{
+    "ConfigVersion": 28,
+    "ID": 15,
+    "ObjectiveType": 10,
+    "ObjectiveText": "",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ActionNames": [
+        "ActionTestBloodTarget"
+    ],
+    "AllowedClassNames": [],
+    "ExcludedClassNames": [],
+    "ExecutionAmount": 1
+}

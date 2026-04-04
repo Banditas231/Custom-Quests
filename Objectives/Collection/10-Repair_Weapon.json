@@ -1,0 +1,17 @@
+{
+    "ConfigVersion": 28,
+    "ID": 10,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Pay \"Peter\" to get your weapons repaired: ONLY WEAPONS ! AND YOU NEED HAVE IT IN YOUR HANDS ! Atach all attachments as well before you repair it!",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 25000,
+            "ClassName": "expansionbanknotehryvnia"
+        }
+    ],
+    "ShowDistance": 0,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}

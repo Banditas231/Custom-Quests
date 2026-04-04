@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 28,
+    "ID": 71,
+    "ObjectiveType": 3,
+    "ObjectiveText": "Travel to School",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        3245.23,
+        202.835,
+        13044.9
+    ],
+    "MaxDistance": 300.0,
+    "MarkerName": "Travel to School",
+    "ShowDistance": 1,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 0
+}

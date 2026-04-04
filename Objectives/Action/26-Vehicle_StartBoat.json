@@ -1,0 +1,17 @@
+{
+    "ConfigVersion": 28,
+    "ID": 26,
+    "ObjectiveType": 10,
+    "ObjectiveText": "Start the boat engine.",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ActionNames": [
+        "ActionStartEngine"
+    ],
+    "AllowedClassNames": [
+        "expansionutilityboat",
+        "expansionzodiacboat"
+    ],
+    "ExcludedClassNames": [],
+    "ExecutionAmount": 1
+}

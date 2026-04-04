@@ -1,0 +1,19 @@
+{
+    "ConfigVersion": 28,
+    "ID": 8,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Catch a Carp",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 5,
+            "ClassName": "Carp",
+            "QuantityPercent": -1,
+            "MinQuantityPercent": 0
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}

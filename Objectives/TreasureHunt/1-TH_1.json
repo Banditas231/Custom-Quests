@@ -1,0 +1,261 @@
+{
+  "ConfigVersion": 28,
+  "ID": 1,
+  "ObjectiveType": 6,
+  "ObjectiveText": "Find the location of the treasure",
+  "TimeLimit": -1,
+  "Active": 1,
+  "ShowDistance": 1,
+  "ContainerName": "ExpansionQuestSeaChest",
+  "DigInStash": 1,
+  "MarkerName": "???",
+  "MarkerVisibility": 4,
+  "Positions": [
+    [
+      4708.83984375,
+      264.0660095214844,
+      6663.5400390625
+    ],
+    [
+      2406.14990234375,
+      315.43499755859375,
+      6367.97998046875
+    ],
+    [
+      4679.35986328125,
+      344.9880065917969,
+      5532.0498046875
+    ],
+    [
+      4830.97998046875,
+      305.37200927734375,
+      5922.06005859375
+    ],
+    [
+      4115.5498046875,
+      292.67999267578125,
+      7213.9501953125
+    ],
+    [
+      4196.43017578125,
+      290.7820129394531,
+      6763.47998046875
+    ],
+    [
+      3480.260009765625,
+      295.1969909667969,
+      5622.5400390625
+    ]
+  ],
+  "LootItemsAmount": -10,
+  "MaxDistance": 10,
+  "Loot": [
+    {
+      "Name": "SodaCan_Spite",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "Lunchmeat",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "Pate",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "SodaCan_Cola",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "SodaCan_Pipsi",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "PorkCan",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "SodaCan_Fronta",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "Marmalade",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "Pajka",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "PeachesCan",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "rice",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "marmalade",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "honey",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "sardinescan",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "tunacan",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "dogfoodcan",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "catfoodcan",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "porkcan",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "lunchmeat",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "unknownfoodcan",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "spaghettican",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "crabcan",
+      "Chance": 0.30000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    },
+    {
+      "Name": "TerjeBookSurvival1",
+      "Chance": 0.10000001192092896,
+      "Attachments": [],
+      "QuantityPercent": -1,
+      "Max": -1,
+      "Min": 0,
+      "Variants": []
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "ConfigVersion": 28,
+    "ID": 14,
+    "ObjectiveType": 10,
+    "ObjectiveText": "",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ActionNames": [
+        "ActionSplintTarget"
+    ],
+    "AllowedClassNames": [],
+    "ExcludedClassNames": [],
+    "ExecutionAmount": 1
+}

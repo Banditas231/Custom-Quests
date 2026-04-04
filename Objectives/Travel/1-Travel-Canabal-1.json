@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 28,
+    "ID": 1,
+    "ObjectiveType": 3,
+    "ObjectiveText": "Clear Canabal Camp",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        2323.669921875,
+        275.10400390625,
+        11087.5
+    ],
+    "MaxDistance": 300.0,
+    "MarkerName": "Get to the Village",
+    "ShowDistance": 1,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 0
+}

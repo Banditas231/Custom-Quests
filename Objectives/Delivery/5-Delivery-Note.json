@@ -1,0 +1,20 @@
+{
+    "ConfigVersion": 28,
+    "ID": 5,
+    "ObjectiveType": 5,
+    "ObjectiveText": "Report to the Officer",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 1,
+            "ClassName": "ExpansionQuestItemPaper",
+            "QuantityPercent": 0,
+            "MinQuantityPercent": 0
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "MaxDistance": 10.0,
+    "MarkerName": "Deliver Items"
+}

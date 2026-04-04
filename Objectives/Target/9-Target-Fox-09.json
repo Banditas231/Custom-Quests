@@ -1,0 +1,25 @@
+{
+    "ConfigVersion": 28,
+    "ID": 9,
+    "ObjectiveType": 2,
+    "ObjectiveText": "Hunt 10 Foxes",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "MaxDistance": -1.0,
+    "MinDistance": -1.0,
+    "Amount": 10,
+    "ClassNames": [
+        "Animal_VulpesVulpes"
+    ],
+    "CountSelfKill": 0,
+    "AllowedWeapons": [],
+    "ExcludedClassNames": [],
+    "CountAIPlayers": 0,
+    "AllowedTargetFactions": [],
+    "AllowedDamageZones": []
+}
