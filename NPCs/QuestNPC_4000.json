@@ -1,0 +1,26 @@
+{
+    "ConfigVersion": 6,
+    "ID": 4000,
+    "ClassName": "ExpansionQuestNPCAIFrida",
+    "Position": [
+        5988.01, 307.92, 7680.22
+    ],
+    "Orientation": [
+        -166.768,
+        0.0,
+        0.0
+    ],
+    "NPCName": "Marina Sidorova",
+    "DefaultNPCText": "There is nothing to do here for you...",
+    "Waypoints": [],
+    "NPCEmoteID": 14,
+    "NPCEmoteIsStatic": 1,
+    "NPCLoadoutFile": "Medic_Trader",
+    "NPCInteractionEmoteID": 1,
+    "NPCQuestCancelEmoteID": 60,
+    "NPCQuestStartEmoteID": 58,
+    "NPCQuestCompleteEmoteID": 39,
+    "NPCFaction": "InvincibleObservers",
+    "NPCType": 2,
+    "Active": 1
+}
