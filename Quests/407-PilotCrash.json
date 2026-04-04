@@ -1,0 +1,66 @@
+{
+  "ConfigVersion": 22,
+  "ID": 407,
+  "Type": 1,
+  "Title": "PilotCrash",
+  "Descriptions": [
+    "You… you found me. I thought I was done for. After the plane went down, I lost everyone, and the days since have been nothing but pain and fear.",
+    "...",
+    "Thank you, stranger. Without you, I wouldn’t have lasted much longer."
+  ],
+  "ObjectiveText": "Escort \"Hassan\" to the \"Survivor Camp\".",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 1,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "ExpansionBanknoteHryvnia",
+      "Amount": 10000,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": 1,
+      "Chance": 0
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": 0,
+  "RewardsForGroupOwnerOnly": 0,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    4004
+  ],
+  "QuestTurnInIDs": [
+    1
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 6,
+      "ObjectiveType": 9
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 2000,
+  "ReputationRequirement": 0,
+  "PreQuestIDs": [
+    134
+  ],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

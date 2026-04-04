@@ -1,0 +1,52 @@
+{
+  "ConfigVersion": 22,
+  "ID": 6,
+  "Type": 1,
+  "Title": "Stolen Ammunition",
+  "Descriptions": [
+    "Hello <>. Long ago, a soldier named Marcus stole a cache of ammunition from the army and hid it in a remote base. But before he could return for it, he was infected… and turned into one of them. Now, as an undead guardian, he patrols the area, protecting his hidden stash from anyone who dares to come near. If you're brave enough, find the base — and deal with Marcus.",
+    "Ammunition is rare, so what you waiting for ?",
+    "You faced Marcus… and lived to tell the tale. That ammo will go a long way in our fight for survival. Thank you — you’ve earned this."
+  ],
+  "ObjectiveText": "Find the stolen ammunition.",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 0,
+  "Autocomplete": 1,
+  "IsGroupQuest": 1,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": 0,
+  "RewardsForGroupOwnerOnly": 0,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    1
+  ],
+  "QuestTurnInIDs": [],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 3,
+      "ObjectiveType": 6
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 750,
+  "ReputationRequirement": 1000,
+  "PreQuestIDs": [],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 0,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

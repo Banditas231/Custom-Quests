@@ -1,0 +1,73 @@
+{
+  "ConfigVersion": 22,
+  "ID": 803,
+  "Type": 1,
+  "Title": "Zombie Detail",
+  "Descriptions": [
+    "The situation is getting out of control. Hordes of infected are closing in from every direction. We need a serious effort to push them back. Your mission: eliminate 100 zombies. It's dangerous — but you're our best shot %1.",
+    "You are not done yet? Come back when the job is done!",
+    "Mission accomplished. 100 targets eliminated. Outstanding performance. You’re a valuable asset — here’s your reward."
+  ],
+  "ObjectiveText": "Kill 100 Zombies.",
+  "FollowUpQuest": 802,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 0,
+  "Autocomplete": 1,
+  "IsGroupQuest": 1,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "ExpansionBanknoteHryvnia",
+      "Amount": 3000,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    },
+    {
+      "ClassName": "NailBox",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": 0,
+  "RewardsForGroupOwnerOnly": 0,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    3
+  ],
+  "QuestTurnInIDs": [],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 4,
+      "ObjectiveType": 2
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 1000,
+  "ReputationRequirement": 0,
+  "PreQuestIDs": [
+    802
+  ],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

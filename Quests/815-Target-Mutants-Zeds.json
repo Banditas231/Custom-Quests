@@ -1,0 +1,71 @@
+{
+  "ConfigVersion": 22,
+  "ID": 815,
+  "Type": 1,
+  "Title": "Field Medic: No More Supplies",
+  "Descriptions": [
+    "After what you saw in the hospital, I need your help again. Supplies are almost gone, and the wounded won’t survive much longer without help. There may be medical stock left.",
+	"Search the area and recover any remaining medical supplies.",
+	"You brought back what little was left. It’s not much, but it might save a few lives. The medic thanks you — every minute counts now."
+  ],
+  "ObjectiveText": "Search area for supplies.",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 1,
+  "Autocomplete": 0,
+  "IsGroupQuest": 1,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "ExpansionBanknoteHryvnia",
+      "Amount": 7500,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": 0,
+  "RewardsForGroupOwnerOnly": 0,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    4000
+  ],
+  "QuestTurnInIDs": [
+	1
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 77,
+      "ObjectiveType": 3
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 81,
+      "ObjectiveType": 2
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 2500,
+  "ReputationRequirement": 0,
+  "PreQuestIDs": [
+    805
+  ],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

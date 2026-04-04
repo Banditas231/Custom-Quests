@@ -1,0 +1,73 @@
+{
+  "ConfigVersion": 22,
+  "ID": 501,
+  "Type": 1,
+  "Title": "Fish Stew",
+  "Descriptions": [
+    "Someone is looking to make some fish stew for the next community pot luck, bring one back from your next trip.",
+    "Catch a Mackerel and bring it back to Peter at the Trade Center.",
+    "I fucking hate fish stew...but some of the folks love it, here is your reward."
+  ],
+  "ObjectiveText": "Catch a Mackerel",
+  "FollowUpQuest": 814,
+  "Repeatable": 0,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 0,
+  "CancelQuestOnPlayerDeath": 0,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "ExpansionBanknoteHryvnia",
+      "Amount": 2500,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    },
+    {
+      "ClassName": "Jig",
+      "Amount": 2,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": 0,
+  "RewardsForGroupOwnerOnly": 0,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    1
+  ],
+  "QuestTurnInIDs": [
+    1
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 2,
+      "ObjectiveType": 4
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 150,
+  "ReputationRequirement": 0,
+  "PreQuestIDs": [],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 0,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

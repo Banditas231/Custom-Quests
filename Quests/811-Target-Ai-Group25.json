@@ -1,0 +1,84 @@
+{
+  "ConfigVersion": 22,
+  "ID": 811,
+  "Type": 1,
+  "Title": "Us against the World ",
+  "Descriptions": [
+    "Team up and fight ... the Ai. You know about the problems they cause, right? Let's get rid of those pesky buggers! Neutralize 25 of them or die trying...Good Luck!",
+    "You are not done yet? Come back when the job is done!",
+    "We thought we had lost you for good this time ... Well, here is your hard earned reward."
+  ],
+  "ObjectiveText": "Neutralize 25 Ai.",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 0,
+  "Autocomplete": 0,
+  "IsGroupQuest": 1,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "ExpansionCodeLock",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    },
+    {
+      "ClassName": "LBS_SleepingPacked_New_Blue",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    },
+    {
+      "ClassName": "NailBox",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": 0,
+  "RewardsForGroupOwnerOnly": 0,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    3
+  ],
+  "QuestTurnInIDs": [
+    3
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 12,
+      "ObjectiveType": 2
+    }
+  ],
+  "QuestColor": -3662306,
+  "ReputationReward": 2000,
+  "ReputationRequirement": 25000,
+  "PreQuestIDs": [
+    810
+  ],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

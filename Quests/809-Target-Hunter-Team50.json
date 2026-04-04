@@ -1,0 +1,91 @@
+{
+  "ConfigVersion": 22,
+  "ID": 809,
+  "Type": 1,
+  "Title": "Hunting Party",
+  "Descriptions": [
+    "Looking to have some fun outdoors with your friends? Then it’s time for a Hunting Party. Think you’ve got the skills — and the aim — to take down 50 animals within 4 hours? Gear up and show us how it’s done.",
+    "You are not done yet? Come back when the job is done!",
+    "Now that’s what I call a real hunt. 50 animals down in just a few hours? Impressive work — here’s your well-earned reward."
+  ],
+  "ObjectiveText": "Hunt 50 Animals.",
+  "FollowUpQuest": 807,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 0,
+  "Autocomplete": 0,
+  "IsGroupQuest": 1,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "expansionbanknotehryvnia",
+      "Amount": 50000,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    },
+    {
+      "ClassName": "MMG_camelback_dark_woodland",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    },
+    {
+      "ClassName": "ExpansionCodeLock",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    },
+    {
+      "ClassName": "ZenSkills_Book_Hunting",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": 0,
+  "RewardsForGroupOwnerOnly": 0,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    3
+  ],
+  "QuestTurnInIDs": [],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 10,
+      "ObjectiveType": 2
+    }
+  ],
+  "QuestColor": -6900716,
+  "ReputationReward": 2500,
+  "ReputationRequirement": 0,
+  "PreQuestIDs": [
+    807
+  ],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 0,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

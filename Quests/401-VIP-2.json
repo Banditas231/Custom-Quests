@@ -1,0 +1,62 @@
+{
+  "ConfigVersion": 22,
+  "ID": 401,
+  "Type": 1,
+  "Title": "Fucked around and found out",
+  "Descriptions": [
+    "We caught this creep doing something... questionable with a sheep. Yeah, you heard that right. There’s a place in Rogovo that takes care of folks like him. Do us a favor and drop him off — and try not to ask too many questions.",
+    "Take the pervert home and let Peter know the job was completed.",
+    "You actually delivered him? Good. That village knows what to do with freaks like that. Thanks — here’s your reward (and maybe a bottle of disinfectant)."
+  ],
+  "ObjectiveText": "Take the Pervert home",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 1,
+  "Autocomplete": 1,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "ExpansionBanknoteHryvnia",
+      "Amount": 4500,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": 0,
+  "RewardsForGroupOwnerOnly": 0,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    1
+  ],
+  "QuestTurnInIDs": [],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 2,
+      "ObjectiveType": 9
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 1000,
+  "ReputationRequirement": 0,
+  "PreQuestIDs": [],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 0,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

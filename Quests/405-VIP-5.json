@@ -1,0 +1,54 @@
+{
+  "ConfigVersion": 22,
+  "ID": 405,
+  "Type": 1,
+  "Title": "Lost in the Sea",
+  "Descriptions": [
+    "Hi my name is \"Jasmine\". It all happened so fast. One minute I was stirring my stew, the next… well, the next the Seraphina was being torn apart. The storm, it came out of nowhere, a raging beast that swallowed the ship whole. I remember the screams, the crashing metal, the icy water… then nothing but the endless grey of the ocean...",
+    "...",
+    "I'm still shaky %1, but I'm safe now. The camp… it's a strange place, but it's home for now. I owe a debt of gratitude to the one who found me. They risked their own safety to pull me from the wreckage, to bring me back to the others. I'm still trying to understand everything that happened, but I know this: I'm not alone anymore."
+  ],
+  "ObjectiveText": "Escort \"Jasmine\" to the \"Survivor Camp\".",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 1,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": 0,
+  "RewardsForGroupOwnerOnly": 0,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    4002
+  ],
+  "QuestTurnInIDs": [
+    1
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 5,
+      "ObjectiveType": 9
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 5000,
+  "ReputationRequirement": 0,
+  "PreQuestIDs": [],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

@@ -1,0 +1,73 @@
+{
+  "ConfigVersion": 22,
+  "ID": 804,
+  "Type": 1,
+  "Title": "Zombie Detail",
+  "Descriptions": [
+    "They only come out at night... and most people are smart enough to stay inside. But we need someone reckless — or brave — enough to take them down. Hunt and kill 10 mutants under the cover of darkness. It's dangerous out there... don't become one of them.",
+    "You are not done yet? Come back when the job is done!",
+    "You went out there at night and actually came back in one piece? Either you’re crazy or just really good. Either way — here, take this."
+  ],
+  "ObjectiveText": "Kill 10 Mutants.",
+  "FollowUpQuest": 803,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 0,
+  "Autocomplete": 1,
+  "IsGroupQuest": 1,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "ExpansionBanknoteHryvnia",
+      "Amount": 5000,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    },
+    {
+      "ClassName": "ExpansionCodeLock",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": 0,
+  "RewardsForGroupOwnerOnly": 0,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    3
+  ],
+  "QuestTurnInIDs": [],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 5,
+      "ObjectiveType": 2
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 2500,
+  "ReputationRequirement": 0,
+  "PreQuestIDs": [
+    803
+  ],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

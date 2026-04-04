@@ -1,0 +1,73 @@
+{
+  "ConfigVersion": 22,
+  "ID": 300,
+  "Type": 1,
+  "Title": "AIPatrol-Bandits",
+  "Descriptions": [
+    "Some bandits have taken over Devil’s Castle and are causing chaos — raiding supplies, ambushing travelers, even shooting up nearby towns. They’ve turned that old fortress into a stronghold. It’s time someone put an end to it. Think you’re up for the task?",
+    "Head up to Devils Castle and clear out the bandits. They are a small group but they are well armed and dangerous. Be careful.",
+    "Devil’s Castle is clear? That’s a big win. Those bastards had it coming. You did good — thank you. Here’s your reward."
+  ],
+  "ObjectiveText": "Kill all units of the bandit patrol group at the marked location.",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 1,
+  "Autocomplete": 0,
+  "IsGroupQuest": 1,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "expansionbanknotehryvnia",
+      "Amount": 8000,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    },
+    {
+      "ClassName": "LBS_SleepingPacked_Old_Orange",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": 0,
+  "RewardsForGroupOwnerOnly": 0,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    1
+  ],
+  "QuestTurnInIDs": [
+    1
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 1,
+      "ObjectiveType": 7
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 750,
+  "ReputationRequirement": 0,
+  "PreQuestIDs": [],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 0,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

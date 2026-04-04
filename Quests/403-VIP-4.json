@@ -1,0 +1,66 @@
+{
+  "ConfigVersion": 22,
+  "ID": 403,
+  "Type": 1,
+  "Title": "The Surviving Teacher",
+  "Descriptions": [
+    "O my good.. I was hearing some shoots, i really think that's it. My name is \"Elena Petrova\". I am a teacher and I work in a school. One day, bandits came and ambushed the school. I hid in a room, terrified for my life. I could hear the chaos outside, the screams of my students, and the gunshots. I stayed hidden until I saw you.. I not have what to do here anymore, please bring me to the camp! I have Printer, that only one what's left here, I will give it to you if you help me...",
+    "...",
+    "Thank you for bringing me here %1. I will stay here for now and warm myself up first before I think about what to do next.."
+  ],
+  "ObjectiveText": "Escort \"Teacher\" to the \"Survivor Camp\".",
+  "FollowUpQuest": -1,
+  "Repeatable": 0,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 0,
+  "CancelQuestOnPlayerDeath": 1,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "Project3DPrinter_Kit",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": 1,
+      "Chance": 0
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": 0,
+  "RewardsForGroupOwnerOnly": 0,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    4001
+  ],
+  "QuestTurnInIDs": [
+    1
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 4,
+      "ObjectiveType": 9
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 3000,
+  "ReputationRequirement": 0,
+  "PreQuestIDs": [
+    132
+  ],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

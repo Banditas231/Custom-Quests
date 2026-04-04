@@ -1,0 +1,64 @@
+{
+  "ConfigVersion": 22,
+  "ID": 810,
+  "Type": 1,
+  "Title": "The Great Shattering",
+  "Descriptions": [
+    "The Ai is costing a lot of server performance. You know that, right? Let's get rid of those pesky buggers! Neutralize 10 of them or die trying...Good Luck!",
+    "You are not done yet? Come back when the job is done!",
+    "We thought we had lost you for good this time ... Well, here is your hard earned reward."
+  ],
+  "ObjectiveText": "Neutralize 10 Ai.",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 0,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "ExpansionCodeLock",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": 0,
+  "RewardsForGroupOwnerOnly": 0,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    3
+  ],
+  "QuestTurnInIDs": [
+    3
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 11,
+      "ObjectiveType": 2
+    }
+  ],
+  "QuestColor": -3662306,
+  "ReputationReward": 1500,
+  "ReputationRequirement": 5000,
+  "PreQuestIDs": [],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 0,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

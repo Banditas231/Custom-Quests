@@ -1,0 +1,73 @@
+{
+  "ConfigVersion": 22,
+  "ID": 502,
+  "Type": 1,
+  "Title": "Fried Reindeer",
+  "Descriptions": [
+    "Nancy is looking to make her famous Fried Deer, but the crazy bitch only uses Reindeer Steak Meat, not sure what thats about..",
+    "Kill 5 Reindeer and bring ReindeerSteakMeat back to Peter at the Trade Center.",
+    "It aint KFC but it's still good, here is your reward."
+  ],
+  "ObjectiveText": "Kill 5 Reindeer",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 0,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "WeaponCleaningKit",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    },
+    {
+      "ClassName": "ExpansionBanknoteHryvnia",
+      "Amount": 3000,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": 0,
+  "RewardsForGroupOwnerOnly": 0,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    1
+  ],
+  "QuestTurnInIDs": [
+    1
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 3,
+      "ObjectiveType": 4
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 280,
+  "ReputationRequirement": 0,
+  "PreQuestIDs": [],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 0,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

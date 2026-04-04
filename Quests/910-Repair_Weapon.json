@@ -1,0 +1,51 @@
+{
+  "ConfigVersion": 22,
+  "ID": 910,
+  "Type": 1,
+  "Title": "Repair my Weapon!",
+  "Descriptions": [
+    "I can take care of your gear for a small fee.",
+    "PLACEHOLDER",
+    "You will need 12 k."
+  ],
+  "ObjectiveText": "Pay \"Peter\" to get your items repaired.",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 0,
+  "CancelQuestOnPlayerDeath": 0,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [],
+  "NeedToSelectReward": 0,
+  "RewardsForGroupOwnerOnly": 1,
+  "QuestGiverIDs": [
+    1
+  ],
+  "QuestTurnInIDs": [
+    1
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 10,
+      "ObjectiveType": 4
+    }
+  ],
+  "QuestColor": -4179669,
+  "ReputationReward": 0,
+  "ReputationRequirement": 5000,
+  "PreQuestIDs": [],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 0,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

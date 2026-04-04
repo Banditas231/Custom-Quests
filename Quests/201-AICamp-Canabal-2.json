@@ -1,0 +1,78 @@
+{
+  "ConfigVersion": 22,
+  "ID": 201,
+  "Type": 1,
+  "Title": "Clear Canabal Camp 2",
+  "Descriptions": [
+    "Can you believe it? Those cannibals are spreading... Our hunters found another camp — this one located somewhere in the southeast of Orlovets. I can see you’re strong, maybe even crazy enough to handle it. If you’re willing to take them out, we’ll make it worth your while.",
+    "Eleminate all of the Canabals at the camp.",
+    "You actually did it… Those monsters won’t be feeding on anyone else. You’ve done a real service for the region. Thank you — here’s your reward."
+  ],
+  "ObjectiveText": "Kill all Canabals at the marked location.",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 1,
+  "Autocomplete": 0,
+  "IsGroupQuest": 1,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "expansionbanknotehryvnia",
+      "Amount": 12000,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    },
+    {
+      "ClassName": "MMG_camelback_green",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": 0,
+  "RewardsForGroupOwnerOnly": 0,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    1
+  ],
+  "QuestTurnInIDs": [
+    1
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 2,
+      "ObjectiveType": 3
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 2,
+      "ObjectiveType": 8
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 500,
+  "ReputationRequirement": 0,
+  "PreQuestIDs": [],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 0,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

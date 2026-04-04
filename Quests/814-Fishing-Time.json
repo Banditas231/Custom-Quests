@@ -1,0 +1,73 @@
+{
+  "ConfigVersion": 22,
+  "ID": 814,
+  "Type": 1,
+  "Title": "Fisher",
+  "Descriptions": [
+    "The fishing season is open! Although it is a difficult time, but I have a suggestion for you. Catch 5 Carp. And take this gift.",
+    "You are not done yet? Come back when the job is done!",
+    "Happy Fisherman Day and good luck."
+  ],
+  "ObjectiveText": "Catch 5 Carp.",
+  "FollowUpQuest": -1,
+  "Repeatable": 0,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 0,
+  "CancelQuestOnPlayerDeath": 0,
+  "Autocomplete": 1,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "expansionbanknotehryvnia",
+      "Amount": 1000,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    },
+    {
+      "ClassName": "FishingRod",
+      "Amount": 1,
+      "Attachments": [
+        "Jig"
+      ],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": -1,
+      "Chance": 1
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": 0,
+  "RewardsForGroupOwnerOnly": 0,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    1
+  ],
+  "QuestTurnInIDs": [],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 8,
+      "ObjectiveType": 4
+    }
+  ],
+  "QuestColor": -6900716,
+  "ReputationReward": 250,
+  "ReputationRequirement": 0,
+  "PreQuestIDs": [],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 0,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

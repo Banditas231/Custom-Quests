@@ -1,0 +1,61 @@
+{
+  "ConfigVersion": 22,
+  "ID": 135,
+  "Type": 1,
+  "Title": "PilotCrash",
+  "Descriptions": [
+    "The pilot you rescued shared something important before we moved him to safety. He said that, just before the storm struck, he was in radio contact with another plane flying nearby. That second aircraft never arrived at its destination… and no one has seen it since.",
+    "If you’re up for it, we need you to search the area where it may have gone down. There might still be survivors… or at least answers.",
+    "Thank you."
+  ],
+  "ObjectiveText": "Travel to last known location.",
+  "FollowUpQuest": 408,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 1,
+  "Autocomplete": 0,
+  "IsGroupQuest": 1,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": -1,
+  "RewardsForGroupOwnerOnly": 1,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    2
+  ],
+  "QuestTurnInIDs": [
+    4005
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 75,
+      "ObjectiveType": 3
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 75,
+      "ObjectiveType": 2
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 500,
+  "ReputationRequirement": -1,
+  "PreQuestIDs": [
+    407
+  ],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

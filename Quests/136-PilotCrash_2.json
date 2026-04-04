@@ -1,0 +1,61 @@
+{
+  "ConfigVersion": 22,
+  "ID": 136,
+  "Type": 1,
+  "Title": "PilotCrash",
+  "Descriptions": [
+    "The storm took its toll, yet not all the disappearances can be blamed on thunder and lightning. We’ve heard stories of another aircraft that flew that night – one that never crashed, never landed, never called for help. Some say raiders forced it down. Others say it was captured by a group that doesn’t want to be found.",
+    "If you’re brave enough, track the lead. If there’s truth to these whispers, this mission will be more dangerous than the last two.",
+    "Thank you."
+  ],
+  "ObjectiveText": "Travel to last known location.",
+  "FollowUpQuest": 409,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 1,
+  "Autocomplete": 0,
+  "IsGroupQuest": 1,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": -1,
+  "RewardsForGroupOwnerOnly": 1,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    2
+  ],
+  "QuestTurnInIDs": [
+    4006
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 76,
+      "ObjectiveType": 3
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 76,
+      "ObjectiveType": 8
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 500,
+  "ReputationRequirement": -1,
+  "PreQuestIDs": [
+    408
+  ],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

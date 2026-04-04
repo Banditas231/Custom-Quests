@@ -1,0 +1,59 @@
+{
+  "ConfigVersion": 22,
+  "ID": 131,
+  "Type": 1,
+  "Title": "Field Medic Investigate Hospital",
+  "Descriptions": [
+    "Reports are coming in — a hospital in Stary Sobor was ambushed by bandits. Medical supplies were taken, and survivors are missing. This won't be easy... You'll need a vehicle to reach the area and deal with the threat. Gear up and be ready for a fight.",
+    "Goto the location find out if there were any survivors ",
+    "The hospital is secured, and the bandits are no more. You did what others couldn’t. Thank you — this reward is well-deserved."
+  ],
+  "ObjectiveText": "Travel to Hospital and locate Bandits",
+  "FollowUpQuest": 402,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 1,
+  "Autocomplete": 0,
+  "IsGroupQuest": 1,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": -1,
+  "RewardsForGroupOwnerOnly": 1,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    2
+  ],
+  "QuestTurnInIDs": [
+    4000
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 70,
+      "ObjectiveType": 3
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 70,
+      "ObjectiveType": 8
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 500,
+  "ReputationRequirement": -1,
+  "PreQuestIDs": [],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

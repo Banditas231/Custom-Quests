@@ -1,0 +1,75 @@
+{
+  "ConfigVersion": 22,
+  "ID": 406,
+  "Type": 1,
+  "Title": "The Lost Survivor",
+  "Descriptions": [
+    "I… I didn’t think I’d make it. Name’s Hassan. I was just a fisherman, out at sea, when the storm came—violent, sudden. My boat didn’t stand a chance. Next thing I know, I wake up on a cold shore… tied up, blood dried on my face. Bandits. I don’t know how long I was out, but they kept me alive—for now. While they were passed out from booze or whatever they took, I found an old radio tower nearby. Managed to send a signal to the camp. It was my only shot. I’m weak. Lost. I don’t even know what this place is anymore. But if you can get me to that camp—if you can help me escape—there’s a stash there. Supplies I buried before all this. They're yours if you get me out of here alive.",
+    "...",
+    "Thank you for bringing me here %1..."
+  ],
+  "ObjectiveText": "Escort \"Hassan\" to the \"Survivor Camp\".",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 1,
+  "Autocomplete": 0,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [
+    {
+      "ClassName": "MMG_mmps_bag_multicam_tropic",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": 1,
+      "Chance": 0
+    },
+    {
+      "ClassName": "PunchedCard",
+      "Amount": 1,
+      "Attachments": [],
+      "DamagePercent": 0,
+      "HealthPercent": 0,
+      "QuestID": 1,
+      "Chance": 0
+    }
+  ],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": 0,
+  "RewardsForGroupOwnerOnly": 0,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    4003
+  ],
+  "QuestTurnInIDs": [
+    1
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 6,
+      "ObjectiveType": 9
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 2000,
+  "ReputationRequirement": 0,
+  "PreQuestIDs": [
+    133
+  ],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

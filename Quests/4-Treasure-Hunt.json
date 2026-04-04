@@ -1,0 +1,57 @@
+{
+    "ConfigVersion": 22,
+    "ID": 4,
+    "Type": 1,
+    "Title": "Treasure Hunt - Food Supply",
+    "Descriptions": [
+        "Hey <>. I stashed some food for hard times — looks like it’s one of those days for you. If you want it, go find my hidden chest. It’s out there... somewhere.",
+        "Well, how are you doing?",
+        "You found it? Damn... I didn’t think anyone would. Guess you were hungrier than I thought. Enjoy the supplies — you’ve earned them."
+    ],
+    "ObjectiveText": "Find the treasure.",
+    "FollowUpQuest": -1,
+    "Repeatable": 1,
+    "IsDailyQuest": 0,
+    "IsWeeklyQuest": 1,
+    "CancelQuestOnPlayerDeath": 0,
+    "Autocomplete": 1,
+    "IsGroupQuest": 1,
+    "ObjectSetFileName": "",
+    "QuestItems": [
+        {
+            "ClassName": "Shovel",
+            "Amount": 1
+        }
+    ],
+    "Rewards": [],
+    "NeedToSelectReward": 0,
+    "RandomReward": 0,
+    "RandomRewardAmount": 0,
+    "RewardsForGroupOwnerOnly": 0,
+    "RewardBehavior": 0,
+    "QuestGiverIDs": [
+        3
+    ],
+    "QuestTurnInIDs": [],
+    "IsAchievement": 0,
+    "Objectives": [
+        {
+            "ConfigVersion": 28,
+            "ID": 1,
+            "ObjectiveType": 6
+        }
+    ],
+    "QuestColor": 0,
+    "ReputationReward": 0,
+    "ReputationRequirement": -1,
+    "PreQuestIDs": [],
+    "RequiredFaction": "",
+    "FactionReward": "",
+    "PlayerNeedQuestItems": 1,
+    "DeleteQuestItems": 1,
+    "SequentialObjectives": 0,
+    "FactionReputationRequirements": {},
+    "FactionReputationRewards": {},
+    "SuppressQuestLogOnCompetion": 0,
+    "Active": 1
+}

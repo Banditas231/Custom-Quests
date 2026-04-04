@@ -1,0 +1,52 @@
+{
+  "ConfigVersion": 22,
+  "ID": 5,
+  "Type": 1,
+  "Title": "Thief of grave",
+  "Descriptions": [
+    "Hello <>. In a remote village, a man named Kieran ventured into the Tomb of Lost Souls, chasing rumors of forgotten treasures. He braved the cursed grounds and unearthed ancient relics… but when he finally found what he was looking for, he was attacked by something evil. Now, he’s missing — and the tomb remains silent. Will you go find out what really happened?",
+    "So what do you think? Maybe you will be lucky?",
+    "So… the rumors were true. You made it out alive, unlike Kieran. Whatever was down there — you faced it. Thank you for your courage. Here's your reward."
+  ],
+  "ObjectiveText": "Find the grave.",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 0,
+  "Autocomplete": 1,
+  "IsGroupQuest": 1,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": 0,
+  "RewardsForGroupOwnerOnly": 0,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    1
+  ],
+  "QuestTurnInIDs": [],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 2,
+      "ObjectiveType": 6
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 750,
+  "ReputationRequirement": 1000,
+  "PreQuestIDs": [],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 0,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}
