@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 28,
+    "ID": 77,
+    "ObjectiveType": 3,
+    "ObjectiveText": "Search area for supplies",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        11931.5,
+		64.9596,
+		9072.51
+    ],
+    "MaxDistance": 300.0,
+    "MarkerName": "Emergency Supplies",
+    "ShowDistance": 1,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 0
+}

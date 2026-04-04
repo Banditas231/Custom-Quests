@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 28,
+    "ID": 70,
+    "ObjectiveType": 3,
+    "ObjectiveText": "Travel to ambushed Hospital",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        6001.9599609375,
+        307.18701171875,
+        7672.2900390625
+    ],
+    "MaxDistance": 300.0,
+    "MarkerName": "Get to the Hospital",
+    "ShowDistance": 1,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 0
+}
