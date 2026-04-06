@@ -56,6 +56,7 @@ This is required for some quests to spawn zombies. You can change the zombies to
 3. Start your server and adjust the quests as you like.
 
 ---
+## How to [VIDEO](https://www.youtube.com/watch?v=8gWMbhdwSnE&t=626s)
 
 💪 I hope this helps some of you out there!  
 If you have any questions, feel free to ask.
