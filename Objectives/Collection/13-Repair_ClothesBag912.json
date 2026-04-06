@@ -1,0 +1,17 @@
+{
+    "ConfigVersion": 28,
+    "ID": 13,
+    "ObjectiveType": 4,
+    "ObjectiveText": "BACKPACKS & CLOTHING — not vests/chest rigs/plate carriers (those use the VEST quest). 10 000 ₴. Ruined OK. Backpack: outer bag only. Shirts, pants, shoes: that layer only, not pocket cargo. Weapons: weapon repair quest.",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 10000,
+            "ClassName": "expansionbanknotehryvnia"
+        }
+    ],
+    "ShowDistance": 0,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}

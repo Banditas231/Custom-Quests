@@ -1,0 +1,17 @@
+{
+    "ConfigVersion": 28,
+    "ID": 15,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Pay for transport: deliver 1 Silver Bar.",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 1,
+            "ClassName": "ExpansionSilverBar"
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}

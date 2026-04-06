@@ -1,0 +1,17 @@
+{
+    "ConfigVersion": 28,
+    "ID": 16,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Pay for transport: deliver 1 Gold Bar.",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 1,
+            "ClassName": "ExpansionGoldBar"
+        }
+    ],
+    "ShowDistance": 1,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}

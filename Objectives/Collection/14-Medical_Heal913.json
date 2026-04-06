@@ -1,0 +1,17 @@
+{
+    "ConfigVersion": 28,
+    "ID": 14,
+    "ObjectiveType": 4,
+    "ObjectiveText": "Medical treatment — 20 000 ₴. Full Health/Blood/Shock (all zones), diseases, bleeding, vanilla broken limbs, unconscious wake; Inedia deep wounds / fractures / pain where supported. Does NOT remove bullets or internal bleeding (surgery). Does NOT restore food, water, or stamina.",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 20000,
+            "ClassName": "expansionbanknotehryvnia"
+        }
+    ],
+    "ShowDistance": 0,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}

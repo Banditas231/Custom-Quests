@@ -1,0 +1,17 @@
+{
+    "ConfigVersion": 28,
+    "ID": 12,
+    "ObjectiveType": 4,
+    "ObjectiveText": "VEST / CHEST RIG — hold it in your hands (vanilla Vest_Base, plate carrier, MMG and other mod vests that use the vest slot). 13 000 ₴. Ruined OK. Attachment-slot pouches repaired; cargo inside NOT. No backpacks, no shirts/pants — other quest.",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Collections": [
+        {
+            "Amount": 13000,
+            "ClassName": "expansionbanknotehryvnia"
+        }
+    ],
+    "ShowDistance": 0,
+    "AddItemsToNearbyMarketZone": 0,
+    "NeedAnyCollection": 0
+}
