@@ -1,0 +1,51 @@
+{
+  "ConfigVersion": 22,
+  "ID": 911,
+  "Type": 1,
+  "Title": "Repair my vest!",
+  "Descriptions": [
+    "Epoxy-grade service for tactical vests — full repair including ruined.",
+    "Hold your VEST in hands. Pouches on attachment slots are included; cargo inside the vest is not. Shirts, backpacks, and weapons use other quests.",
+    "You will need 13 000 hryvnia banknotes."
+  ],
+  "ObjectiveText": "Pay \"Peter\" to repair the tactical vest in your hands.",
+  "FollowUpQuest": -1,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 0,
+  "CancelQuestOnPlayerDeath": 0,
+  "Autocomplete": 1,
+  "IsGroupQuest": 0,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [],
+  "NeedToSelectReward": 0,
+  "RewardsForGroupOwnerOnly": 1,
+  "QuestGiverIDs": [
+    1
+  ],
+  "QuestTurnInIDs": [
+    1
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 12,
+      "ObjectiveType": 4
+    }
+  ],
+  "QuestColor": -4179669,
+  "ReputationReward": 0,
+  "ReputationRequirement": 5000,
+  "PreQuestIDs": [],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 0,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}
