@@ -6,6 +6,12 @@
 
 ### Hello! These are my Expansion Quests for the Chernogorsk map.
 
+## First is first.
+## Before installing any of my quests, keep in mind you will need to wipe quest progress.
+## My suggestion is to first try it on a test server, and only then push it to the live server.
+## To get all my quests working, you need to run my init file, or edit it as you like.
+## If you do not know how to run a test server, I have a video here. [VIDEO](https://www.youtube.com/watch?v=KrlsbWTtelc&t=13s)
+
 ### • Expansion has changed how quests work. Because of this, all quests edited or added from my working server now use custom loadouts and rewards. This means you need to adjust them to your own preference. I already have a video explaining how to do this.
 That’s it — you’re done! Congratulations, you now have the **Banditas Collection** of quests for your server.  
 I hope you enjoy them!
@@ -19,18 +25,13 @@ Some quests were found online and fixed/updated by me, while others were custom-
 - `@MMG - Mighty's Military Gear`
 - `@SNAFU Weapons`
 ---
-### New Video how to use my quests:
-- **Building Better DayZ Quests | Complete Breakdown**
-- 🔥 [VIDEO #1](https://youtu.be/8gWMbhdwSnE)
----
 ### New Quests Added:
-
-- **Repair my Weapon (Fixed old quest)**
-- 🔥 [VIDEO #1](https://youtu.be/O-vUILGkMRA)
+- 🔥 [VIDEO #1](https://www.youtube.com/watch?v=WIrQDqj_jzE&t=69s)
 ---
+
 
 ✅ I keep my files updated so people can use correct and working quests.  
-🕓 **Last updated:** 4/4/2026
+🕓 **Last updated:** 6/4/2026
 ---
 
 ### 🔄 Updates:
