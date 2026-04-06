@@ -1,0 +1,28 @@
+{
+  "ConfigVersion": 6,
+  "ID": 14,
+  "ClassName": "ExpansionQuestNPCAILinda",
+  "Position": [
+    6570.7,
+    81.0815,
+    3420.43
+  ],
+  "Orientation": [
+    125.526,
+    0,
+    -0
+  ],
+  "NPCName": "Chernogorsk EXTRACTION PILOT",
+  "DefaultNPCText": "Something wrong, maybe your reputation is low ?",
+  "Waypoints": [],
+  "NPCEmoteID": 46,
+  "NPCEmoteIsStatic": 0,
+  "NPCLoadoutFile": "HeliPilot",
+  "NPCInteractionEmoteID": 1,
+  "NPCQuestCancelEmoteID": 60,
+  "NPCQuestStartEmoteID": 58,
+  "NPCQuestCompleteEmoteID": 39,
+  "NPCFaction": "InvincibleObservers",
+  "NPCType": 2,
+  "Active": 1
+}

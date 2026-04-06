@@ -1,0 +1,28 @@
+{
+  "ConfigVersion": 6,
+  "ID": 17,
+  "ClassName": "ExpansionQuestNPCAILinda",
+  "Position": [
+    12432.6,
+    11.9499,
+    9708.63
+  ],
+  "Orientation": [
+    -110.275,
+    0,
+    -0
+  ],
+  "NPCName": "BEREZINO EXTRACTION PILOT",
+  "DefaultNPCText": "Something wrong, maybe your reputation is low ?",
+  "Waypoints": [],
+  "NPCEmoteID": 46,
+  "NPCEmoteIsStatic": 0,
+  "NPCLoadoutFile": "HeliPilot",
+  "NPCInteractionEmoteID": 1,
+  "NPCQuestCancelEmoteID": 60,
+  "NPCQuestStartEmoteID": 58,
+  "NPCQuestCompleteEmoteID": 39,
+  "NPCFaction": "InvincibleObservers",
+  "NPCType": 2,
+  "Active": 1
+}

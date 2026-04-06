@@ -1,0 +1,28 @@
+{
+  "ConfigVersion": 6,
+  "ID": 18,
+  "ClassName": "ExpansionQuestNPCAILinda",
+  "Position": [
+    6482.64,
+    463.851,
+    14847.2
+  ],
+  "Orientation": [
+    86.9444,
+    0,
+    -0
+  ],
+  "NPCName": "KRASNOYE EXTRACTION PILOT",
+  "DefaultNPCText": "Something wrong, maybe your reputation is low ?",
+  "Waypoints": [],
+  "NPCEmoteID": 46,
+  "NPCEmoteIsStatic": 0,
+  "NPCLoadoutFile": "HeliPilot",
+  "NPCInteractionEmoteID": 1,
+  "NPCQuestCancelEmoteID": 60,
+  "NPCQuestStartEmoteID": 58,
+  "NPCQuestCompleteEmoteID": 39,
+  "NPCFaction": "InvincibleObservers",
+  "NPCType": 2,
+  "Active": 1
+}
