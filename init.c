@@ -173,49 +173,17 @@ class CustomMission: MissionServer
 		return player.GetHealth(zone, htype) < mx;
 	}
 
-	//! Quest 913: InediaPain — ar bent vienoje galūnėje pakankamas skausmas (refund / „reikia klinikos“).
-	//! Jei kompiliatorius neranda GetPainPercentForLimb — žr. InediaPain pain manager .c (AddPainPercentForLimb simetrija).
+	//! Quest 913: InediaPain integracija — be @InediaPain mod'o šie stub'ai nieko nedaro (misija kompiliuojasi).
+	//! Jei vėl įjungsi InediaPain, čia atkurk PlayerBase.InediaPain_GetPainManager() logiką iš atsarginės kopijos.
 	protected bool IronZone_InediaPain_PlayerNeedsMedicalTreatment(PlayerBase player)
 	{
-		if (!player)
-			return false;
-		auto ironInediaMgr = player.InediaPain_GetPainManager();
-		if (!ironInediaMgr)
-			return false;
-		array<string> ironInediaLimbs = new array<string>;
-		ironInediaLimbs.Insert("head");
-		ironInediaLimbs.Insert("arms");
-		ironInediaLimbs.Insert("legs");
-		ironInediaLimbs.Insert("torso");
-		foreach (string ironL : ironInediaLimbs)
-		{
-			float ironP = ironInediaMgr.GetPainPercentForLimb(ironL);
-			if (ironP > 0.5)
-				return true;
-		}
 		return false;
 	}
 
-	//! Quest 913: InediaPain — [Medicine guide]: lūžiai → gilios žaizdos → skausmas (neigiamas %).
 	protected void IronZone_InediaPain_ApplyQuestTreatment(PlayerBase player)
 	{
 		if (!player)
 			return;
-		auto ironInediaMgr = player.InediaPain_GetPainManager();
-		if (!ironInediaMgr)
-			return;
-		array<string> ironInediaLimbs = new array<string>;
-		ironInediaLimbs.Insert("head");
-		ironInediaLimbs.Insert("arms");
-		ironInediaLimbs.Insert("legs");
-		ironInediaLimbs.Insert("torso");
-		int ironIdx;
-		for (ironIdx = 0; ironIdx < ironInediaLimbs.Count(); ironIdx++)
-			ironInediaMgr.DeactivateBreakForLimb(ironInediaLimbs.Get(ironIdx));
-		for (ironIdx = 0; ironIdx < ironInediaLimbs.Count(); ironIdx++)
-			ironInediaMgr.DeactivateDeepWoundForLimb(ironInediaLimbs.Get(ironIdx));
-		for (ironIdx = 0; ironIdx < ironInediaLimbs.Count(); ironIdx++)
-			ironInediaMgr.AddPainPercentForLimb(ironInediaLimbs.Get(ironIdx), -100.0);
 	}
 
 	//! Quest 913: player needs service (refund if false).
@@ -666,7 +634,7 @@ class CustomMission: MissionServer
                 if (IronZone_PlayerNeedsMedicalTreatment(questPlayer))
                 {
                     IronZone_ApplyMedicalQuestTreatment(questPlayer);
-                    SendQuestMessage(questPlayer, "Treatment complete. Health, blood, shock restored; Inedia fractures, deep wounds and pain cleared. Embedded bullets and internal bleeding need surgery — not removed here. Food, water and stamina unchanged.");
+                    SendQuestMessage(questPlayer, "Treatment complete. Health, blood, shock restored; bleeding and diseases cleared; vanilla limb/modifiers reset. Embedded bullets and internal bleeding need surgery — not removed here. Food, water and stamina unchanged.");
                 }
                 else
                 {
