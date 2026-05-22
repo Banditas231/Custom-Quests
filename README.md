@@ -69,6 +69,6 @@ If you have any questions, feel free to ask.
 | **Hosted**     | EU                         |
 | **Platform**   | PC                         |
 | **Map**        | Chernarus Winter           |
-| **Server Name**| IronZone EU | Hardcore PvE |
-| **IP**         | ¬¬89.34.97.9:2680¬¬        |
+| **Server Name**| -------------
+| **IP**         | ------------------
 
