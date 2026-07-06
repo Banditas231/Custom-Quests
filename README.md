@@ -27,6 +27,7 @@ Some quests were found online and fixed/updated by me, while others were custom-
 ### Required Mods:
 - `@Crocodile`
 - `@SpawnerBubaku`
+- `@AJs Creatures V2`
 ---
 ### New Quests Added:
 - 🔥 [VIDEO #1](https://www.youtube.com/watch?v=WIrQDqj_jzE&t=69s)
