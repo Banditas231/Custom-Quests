@@ -24,6 +24,8 @@ Some quests were found online and fixed/updated by me, while others were custom-
 
 - `@MMG - Mighty's Military Gear`
 - `@SNAFU Weapons`
+### Required Mods:
+- `@Crocodile`
 ---
 ### New Quests Added:
 - 🔥 [VIDEO #1](https://www.youtube.com/watch?v=WIrQDqj_jzE&t=69s)
