@@ -26,6 +26,7 @@ Some quests were found online and fixed/updated by me, while others were custom-
 - `@SNAFU Weapons`
 ### Required Mods:
 - `@Crocodile`
+- `@SpawnerBubaku`
 ---
 ### New Quests Added:
 - 🔥 [VIDEO #1](https://www.youtube.com/watch?v=WIrQDqj_jzE&t=69s)
