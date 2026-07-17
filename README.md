@@ -1,11 +1,12 @@
 **All the files I use on my server.**
 
 ## Official Server Host
-## My current DayZ server is officially hosted by **GTXGaming**.
+My current DayZ server is officially hosted by **GTXGaming**.
 
-If you're looking for a reliable DayZ hosting provider, you can check them out using my referral link:
+If you're looking for reliable DayZ server hosting, feel free to check them out using my referral link:
 👉 https://www.gtxgaming.co.uk/clientarea/aff.php?aff=2613
-Thank you for supporting both GTXGaming and my projects!
+
+Thank you for supporting my projects!
 
 ---
 ## 
