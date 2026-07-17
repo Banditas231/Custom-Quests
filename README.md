@@ -65,6 +65,13 @@ This is required for some quests to spawn zombies. You can change the zombies to
 💪 I hope this helps some of you out there!  
 If you have any questions, feel free to ask.
 
+## Official Server Host
+## My current DayZ server is officially hosted by **GTXGaming**.
+
+If you're looking for a reliable DayZ hosting provider, you can check them out using my referral link:
+👉 https://www.gtxgaming.co.uk/clientarea/aff.php?aff=2613
+Thank you for supporting both GTXGaming and my projects!
+
 ## You are also welcome to join my server.
 ## 🌐 CONNECT INFO
 
@@ -73,6 +80,6 @@ If you have any questions, feel free to ask.
 | **Hosted**     | EU                         |
 | **Platform**   | PC                         |
 | **Map**        | Chernarus Winter           |
-| **Server Name**| -------------
+| **Server Name**| ------Soon-------
 | **IP**         | ------------------
 
