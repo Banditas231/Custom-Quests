@@ -19,7 +19,7 @@ Thank you for supporting my projects!
 ## To get all my quests working, you need to run my init file, or edit it as you like.
 ## If you do not know how to run a test server, I have a video here. [VIDEO](https://www.youtube.com/watch?v=KrlsbWTtelc&t=13s)
 
-### • Expansion has changed how quests work. Because of this, all quests edited or added from my working server now use custom loadouts and rewards. This means you need to adjust them to your own preference. I already have a video explaining how to do this.
+### • I already have a video explaining how to do this.
 That’s it — you’re done! Congratulations, you now have the **Banditas Collection** of quests for your server.  
 I hope you enjoy them!
 
