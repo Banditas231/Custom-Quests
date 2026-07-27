@@ -1,0 +1,34 @@
+{
+    "ConfigVersion": 6,
+    "ID": 4007,
+    "ClassName": "ExpansionQuestNPCAIHassan",
+    "Position": [
+        1892.54248046875,
+        4.16616153717041,
+        2089.4228515625
+    ],
+    "Orientation": [
+        72.00000762939453,
+        0.0,
+        -0.0
+    ],
+    "NPCName": "Captain",
+    "DefaultNPCText": "There is nothing to do here for you...",
+    "Waypoints": [
+        [
+        1892.54248046875,
+        4.16616153717041,
+        2089.4228515625
+        ]
+    ],
+    "NPCEmoteID": 46,
+    "NPCEmoteIsStatic": 0,
+    "NPCLoadoutFile": "Captain_Loadout",
+    "NPCInteractionEmoteID": 1,
+    "NPCQuestCancelEmoteID": 60,
+    "NPCQuestStartEmoteID": 58,
+    "NPCQuestCompleteEmoteID": 39,
+    "NPCFaction": "InvincibleObservers",
+    "NPCType": 2,
+    "Active": 1
+}
