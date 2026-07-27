@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 28,
+    "ID": 81,
+    "ObjectiveType": 3,
+    "ObjectiveText": "Travel, to last known location",
+    "TimeLimit": -1,
+    "Active": 1,
+    "Position": [
+        10055.490,
+        4.935,
+        1676.187
+    ],
+    "MaxDistance": 300.0,
+    "MarkerName": "???",
+    "ShowDistance": 0,
+    "TriggerOnEnter": 1,
+    "TriggerOnExit": 0
+}
