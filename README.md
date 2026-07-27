@@ -81,6 +81,6 @@ If you have any questions, feel free to ask.
 | **Hosted**     | EU                         |
 | **Platform**   | PC                         |
 | **Map**        | _Chernarus Summer_          |
-| **Server Name**| _IronZone EU | Hardcore PvE | EAI_ |
+| **Server Name**| _IronZone EU Hardcore PvE EAI_ |
 | **IP**         | _5.226.142.93:2492_ |
 
