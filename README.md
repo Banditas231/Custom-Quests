@@ -50,7 +50,7 @@ Some quests were found online and fixed/updated by me, while others were custom-
 
 ## New chain quest _410-411-412_ . Added dza files for that quest _Berezino-Elektrozavodsk-Kamenka_ .dze. Added Loadouts _Captain-Ship eAI Pirates_.
 
-# Added SpawnerBubakuV2
+# _SpawnerBubakuV2_
 This is required for some quests to spawn zombies. You can change the zombies to whichever ones you prefer for your server quests.
 
 - `init.c` — this file is required for **Repair my Weapon quest**. It also gives players custom starting clothes.
