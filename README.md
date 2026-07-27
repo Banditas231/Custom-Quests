@@ -42,12 +42,13 @@ Some quests were found online and fixed/updated by me, while others were custom-
 
 
 ✅ I keep my files updated so people can use correct and working quests.  
-🕓 **Last updated:** 6/4/2026
+🕓 **Last updated:** 27/7/2026
 ---
 
 ### 🔄 Updates:
 
-## I uploaded everything currently used on the live server.
+
+## New chain quest _410-411-412_ . Added dza files for that quest _Berezino-Elektrozavodsk-Kamenka_ .dze.
 
 # Added SpawnerBubakuV2
 This is required for some quests to spawn zombies. You can change the zombies to whichever ones you prefer for your server quests.
