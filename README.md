@@ -37,7 +37,7 @@ Some quests were found online and fixed/updated by me, while others were custom-
 - `@AJs Creatures V2`
 ---
 ### New Quests Added:
-- 🔥 [VIDEO #1](https://www.youtube.com/watch?v=WIrQDqj_jzE&t=69s)
+- 🔥 [VIDEO #1](https://youtu.be/Dvj_LdOxqOQ?si=sd0rkN8tI0UskK12)
 ---
 
 
