@@ -1,0 +1,61 @@
+{
+  "ConfigVersion": 22,
+  "ID": 140,
+  "Type": 1,
+  "Title": "Operation Complete",
+  "Descriptions": [
+    "The last known shipment has been located. Enemy forces are protecting the remaining containers. Eliminate all hostiles, secure the final cargo, and bring the recovery operation to a successful end.",
+    "This is it. The final shipment has been located. Clear the area, secure the remaining containers, and finish the recovery mission once and for all.",
+    "Outstanding work. All known cargo has been recovered. Talk to the last captain before you leave — then the recovery is over."
+  ],
+  "ObjectiveText": "Travel to last known location.",
+  "FollowUpQuest": 412,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 1,
+  "Autocomplete": 0,
+  "IsGroupQuest": 1,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": -1,
+  "RewardsForGroupOwnerOnly": 1,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    2
+  ],
+  "QuestTurnInIDs": [
+    4009
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 82,
+      "ObjectiveType": 3
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 79,
+      "ObjectiveType": 8
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 500,
+  "ReputationRequirement": -1,
+  "PreQuestIDs": [
+    411
+  ],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

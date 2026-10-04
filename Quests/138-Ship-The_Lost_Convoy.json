@@ -1,0 +1,59 @@
+{
+  "ConfigVersion": 22,
+  "ID": 138,
+  "Type": 1,
+  "Title": "The Lost Convoy",
+  "Descriptions": [
+    "A cargo ship carrying valuable supplies was attacked while unloading at the docks. Eliminate the hostile forces, secure the area, and search the containers for anything worth recovering.",
+    "We've received reports of a cargo ship that was attacked during unloading. Hostile forces are still in the area. Clear the dock and secure the remaining supplies.",
+    "Good work. The dock is secure, but the attackers moved part of the shipment. The man who survived this dock still needs help — talk to him before you leave."
+  ],
+  "ObjectiveText": "Travel to last known location.",
+  "FollowUpQuest": 410,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 1,
+  "Autocomplete": 0,
+  "IsGroupQuest": 1,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": -1,
+  "RewardsForGroupOwnerOnly": 1,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    2
+  ],
+  "QuestTurnInIDs": [
+    4007
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 80,
+      "ObjectiveType": 3
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 77,
+      "ObjectiveType": 8
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 500,
+  "ReputationRequirement": -1,
+  "PreQuestIDs": [],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}

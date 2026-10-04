@@ -1,0 +1,61 @@
+{
+  "ConfigVersion": 22,
+  "ID": 139,
+  "Type": 1,
+  "Title": "Convoy Pursuit",
+  "Descriptions": [
+    "The attackers escaped with part of the shipment and moved it to another dock. Hunt them down, clear the area, and recover the stolen cargo before it disappears.",
+    "We've tracked the stolen cargo to a second dock. Expect heavy resistance. Eliminate all hostiles and recover what remains of the shipment.",
+    "Excellent. Most of the cargo has been recovered. Talk to the survivor at this dock before you leave — then we'll hit the last shipment."
+  ],
+  "ObjectiveText": "Travel to last known location.",
+  "FollowUpQuest": 411,
+  "Repeatable": 1,
+  "IsDailyQuest": 0,
+  "IsWeeklyQuest": 1,
+  "CancelQuestOnPlayerDeath": 1,
+  "Autocomplete": 0,
+  "IsGroupQuest": 1,
+  "ObjectSetFileName": "",
+  "QuestItems": [],
+  "Rewards": [],
+  "NeedToSelectReward": 0,
+  "RandomReward": 0,
+  "RandomRewardAmount": -1,
+  "RewardsForGroupOwnerOnly": 1,
+  "RewardBehavior": 0,
+  "QuestGiverIDs": [
+    2
+  ],
+  "QuestTurnInIDs": [
+    4008
+  ],
+  "IsAchievement": 0,
+  "Objectives": [
+    {
+      "ConfigVersion": 28,
+      "ID": 81,
+      "ObjectiveType": 3
+    },
+    {
+      "ConfigVersion": 28,
+      "ID": 78,
+      "ObjectiveType": 8
+    }
+  ],
+  "QuestColor": 0,
+  "ReputationReward": 500,
+  "ReputationRequirement": -1,
+  "PreQuestIDs": [
+    410
+  ],
+  "RequiredFaction": "",
+  "FactionReward": "",
+  "PlayerNeedQuestItems": 1,
+  "DeleteQuestItems": 1,
+  "SequentialObjectives": 1,
+  "FactionReputationRequirements": {},
+  "FactionReputationRewards": {},
+  "SuppressQuestLogOnCompetion": 0,
+  "Active": 1
+}
